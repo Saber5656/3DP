@@ -1,0 +1,75 @@
+{
+  "status": "Sliced and sent, then stopped by user; superseded by clarification removing central tube",
+  "body_grams": 24.23,
+  "body_seconds": 6935,
+  "body_layers": 311,
+  "stand_grams": 13.01,
+  "stand_seconds": 2783,
+  "all_objects_on_first_layer": true,
+  "no_missing_layers": true,
+  "no_sparse_infill": true,
+  "no_cross_brace_paths_in_checked_cavity": true,
+  "support_used": false,
+  "objects": [
+    {
+      "object_id": 12,
+      "xy_center_mm": [
+        173.0,
+        140.0
+      ],
+      "first_layer": 1,
+      "last_layer": 311,
+      "z_max_mm": 49.8,
+      "features": {
+        "Outer wall": 3934,
+        "Gap infill": 8169,
+        "Inner wall": 2360,
+        "Bridge": 34,
+        "Internal solid infill": 258,
+        "Floating vertical shell": 317
+      }
+    },
+    {
+      "object_id": 8,
+      "xy_center_mm": [
+        83.0,
+        140.0
+      ],
+      "first_layer": 1,
+      "last_layer": 311,
+      "z_max_mm": 49.8,
+      "features": {
+        "Outer wall": 3816,
+        "Gap infill": 8169,
+        "Inner wall": 2142,
+        "Bridge": 34,
+        "Internal solid infill": 258,
+        "Floating vertical shell": 315
+      }
+    },
+    {
+      "object_id": 16,
+      "xy_center_mm": [
+        127.75280562704526,
+        81.99862104555714
+      ],
+      "first_layer": 1,
+      "last_layer": 47,
+      "z_max_mm": 7.56,
+      "features": {
+        "Outer wall": 188,
+        "Inner wall": 409,
+        "Gap infill": 28,
+        "Top surface": 5
+      }
+    }
+  ],
+  "gcode_sha256": "fee22bf71d82e24242b096d45a22eec0b29cc613e76028f77c2c71964426013b",
+  "ready_sha256": "9086bc9524e9ccbaf7a2c73384fd52a46f361cbf9ad5b8c767f532242442143f",
+  "limits": [
+    "All-layer continuity is not mechanical simulation.",
+    "Only selected critical layers visually checked.",
+    "Central shaft is slender and untested on physical printer.",
+    "Round wall plus D-flat connection has nominal 0.25 mm radial/flat clearance; physical fit untested."
+  ]
+}

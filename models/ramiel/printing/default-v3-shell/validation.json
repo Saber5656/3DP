@@ -1,0 +1,15 @@
+{
+  "revision": "v3-default-shell-only",
+  "mesh_parts": 14,
+  "geometry_tests_passed": 11,
+  "source_mesh_hashes_verified": true,
+  "star_artifacts_unchanged": true,
+  "local_links_valid": true,
+  "old_pin_removed_from_current_output": true,
+  "sliced": true,
+  "sent_to_printer": false,
+  "physical_print_verified": false,
+  "review": "self-review; independent review unavailable due known Claude auth failure",
+  "gui_settings_verified": true,
+  "first_layer_confirmed": false
+}

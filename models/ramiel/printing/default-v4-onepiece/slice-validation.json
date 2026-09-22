@@ -1,0 +1,83 @@
+{
+  "status": "GUI sliced and validated; sent, printer received and heating at 0/578 layers",
+  "estimated_seconds": 13352,
+  "estimated_g": 46.75,
+  "filaments": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#000000",
+      "used_m": "4.33",
+      "used_g": "13.11",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "false",
+      "total_load_time": "29.00",
+      "total_unload_time": "29.00"
+    },
+    {
+      "id": "2",
+      "tray_info_idx": "GFA17",
+      "type": "PLA",
+      "color": "#0050B3",
+      "used_m": "11.46",
+      "used_g": "33.64",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "29.00",
+      "total_unload_time": "0.00"
+    }
+  ],
+  "objects": {
+    "Black_display_stand": {
+      "id": 682,
+      "first_layer": 1,
+      "last_layer": 137,
+      "first_z_mm": 0.2,
+      "last_z_mm": 21.96
+    },
+    "Blue_Ramiel_onepiece_v4": {
+      "id": 693,
+      "first_layer": 138,
+      "last_layer": 578,
+      "first_z_mm": 0.2,
+      "last_z_mm": 70.6
+    }
+  },
+  "all_layers_continuous": true,
+  "body_sparse_infill": false,
+  "support_samples_inside_cavity": 0,
+  "extrusion_samples_in_deep_cavity": 0,
+  "longest_body_bridge_segment_mm": 1.7468706305848969,
+  "first_object_below_gantry_clearance": true,
+  "filament_maps": "1 1",
+  "xy_bounds_mm": [
+    [
+      22.301,
+      29.303
+    ],
+    [
+      214.7541663500663,
+      212.561
+    ]
+  ],
+  "gcode_sha256": "663876f205637a892434ce25ad5fadfa3a81f207145c20ae292df99f5a327aea",
+  "package_sha256": "1bff0badc0f6c03a5610616ae4efb91f6f91295fa352c20eda2429c1b76762e5",
+  "limits": [
+    "Sampled extrusion centerlines, not a firmware/collision/adhesion simulation.",
+    "Print removal, support marks, physical corner quality, optical quality and stand fit require the actual print.",
+    "GUI uses connected-AMS mapping; previous CLI dual-nozzle comparison was never sent."
+  ],
+  "sent": true,
+  "first_layer_observed": false,
+  "received_job_name": "Ramiel_onepiece_v4_and_black_stand",
+  "received_at_jst": "2026-09-21T22:03:37+09:00",
+  "printer_display_eta_jst": "2026-09-22T01:45:00+09:00",
+  "physical_print_complete": false
+}

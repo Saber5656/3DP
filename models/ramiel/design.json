@@ -1,0 +1,23 @@
+{
+  "revision": "default-v4-star-v6-star-recess",
+  "units": "mm",
+  "default_height": 100.0,
+  "default_wall": 1.2,
+  "star_width": 150.0,
+  "star_core_diameter": 3.0,
+  "notes": "Star v6: ten sloping central faces form five deep radial V valleys around the bead; forward quadrangular arms and conforming city retained. Photo-based model dimensions.",
+  "star_wall": 1.2,
+  "star_bead_center_z": 1.7,
+  "star_print_up": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "star_rear_radius": 28.0,
+  "star_rear_depth": -30.0,
+  "star_front_depth": 38.0,
+  "star_display_tilt": 18.0,
+  "city_base_diameter": 124.0,
+  "city_clearance": 0.25,
+  "star_inner_radius": 11.0
+}

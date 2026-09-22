@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+sources/figshare-search-*.json
+sources/figshare-query-*.json
+sources/infinitene-acs.html
+.venv/
+design/*.log
+*.zip
+.slicer-work/
+slicing/logs/

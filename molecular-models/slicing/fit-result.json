@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-09-21T16:52:14.994354+09:00",
+  "user_answer": "3.5mmの穴",
+  "source": "User response to which coupon hole fits the 3.0 mm printed pin",
+  "selected_nominal_socket_diameter_mm": 3.5,
+  "peg_nominal_diameter_mm": 3.0,
+  "prior_socket_diameter_mm": 3.4,
+  "nominal_diametral_clearance_mm": 0.5,
+  "measurement_type": "Qualitative user-selected coupon hole; actual printed diameter not measured",
+  "applied_to": "All nine MOF lower-frame sockets",
+  "material_condition": "Trial used black PLA, X2D 0.4 mm, Textured PEI, 0.16 mm layer",
+  "full_mof_fit_test": "NOT_RUN",
+  "caffeine_appearance": "Not reported",
+  "new_printer_job_sent": false
+}

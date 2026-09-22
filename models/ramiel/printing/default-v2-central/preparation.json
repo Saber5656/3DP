@@ -1,0 +1,131 @@
+{
+  "stage": "Stopped by user; central-tube design no longer desired",
+  "default_body_height_mm": 100,
+  "default_side_wall_mm": 1.2,
+  "internal_grid": false,
+  "body_ams": "A2 blue PLA Translucent; confirmed in send dialog",
+  "stand_ams": "A1 black PLA Basic, visually observed; separate print plate",
+  "process_overrides": {
+    "curr_bed_type": "Textured PEI Plate",
+    "wall_loops": "3",
+    "sparse_infill_density": "0%",
+    "enable_support": "0",
+    "enable_prime_tower": "0",
+    "brim_type": "outer_only",
+    "brim_width": "2",
+    "brim_object_gap": "0.1",
+    "initial_layer_speed": [
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30"
+    ],
+    "initial_layer_infill_speed": [
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30"
+    ],
+    "outer_wall_speed": [
+      "45",
+      "45",
+      "45",
+      "45",
+      "45",
+      "45"
+    ],
+    "inner_wall_speed": [
+      "60",
+      "60",
+      "60",
+      "60",
+      "60",
+      "60"
+    ],
+    "internal_solid_infill_speed": [
+      "60",
+      "60",
+      "60",
+      "60",
+      "60",
+      "60"
+    ],
+    "top_surface_speed": [
+      "45",
+      "45",
+      "45",
+      "45",
+      "45",
+      "45"
+    ],
+    "seam_position": "aligned",
+    "seam_slope_type": "none"
+  },
+  "body_parts": [
+    {
+      "name": "Upper_half_central_joint",
+      "bounds_mm": [
+        47.64466094067263,
+        104.64466094067262,
+        0.0,
+        118.35533905932738,
+        175.35533905932738,
+        50.0
+      ],
+      "volume_mm3": 10382.953873963974
+    },
+    {
+      "name": "Lower_half_central_joint",
+      "bounds_mm": [
+        137.64466094067262,
+        104.64466094067262,
+        0.0,
+        208.35533905932738,
+        175.35533905932738,
+        50.0
+      ],
+      "volume_mm3": 10382.953873963974
+    },
+    {
+      "name": "One_central_D_pin",
+      "bounds_mm": [
+        126.5,
+        80.5,
+        0.0,
+        129.0,
+        83.5,
+        7.6
+      ],
+      "volume_mm3": 47.772922651202585
+    }
+  ],
+  "stand_parts": [
+    {
+      "name": "Black_cradle",
+      "bounds_mm": [
+        98.0,
+        98.0,
+        0.0,
+        158.0,
+        158.0,
+        22.0
+      ],
+      "volume_mm3": 20125.483074206128
+    }
+  ],
+  "source_stl_sha256": {
+    "default_half": "0bb7a0955def8e37a138c25c6f3b4eee49982d6fa8a0e07460bcf59620d9f30a",
+    "default_pin": "9f3437731392ca0381631b8244b820086b0ecf4922acf50a1de60aa6240bd2a7",
+    "default_cradle": "215f998684f3f09431ae51fcf06b050fe7fdad3166e52d7e79adcc5b18d2f585"
+  },
+  "revision": "v2-default-central-joint",
+  "central_axis_diameter_mm": 3.0,
+  "central_socket_diameter_mm": 3.5,
+  "central_pin_profile": "D",
+  "default_corner_bosses": false,
+  "default_reinforced_rim": false
+}

@@ -1,0 +1,53 @@
+{
+  "stage": "STARTUP_CONFIRMED",
+  "request": "A2+A3 each one, 48 mm completed assembly height; black eyes x4",
+  "printer": "3DP-20P-483",
+  "physical_feed": "Main AMS A1 Bambu PLA Basic Black verified in live material detail",
+  "send_preview": "3DP-20P-483 X2D0.4/0.4 PEI; Main A1 PLA black; Aux empty; 4 eyes; 6m30s 0.13g",
+  "seconds": 390,
+  "grams": 0.13,
+  "layers": 10,
+  "objects": [
+    "A2_clawd_eye_1",
+    "A2_clawd_eye_2",
+    "A3_clawd_eye_1",
+    "A3_clawd_eye_2"
+  ],
+  "main_mapping": "filament_maps1/group0/extruder1",
+  "send_attempts": 1,
+  "next_action_requires": "Allow current black job to finish; no re-send. Then remove brim and inspect four eyes before assembly.",
+  "saved_files": {
+    "A2-A3-black-eyes-MAIN-A1-GUI-final.gcode.3mf": "7fb3655e350a99f301e454456d65f0004b71a1d9f958e3ca736ebfcd74f21242",
+    "A2-A3-black-eyes-MAIN-A1-GUI-verified.3mf": "11258804f015214510091a4a70d44870bf2887b6bc74c6a0a1afed03f88a3f2f"
+  },
+  "independent_review": "gui-file-review.md: PASS, unchanged shape/placement; no mandatory fix",
+  "latest_request": "黒いところも実行して",
+  "pre_send_checked_at": "2026-09-22T14:47:08.449800+09:00",
+  "prior_white_completion": {
+    "percent": 100,
+    "layers": "136/136",
+    "state": "Completed",
+    "empty_textured_pei_observed_live": true
+  },
+  "gui_options": {
+    "timelapse": "Off",
+    "bed_leveling": "On",
+    "flow_calibration": "Auto",
+    "nozzle_offset": "Off"
+  },
+  "observed_upload_percent": 57,
+  "device_received": true,
+  "job_name": "A2-A3-black-eyes-MAIN-A1-GUI-verified",
+  "receipt_checked_at": "2026-09-22T14:48:51.085600+09:00",
+  "observed_layers": "0/10",
+  "observed_progress_percent": 0,
+  "observed_stage": "Filament change / Loading filament",
+  "observed_finish_time": "2026-09-22 14:55 JST",
+  "bed_target_c": 55,
+  "first_layer_confirmed": false,
+  "send_click_recorded_at": "2026-09-22T14:47:28.165345+09:00",
+  "send_clicked_at": "2026-09-22T14:47:12.846000+09:00",
+  "unchanged_file_verification": "Both repo and Downloads SHA256 match previous independent review. No model, setting or G-code change.",
+  "main_nozzle_target_c": 220,
+  "latest_observation_recorded_at": "2026-09-22T14:49:46.122639+09:00"
+}

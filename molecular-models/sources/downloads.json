@@ -1,0 +1,30 @@
+[
+  {
+    "file": "helicene.sdf",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/98863/record/SDF?record_type=3d",
+    "resolved_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/98863/record/SDF?record_type=3d",
+    "status": 200,
+    "bytes": 6649
+  },
+  {
+    "file": "caffeine.sdf",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/record/SDF?record_type=3d",
+    "resolved_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/record/SDF?record_type=3d",
+    "status": 200,
+    "bytes": 3950
+  },
+  {
+    "file": "IRMOF-1.cif",
+    "url": "https://raw.githubusercontent.com/iraspa/RASPA2/master/structures/mofs/cif/IRMOF-1.cif",
+    "resolved_url": "https://raw.githubusercontent.com/iraspa/RASPA2/master/structures/mofs/cif/IRMOF-1.cif",
+    "status": 200,
+    "bytes": 4591
+  },
+  {
+    "file": "infinitene-acs.html",
+    "url": "https://acs.figshare.com/doi/suppl/10.1021/jacs.1c10807",
+    "resolved_url": "https://acs.figshare.com/doi/suppl/10.1021/jacs.1c10807",
+    "status": 202,
+    "bytes": 0
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "parts": [
+    "fit_15",
+    "fit_30",
+    "fit_45",
+    "draft_rear_adapter",
+    "draft_rear_gasket_TPU"
+  ],
+  "minimum_sampled_wall_mm": 1.03125,
+  "fit_set_3mf": {
+    "unit": "millimeter",
+    "mesh_parts": 3,
+    "watertight_without_repair": true,
+    "printer_profile_included": false
+  }
+}

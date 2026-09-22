@@ -1,0 +1,14 @@
+{
+  "body_centre_of_mass_mm": [
+    3.9858355923642044e-14,
+    -5.708190525338823,
+    68.26593026244237
+  ],
+  "distance_inside_support_triangle_edges_mm": [
+    15.877506112786536,
+    24.12002959601114,
+    15.87750611278661
+  ],
+  "minimum_static_margin_mm": 15.877506112786536,
+  "method": "Uniform shell density and ideal horizontal support plane; bead mass neglected. Does not test tipping under a push, friction or point durability."
+}

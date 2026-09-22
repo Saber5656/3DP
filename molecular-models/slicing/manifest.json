@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-21",
+  "stage": "Physical coupon hole selected by user: 3.5 mm; MOF CAD updated",
+  "files": [
+    {
+      "path": "scripts/inspect_toolpaths.py",
+      "bytes": 6625,
+      "sha256": "f1c114126bf7c685aa5a06737d720d085f57efbcfcb441a55f69a9748ab71ce9"
+    },
+    {
+      "path": "scripts/slicing_prep.py",
+      "bytes": 4214,
+      "sha256": "d1cf3e0df2af524ed49919eb18802437b86fb88d2173d6f48c648bf4a5cc4151"
+    },
+    {
+      "path": "slicing/README.md",
+      "bytes": 7879,
+      "sha256": "0539f69bf3fc0e4da259f26fada737d08bb85d84fb23e764bff28d63a3867bf2"
+    },
+    {
+      "path": "slicing/caffeine_flatback_trial.stl",
+      "bytes": 214084,
+      "sha256": "e670b4b9155fdf882abb090f9bf368b46e11049dea4a515bf713e01cc06c84c0"
+    },
+    {
+      "path": "slicing/fit-result.json",
+      "bytes": 672,
+      "sha256": "723488f997d02e247599a379f6493e28024b1251501de40e771de2a89a3815a8"
+    },
+    {
+      "path": "slicing/gui-import-fix.json",
+      "bytes": 1209,
+      "sha256": "21c3f341b7496c3211d12b186fc6c1b8b2bd254d95400456139d6e860933e77b"
+    },
+    {
+      "path": "slicing/layer-preview.png",
+      "bytes": 478902,
+      "sha256": "fbd674614c0f146c8dc6d2ee83c9e2e43fcb51dd961d0d502ba304167fb73146"
+    },
+    {
+      "path": "slicing/operator-checks.json",
+      "bytes": 1866,
+      "sha256": "c561ebd870ae75d318ea23c2815dddd0a01c03595ebb542451556b4617f42e8c"
+    },
+    {
+      "path": "slicing/plate_1.png",
+      "bytes": 8406,
+      "sha256": "d6a4dce0e2229080054a41ecad8b792375ca8898df4e298efc80408c0dd09e46"
+    },
+    {
+      "path": "slicing/preparation.json",
+      "bytes": 1135,
+      "sha256": "ad21c6d0a64e07b6e54548d613fb32ae324fb641de0748dfcfe280bebebee1ce"
+    },
+    {
+      "path": "slicing/presets/filament.json",
+      "bytes": 9061,
+      "sha256": "636ea8e36cbdd6acba859acd3b1fce7e371d68b6399f6980d30180ee80396b63"
+    },
+    {
+      "path": "slicing/presets/machine.json",
+      "bytes": 37878,
+      "sha256": "8cd3d72c150a920e056e4f6609cb01a4c1fe1c1da181f1f2d5678618eb90bdd9"
+    },
+    {
+      "path": "slicing/presets/process.json",
+      "bytes": 9573,
+      "sha256": "0d3040387130cdc334b4dc425d0533f86afd62e69305f59e0e5f23accc5562eb"
+    },
+    {
+      "path": "slicing/provisional/molecular-first-trial-X2D-04-PLA-PEI.3mf",
+      "bytes": 636321,
+      "sha256": "7345556656c429e1ec1adffc8b31a2b7aadd6478d6779b2d6c86fa4ddc16066b"
+    },
+    {
+      "path": "slicing/ready/molecular-first-trial-GUI-confirmed.3mf",
+      "bytes": 102493,
+      "sha256": "13de10d172ac39b7aa2cbdd323dbc47b5876c8cb2ff00dec559ad5bd68c60d64"
+    },
+    {
+      "path": "slicing/ready/molecular-first-trial-X2D-04-PLA-PEI.3mf",
+      "bytes": 638430,
+      "sha256": "ecd55b0448291e61eb99df2b7d78b7c328f1292ecd3d5c95665854010c9ec485"
+    },
+    {
+      "path": "slicing/review.md",
+      "bytes": 4919,
+      "sha256": "345d57481439b11525dfe269e869c7220ef5b78757d4595c91cb05af2b36ec4a"
+    },
+    {
+      "path": "slicing/slice-validation.json",
+      "bytes": 2021,
+      "sha256": "079afdd4d3b2e544cfa8d6e5c9dfb324e384fce4f1fe4c20e490837ce35ee0c3"
+    },
+    {
+      "path": "slicing/top_1.png",
+      "bytes": 8731,
+      "sha256": "0e8665ebc3b464d567079aaaef4cfeb22871e44d123e0acad7358608ed21c444"
+    },
+    {
+      "path": "tests/test_slicing_prep.py",
+      "bytes": 1571,
+      "sha256": "010f9df12c34f8770a106f10252bb5309126c3aaeda72bc70b4128ed3776d42e"
+    },
+    {
+      "path": "tests/test_toolpaths.py",
+      "bytes": 1380,
+      "sha256": "b6fdea99b887859248b1d20e837239d1abf53240b8000904f97929cd533a7fa1"
+    }
+  ]
+}

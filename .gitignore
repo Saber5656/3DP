@@ -1,0 +1,17 @@
+# Local runtimes, caches, and credentials.
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Workspace-level temporary output; project evidence is selected separately.
+/logs/
+/result.json
+
+# Upstream source PDF stays local; the coordinate input is retained as text.
+/molecular-models/sources/ja1c10807_si_001.pdf

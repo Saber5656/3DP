@@ -1,0 +1,219 @@
+{
+  "design_ids": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "B4",
+    "D3"
+  ],
+  "part_count": 28,
+  "target_height_mm": 48,
+  "estimated_total_seconds": 18966,
+  "estimated_total_filament_g": 108.4,
+  "legacy_preservation": {
+    "status": "UNCHANGED",
+    "artifact_files": 118,
+    "all_legacy_runtime_files": 201
+  },
+  "parts": [
+    {
+      "id": "A1_cloud",
+      "design": "A1",
+      "color": "white",
+      "sha256": "b414313f6ecf97ef906a819bdbe674611f415d9bca0cbcc40fdc983372b31fd5",
+      "stl": "cloud-addition-v1/output/stl/A1_cloud.stl"
+    },
+    {
+      "id": "A2_cloud",
+      "design": "A2",
+      "color": "white",
+      "sha256": "c72d670f6d521598af6dcbbe7f2496f946ba259d7da532039cceca425f02bf8d",
+      "stl": "cloud-addition-v1/output/stl/A2_cloud.stl"
+    },
+    {
+      "id": "A3_cloud",
+      "design": "A3",
+      "color": "white",
+      "sha256": "8f2eb0d18cff0478b677adde69d0a8796194f28e668090f9e8ef67b9f92d8ecf",
+      "stl": "cloud-addition-v1/output/stl/A3_cloud.stl"
+    },
+    {
+      "id": "A4_cloud",
+      "design": "A4",
+      "color": "white",
+      "sha256": "72be60873d86d5bb23220df0d6bb3b83acd08f2f6bcb7ecbf5e17773416900cc",
+      "stl": "cloud-addition-v1/output/stl/A4_cloud.stl"
+    },
+    {
+      "id": "B4_codex_glyph_1",
+      "design": "B4",
+      "color": "white",
+      "sha256": "10bee70863585f2fc3bf8ee939e7d35c864e2cd086062de3631b855c7daa3b3b",
+      "stl": "production-v1/output/stl/B4_codex_glyph_1.stl"
+    },
+    {
+      "id": "B4_codex_glyph_2",
+      "design": "B4",
+      "color": "white",
+      "sha256": "ae1211ed9a24b6b90d2645ab9e63ada4ed8da563a0ddd51cd70c2e90d0c3810d",
+      "stl": "production-v1/output/stl/B4_codex_glyph_2.stl"
+    },
+    {
+      "id": "D3_pillow",
+      "design": "D3",
+      "color": "white",
+      "sha256": "ad6c1d3b0e97b13d7395d2eb14a7d8e6a96b0a1c49109e7a9704dfb1e9de0125",
+      "stl": "production-v1/output/stl/D3_pillow.stl"
+    },
+    {
+      "id": "A1_clawd",
+      "design": "A1",
+      "color": "orange",
+      "sha256": "830ed9a8d313652ca4183397437f5d842b9a1099497f0615a66c0eca817d7f88",
+      "stl": "cloud-addition-v1/output/stl/A1_clawd.stl"
+    },
+    {
+      "id": "A2_clawd",
+      "design": "A2",
+      "color": "orange",
+      "sha256": "d0b6fb65422410918aac929f249c4afde63b54144984d8ec81e9fdaa4da22943",
+      "stl": "cloud-addition-v1/output/stl/A2_clawd.stl"
+    },
+    {
+      "id": "A3_clawd",
+      "design": "A3",
+      "color": "orange",
+      "sha256": "1faa47b7db8e9110445ca33cedeb23a680bb420a5fab15303825f33d8cadc64f",
+      "stl": "cloud-addition-v1/output/stl/A3_clawd.stl"
+    },
+    {
+      "id": "A4_clawd",
+      "design": "A4",
+      "color": "orange",
+      "sha256": "52572d88d5810f07d53f66b59ae83a0da0bb1888ca57bf0f62ba356a0ab0b75b",
+      "stl": "cloud-addition-v1/output/stl/A4_clawd.stl"
+    },
+    {
+      "id": "B4_clawd",
+      "design": "B4",
+      "color": "orange",
+      "sha256": "e7ecd200e125432a393ba643effc973a386942f9c83af0c537ec29853fe54b36",
+      "stl": "production-v1/output/stl/B4_clawd.stl"
+    },
+    {
+      "id": "D3_hugging_clawd",
+      "design": "D3",
+      "color": "orange",
+      "sha256": "fdcb41c8e78ebf1ea7ca891c1da1a56dc2c4d5041e9f01c35af8da51ea0c2e44",
+      "stl": "production-v1/output/stl/D3_hugging_clawd.stl"
+    },
+    {
+      "id": "A1_clawd_eye_1",
+      "design": "A1",
+      "color": "black",
+      "sha256": "0ea022d948439a120d36ff12b4eb5cc37e08cc8f5b2506771e262951df1389c8",
+      "stl": "cloud-addition-v1/output/stl/A1_clawd_eye_1.stl"
+    },
+    {
+      "id": "A1_clawd_eye_2",
+      "design": "A1",
+      "color": "black",
+      "sha256": "0ea022d948439a120d36ff12b4eb5cc37e08cc8f5b2506771e262951df1389c8",
+      "stl": "cloud-addition-v1/output/stl/A1_clawd_eye_2.stl"
+    },
+    {
+      "id": "A2_clawd_eye_1",
+      "design": "A2",
+      "color": "black",
+      "sha256": "1c51e4d5469b77013688792be1809c1198866fae1a9f301959ac37420925f541",
+      "stl": "cloud-addition-v1/output/stl/A2_clawd_eye_1.stl"
+    },
+    {
+      "id": "A2_clawd_eye_2",
+      "design": "A2",
+      "color": "black",
+      "sha256": "1c51e4d5469b77013688792be1809c1198866fae1a9f301959ac37420925f541",
+      "stl": "cloud-addition-v1/output/stl/A2_clawd_eye_2.stl"
+    },
+    {
+      "id": "A3_clawd_eye_1",
+      "design": "A3",
+      "color": "black",
+      "sha256": "152165cc0655d637d98742ecc9d9d5917909eb06ab3ad30c1c17e3346b0c9ada",
+      "stl": "cloud-addition-v1/output/stl/A3_clawd_eye_1.stl"
+    },
+    {
+      "id": "A3_clawd_eye_2",
+      "design": "A3",
+      "color": "black",
+      "sha256": "152165cc0655d637d98742ecc9d9d5917909eb06ab3ad30c1c17e3346b0c9ada",
+      "stl": "cloud-addition-v1/output/stl/A3_clawd_eye_2.stl"
+    },
+    {
+      "id": "A4_clawd_eye_1",
+      "design": "A4",
+      "color": "black",
+      "sha256": "e2d7cbf189997dbbe48b4d159e4d2a3bc9c7eb199c9a9902e70844656217f990",
+      "stl": "cloud-addition-v1/output/stl/A4_clawd_eye_1.stl"
+    },
+    {
+      "id": "A4_clawd_eye_2",
+      "design": "A4",
+      "color": "black",
+      "sha256": "e2d7cbf189997dbbe48b4d159e4d2a3bc9c7eb199c9a9902e70844656217f990",
+      "stl": "cloud-addition-v1/output/stl/A4_clawd_eye_2.stl"
+    },
+    {
+      "id": "B4_clawd_eye_1",
+      "design": "B4",
+      "color": "black",
+      "sha256": "047fa2df8a3c6281b43c8ad34347dcbd15f405939e1e07693e6d2ec90fb8efd2",
+      "stl": "production-v1/output/stl/B4_clawd_eye_1.stl"
+    },
+    {
+      "id": "B4_clawd_eye_2",
+      "design": "B4",
+      "color": "black",
+      "sha256": "047fa2df8a3c6281b43c8ad34347dcbd15f405939e1e07693e6d2ec90fb8efd2",
+      "stl": "production-v1/output/stl/B4_clawd_eye_2.stl"
+    },
+    {
+      "id": "B4_pair_base",
+      "design": "B4",
+      "color": "black",
+      "sha256": "554f0d03bfbad2b8d9cb6801825fb4202f786dbac663e9f9bee53cd97cc83c1d",
+      "stl": "production-v1/output/stl/B4_pair_base.stl"
+    },
+    {
+      "id": "D3_hugging_clawd_eye_1",
+      "design": "D3",
+      "color": "black",
+      "sha256": "80f05c78bc7b05e37e6e7de801c1db4ae0521e5c6e0eda22085aca54944b70ff",
+      "stl": "production-v1/output/stl/D3_hugging_clawd_eye_1.stl"
+    },
+    {
+      "id": "D3_hugging_clawd_eye_2",
+      "design": "D3",
+      "color": "black",
+      "sha256": "80f05c78bc7b05e37e6e7de801c1db4ae0521e5c6e0eda22085aca54944b70ff",
+      "stl": "production-v1/output/stl/D3_hugging_clawd_eye_2.stl"
+    },
+    {
+      "id": "D3_pillow_logo",
+      "design": "D3",
+      "color": "black",
+      "sha256": "a850b0904ed2e58f8c1bcdfc8c5d0fa789379587a921badc583798719b97868f",
+      "stl": "production-v1/output/stl/D3_pillow_logo.stl"
+    },
+    {
+      "id": "B4_codex_flower",
+      "design": "B4",
+      "color": "translucent_blue",
+      "sha256": "e74dce6d01e8db6b28d90aa75fbb166756013697394b62e567cb19b8cb0afce2",
+      "stl": "production-v1/output/stl/B4_codex_flower.stl"
+    }
+  ],
+  "physical_print": "NOT_RUN",
+  "device_sent": false
+}

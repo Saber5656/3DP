@@ -1,0 +1,14 @@
+test_adapter_preserves_successful_coupon_stop_envelope (tests.test_adapter.AdapterTests.test_adapter_preserves_successful_coupon_stop_envelope) ... FAIL
+
+======================================================================
+FAIL: test_adapter_preserves_successful_coupon_stop_envelope (tests.test_adapter.AdapterTests.test_adapter_preserves_successful_coupon_stop_envelope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "$PROJECT_ROOT/tests/test_adapter.py", line 46, in test_adapter_preserves_successful_coupon_stop_envelope
+    self.assertAlmostEqual(actual.xlen,expected.xlen,places=4)
+AssertionError: 42.40000020000001 != 45.0 within 4 places (2.599999799999992 difference)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.474s
+
+FAILED (failures=1)

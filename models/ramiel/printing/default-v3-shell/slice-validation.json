@@ -1,0 +1,52 @@
+{
+  "status": "Sliced and GUI verified; never sent, superseded by one-piece design request",
+  "layer_count": 311,
+  "estimated_seconds": 6459,
+  "estimated_filament_g": 23.22,
+  "support_used": "false",
+  "objects": [
+    {
+      "id": 8,
+      "first_layer": 1,
+      "last_layer": 311,
+      "center_xy_mm": [
+        83.0,
+        140.0
+      ],
+      "z_max_mm": 49.8
+    },
+    {
+      "id": 12,
+      "first_layer": 1,
+      "last_layer": 311,
+      "center_xy_mm": [
+        173.0,
+        140.0
+      ],
+      "z_max_mm": 49.8
+    }
+  ],
+  "all_objects_start_on_layer_1": true,
+  "all_layers_continuous": true,
+  "no_sparse_infill": true,
+  "central_cavity_clear_of_extrusion_z_le_43": true,
+  "extrusion_bounds_xy_mm": [
+    [
+      46.016,
+      103.016
+    ],
+    [
+      209.984,
+      176.984
+    ]
+  ],
+  "gcode_sha256": "e3e08efd4a7d265452925463c6e2cc33f25d515004db021ec25d057fbcd9182a",
+  "package_sha256": "7e9464d3966bd256c701cf8ab547ed5173ece9446226686679cd3c8807402467",
+  "source_stl_sha256": "4ce347a6816bdc7fbcaae775441a99258d3e3228e8ab1dcad5d0359ff5f6b280",
+  "limits": [
+    "Selected layers visually checked, not every layer.",
+    "No physical adhesion, assembly or optical result yet.",
+    "Firmware behavior is not simulated; official X2D start/end templates preserved."
+  ],
+  "parser_note": "slice_info omits object entries for this CLI file; object IDs were read from actual extrusion paths and their centers checked against the source layout."
+}

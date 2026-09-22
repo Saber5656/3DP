@@ -1,0 +1,81 @@
+{
+  "assembly_3mf_roundtrip": [
+    {
+      "file": "output/assembly/B4-assembled.3mf",
+      "parts": 7,
+      "extents_mm": [
+        82.29823,
+        28.332178,
+        48.0
+      ]
+    },
+    {
+      "file": "output/assembly/D1-assembled.3mf",
+      "parts": 2,
+      "extents_mm": [
+        44.347783,
+        20.030257,
+        48.0
+      ]
+    },
+    {
+      "file": "output/assembly/D2-assembled.3mf",
+      "parts": 3,
+      "extents_mm": [
+        46.704058,
+        29.985577,
+        48.0
+      ]
+    },
+    {
+      "file": "output/assembly/D3-assembled.3mf",
+      "parts": 5,
+      "extents_mm": [
+        44.52174,
+        29.913043000000002,
+        48.0
+      ]
+    },
+    {
+      "file": "output/assembly/D4-assembled.3mf",
+      "parts": 6,
+      "extents_mm": [
+        85.489052,
+        29.430656,
+        48.0
+      ]
+    }
+  ],
+  "sliced_transform_and_macro_checks": [
+    {
+      "file": "black.3mf",
+      "z_axis_preserved": true,
+      "end_macro_warnings_after_last_layer": true
+    },
+    {
+      "file": "gray.3mf",
+      "z_axis_preserved": true,
+      "end_macro_warnings_after_last_layer": true
+    },
+    {
+      "file": "orange.3mf",
+      "z_axis_preserved": true,
+      "end_macro_warnings_after_last_layer": true
+    },
+    {
+      "file": "translucent_blue.3mf",
+      "z_axis_preserved": true,
+      "end_macro_warnings_after_last_layer": true
+    },
+    {
+      "file": "white.3mf",
+      "z_axis_preserved": true,
+      "end_macro_warnings_after_last_layer": true
+    }
+  ],
+  "sources": {
+    "production-v1/sources/chatgpt-blossom.svg": "75c1e9fffa5e8c437bec1d67197a73992bca45d166c6ff23215185dea8fae92a",
+    "references/codex-app-light.png": "de7d43f3386105ab20952958c2c25beb0d903e2aeb6e1aef57c49a648c0d1c07",
+    "references/clawd-sticker-reference.png": "9046e27229e74bb55f469c973951e83fde9cea54ef216850b9f397b07a547480"
+  }
+}

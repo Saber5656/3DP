@@ -1,0 +1,19 @@
+test_adapter_is_one_hollow_solid (test_adapter.AdapterTests.test_adapter_is_one_hollow_solid) ... ok
+test_adapter_preserves_successful_coupon_stop_envelope (test_adapter.AdapterTests.test_adapter_preserves_successful_coupon_stop_envelope) ... ok
+test_confirmed_measurements_and_unit_guard (test_adapter.AdapterTests.test_confirmed_measurements_and_unit_guard) ... ok
+test_gasket_is_annular_and_single_body (test_adapter.AdapterTests.test_gasket_is_annular_and_single_body) ... ok
+test_rear_insertion_length_and_flow_size (test_adapter.AdapterTests.test_rear_insertion_length_and_flow_size) ... ok
+test_three_fit_sizes_match_measured_envelope (test_adapter.AdapterTests.test_three_fit_sizes_match_measured_envelope) ... ok
+test_body_preserves_tested_nozzle_and_stop (test_body_v2.BodyV2Tests.test_body_preserves_tested_nozzle_and_stop) ... ok
+test_each_part_is_valid_and_flow_stays_open (test_body_v2.BodyV2Tests.test_each_part_is_valid_and_flow_stays_open) ... ok
+test_thread_has_axial_retention_without_rotation (test_body_v2.BodyV2Tests.test_thread_has_axial_retention_without_rotation) ... ok
+test_threads_assemble_without_collision_for_wall_and_seal_stack (test_body_v2.BodyV2Tests.test_threads_assemble_without_collision_for_wall_and_seal_stack) ... ok
+test_actual_insert_is_five_mm_outer_not_inner (test_body_v3.BodyV3Tests.test_actual_insert_is_five_mm_outer_not_inner) ... ok
+test_eight_mm_insert_and_continuous_airway (test_body_v3.BodyV3Tests.test_eight_mm_insert_and_continuous_airway) ... ok
+test_invalid_oversize_tip_is_rejected (test_body_v3.BodyV3Tests.test_invalid_oversize_tip_is_rejected) ... ok
+test_tested_vacuum_fitting_is_preserved (test_body_v3.BodyV3Tests.test_tested_vacuum_fitting_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 10.836s
+
+OK

@@ -1,0 +1,102 @@
+{
+  "request": "A2+A3 each 48mm, each one, printing authorized. Latest user moved white to fourth AMS slot and requested start.",
+  "stage": "BLACK_PRINT_STARTED",
+  "quantity_each": 1,
+  "height_mm": 48,
+  "printer": "3DP-20P-483",
+  "source_manifest": "cloud-addition-v1/output/manifest.json",
+  "source_files": {
+    "A2-A3-black-eyes.3mf": "792083f7a29efc4546344a1e5b176e44944f33e718d147843fcbbf9f51d3b558",
+    "A2-A3-white-cloud-ESTIMATE-main-only.3mf": "7f8bdd0fd8b8654be6016bc64ca48fa6007f7390a635b6c4394b4584b04ec7a2",
+    "A2-A3-orange-body.3mf": "c19defcf59177cfc557a3ede555366953a5519e0d02bc8b72402b536f0422212"
+  },
+  "orange": {
+    "stage": "PRINTER_COMPLETED",
+    "completion_observed": {
+      "percent": 100,
+      "layers": "109/109",
+      "gui_state": "Completed",
+      "empty_bed_camera": true
+    },
+    "original_start_observations": {
+      "print_name": "A2-A3-orange-body-48mm",
+      "printer": "3DP-20P-483",
+      "orange_feed": "Main nozzle AMS A4 PLA Basic Orange",
+      "gui_final_seconds": 2878,
+      "gui_final_grams": 12.71,
+      "pre_send_checked_at": "2026-09-22T12:17:39.835392+09:00",
+      "final_package_sha256": "acfe72295286c2b0843a1390611d4400d33badaa6d13297b2ceb5ab21588b36e",
+      "gui_options": {
+        "bed_leveling": "On",
+        "flow_calibration": "Auto",
+        "nozzle_offset": "Off",
+        "timelapse": "Off"
+      },
+      "send_clicked_at": "2026-09-22T12:17:58.926250+09:00",
+      "send_attempts": 1,
+      "observed_upload_percent": 60,
+      "receipt_checked_at": "2026-09-22T12:18:46.477287+09:00",
+      "observed_progress_percent": 21,
+      "observed_layers": "5/109",
+      "observed_finish_time": "13:06 JST",
+      "observed_bed_target_c": 55,
+      "latest_device_checked_at": "2026-09-22T12:31:51.059324+09:00",
+      "camera_observation": "Two orange first-layer/body footprints visible; ongoing printing"
+    },
+    "physical_quality_and_assembly": "Not inspected"
+  },
+  "white": {
+    "stage": "PRINTER_COMPLETED",
+    "job_name": "A2-A3-white-cloud-MAIN-A4-GUI-verified",
+    "record": "white-main-a4/run-state.json",
+    "feed": "Main AMS A4 Bambu PLA Basic Jade White, verified live",
+    "send_attempts": 1,
+    "latest_observed_stage": "Completed",
+    "latest_observed_layers": "136/136",
+    "latest_observed_finish": "2026-09-22 14:14 JST",
+    "completion_checked_at": "2026-09-22T14:48:51.085600+09:00",
+    "empty_bed_before_black": true
+  },
+  "black": {
+    "stage": "STARTUP_CONFIRMED",
+    "record": "black-main-a1/run-state.json",
+    "feed": "Main AMS A1 Bambu PLA Basic Black verified in live material detail",
+    "send_attempts": 1,
+    "job_name": "A2-A3-black-eyes-MAIN-A1-GUI-verified",
+    "latest_observed_layers": "0/10",
+    "latest_observed_finish": "2026-09-22 14:55 JST",
+    "latest_observed_stage": "Filament change / Loading filament"
+  },
+  "white_aux_history": {
+    "project": "A2-A3-white-cloud-AUX-GUI-verified.3mf",
+    "gcode": "A2-A3-white-cloud-AUX-GUI-final.gcode.3mf",
+    "seconds": 4888,
+    "grams": 17.53,
+    "layers": 136,
+    "filament_maps": "2",
+    "filament_group_id": "1",
+    "extruder_id": "2",
+    "sent": false,
+    "verification": "PASS: independent review completed, initial trial acceptable with no mandatory correction; actual support0 and internal bridge17.46mm documented in white-aux-file-review.md",
+    "device_preview": "3DP-20P-483, main empty, Auxiliary Ext white PLA; send disabled while orange busy; preview closed without send",
+    "support_note": "support_used metadata true but actual support paths0 and used_for_support=false; internal bridge not attachment or exposed surface"
+  },
+  "latest_total_estimate_seconds": 6200,
+  "latest_total_estimate_grams": 30.37,
+  "time_excludes": "Cooldown, part removal, setup delays, assembly; live printer ETA takes precedence",
+  "next_plate": null,
+  "next_action_requires": "Allow current black job to finish; no re-send. Then remove brim and inspect four eyes before assembly.",
+  "physical_result": "Orange and white printer jobs completed; black received and preparing; assembled samples not inspected",
+  "ui_blocker": null,
+  "inventory_decremented": false,
+  "published": false,
+  "earlier_file_hashes": {
+    "A2-A3-white-cloud-AUX-GUI-final.gcode.3mf": "d51b0bff1427513c75e4a56f10e765afee7fb48452fc10dfe1bdd308778a1ae6",
+    "A2-A3-black-eyes.3mf": "792083f7a29efc4546344a1e5b176e44944f33e718d147843fcbbf9f51d3b558",
+    "A2-A3-white-cloud-AUX-GUI-verified.3mf": "8b609175df1f47a004e6347d2f37e996c6dda1903ac91c865a13a799e19ebb70",
+    "A2-A3-orange-body-GUI-final.gcode.3mf": "acfe72295286c2b0843a1390611d4400d33badaa6d13297b2ceb5ab21588b36e",
+    "A2-A3-white-cloud-ESTIMATE-main-only.3mf": "7f8bdd0fd8b8654be6016bc64ca48fa6007f7390a635b6c4394b4584b04ec7a2",
+    "A2-A3-orange-body.3mf": "c19defcf59177cfc557a3ede555366953a5519e0d02bc8b72402b536f0422212",
+    "A2-A3-orange-body-GUI-verified.3mf": "79596451824df978f6117369ab598a24794c00da43124b7cae209f37323dec9b"
+  }
+}

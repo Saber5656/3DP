@@ -1,0 +1,231 @@
+{
+  "date": "2026-09-21",
+  "stage": "comparison-only provisional slices, never sent to printer",
+  "slicer": "Bambu Studio 2.8.2.61",
+  "printer": "X2D 0.4 mm",
+  "bed": "Textured PEI",
+  "material": "Bambu PLA Translucent blue 13611",
+  "density_g_cm3": 1.22,
+  "recorded_purchase_yen_per_kg": 2730,
+  "assumptions": {
+    "layer_mm": 0.2,
+    "walls": 3,
+    "top_layers": 5,
+    "bottom_layers": 3,
+    "support": false,
+    "brim": false,
+    "prime_tower": false,
+    "bead_not_printed": true
+  },
+  "grams": {
+    "default_hollow_body_two_halves": 29.42,
+    "default_stand": 11.5,
+    "star_body_0pct": 33.68,
+    "star_body_15pct": 41.69,
+    "star_body_100pct_GEOMETRIC_NOT_SLICED": 82.59287411030846,
+    "star_stand_and_mast": 19.37,
+    "all_eight_pins": 0.46,
+    "six_coupons": 6.58,
+    "both_models_stands_pins_star15": 102.44,
+    "plus_six_coupons_star15": 109.02,
+    "plus_six_coupons_star0": 101.00999999999999,
+    "plus_six_coupons_star100_GEOMETRIC_MIXED": 149.92287411030847,
+    "full_solid_octahedron_body_GEOMETRIC": 203.33333333333331
+  },
+  "limitations": [
+    "0% star is a weight comparison; unsupported roof quality is not verified.",
+    "100% grid and rectilinear CLI attempts failed validation; 100% star figure uses mesh volume times density, not a successful slice.",
+    "Startup purging, calibration extrusion, required added supports/brims and failed prints are outside these planned body/coupon totals.",
+    "T65279/T65535 warnings are from unmodified official end macros; firmware execution not tested.",
+    "No inventory decrement or printer transmission."
+  ],
+  "records": [
+    {
+      "job": "all_coupons-15",
+      "grams": 6.58,
+      "length_mm": 2243.41,
+      "settings": {
+        "sparse_infill_density": "15%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "752dd488b7671899a6e8b93ed4b150a351c77a984d433c1966645858359ae9c0",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "all_pins-15",
+      "grams": 0.46,
+      "length_mm": 157.74,
+      "settings": {
+        "sparse_infill_density": "15%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "a11faea9122873c55675a2df9046194bc6239a56560ce2a751f30c48f84beca6",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "default_cradle-15",
+      "grams": 11.5,
+      "length_mm": 3918.88,
+      "settings": {
+        "sparse_infill_density": "15%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "2f7909980034aa12d8edf05a650537234cfe7575630b95031cb2aa0f89128586",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "default_half-0",
+      "grams": 14.71,
+      "length_mm": 5014.38,
+      "settings": {
+        "sparse_infill_density": "0%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "30c55b3e22fb8400f515e23f537df478fe694d7eb67966ae69f3b0d563817981",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "default_half-15",
+      "grams": 14.91,
+      "length_mm": 5082.72,
+      "settings": {
+        "sparse_infill_density": "15%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "ae990af6e0bb843f1a7a24edb041105f141a68c02304c7077cc8f34a8465bd11",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "star-front-15",
+      "grams": 25.04,
+      "length_mm": 8533.04,
+      "settings": {
+        "sparse_infill_density": "15%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "f6889275f9dc5a7b80aca6b1ae59d2181c5c049e3ba641c1a50164b374ece61e",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "star_back-0",
+      "grams": 14.38,
+      "length_mm": 4901.43,
+      "settings": {
+        "sparse_infill_density": "0%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "fe15f769e212b9c69bc65a6c1140c18cd85c3708f45290a58bdd00a1920c8bfa",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "star_back-15",
+      "grams": 16.65,
+      "length_mm": 5675.63,
+      "settings": {
+        "sparse_infill_density": "15%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "53f85b31a4dd11006e1860318f9aef9ab65fbb47d7abe520771c1c8e85b74f27",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "star_base-15",
+      "grams": 14.38,
+      "length_mm": 4899.92,
+      "settings": {
+        "sparse_infill_density": "15%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "89e657fbd9bbf7810ce687422871dabd12ba79e084af6d99c9f057d3b69fabc0",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "star_front-0",
+      "grams": 19.3,
+      "length_mm": 6575.73,
+      "settings": {
+        "sparse_infill_density": "0%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "e1a184565081a7f38bf50600b0411b33091df41d0379926d1b1a8ce47652b460",
+      "mass_crosscheck": "PASS"
+    },
+    {
+      "job": "star_mast-15",
+      "grams": 4.99,
+      "length_mm": 1701.43,
+      "settings": {
+        "sparse_infill_density": "15%",
+        "sparse_infill_pattern": "grid",
+        "wall_loops": "3",
+        "layer_height": "0.2",
+        "top_shell_layers": "5",
+        "bottom_shell_layers": "3",
+        "filament_density": "1.22",
+        "filament_flow_ratio": "0.98"
+      },
+      "package_sha256": "259070abc1ab589c0c65f165229784a8c9c3654b794701339b53614014835027",
+      "mass_crosscheck": "PASS"
+    }
+  ]
+}

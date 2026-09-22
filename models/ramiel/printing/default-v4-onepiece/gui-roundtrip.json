@@ -1,0 +1,312 @@
+{
+  "comparisons": {
+    "layer_height": {
+      "prepared": "0.16",
+      "GUI": "0.16",
+      "same": true
+    },
+    "initial_layer_print_height": {
+      "prepared": "0.2",
+      "GUI": "0.2",
+      "same": true
+    },
+    "wall_loops": {
+      "prepared": "3",
+      "GUI": "3",
+      "same": true
+    },
+    "sparse_infill_density": {
+      "prepared": "0%",
+      "GUI": "0%",
+      "same": true
+    },
+    "top_shell_layers": {
+      "prepared": "6",
+      "GUI": "6",
+      "same": true
+    },
+    "bottom_shell_layers": {
+      "prepared": "4",
+      "GUI": "4",
+      "same": true
+    },
+    "brim_type": {
+      "prepared": "outer_only",
+      "GUI": "outer_only",
+      "same": true
+    },
+    "brim_width": {
+      "prepared": "8",
+      "GUI": "8",
+      "same": true
+    },
+    "brim_object_gap": {
+      "prepared": "0",
+      "GUI": "0",
+      "same": true
+    },
+    "enable_support": {
+      "prepared": "1",
+      "GUI": "1",
+      "same": true
+    },
+    "support_on_build_plate_only": {
+      "prepared": "1",
+      "GUI": "1",
+      "same": true
+    },
+    "support_threshold_angle": {
+      "prepared": "50",
+      "GUI": "50",
+      "same": true
+    },
+    "support_type": {
+      "prepared": "tree(auto)",
+      "GUI": "tree(auto)",
+      "same": true
+    },
+    "support_style": {
+      "prepared": "default",
+      "GUI": "default",
+      "same": true
+    },
+    "print_sequence": {
+      "prepared": "by object",
+      "GUI": "by object",
+      "same": true
+    },
+    "outer_wall_speed": {
+      "prepared": [
+        "45",
+        "45",
+        "45",
+        "45",
+        "45",
+        "45"
+      ],
+      "GUI": [
+        "45",
+        "45",
+        "45",
+        "45",
+        "45",
+        "45"
+      ],
+      "same": true
+    },
+    "inner_wall_speed": {
+      "prepared": [
+        "60",
+        "60",
+        "60",
+        "60",
+        "60",
+        "60"
+      ],
+      "GUI": [
+        "60",
+        "60",
+        "60",
+        "60",
+        "60",
+        "60"
+      ],
+      "same": true
+    },
+    "nozzle_temperature": {
+      "prepared": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+      ],
+      "GUI": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+      ],
+      "same": true
+    },
+    "nozzle_temperature_initial_layer": {
+      "prepared": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+      ],
+      "GUI": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+      ],
+      "same": true
+    },
+    "textured_plate_temp": {
+      "prepared": [
+        "55",
+        "55"
+      ],
+      "GUI": [
+        "55",
+        "55"
+      ],
+      "same": true
+    },
+    "textured_plate_temp_initial_layer": {
+      "prepared": [
+        "55",
+        "60"
+      ],
+      "GUI": [
+        "55",
+        "60"
+      ],
+      "same": true
+    },
+    "filament_colour": {
+      "prepared": [
+        "#000000",
+        "#0050B3"
+      ],
+      "GUI": [
+        "#000000",
+        "#0050B3"
+      ],
+      "same": true
+    },
+    "filament_density": {
+      "prepared": [
+        "1.26",
+        "1.22"
+      ],
+      "GUI": [
+        "1.26",
+        "1.22"
+      ],
+      "same": true
+    },
+    "initial_layer_speed": {
+      "prepared": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+      ],
+      "GUI": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+      ],
+      "same": true
+    },
+    "internal_solid_infill_speed": {
+      "prepared": [
+        "60",
+        "60",
+        "60",
+        "60",
+        "60",
+        "60"
+      ],
+      "GUI": [
+        "60",
+        "60",
+        "60",
+        "60",
+        "60",
+        "60"
+      ],
+      "same": true
+    },
+    "top_surface_speed": {
+      "prepared": [
+        "45",
+        "45",
+        "45",
+        "45",
+        "45",
+        "45"
+      ],
+      "GUI": [
+        "45",
+        "45",
+        "45",
+        "45",
+        "45",
+        "45"
+      ],
+      "same": true
+    },
+    "enable_prime_tower": {
+      "prepared": "0",
+      "GUI": "0",
+      "same": true
+    },
+    "seam_position": {
+      "prepared": "aligned",
+      "GUI": "aligned",
+      "same": true
+    },
+    "seam_slope_type": {
+      "prepared": "none",
+      "GUI": "none",
+      "same": true
+    }
+  },
+  "all_match": true,
+  "mapping_changed_to_connected_AMS": {
+    "filament_map": [
+      "1",
+      "1"
+    ],
+    "filament_map_mode": "Auto For Flush",
+    "extruder_ams_count": [
+      "1#0|4#1",
+      "1#0|4#0"
+    ]
+  },
+  "plate_mapping": {
+    "mode": "Auto For Match",
+    "filament_maps": "1 1",
+    "meaning": "Black and blue both on main extruder; GUI exported slice_info confirms one nozzle."
+  }
+}

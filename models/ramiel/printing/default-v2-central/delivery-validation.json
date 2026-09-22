@@ -1,0 +1,18 @@
+{
+  "source_stl_hashes_match_preparation": true,
+  "sliced_package_and_gcode_hashes_match": true,
+  "ready_zip_valid": true,
+  "process_settings_present": true,
+  "local_document_links_valid": true,
+  "star_artifacts_unchanged": true,
+  "personal_paths_in_ready_package": false,
+  "geometry_tests_passed": 11,
+  "review": "self-review; independent Claude run failed authentication",
+  "gui_v2_verified": true,
+  "sent_to_printer": true,
+  "physical_print_verified": false,
+  "status": "Stopped by user before observed first layer; do not resume this central-tube version",
+  "send_observed_at": "2026-09-21T21:16:31.372010+09:00",
+  "printer_received": true,
+  "first_layer_confirmed": false
+}

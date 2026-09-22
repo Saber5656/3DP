@@ -1,0 +1,46 @@
+{
+  "units": "mm",
+  "nozzle_outer_width": 37,
+  "nozzle_outer_height": 13,
+  "nozzle_insertion": 20,
+  "existing_back_hole_width": 5,
+  "unit_confirmation": "縦13 mm × 横37 mmです",
+  "body": "硬めだが押すとへこむ",
+  "rear_hole_enlargement": "NOT ALLOWED for current V3: user clarified use existing5mmhole; printed insert OUTSIDE diameter5mm",
+  "fit_feedback": {
+    "part": "fit_30",
+    "source": "user report after physical trial",
+    "tightness_raw": "キツさはちょうどいいと思う",
+    "depth_raw": "深さはあと1.5cmぐらいは入る",
+    "selected_clearance_per_side": 0.3,
+    "selected_cad_outer_width": 36.4,
+    "selected_cad_outer_height": 12.4,
+    "depth_interpretation": "pending clarification; do not replace 20 mm with 35 mm yet",
+    "note": "CAD nominal dimensions, not caliper measurements of the printed part"
+  },
+  "unknowns": [
+    "exact profile and corner radius",
+    "axial taper",
+    "rim slope angle",
+    "rear seating curvature",
+    "meaning of additional 15 mm insertion allowance",
+    "tape type, thickness, turns and final outer dimensions",
+    "quantitative flow, leakage, retention force and long-term durability"
+  ],
+  "kirby_back_hole_depth": 8,
+  "kirby_back_hole_depth_meaning": "Depth through the existing rear hole, from outer surface to inner surface; clarified by user. Not a requested adapter stem length.",
+  "rear_insert_outer_diameter": 5,
+  "rear_insert_outer_diameter_raw": "穴全体が5mmだからフィラメントの外径が5mm",
+  "physical_result_v3": {
+    "date": "2026-09-21",
+    "source": "user report",
+    "raw": "大成功！\nやりたいこと出来ました。\n\nハンドクリーナー、カービィーの穴への挿入は若干の浮きがあったのでテープ巻いて微調整(太く)しました！",
+    "goal_achieved": true,
+    "vacuum_side_adjustment": "tape wrapped to slightly increase size",
+    "kirby_side_adjustment": "tape wrapped to slightly increase size",
+    "successful_configuration": "printed v3 with tape on both insertion interfaces",
+    "tape_type_thickness_turns_final_dimensions": "not reported",
+    "cad_dimensions_changed": false,
+    "quantitative_flow_leak_retention_tests": "not reported"
+  }
+}

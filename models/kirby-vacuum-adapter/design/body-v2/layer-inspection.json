@@ -1,0 +1,22 @@
+{
+  "source": "output/body-v2/kirby_body_v2_PLA_1h2m.gcode",
+  "stage": "actual GUI slice",
+  "layers": 375,
+  "selected_layers_mm": [
+    0.2,
+    4.0,
+    19.8,
+    26.0,
+    52.8,
+    65.0
+  ],
+  "central_clear_core_violations": [],
+  "core_radii_mm": {
+    "body": 3.5,
+    "nut": 12.0
+  },
+  "extruding_arcs": 49629,
+  "scope": "all-layer conservative core clearance plus six plotted XY layers; not full passage/strength verification",
+  "estimated_time": "1h1m54s",
+  "estimated_filament_g": 25.91
+}

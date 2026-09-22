@@ -1,0 +1,52 @@
+{
+  "stage": "PRINTER_COMPLETED",
+  "request": "User moved white to AMS fourth slot and authorized start",
+  "printer": "3DP-20P-483",
+  "white_feed": "Main AMS A4 Bambu PLA Basic Jade White, verified live",
+  "orange_result": "Completed 100%,109/109 layers, GUI observed this turn",
+  "bed": "Live empty Textured PEI verified this turn",
+  "job_name": "A2-A3-white-cloud-MAIN-A4-GUI-verified",
+  "seconds": 2932,
+  "grams": 17.53,
+  "layers": 136,
+  "main_mapping": "filament_maps1/group0/extruder1",
+  "gui_options": {
+    "timelapse": "Off",
+    "bed_leveling": "On",
+    "flow_calibration": "Auto",
+    "nozzle_offset": "Off"
+  },
+  "source_geometry_byte_match": {
+    "3D/3dmodel.model": true,
+    "3D/Objects/object_1.model": true,
+    "3D/Objects/object_2.model": true
+  },
+  "white_send_attempts": 1,
+  "pre_send_at": "2026-09-22T13:23:34.681246+09:00",
+  "send_clicked_at": "2026-09-22T13:24:13.570850+09:00",
+  "upload_observed_percent": 60,
+  "receipt_at": "2026-09-22T13:24:45.242378+09:00",
+  "device_received": true,
+  "observed_layers": "136/136",
+  "observed_stage": "Completed",
+  "observed_finish_time": "2026-09-22 14:14 JST",
+  "target_bed_c": 55,
+  "observed_progress_percent": 100,
+  "latest_observation_recorded_at": "2026-09-22T13:33:37.019597+09:00",
+  "first_layer_confirmed": true,
+  "review": "main-file-review.md: independent diff review PASS; prior geometry and bridge review reused",
+  "saved_files": {
+    "A2-A3-white-cloud-MAIN-A4-GUI-verified.3mf": "de70e0d9ab45bd75db83cdcaafed290c6cfa8ba6ebaee46a0575d04c337ce519",
+    "A2-A3-white-cloud-MAIN-A4-GUI-final.gcode.3mf": "68886954d14c58300199a7a49783e68fa96efaf0e55b1fa2ae0b207362a2aeac"
+  },
+  "camera_observation": "White first-layer footprints visible at two cloud positions; one filled and second in progress. Long-term adhesion and completed surface not yet assessed.",
+  "last_printing_observation": {
+    "observed_layers": "1/136",
+    "observed_stage": "Printing",
+    "observed_progress_percent": 14,
+    "observed_finish_time": "2026-09-22 14:14 JST",
+    "latest_observation_recorded_at": "2026-09-22T13:33:37.019597+09:00"
+  },
+  "completion_checked_at": "2026-09-22T14:48:51.085600+09:00",
+  "bed_cleared_before_black": true
+}

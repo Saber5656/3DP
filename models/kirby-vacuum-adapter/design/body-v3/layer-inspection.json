@@ -1,0 +1,21 @@
+{
+  "source": "output/body-v3/kirby-v3-5mmOD-black.gcode",
+  "stage": "actual GUI slice",
+  "layers": 265,
+  "selected_layers_mm": [
+    0.2,
+    19.8,
+    26.0,
+    42.8,
+    46.0,
+    52.8
+  ],
+  "central_clear_core_violations": [],
+  "core_radii_mm": {
+    "body": 1.0
+  },
+  "extruding_arcs": 23642,
+  "scope": "all-layer conservative core clearance plus six plotted XY layers; not full passage/strength verification",
+  "estimated_time": "34m15s",
+  "estimated_filament_g": 10.61
+}

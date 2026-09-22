@@ -1,0 +1,25 @@
+{
+  "sample_spacing_mm": 2.0,
+  "samples": 317,
+  "projected_candidate_area_mm2": 1268.0,
+  "estimated_sloped_candidate_area_mm2": 1985.6754316477047,
+  "shell_com_support_hull_margin_mm": 18.47765069781607,
+  "uniform_shell_com_mm": [
+    -3.4812659309717924e-14,
+    -5.234545913372101,
+    74.98751224828003
+  ],
+  "contact_x_span_mm": 60.0,
+  "contact_y_span_mm": 66.0,
+  "tip_near_contact_count": 0,
+  "nearest_tip_to_contact_mm": 9.919728033611634,
+  "tip_exclusion_radius_mm": 7.5,
+  "limitations": "Potential bearing region with clearance; finite samples, uniform-density shell COM. No physical load, friction or tolerance validation.",
+  "patches_at_least_100_mm2_projected": 6,
+  "upward_removal_intersection_mm3": {
+    "0": 0.0,
+    "0.5": 0.0,
+    "5": 0.0,
+    "30": 0.0
+  }
+}

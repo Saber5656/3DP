@@ -1,0 +1,58 @@
+{
+  "stage": "Rigid geometric verification only; physical assembly NOT_RUN",
+  "guest_insertion_continuous_clearance_lower_bound_mm": 3.5867312947646823,
+  "upper_over_guest_continuous_clearance_lower_bound_mm": 3.721006058851323,
+  "method": "Bounding sphere containing the entire guest; monotonic vertical distance and exact triangle projections",
+  "frame_closure": [
+    {
+      "upper_lift_mm": 0,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 0.5,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 1,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 2,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 3,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 4,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 6,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 8,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 16,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 32,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 64,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "upper_lift_mm": 128,
+      "intersection_volume_mm3": 0.0
+    }
+  ],
+  "frame_closure_scope": "Sampled offsets only; not a continuous proof or fit test",
+  "assembly_path": "Insert CH4 vertically into the first lower pore at x=y=-33.26278984 mm, then lower the upper frame vertically."
+}

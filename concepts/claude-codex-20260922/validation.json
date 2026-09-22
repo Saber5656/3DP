@@ -1,0 +1,94 @@
+{
+  "checked_on": "2026-09-22",
+  "status": "PASS",
+  "files": [
+    {
+      "file": "images/a-claude-cloud.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f7bfd1ad49dd5a1a872c8daebce61cec86d520c9d22365bea634f518b0490547",
+      "png_crc": "PASS"
+    },
+    {
+      "file": "images/b-desk-companions.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2eccd16ff85416b48ea2e57c1dd3be40a76ce0e82a0e5321981184fd918c0899",
+      "png_crc": "PASS"
+    },
+    {
+      "file": "images/c-codex-objects.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7406e3130c5322f958ce7bb9c68449c614e6d75e9907e035ea611de9d28aa5d9",
+      "png_crc": "PASS"
+    },
+    {
+      "file": "references/clawd-sticker-reference.png",
+      "width": 600,
+      "height": 487,
+      "sha256": "9046e27229e74bb55f469c973951e83fde9cea54ef216850b9f397b07a547480",
+      "png_crc": "PASS"
+    },
+    {
+      "file": "references/codex-app-light.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "de7d43f3386105ab20952958c2c25beb0d903e2aeb6e1aef57c49a648c0d1c07",
+      "png_crc": "PASS"
+    }
+  ],
+  "prompt_count": 3,
+  "concept_count": 12,
+  "relative_links": [
+    {
+      "source": "SOURCES.md",
+      "target": "references/clawd-sticker-reference.png"
+    },
+    {
+      "source": "SOURCES.md",
+      "target": "references/codex-app-light.png"
+    },
+    {
+      "source": "README.md",
+      "target": "images/a-claude-cloud.png"
+    },
+    {
+      "source": "README.md",
+      "target": "images/b-desk-companions.png"
+    },
+    {
+      "source": "README.md",
+      "target": "images/c-codex-objects.png"
+    },
+    {
+      "source": "README.md",
+      "target": "prompts.json"
+    },
+    {
+      "source": "README.md",
+      "target": "SOURCES.md"
+    },
+    {
+      "source": "README.md",
+      "target": "JOB-RECORD.md"
+    },
+    {
+      "source": "README.md",
+      "target": "REVIEW.md"
+    },
+    {
+      "source": "JOB-RECORD.md",
+      "target": "SOURCES.md"
+    },
+    {
+      "source": "JOB-RECORD.md",
+      "target": "README.md"
+    }
+  ],
+  "visual_review": "REVIEW.md",
+  "limits": [
+    "PNG integrity and references checked; images are visual concepts only.",
+    "CAD, mesh, slicer and physical printing NOT_RUN."
+  ]
+}

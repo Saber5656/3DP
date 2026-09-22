@@ -1,0 +1,2 @@
+# Preserve downloaded scientific records and extracted source text byte for byte.
+sources/* -whitespace

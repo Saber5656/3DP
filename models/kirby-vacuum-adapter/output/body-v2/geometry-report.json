@@ -1,0 +1,75 @@
+{
+  "parameters_mm": {
+    "bore": 20.0,
+    "root_diameter": 25.6,
+    "major_diameter": 28.0,
+    "pitch": 4.0,
+    "thread_length": 22.0,
+    "radial_clearance": 0.3,
+    "axial_clearance": 0.15,
+    "transition_z": 43.0,
+    "flange_diameter": 40.0,
+    "flange_z": 53.0,
+    "nut_diameter": 36.0,
+    "nut_height": 8.0,
+    "rear_wall_reported": 8.0
+  },
+  "stage": "complete mechanical prototype; rear physical fit and seal untested",
+  "parts": {
+    "kirby_body_v2": {
+      "cad_valid": true,
+      "solids": 1,
+      "stl_watertight": true,
+      "stl_consistent_winding": true,
+      "stl_bodies": 1,
+      "stl_euler": 0,
+      "stl_volume_mm3": 19116.708987100257,
+      "cad_volume_mm3": 19212.56090914308,
+      "step_valid": true,
+      "step_volume_difference_mm3": 0.0004928029666189104,
+      "extent_mm": [
+        44.99077606201172,
+        39.99552536010742,
+        75.0
+      ],
+      "max_extent_error_mm": 0.009224137988283587,
+      "degenerate_triangles": 0,
+      "triangles": 44190,
+      "stl_sha256": "a46b964ffb710aa60200313e3b2bc17a2fad501cd33d37a48cc4f36ab774cfdc"
+    },
+    "retaining_nut_v2": {
+      "cad_valid": true,
+      "solids": 1,
+      "stl_watertight": true,
+      "stl_consistent_winding": true,
+      "stl_bodies": 1,
+      "stl_euler": 0,
+      "stl_volume_mm3": 3193.2386185531414,
+      "cad_volume_mm3": 3164.7795187026877,
+      "step_valid": true,
+      "step_volume_difference_mm3": 1.5394994079542812e-05,
+      "extent_mm": [
+        35.91999816894531,
+        35.91999816894531,
+        8.0
+      ],
+      "max_extent_error_mm": 1.8310546820998752e-06,
+      "degenerate_triangles": 0,
+      "triangles": 46058,
+      "stl_sha256": "c123d6568d349c89de1d4f94530530c4ee2a682ef3f8a2897539011384bd6a75"
+    }
+  },
+  "assembly_3mf": {
+    "parts": 2,
+    "watertight_without_repair": true,
+    "units": "mm",
+    "printer_profile": false
+  },
+  "limitations": [
+    "No global structural load or air leakage validation.",
+    "Printed thread fit is a prototype; check the pair before modifying the toy.",
+    "36 mm retaining nut requires mouth access; existing low rear hole is not automatically the correct center.",
+    "Rear hole target is approximately 28.5-29 mm, trim gradually with the actual part; keep enough toy material around the flange.",
+    "Do not use the old 8 mm stem draft as the final body."
+  ]
+}

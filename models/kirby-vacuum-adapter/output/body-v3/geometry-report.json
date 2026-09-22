@@ -1,0 +1,49 @@
+{
+  "parameters_mm": {
+    "rear_outer": 5.0,
+    "rear_bore": 3.0,
+    "insertion": 8.0,
+    "shoulder_diameter": 14.0,
+    "transition_z": 43.0,
+    "seat_z": 45.0,
+    "tip_chamfer_length": 0.4,
+    "tip_outer": 4.4
+  },
+  "stage": "complete mechanical prototype; rear physical fit and seal untested",
+  "parts": {
+    "kirby_body_v3_5mm_OD": {
+      "cad_valid": true,
+      "solids": 1,
+      "stl_watertight": true,
+      "stl_consistent_winding": true,
+      "stl_bodies": 1,
+      "stl_euler": 0,
+      "stl_volume_mm3": 8034.420689826846,
+      "cad_volume_mm3": 8051.340930829554,
+      "step_valid": true,
+      "step_volume_difference_mm3": 8.913048077374697e-11,
+      "extent_mm": [
+        44.99077606201172,
+        21.0,
+        53.0
+      ],
+      "max_extent_error_mm": 0.009224137988283587,
+      "degenerate_triangles": 0,
+      "triangles": 12558,
+      "stl_sha256": "1f2661f0e985caabb2026ac29943dd8ea5d98e2c635ee11a3ee1efe509a11040"
+    }
+  },
+  "assembly_3mf": {
+    "parts": 1,
+    "watertight_without_repair": true,
+    "units": "mm",
+    "printer_profile": false
+  },
+  "limitations": [
+    "5 mm is the maximum insert OUTSIDE diameter, not the bore.",
+    "Bore is 3 mm. Debris above 3 mm cannot pass and airflow is restricted.",
+    "Smooth friction-fit prototype; no positive mechanical lock. Rear fit, retention and seal untested.",
+    "Do not enlarge the existing 5 mm rear hole. Do not use V2 28 mm files.",
+    "Printed dimensions and physical suction are unverified. Support the vacuum independently."
+  ]
+}

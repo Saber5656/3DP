@@ -1,0 +1,221 @@
+{
+  "stage": "Design prototype; coupon-selected MOF sockets; full MOF assembly not yet printed",
+  "models": {
+    "helicene_A": {
+      "qa": {
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "connected_bodies": 1,
+        "extent_mm": [
+          100.0,
+          88.171,
+          49.996
+        ],
+        "triangles": 13062,
+        "volume_mm3": 7435.776936069101,
+        "degenerate_faces": 0,
+        "roundtrip_max_bound_error_mm": 0.0,
+        "cleanup_max_bound_change_mm": 0.0,
+        "cleanup_volume_relative_change": 5.464923242602489e-09
+      },
+      "scale_mm_per_angstrom": 12.07760941018576,
+      "atoms": 26,
+      "bonds": 31,
+      "coordinates": "PubChem computed 3D conformer; explicit H omitted from display",
+      "absolute_helicity": "A/B mirror pair; P/M not assigned"
+    },
+    "helicene_B": {
+      "qa": {
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "connected_bodies": 1,
+        "extent_mm": [
+          100.0,
+          88.171,
+          49.996
+        ],
+        "triangles": 13062,
+        "volume_mm3": 7435.77697985131,
+        "degenerate_faces": 0,
+        "roundtrip_max_bound_error_mm": 0.0,
+        "cleanup_max_bound_change_mm": 0.0,
+        "cleanup_volume_relative_change": 0.0
+      },
+      "scale_mm_per_angstrom": 12.07760941018576,
+      "atoms": 26,
+      "bonds": 31,
+      "coordinates": "PubChem computed 3D conformer; explicit H omitted from display",
+      "absolute_helicity": "A/B mirror pair; P/M not assigned"
+    },
+    "infinitene": {
+      "qa": {
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "connected_bodies": 1,
+        "extent_mm": [
+          140.0,
+          89.632,
+          52.258
+        ],
+        "triangles": 24230,
+        "volume_mm3": 13761.79281836045,
+        "degenerate_faces": 0,
+        "roundtrip_max_bound_error_mm": 0.0,
+        "cleanup_max_bound_change_mm": 0.0,
+        "cleanup_volume_relative_change": 0.0
+      },
+      "scale_mm_per_angstrom": 11.730888134074346,
+      "atoms": 48,
+      "bonds": 60,
+      "coordinates": "Original 2022 JACS SI p. S23, (P,P)-1, PBE0/6-311+G(d,p)"
+    },
+    "caffeine": {
+      "qa": {
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "connected_bodies": 1,
+        "extent_mm": [
+          110.0,
+          92.805,
+          7.026
+        ],
+        "triangles": 6658,
+        "volume_mm3": 4585.144523569867,
+        "degenerate_faces": 0,
+        "roundtrip_max_bound_error_mm": 0.0,
+        "cleanup_max_bound_change_mm": 0.0,
+        "cleanup_volume_relative_change": 0.0
+      },
+      "scale_mm_per_angstrom": 16.298087020926943,
+      "atoms": 14,
+      "bonds": 15,
+      "coordinates": "PubChem computed 3D conformer; explicit H omitted from display"
+    },
+    "mof5": {
+      "parts": {
+        "frame_lower": {
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_positive": true,
+          "connected_bodies": 1,
+          "extent_mm": [
+            150.0,
+            150.0,
+            52.721
+          ],
+          "triangles": 132750,
+          "volume_mm3": 25260.602800888486,
+          "degenerate_faces": 0,
+          "roundtrip_max_bound_error_mm": 0.0,
+          "cleanup_max_bound_change_mm": 0.0,
+          "cleanup_volume_relative_change": 0.0
+        },
+        "frame_upper": {
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_positive": true,
+          "connected_bodies": 1,
+          "extent_mm": [
+            150.0,
+            150.0,
+            101.279
+          ],
+          "triangles": 252208,
+          "volume_mm3": 48888.34269711321,
+          "degenerate_faces": 0,
+          "roundtrip_max_bound_error_mm": 0.0,
+          "cleanup_max_bound_change_mm": 0.0,
+          "cleanup_volume_relative_change": 0.0
+        },
+        "guest": {
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_positive": true,
+          "connected_bodies": 1,
+          "extent_mm": [
+            57.528,
+            57.528,
+            57.528
+          ],
+          "triangles": 3944,
+          "volume_mm3": 106814.55995519029,
+          "degenerate_faces": 0,
+          "roundtrip_max_bound_error_mm": 0.0,
+          "cleanup_max_bound_change_mm": 0.0,
+          "cleanup_volume_relative_change": 0.0
+        },
+        "fit_coupon": {
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_positive": true,
+          "connected_bodies": 1,
+          "extent_mm": [
+            38.0,
+            16.0,
+            7.0
+          ],
+          "triangles": 396,
+          "volume_mm3": 4120.607317597255,
+          "degenerate_faces": 0,
+          "roundtrip_max_bound_error_mm": 0.0,
+          "cleanup_max_bound_change_mm": 0.0,
+          "cleanup_volume_relative_change": 0.0
+        },
+        "fit_pin": {
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_positive": true,
+          "connected_bodies": 1,
+          "extent_mm": [
+            3.0,
+            3.0,
+            9.0
+          ],
+          "triangles": 124,
+          "volume_mm3": 63.2092645417257,
+          "degenerate_faces": 0,
+          "roundtrip_max_bound_error_mm": 0.0,
+          "cleanup_max_bound_change_mm": 0.0,
+          "cleanup_volume_relative_change": 3.2985694284661977e-09
+        }
+      },
+      "atoms": 783,
+      "bonds": 972,
+      "clusters": 27,
+      "linkers": 54,
+      "scale_mm_per_angstrom": 5.150633298503749,
+      "guest": {
+        "center_mm": [
+          -33.262789841737344,
+          -33.26278984173725,
+          -33.26278984173746
+        ],
+        "carbon_radius_mm": 28.76394050720099,
+        "hydrogen_radius_mm": 13.231412633312456,
+        "hydrogen_offset_mm": 21.860594785472752,
+        "guest_outer_radius_mm": 35.09200741878521,
+        "cavity_inscribed_radius_mm": 38.8066241799432,
+        "central_clearance_mm": 3.714616761157991,
+        "aperture_radius_upper_bound_mm": 27.51394050720099,
+        "aperture_sampled_max_mm": 27.05500696069806,
+        "grid_cover_error_bound_mm": 0.45893354650293017,
+        "retention_margin_mm": 1.25,
+        "method": "Six boundary faces, exact analytic ball/capsule distances, 1-Lipschitz grid cover bound; rigid ideal geometry only",
+        "guest_representation": "CH4 space-filling display, enlarged vs host, ball proportions stylized; not van der Waals radii"
+      },
+      "split_z_mm": -22.279416635995837,
+      "joints": 9,
+      "peg_diameter_mm": 3.0,
+      "socket_diameter_mm": 3.5,
+      "engagement_mm": 4.0,
+      "coordinates": "RASPA2 IRMOF-1 CIF, expanded Fm-3m symmetry; terminal links truncated; H omitted",
+      "finite_surface": "Outward BDC linkers omitted; boundary Zn sites truncated; not an isolated stable molecule",
+      "color_status": "Atomic colors in GLB and sheet; assembly 3MF frame is uniform grey for robust first prototype",
+      "clearance_scope": "Ideal rigid geometry, no FDM tolerance/elasticity assessment; guest enlarged, stylized space filling"
+    }
+  }
+}

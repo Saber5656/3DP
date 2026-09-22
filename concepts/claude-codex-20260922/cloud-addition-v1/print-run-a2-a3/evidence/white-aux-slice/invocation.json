@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "${BAMBU_STUDIO_BIN}",
+    "--debug",
+    "2",
+    "--datadir",
+    "cloud-addition-v1/print-run-a2-a3/evidence/white-aux-slice/profile",
+    "--curr-bed-type",
+    "Textured PEI Plate",
+    "--ensure-on-bed",
+    "--orient",
+    "0",
+    "--arrange",
+    "0",
+    "--slice",
+    "0",
+    "--export-3mf",
+    "cloud-addition-v1/print-run-a2-a3/evidence/white-aux-slice/white-aux-candidate.3mf",
+    "cloud-addition-v1/print-run-a2-a3/evidence/white-aux-slice/white-aux-source.3mf"
+  ],
+  "working_directory": "concepts/claude-codex-20260922"
+}

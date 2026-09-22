@@ -1,0 +1,5772 @@
+PDF PAGE 1
+ 
+ S1 
+Supporting Information 
+ 
+ 
+ 
+ 
+Infinitene: A Helically Twisted Figure-Eight [12]Circulene 
+Topoisomer 
+ 
+ 
+Maciej Krzeszewski,† Hideto Ito,*,† and Kenichiro Itami*,†,‡ 
+ 
+† Department of Chemistry, Graduate School of Science, Nagoya University, Nagoya 464-8602, 
+Japan. ‡ Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya University, Nagoya 464-8602, 
+Japan 
+ 
+* itami@chem.nagoya-u.ac.jp (K.I.) 
+* ito.hideto@g.mbox.nagoya-u.ac.jp (H.I.) 
+ 
+Table of contents 
+1. General remarks         S2 
+2. Experimental section        S3 
+3. X-ray crystallographic analysis       S10 
+4. Photophysical properties        S16 
+5. Chiral HPLC analyses and CD spectra      S17 
+6. Circularly polarized luminescence      S18 
+7. DFT calculations         S19 
+8. Cartesian coordinates of optimized structures     S23 
+9. References          S28 
+10. 1H and 13C NMR spectra of synthesized compounds    S29 
+ 
+  
+PDF PAGE 2
+ 
+ S2 
+1. General remarks 
+Unless otherwise noted, all materials including dry solvents were obtained from commercial 
+suppliers and used without further purification. All reagents were purchased from TCI, Aldrich or 
+Wako. Starting materials S1[1] and S4[2] were synthesized according to the procedures reported in 
+the literature. Unless otherwise noted, all reactions were performed with dry solvents under an 
+atmosphere of nitrogen in oven-dried glassware with standard vacuum-line techniques. All work-up 
+and purification procedures were carried out with reagent-grade solvents in air. Analytical thin-layer 
+chromatography (TLC) was performed using E. Merck silica gel 60 F254 precoated plates (0.25 mm). 
+The developed chromatograms were analyzed by UV lamp (254 nm). Flash column chromatography 
+was performed with KANTO Silica Gel 60N (spherical, neutral, 40 -100 μm) or Biotage Isolera® 
+equipped with Biotage SNAP Cartridge KP-Sil columns. Preparative thin-layer chromatography 
+(PTLC) was performed using Wako-gel® B5-F silica coated plates (0.75 mm) prepared in our 
+laboratory. Gas chromatography (GC) analysis was conducted on a Shimadzu GC-2010 instrument 
+equipped with a HP-5 column (30 m × 0.25 mm, Hewlett-Packard). High-resolution mass spectra 
+(HRMS) were obtained from a Thermo Fisher Scientific Exactive (APCI or ESI) and a JEOL JMS-
+T100GCV (Direct EI). Nuclear magnetic resonance (NMR) spectra were recorded on a JEOL ECS-
+600 (1H 600 MHz, 13C 151 MHz) spectrometer and a JEOL ECA 600II with Ultra COOLTM probe (1H 
+600 MHz, 13C 151 MHz). Chemical shifts for 1H NMR are expressed in parts per million (ppm) relative 
+to tetramethylsilane (δ 0.00 ppm), CDCl3 (δ 7.26 ppm), CD2Cl2 (δ 5.32 ppm), 1,1,2,2-
+tetrachloroethane (TCE-d2, δ 6.00 ppm), dimethylsulfoxide (DMSO-d6, δ 2.50 ppm) or acetone-d6 (δ 
+2.05 ppm). Chemical shifts for 13C NMR are expressed in ppm relative to CDCl3 (δ 77.0 ppm), CD2Cl2 
+(δ 53.8 ppm), TCE-d2 (δ 73.8 ppm), dimethylsulfoxide (DMSO-d6, δ 39.5 ppm) or acetone-d6 (δ 29.8 
+ppm). Data are reported as follows: chemical shift, multiplicity (s = singlet, d = doublet, dd = doublet 
+of doublets, ddd = doublet of doublet of doublets, t = triplet, td = triplet of doublets, q = quartet, m = 
+multiplet), coupling constant (Hz), and integration. Chiral HPLC analysis was conducted on a 
+Shimadzu Prominence 2000 instrument equipped with CHIRALPAK® IE column (10 mm × 250 mm). 
+UV-vis absorption spectra were measured with a Shimadzu UV -3150 spectrometer. Circular 
+dichroism spectra were measured with a JASCO FT/IR6100. Steady-state fluorescence 
+measurements were performed with dilute solutions (10 -6M, optical density<0.1) contained in 
+standard 1 cm quartz cuvettes at room temperature. Emission spectra were recorded on an F-4500 
+Hitachi spectrometer with a resolution of 0.4 nm and automatically corrected by instrumental function. 
+Absolute fluorescence quantum yields were determined with a Hamamatsu C9920-02 calibrated 
+integrating sphere system equipped with multichannel spectrometer (PMA-11). Circularly polarized 
+luminescence (CPL) spectra were recorded on a JASCO CPL-300 spectrofluoropolarimeter at 25 °C 
+with 10 × 10 mm quartz cells under the following conditions: scattering angle: 0°, excitation slit width: 
+5 nm, emission slit width: 5 nm, scan rate: 100 nm min−1, response: 4 s, accumulation: 8 times; data 
+interval: 0.5 nm, solvent: CH2Cl2, excitation wavelength: 400 nm, HT voltage (photomultiplier): 650 
+V. 
+ 
+  
+PDF PAGE 3
+ 
+ S3 
+2. Experimental section 
+ 
+2.1. Preparation of precursors 2 and 3. 
+ 
+Scheme S1. Synthetic approach towards 3,9-bis(bromomethyl)chrysene (2). PO: propylene oxide, BPO: 
+benzoyl peroxide. 
+ 
+Scheme S2. Synthetic approach towards dibenzo[c,l]chrysene-3,11-diyldimethanethiol (3). PO: propylene 
+oxide, BPO: benzoyl peroxide. 
+ 
+7-Methyl-1-naphthaldehyde (S1) 
+ 
+S1 was synthesized according to the literature procedure.1 1H NMR (600 
+MHz, CDCl3) δ 10.38 (s, 1H), 9.06 (d, J = 0.7 Hz, 1H), 8.05 (d, J = 8.1 Hz,1H), 
+7.95 (dd, J = 7.0, 1.1 Hz, 1H), 7.81 (d, J = 8.3 Hz, 1H), 7.55 (dd, J = 7.2, 7.2 
+Hz, 1H), 7.43 (dd, J = 8.3, 1.5 Hz, 1H), 2.59 (s, 3H).13C NMR (151 MHz, 
+CDCl3) δ 193.7, 139.4, 136.9, 135.1, 132.0, 130.9, 130.8, 129.1, 128.2, 
+123.9 (2C), 22.3. Spectral properties were in agreement with those 
+previously reported. 
+ 
+ 
+PDF PAGE 4
+ 
+ S4 
+(E)-7-Methyl-1-(4-methylstyryl)naphthalene (S2) 
+ 
+To a solution of S1 (1.90 g, 11. 2 mmol) and diethyl (4 -
+methylbenzyl)phosphonate (3.70 g, 15.3 mmol) in THF (500 mL) was added 
+a solution of potassium tert-butoxide (2.09 g, 18.6 mmol) in 20 mL of dry 
+THF dropwise through a syringe at 0 °C for 30 minutes. After stirring the 
+resulting mixture at room temperature for 6 h, the mixture was quenched 
+with 10 mL of 2 M HCl. THF was evaporated, and the resulting aqueous 
+phase was extracted with CHCl3 (3 x 100 mL). The combined organic layers 
+were concentrated under reduced pressure. The crude product was purified 
+by a flash column chromatography (hexane/CH2Cl2 = 4:1) and recrystallized 
+from ethanol to afford S2 (2.45 g, 85%) as pale-yellow needles. 1H NMR (600 MHz, CDCl3) δ 7.96 
+(s, 1H), 7.81 (d, J = 16.2 Hz, 1H), 7.76 (d, J = 8.3 Hz, 1H), 7.74 (d, J = 8.3 Hz, 1H), 7.69 (d, J = 7.1 
+Hz, 1H), 7.51 (d, J = 8.3 Hz, 2H), 7.40 (t, J = 7.2 Hz, 1H), 7.33 (dd, J = 8.4, 1.5 Hz, 1H), 7.21 (d, J = 
+7.9 Hz, 2H), 7.11 (d, J = 16.2 Hz, 1H), 2.55 (s, 3H), 2.39 (s, 3H). 13C NMR (151 MHz, CDCl3) δ 137.6, 
+135.7, 135.0, 134.5, 131.9, 131.6, 131.4, 129.4, 128.4, 128.0, 127.6, 126.6, 125.1, 124.8, 123.6, 
+122.9, 22.1, 21.3. HRMS (APCI+) m/z calcd for C20H19 [M+H]+: 259.1481, found 259.1482. 
+ 
+3,9-Dimethylchrysene (S3) 
+ 
+Argon was bubbled through a stirred solution of S2 (439 mg, 1.70 mmol) 
+and iodine (1.30 g, 5.10 mmol) in dry benzene (500 mL) for 30 min. Then, 
+3.0 mL of propylene oxide was added, and the  reaction mixture was 
+irradiated with a 450 W UV lamp and stirred for additional 24 h at 30 °C. 
+After the reaction was completed, the mixture was washed with aqueous 
+Na2S2O3 solution, water, and brine. The organic layer was dried with MgSO4, 
+filtered and concentrated under reduced pressure to give S3 (425 mg, 94%) 
+as a pale-yellow solid. This procedure was repeated three times to collect 
+1.29 g of the product. 1H NMR (600 MHz, CDCl3) δ 8.64 (d, J = 8.9 Hz, 2H), 
+8.55 (s, 2H), 7.94 (d, J = 8.9 Hz, 2H), 7.87 (d, J = 7.9 Hz, 2H), 7.45 (dd, J = 8.1, 1.2 Hz, 2H), 2.65 
+(s, 6H). 13C NMR (151 MHz, CDCl3) δ 136.3, 130.7, 130.2, 128.3, 128.2, 128.0, 126.8, 122.7, 120.3, 
+22.3. HRMS (APCI+) m/z calcd for C20H17 [M+H]+: 257.1325, found 257.1325. 
+ 
+3,9-Bis(bromomethyl)chrysene (2) 
+ 
+To a solution of S3 (1.24 g, 4.84 mmol) in CCl4 (100 mL) were added N-
+bromosuccinimide (1.89 g, 10.6 mmol, 2.2 equiv) and benzoyl peroxide 
+(116 mg, 0.48 mmol, 9.9 mol%). After stirring the resulting mixture at 
+80 °C for 3 h, the solvent was evaporated and the resulting solid was 
+washed with water, ethanol and diethyl ether, and recrystallized from 
+ethanol to afford 2 (1.54 g, 77%) as a white solid. 1H NMR (600 MHz, 
+Cl2CHCHCl2, 80 °C) δ 8.80 (s, 2H), 8.75 (d, J = 8.9 Hz, 2H), 8.05 (d, J 
+= 9.3 Hz, 2H), 8.03 (d, J = 8.6 Hz, 2H), 7.73 (d, J = 8.3 Hz, 2H), 4.86 (s, 
+4H). 13C NMR (151 MHz, TCE-d2, 80 °C) δ 136.1, 131.9, 130.3, 129.2, 
+128.3, 127.3, 127.1, 123.4, 121.6, 34.2.  HRMS (direct EI+ at 200 °C) m/z calcd for C20H14Br2 [M]+ 
+(monoisotopic): 411.9462, found: 411.9457. 
+PDF PAGE 5
+ 
+ S5 
+(Naphthalene-2,6-diylbis(methylene))bis(triphenylphosphonium) bromide (S4). 
+S4 was synthesized according to the literature procedure.2 1H NMR (600 
+MHz, DMSO-d6) δ 7.93–7.88 (m, 6H), 7.75–7.67 (m, 24H), 7.48 (d, J = 
+8.6 Hz, 2H), 7.45 (br s, 2H), 7.05 (d, J = 8.6 Hz, 2H), 5.39 (d, J = 15.8 
+Hz, 4H). 13C NMR (151 MHz, DMSO-d6) δ 135.1, 134.0 (d, 2JPC = 10.1 
+Hz), 131.6, 130.07 (d, 3JPC = 13.0 Hz), 128.7, 128.0, 126.5, 126.4, 117.7 
+(d, 1JPC = 85.3 Hz), 28.2 (d, 1JPC = 4.80 Hz). Spectral properties were in 
+agreement with those previously reported. 
+ 
+ 
+2,6-Bis(2-bromo-4-methylstyryl)naphthalene (S5) 
+ 
+To a solution of 2-bromo-4-methylbenzaldehyde (3.58 g, 18.0 mmol) and 
+S4 (6.83 g, 8.14 mmol) in dry THF (600 mL) was added a solution of 
+potassium tert-butoxide (2.24 g, 20.0 mmol) in 30 mL of dry THF 
+dropwise through a syringe at 0 °C for 30 min. After stirring the resulting 
+mixture at room temperature for 13 h, the mixture was quenched with 
+100 mL of 2 M HCl and diluted with ethyl acetate. Two layers were 
+separated, and aqueous phase was extracted with AcOEt (3 x 75 mL). 
+Combined organic layers were concentrated under reduced pressure. 
+The crude product was passed through a short pad of silica gel (CHCl3) 
+and purified by a flash column chromatography (hexane/CH2Cl2 = 9:1) to 
+afford S5 (3.80 g, 90%) as a mixture of isomers in a relative ratio of (Z,Z)-S5/(E,Z)-S5/(E,E)-S5 = 
+8:6:1. HRMS (APCI+) m/z calcd for C28H23Br2 [M+H]+: 517.0163 (monoisotopic), found 517.0161. 
+Isomers were separated by a gradient flash chromatography (hexane/CH2Cl2 = 99:1–95:5). 
+ 
+ 
+ 
+2,6-Bis((Z)-2-bromo-4-methylstyryl)naphthalene ((Z,Z)-S5) 
+ 
+White solid (non-fluorescent on TLC). 1H NMR (600 MHz, CDCl3) δ 7.56 (s, 2H), 7.46–7.44 (m, 4H), 
+7.17 (dd, J = 8.7, 1.3 Hz, 2H), 7.08 (d, J = 7.8 Hz, 2H), 6.86 (d, J = 7.9, 0.7 Hz, 2H), 6.76 (d, J = 12.4 
+Hz, 2H), 6.65 (d, J = 12.4 Hz, 2H), 2.30 (s, 6H). 13C NMR (151 MHz, CDCl3) δ 139.1, 134.8, 134.4, 
+133.1, 132.5, 130.8, 130.6, 129.7, 128.0, 127.9, 127.5, 127.0, 123.7, 20.83. 
+ 
+2-((E)-2-Bromo-4-methylstyryl)-6-((Z)-2-bromo-4-methylstyryl)naphthalene ((E,Z)-S5) 
+ 
+Yellow solid (fluorescent on TLC). 1H NMR (600 MHz, CDCl3) δ 7.75 (s, 1H), 7.70 (dd, J = 8.6, 1.7 
+Hz, 1H), 7.67 (d, J = 8.6 Hz, 1H), 7.63 (s, 1H), 7.590 (d, J = 7.9 Hz, 1H), 7.585 (d, J = 8.6 Hz, 1H), 
+7.53 (d, J = 16.2 Hz, 1H), 7.46 (d, J = 0.7 Hz, 1H), 7.42 (d, J = 0.7 Hz, 1H), 7.22 (dd, J = 8.6, 0.7 Hz, 
+1H), 7.12 (d, J = 16.2 Hz, 1H), 7.13–7.11 (m, 1H), 7.09 (d, J = 7.9 Hz, 1H), 6.86 (dd, J = 7.7, 1.0 Hz, 
+1H), 6.79 (d, J = 12.0 Hz, 1H), 6.68 (d, J = 12.0 Hz, 1H), 2.33 (s, 3H), 2.31 (s, 3H). 13C NMR (151 
+MHz, CDCl3) δ 139.2, 139.1, 134.9, 134.8, 134.5, 134.2, 133.5, 133.14, 133.07, 132.8, 130.8, 130.6, 
+130.4, 129.8, 128.5, 128.4, 128.2, 127.9, 127.64, 127.58, 127.3, 126.6, 126.3, 124.0, 123.9, 123.8, 
+20.84, 20.80. 
+ 
+PDF PAGE 6
+ 
+ S6 
+2,6-Bis((E)-2-bromo-4-methylstyryl)naphthalene ((E,E)-S5) 
+Bright yellow solid (fluorescent on TLC). 1H NMR (600 MHz, CDCl3) δ 7.84 (s, 2H), 7.82 (d, J = 8.3, 
+2H), 7.23 (d, J = 8.3 Hz, 2H), 7.76 (dd, J = 8.6, 1.4 Hz, 2H), 7.61 (d, J = 7.9 Hz, 2H), 7.56 (d, J = 
+16.2 Hz, 2H), 7.45–7.43 (m, 2H), 7.15 (d, J = 16.2 Hz, 2H), 7.15–7.13 (m, 2H), 2.35 (s, 6H). 13C NMR 
+(151 MHz, CDCl3) δ 139.2, 134.9, 134.2, 133.5, 133.4, 130.4, 128.5 (2C), 127.7, 126.7, 126.3, 124.2, 
+124.0, 20.8. 
+ 
+1,9-Dibromo-3,11-dimethyldibenzo[c,l]chrysene (S6) 
+ 
+We utilized a strategy of bromine auxiliaries in photosynthesis of 
+helicenes developed by Katz and co -workers.3 Argon was bubbled 
+through a stirred solution of S5 (mixture of isomers) (486 mg, 0.94 mmol) 
+and iodine (1.02 g, 4.02 mmol) in dry benzene (500 mL) for 30 min. Then, 
+3.0 mL of propylene oxide was added, and the mixture was irradiated 
+with a 450 W UV lamp and stirred for additional 13 h at 30 °C. After the 
+reaction was completed, the mixture was washed with aqueous Na2S2O3 
+solution, water, and brine. The organic layer was dried with MgSO 4, 
+filtered and concentrated under reduced pressure to give S6 (463 mg, 
+96%) as a yellow solid. The procedure was repeated eight times to 
+collect 3.70 g of the product. The corresponding photocyclization reactions using pure (Z,Z)-S5, 
+(E,Z)-S5, and (E,E)-S5 gave S6 in 99%, 98% and 91% yields respectively. These products were 
+used in the next step without further purifications. 1H NMR (600 MHz, CDCl3) δ 9.02 (d, J = 8.9 Hz, 
+2H), 8.77 (s, 2H), 8.37 (d, J = 8.9 Hz, 2H), 7.93 (d, J = 8.6 Hz, 2H), 7.92 (d, J = 8.6 Hz, 2H), 7.82 (s, 
+2H), 2.62 (s, 6H).  HRMS (direct EI+ at 230 °C) m/z calcd for C28H18Br2 [M+H]+: 511.9775 
+(monoisotopic), found 511.9766. 
+ 
+3,11-Dimethyldibenzo[c,l]chrysene (S7) 
+ 
+To a stirred solution of S6 (257 mg, 0.50 mmol) in dry THF (15 mL) was 
+added, a solution of n-butyllithium (2.6 M solution in hexane, 0.50 mL, 
+1.30 mmol, 2.6 equiv) dropwise through a syringe at –78 °C. After stirring 
+for additional 30 min, the resulting mixture was warmed to 0 °C over 30 
+min. The reaction was quenched with 1.5 mL water at 0 °C, and the 
+mixture was warmed to rt over 30 min. Solvent was evaporated, and the 
+crude product was passed through a short pad of silica gel (CHCl3) giving 
+S7 (169 mg, 95%) as a pale-yellow solid. A large-scale reaction using 
+S6 (3.68 g, 7.15 mmol) in dry THF (200 mL) , n-butyllithium (2.6 M 
+solution in hexane, 6.88 mL, 17.9 mmol, 2.5 equiv) and water (2 mL) 
+gave S7 (2.25 g, 88%). 1H NMR (600 MHz, CDCl3) δ 9.11 (d, J = 8.6 Hz, 2H), 8.85 (s, 2H), 7.95 (d, 
+J = 8.3 Hz, 2H), 7.92 (d, J = 8.6 Hz, 2H), 7.90 (d, J = 8.6 Hz, 2H), 7.83 (d, J = 8.6 Hz, 2H), 7.48 (dd, 
+J = 8.1, 1.2 Hz, 2H), 2.64 (s, 6H). 13C NMR (151 MHz, CDCl3) δ 136.0, 131.5, 130.8, 130.4, 130.3, 
+128.5, 127.9, 127.8, 127.4, 127.3, 126.0, 125.4, 22.2. One quaternary carbon peak can be 
+overlapped. HRMS (APCI+) m/z calcd for C28H21 [M+H]+: 357.1638, found 357.1632. 
+  
+PDF PAGE 7
+ 
+ S7 
+3,11-Bis(bromomethyl)dibenzo[c,l]chrysene (S8) 
+ 
+To a solution of S7 (2.31 g, 6.48 mmol) in CCl4 (120 mL) were added N-
+bromosuccinimide (2.67 g, 15.0 mmol, 2.3 equiv) and benzoyl peroxide 
+(157 mg, 0.65 mmol, 10 mol%). After stirring the resulting mixture at 
+80 °C for 3 h, the solvent was evaporated and the crude product was 
+purified by a flash column chromatography (hexane/CH2Cl2 = 3:1) to 
+afford S8 (2.20 g, 66%) as a yellow solid. 1H NMR (600 MHz, CDCl3) δ 
+9.08 (d, J = 8.6 Hz, 2H), 9.05–9.04 (br s, 2H), 8.05 (d, J = 8.3 Hz, 2H), 
+7.99 (d, J = 8.7 Hz, 2H), 7.95 (d, J = 8.6 Hz, 2H), 7.93 (d, J = 8.6 Hz, 2H), 
+7.70 (dd, J = 8.3, 1.7 Hz, 2H), 4.81 (s, 4H). 13C NMR (151 MHz, CDCl3) 
+δ 135.7, 133.2, 130.7, 130.6, 130.1, 129.4, 128.7, 127.51, 127.50, 127.4, 
+127.01, 126.94, 126.4, 34.5. One quaternary carbon peak can be overlapped. HRMS (direct EI+ at 
+200 °C) m/z calcd for C28H18Br2 [M]+: 511.9775 (mono isotopic), found 511.9782. 
+ 
+Dibenzo[c,l]chrysene-3,11-diyldimethanethiol (3) 
+ 
+To a solution of S8 (2.12 g, 4.12 mmol) in 300 mL of 1:1 mixture of 
+acetone and CHCl3 was added thiourea (913 mg, 12.0 mmol, 2.9 equiv), 
+and the resulting mixture was refluxed at 78 °C for 8 h. The resulting 
+thiouronium salt was collected by filtration and dissolved in 100 mL of 
+6% NaOH solution and stirred at 80 °C for 2 h. Then, the mixture was 
+cooled to 0 °C, and quenched with 6 M HCl. The resulting solid was 
+collected by filtration and washed with water and diethyl ether giving 3 
+(1.40 g, 81%) as a yellow solid. 1H NMR (600 MHz, CDCl3) δ 9.09 (d, J 
+= 8.6 Hz, 2H), 8.97 (s, 2H), 8.02 (d, J = 8.3 Hz, 2H), 7.96 (d, J = 8.6 Hz, 
+2H), 7.92 (d, J = 8.6 Hz, 2H), 7.89 (d, J = 8.6 Hz, 2H), 7.64 (dd, J = 8.2, 
+1.4 Hz, 2H), 4.04 (d, J = 7.6 Hz, 4H), 1.89 (t, J = 7.6 Hz, 2H). 13C NMR (151 MHz, CDCl3) δ 139.1, 
+132.5, 130.7, 130.5, 130.2, 129.2, 127.5, 127.42, 127.39, 127.33, 126.4, 126.3, 29.7. One aromatic 
+carbon peak can be overlapped. HRMS (direct EI+ at 300 °C) m/z calcd for C28H20S2 [M]+: 420.1006, 
+found 420.1023. 
+ 
+A solution of 2 (1.36 g, 3.28 mmol) in dry DMF (300 mL) heated to 70 °C was slowly cannulated over 
+28 h to a stirred suspension of Cs2CO3 (1.18 g, 3.61 mmol) and 3 (1.38 g, 3.28 mmol) in dry DMF 
+(500 mL) heated to 55 °C. After stirring the mixture for additional 40 h at 55 °C, DMF was evaporated 
+and residue was washed with water, ethanol and diethyl ether. Then the residue was washed with 
+CHCl3 leaving pure 4 (550 mg, 25%). Filtrate was subjected to a flash column chromatography 
+(hexane/CH2Cl2 = 3:1) which allowed separation of the side products: conformer 4′ (110 mg, 5%) 
+and disulfide dimer 4″ (220 mg, 16%). 
+ 
+Configuration of conformers were determined by 1H NMR (Figure S1). In the case of conformer 4′, 
+three upfield-shifted signals (from 6.60 to 6.90 ppm) were observed in the spectrum, assigned to the 
+hydrogen atoms indicated with colored spheres. Particularly indicative is doublet of doublets at 6.90 
+ppm marked with the red sphere. The corresponding hydrogen atom in 4 would not be affected by 
+any benzene’s electron cloud due to its spatial arrangement, hence no upfield shift would be 
+observed.  
+PDF PAGE 8
+ 
+ S8 
+ 
+ 
+ 
+Figure S1. Zoomed-in aromatic region of 1H NMR spectra of conformers 4 (top) and 4′ (center and bottom). 
+ 
+ 
+3,7-Dithia-1(3,11)-dibenzo[c,l]chrysena-5(3,9)-chrysenacyclooctaphane (4). Yellow solid. 1H 
+NMR (600 MHz, TCE-d2) δ 8.40 (d, J = 8.7 Hz, 2H), 8.12 (d, J = 8.2 Hz, 2H), 7.96 (d, J = 8.4 Hz, 2H), 
+7.90–7.86 (m, 4H), 7.82 (d, J = 8.4 Hz, 2H), 7.76 (dd, J = 7.9, 0.8 Hz, 2H), 7.56 (d, J = 8.8 Hz, 2H), 
+7.50 (d, J = 4.4 Hz, 4H), 7.25 (d, J = 9.1 Hz, 2H), 7.23 (d, J = 9.1 Hz, 2H), 4.22 (d, J = 14.3 Hz, 2H), 
+4.00 (d, J = 13.8 Hz, 2H), 3.86 (d, J = 13.8 Hz, 2H), 3.71 (d, J = 14.3 Hz, 2H). 13C NMR (151 MHz, 
+TCE-d2) δ 135.6, 134.7, 131.9, 130.5, 130.2, 129.75, 129.67, 129.1, 128.9, 128.7, 128.2, 127.1, 
+127.0, 126.8, 126.7, 126.4, 126.3, 126.23, 126.16, 125.5, 124.0, 119.8, 35.66, 34.58. HRMS (APCI+) 
+m/z calcd for C48H33S2 [M+H]+: 673.2018, found 673.2044. 
+ 
+3,7-Dithia-1(3,11)-dibenzo[c,l]chrysena-5(3,9)-chrysenacyclooctaphane conformer (4′) 
+Yellow solid. 1H NMR (600 MHz, CDCl3) δ 8.66 (d, J = 8.7 Hz, 2H), 8.24 (s, 2H), 7.96 (d, J = 8.9 Hz, 
+2H), 7.85 (s, 2H), 7.82 (d, J = 8.3 Hz, 2H), 7.75 (d, J = 8.3 Hz, 2H), 7.68 (d, J = 8.6 Hz, 2H), 7.64 (d, 
+J = 8.9 Hz, 2H), 7.61 (dd, J = 8.3, 1.0 Hz, 2H), 6.89 (dd, J = 8.3, 1.4 Hz, 2H), 6.80 (d, J = 8.6 Hz, 
+2H), 6.61 (d, J = 8.3 Hz, 2H), 4.31 (d, J = 15.1 Hz, 2H), 4.19 (d, J = 14.1 Hz, 2H), 4.03 (d, J = 15.1 
+Hz, 2H), 3.99 (d, J = 14.1 Hz, 2H). 13C NMR (151 MHz, CDCl3) δ 137.6, 135.7, 131.1, 130.5, 130.3, 
+130.2, 128.9, 128.8, 128.5, 127.9, 127.3, 127.1, 126.9, 126.5, 126.30, 126.26, 126.1, 125.9, 125.6, 
+125.3, 122.5, 119.5, 39.4, 38.1. HRMS (APCI+) m/z calcd for C48H33S2 [M+H]+: 673.2018, found 
+673.2018. 
+ 
+3,4,8,9-Tetrathia-1,6(3,11)-didibenzo[c,l]chrysenacyclodecaphane (4″) 
+Yellow solid. 1H NMR (600 MHz, CDCl3) δ 8.39 (d, J = 7.9 Hz, 4H), 8.25 (br s, 4H), 8.06 (d, J = 8.3 
+Hz, 4H), 7.84 (d, J = 8.3 Hz, 4H), 7.74 (d, J = 8.3 Hz, 4H), 7.36 (d, J = 8.3 Hz, 4H), 6.55 (d, J = 7.3 
+Hz, 4H), 4.10 (d, J = 12.7 Hz, 4H), 3.49 (d, J = 12.4 Hz, 4H). 13C NMR (151 MHz, CDCl3) δ 134.4, 
+132.5, 129.87, 129.85, 129.7, 129.4, 128.9, 126.8, 126.64, 126.57, 126.51, 126.49, 125.5, 44.2. 
+HRMS (APCI+) m/z calcd for C56H37S4 [M+H]+: 837.1773, found 837.1770. 
+ 
+6.90 (dd, J = 
+8.2, 1.3 Hz, 2H) 
+6.81 (d, J = 
+8.7 Hz, 2H) 
+6.62 (d, J = 
+8.2 Hz, 2H)   
+PDF PAGE 9
+ 
+ S9 
+ 
+2,6-Bis(methylthio)-1(3,11)-dibenzo[c,l]chrysena-4(3,9)-chrysenacyclohexaphane (5) 
+ 
+To a stirred solution of dithiacyclophane 4 (67.3 mg, 0.10 mmol) in dry 
+CH2Cl2 (2 mL) was added dimethoxycarbenium tetrafluoroborate (the 
+Borch reagent) (97.1 mg, 0.60 mmol in 1 mL of CH2Cl2) dropwise at 0 °C. 
+The resulting mixture was stirred at room temperature for 6 h. Then , 
+greenish-yellow solid was filtered and dried, giving intermediate salt in 
+95% (83.0 mg). The thus-obtained salt was subjected to the next step 
+without further purification. A suspension of the salt (83.0 mg) and 40.0 
+mg of NaH (60% dispersion) in dry THF (3 mL) was stirred at 55 °C for 
+48 h giving 5 as a mixture of stereoisomers (40.5 mg, 61%). 1H and 13C 
+NMR (600 MHz, CDCl3): complex mixture due to the presence of 
+regioisomers and diastereomers. HRMS (ESI+) m/z calcd for C50H36S2Na [M+Na]+: 723.2151, found 
+723.2136. HRMS (APCI+), molecular peak (C50H36S2 [M]+: m/z 700) was not observed; m/z calcd for 
+C49H33S [M–(CH3SH)+H]+: 653.2297, found 653.2298; m/z calcd for C48H29S [M–(CH3SH)2+H]+: 
+605.2264, found 605.2263. 
+ 
+2,6-Bis(methylsulfinyl)-1(3,11)-dibenzo[c,l]chrysena-4(3,9)-chrysenacyclohexaphane (6) 
+ 
+Cyclophane 5 (39.3 mg, 0.056 mmol) and 70% m-CPBA (27.8 mg, 
+0.113 mmol) were dissolved in CHCl3 (4 mL) at 0 °C and the resultant 
+mixture was stirred at room temperature for 13 h. Then, the solution was 
+washed with 3% NaHCO3 and dried. Solvent was evaporated giving 
+pure S,S′-bisoxide 6 in 99% yield (40.8 mg). The thus-obtained 
+product was subjected to the next step without further purification. 1H 
+and 13C NMR (600 MHz, CDCl3): complex mixture due to the presence 
+of regioisomers and diastereomers. LRMS (APCI+): molecular peak 
+(C50H36O2S2 [M]+: m/z 732) was not found; m/z calcd for C49H33OS [M–
+CH3SO]+: 669.2, found 669.2. HRMS (APCI+), m/z calcd for C48H29 [M–
+(CH3SOH)2+H]+: 605.2264, found 605.2263. 
+ 
+ 
+(2Z,5Z)-1(3,11)-Dibenzo[c,l]chrysena-4(3,9)-chrysenacyclohexaphane-2,5-diene (7) 
+ 
+S,S-bisoxide 6 (25.0 mg, 0.034 mmol) was placed in a round-bottom 
+flask immersed in a sand bath and directly connected to the oil pump 
+through a glass joint. 6 was pyrolyzed at 500 °C (0.04–0.05 Torr) for 1 h 
+to give intensively yellow pyrolysate which sublimed on the side of the 
+flask. Pyrolysate was collected by washing the flask with CHCl3. Solvent 
+was evaporated and the crude product was purified by a flash column 
+chromatography (hexane/CH2Cl2 = 95:5) giving 7 (9.5 mg, 46%) as a 
+yellow solid. 1H NMR (600 MHz, CD2Cl2) δ 8.82 (s, 2H), 8.50 (s, 2H), 
+8.064 (d, J = 8.6 Hz, 2H), 8.058 (d, J = 8.3 Hz, 2H), 7.84 (d, J = 8.3 Hz, 
+2H), 7.71 (d, J = 7.9 Hz, 2H), 7.64 (d, J = 8.6 Hz, 2H), 7.61 (dd, J = 8.2, 
+1.4 Hz, 2H), 7.49 (dd, J = 8.0, 0.8 Hz, 2H), 7.29 (d, J = 8.6 Hz, 2H), 7.13 (d, J = 8.9 Hz, 2H), 6.99 (d, 
+J = 12.0 Hz, 2H), 6.93 (d, J = 8.9 Hz, 2H), 6.89 (d, J = 12.0 Hz, 2H). 13C NMR (151 MHz, CD2Cl2) δ 
+134.4, 134.1, 133.1, 131.6, 131.4, 130.8, 130.4, 129.95, 129.89, 129.5, 129.1, 129.0, 128.7, 127.3, 
+127.23, 127.20, 127.0, 126.74, 126.71, 126.1 (2C), 125.4, 124.1, 120.0. Other two carbon peaks 
+can be overlapped. HRMS (APCI+) m/z calcd for C48H29 [M+H]+: 605.2264, found 605.2261.  
+PDF PAGE 10
+ 
+ S10 
+Cyclo[c.c.c.c.c.c.e.e.e.e.e.e]dodecakisbenzene (infinitene, 1) 
+Argon was bubbled through a stirred solution of 7 (9.0 mg, 0.015 mmol) 
+and iodine (12.7 mg, 0.050 mmol) in dry benzene (10 mL) for 10 min. 
+Then, 0.1 mL of propylene oxide was added, and the reaction mixture 
+was irradiated with a 450 W UV lamp and stirred for additional 6 h at 
+room temperature. After the reaction was completed, the mixture was 
+washed with aqueous Na2S2O3 solution, water, and brine. The organic 
+layer was dried with MgSO4, filtered and concentrated under reduced 
+pressure. The crude product was purified by a flash column 
+chromatography (hexane/CH2Cl2 = 95:5) to give infinitene 1 (8.0 mg, 
+89%) as a yellow solid. 1H NMR (600 MHz, CDCl3) δ 8.18 (d, J = 7.9 Hz, 
+4H), 8.16 (d, J = 7.9 Hz, 4H), 8.04 (d, J = 7.9 Hz, 4H), 7.60 (d, J = 8.0 Hz, 4H), 6.99 (d, J = 7.9 Hz, 
+4H), 6.43 (d, J = 8.6 Hz, 4H). 13C NMR (151 MHz, CDCl3) δ 133.1, 133.0, 131.9, 130.7, 128.7, 128.3, 
+127.9, 127.5, 126.7, 126.5, 122.0, 120.7. One peak of quaternary carbon atom can be overlapped. 
+HRMS (APCI+) m/z calcd for C48H25 [M+H]+: 601.1951, found 601.1949. 
+ 
+ 
+3. X-ray crystallographic analysis 
+ 
+Details of the crystal data and a summary of the intensity data collection parameters are listed 
+in Table S1. A suitable crystal was mounted with mineral oil on a MiTeGen MicroMounts and 
+transferred to the goniometer of the kappa goniometer of a RIGAKU XtaLAB Synergy-S system with 
+1.2 kW MicroMax-007HF microfocus rotating anode (Graphite-monochromated Mo Ka radiation (l 
+= 0.71073 Å)) and PILATUS200K hybrid photon-counting detector. Cell parameters were determined 
+and refined, and raw frame data were integrated using CrysAlisPro (Agilent Technologies, 2010). 
+The structures were solved by direct methods with SHELXT4 and refined by full-matrix least-squares 
+techniques against F2 (SHELXL-2018/3)5 by using Olex2 software package.6 The intensities were 
+corrected for Lorentz and polarization effects. The non-hydrogen atoms were refined anisotropically. 
+Hydrogen atoms were placed using AFIX instructions. CCDC 2113525 contains the supplementary 
+crystallographic data for this paper. These data can be obtained free of charge from The Cambridge 
+Crystallographic Data Centre via www.ccdc.cam.ac.uk/data_request/cif. 
+ 
+PDF PAGE 11
+ 
+ S11 
+Table S1.  Crystallographic data and structure refinement for 1. 
+ Infinitene (1) 
+CCDC deposition No. 2113525 
+Empirical formula  C48H24 
+Formula weight  600.67 
+Temperature  123(2) K 
+Wavelength  0.71073 Å 
+Crystal system  Monoclinic 
+Space group  P21/n 
+Unit cell dimensions a = 11.2861(14) Å a = 90° 
+ b = 13.3592(10) Å b = 102.261(11)° 
+ c = 19.508(2) Å g = 90° 
+Volume 2874.2(5) Å3 
+Z 4 
+Density (calculated) 1.388 g·cm–3 
+Absorption coefficient (µ) 0.079 mm-1 
+F(000) 1248.0 
+Crystal size 0.100 x 0.100 x 0.010 mm3 
+q range for data collection 1.861 – 24.999 ° 
+Index ranges –13 ≦ h ≦12, –15 ≦ k ≦15, –20 ≦ l ≦23 
+Reflections collected 16491 
+Independent reflections 5051 [R(int) = 0.0586] 
+Completeness to theta = 24.999° 99.9 %  
+Refinement method Full-matrix least-squares on F2 
+Data / restraints / parameters 5051 / 0 / 433 
+Goodness-of-fit on F2 1.022 
+Final R indices [I＞2s(I)] R1 = 0.0639, wR2 = 0.1497 
+R indices (all data) R1 = 0.1485, wR2 = 0.1924 
+Extinction coefficient n/a 
+Largest diff. peak and hole 0.793 and -0.223 e Å–3 
+PDF PAGE 12
+ 
+ S12 
+ 
+splay angle: ftorsion = (fC25-C26-C27-C28 + fC26-C27-C28-C29 + fC27-C28-C29-C30) / 3 = 20.34° 
+twist angle: ftwist = (fC2-Ca-Cb-C46) = 22.03° 
+Figure S2. The molecular structure of 1 with labeled carbon atoms. 
+ 
+ 
+Figure S3. The molecular structure of 1 with listed bond lengths of the corresponding convex-armchair 
+edges. 
+ 
+
+PDF PAGE 13
+ 
+ S13 
+ 
+Figure S4. (a) The crystal packing viewed along the a-axis. (b) Zoomed-in view emphasizing short contacts. 
+(P,P)-1 enantiomer colored in gray, (M,M)-1 enantiomer colored in red. 
+(a) 
+(b) 
+PDF PAGE 14
+ 
+ S14 
+ 
+ 
+Figure S5. (a) The crystal packing viewed along the b-axis. (b) Zoomed-in view emphasizing short contacts. 
+(P,P)-1 enantiomer colored in gray, (M,M)-1 enantiomer colored in red. 
+(a) 
+(b) 
+PDF PAGE 15
+ 
+ S15 
+ 
+ 
+ 
+ 
+Figure S6. (a) The crystal packing viewed along the c-axis. (b) Zoomed-in view emphasizing short contacts. 
+ 
+ 
+(a) 
+(b) 
+PDF PAGE 16
+ 
+ S16 
+4. Photophysical properties 
+ 
+  
+Figure S7. UV-vis absorption spectrum of 1 measured in CH2Cl2. 
+ 
+Figure S8. Zoomed-in region (400- 550 nm) of absorption spectrum of 1. 
+ 
+Figure S9. Emission spectrum of 1 measured in CH2Cl2. 
+0.0
+2.0
+4.0
+6.0
+8.0
+10.0
+25 0 30 0 35 0 40 0 45 0 50 0 55 0 60 0 65 0
+ex 10–4 / M–1cm–1
+Wavelength / nm
+labs = 2 9 4  n m
+log e  = 4 .9 8
+labs= 3 1 1  n m
+log e = 4 .7 7
+labs = 4 1 2  n m
+log e = 4 .1 9
+labs= 3 4 7nm
+log e = 4 .4 3
+labs= 3 8 9  n m
+log e = 4 .1 7
+40 0 45 0 50 0 55 0 60 0 65 0
+Fluorescence intensity / a.u.
+Wavelength / nm
+lem = 5 0 5  n m
+FF= 0 .0 3 8
+PDF PAGE 17
+ 
+ S17 
+5. Chiral HPLC analyses and CD spectra 
+ 
+ 
+Figure S10. Chromatogram for the resolution of rac-1 using UV (315 nm) detectors in n-hexane/CH2Cl2 (35:65, 
+v/v) at the flow rate of 1.0 mL/min. Optical resolution was carried out with a DAICEL CHIRALPAK® IE column 
+(0.46(i.d.) × 25 cm) at 30 °C. 
+ 
+        
+  
+ 
+Figure S11. (a) Chromatogram of the eluted first fraction assigned as (+)-(P,P)-1. (b) CD spectrum of (+)-
+(P,P)-1 measured in CH2Cl2. 
+ 
+           
+  
+ 
+Figure S12. (a) Chromatogram of the eluted second fraction assigned as (–)-(M,M)-1. (b) CD spectrum of (–)-
+(M,M)-1 measured in CH2Cl2. 
+ 
+Table S2.  The anisotropy factors |gCD| of selected transitions for 1. 
+ 
+Wavelength (nm) 265 339 375 415 457 484 
+e (M-1cm-1) 51549 28859 14485 15181 3021 1297 
+|De| (M-1cm-1)a 17.82 52.48 68.97 43.78 10.36 3.04 
+|gCD|b  3.5 × 10-4 1.8 × 10-3 4.8 × 10-3 2.9 × 10-3 3.4 × 10-3 2.3 × 10-3 
+a De = (q ·0.1·M) / (c·l·3298); M: molecular weight (g/mol); c: concentration (g/L); l: cell length (cm). b|gCD| = |De| / e 
+  
+(a) (b) 
+(a) (b) 
+-60
+-40
+-20
+0
+20
+40
+200 300 400 500 600
+wavelength / nm
+-40
+-20
+0
+20
+40
+200 300 400 500 600
+CD (mdeg)
+wavelength / nm
+ee: 99.98% 
+[α]20D = +1130  
+(c = 0.008886  
+in CH2Cl2) 
+ee: 99.90% 
+[α]𝟐𝟎𝐃 = -1112 
+(c = 0.008574 
+in CH2Cl2) 
+PDF PAGE 18
+ 
+ S18 
+6. Circularly polarized luminescence 
+ 
+ Figure S13. Circularly polarized luminescence (CPL) spectra of (P,P)-1 (c = 2.4 × 10–6 M, blue line) and (M,M)-
+1 (2.9 × 10–6 M, red line) in CH2Cl2 at 25 °C with a 10 × 10 mm cells. CPL = DI = IL–IR; IL, IR: intensities of left 
+and right circularly polarized radiations. The spectra of dissymmetry factor were depicted in Figure 8 of the 
+main text. gCPL (glum) = (DI) / (I) = (DI) / [(1/2)(IL+IR)]. 
+ 
+-60
+-40
+-20
+0
+20
+40
+60
+470 520 570 620 670
+CPL / mdeg
+Wavelength / nm
+(M,M)-1
+44.7 mdeg
+(λ = 517 nm)
+(P,P)-1
+–44.3 mdeg
+(λ = 521 nm)
+PDF PAGE 19
+ 
+ S19 
+7. DFT calculations 
+ 
+   The computations were performed using Research Center for Computational Science, Okazaki, 
+Japan. We carried out the computational studies by using the density functional theory (DFT) in 
+Gaussian 167 package (revision C. 01). All geometry optimizations of minima were conducted by 
+using PBE08/6-311+G(d,p) in gas phase at 273.15 K. Frequency analyses were carried out at the 
+same level to evaluate the zero-point vibrational energy and thermal corrections at 273.15. The 
+nature of the stationary points was determined in each case according to the appropriate number of 
+negative eigenvalues of the Hessian matrix. Calculations of single point energies, molecular orbitals 
+and TD-DFT for all DFT-optimized structures were obtained by using the B3LYP9/6-311++G(d,p), 
+and GIAO-NMR10 and NICS(0)/NICS(1)11 were calculated using B3LYP/6-311+G(2d,p) with SMD 
+(CHCl3) model.12 Visualization of molecular orbitals was performed by the use of GaussView 6.0.16 
+software with 0.02 of isovalue.13  
+ 
+ Figure S14. Comparison of basis sets for geometry optimization of inifintene (1). Calculation cost: job cpu 
+time in Gaussian. 
+ 
+ 
+Structure or basis sets
+Experimental (X-ray)
+B3LYP/6-31+G(d,p)
+B3LYP/6-311+G(d,p)
+B3LYP/6-311+G(2d,p)
+B3LYP/6-311++G(2d,p)
+B3LYP/cc-pVDZ
+B3LYP/cc-PVTZ
+B3PW91/6-31+G(d,p)
+M06-2X/6-31+G(d,p)
+M06-2X/6-311+G(2d,p)
+BMK/6-31G(d)
+CAM-B3LYP/6-31+G(d,p)
+mPW1PW91/6-31+G(d,p)
+PBE0/6-31G(d)
+PBE0/6-31G(d,p)
+PBE0/6-311G(d,p)
+PBE0/6-31+G(d)
+PBE0/6-31+G(d,p)
+PBE0/6-311+G(d,p)
+B3LYP-D3/6-31+G(d,p)
+B3LYP-D3/cc-PVDZ
+B3LYP-D3/cc-PVTZ
+M06-2X-D3/6-31+G(d,p)
+M06-2X-D3/6-311+G(2d,p)
+BMK-D3/6-31+G(d,p)
+CAM-B3LYP-D3/6-31+G(d,p)
+B3PW91-D3/6-31+G(d,p)
+PBE0-D3/6-31G(d)
+PBE0-D3/6-31G(d,p)
+PBE0-D3/6-31+G(d)
+PBE0-D3/6-31+G(d,p)
+PBE0-D3/6-311+G(d,p)
+d1(π–π) (Å)
+2.94166
+3.00522
+3.00195
+3.00437
+3.00450
+2.99892
+3.00565
+2.96991
+2.97353
+2.96972
+2.99800
+2.97869
+2.96071
+2.95666
+2.95682
+2.95316
+2.95955
+2.95992
+2.95429
+3.00153
+2.99795
+3.00214
+2.97532
+2.97149
+2.97620
+2.97796
+2.97523
+2.96325
+2.96377
+2.96436
+2.96493
+2.96074
+d2(C-C)(Å)
+2.91976
+d1(π–π)(Å)
+3.19245
+3.26052
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+3.19917
+-
+-
+3.18465
+-
+-
+3.19221
+-
+-
+-
+3.15530
+-
+-
+-
+-
+3.15865
+-
+-
+-
+-
+Cost
+(day,hour)
+2d17h
+4d15h
+7d5h
+8d0h
+9h
+6d16h
+2d18h
+3d7h
+9d11h
+3d2h
+1d23h
+2d19h
+7h
+8h
+1d1h
+2d2h
+2d20h
+4d21h
+2d9h
+11h
+6d6h
+3d9h
+10d13h
+2d18h
+2d1h
+2d19h
+7h
+8h
+2d10h
+2d19h
+4d18h
+d2(π–π) (Å)
+3.15195
+Distance between centroids
+d1(C-C)
+d2(C-C)
+d1(π–π)
+d2(π–π)
+Closest C···C distance
+optimized structure by PBE0/6-311+G(d,p)
+Red color: difference within 0.015 Å
+Orange color: difference within 0.020 Å
+Yellow color: difference within 0.040 Å
+PDF PAGE 20
+ 
+ S20 
+Table S3. Uncorrected and thermal-corrected (298.15 K, 1 atm) energies of stationary points (Hartree) 
+calculated by PBE0/6-311+G(d,p).a 
+structure E E + ZPE H G 
+(P,P)-1 -1841.879574 -1841.318388 -1841.287702 -1841.372361 
+benzene -232.019728 -231.918919 -231.913580 -231.946378 
+phenanthrene -539.016349 -538.821262 -538.810864 -538.856141 
+a) E: electronic energy; ZPE: zero-point energy; H: sum of electronic and thermal correction to enthalpies; G: sum of 
+electronic and thermal correction to free energies. 
+ 
+Table S4. TD-DFT (B3LYP/6-311++(d,p)//PBE0/6-311+G(d,p)) vertical one-electron excitations (5 states) 
+calculated for inifinitene (1). 
+ 
+ 
+Figure S15. CD spectra of (P,P)-1 and (M,M)-1 simulated by TD-DFT (B3LYP/6-311++(d,p)//PBE0/6-
+311+G(d,p) with N state = 100). 
+ 
+We optimized cyclic sulfides 4 and its conformer 4′, compound 7 and its conformer 7′ for 
+evaluating a possibility of interconversion and relative stabilities (Table S5). As a result, compounds 
+4 and 4′ show almost the same stability, and weak intramolecular π-π interactions (ca. 3.6–3.8 Å) 
+were observed (Table S5a). An activation energy from 4 to 4′ are estimated to be 28.4 kcal/mol by 
+PBE0/def2-TZVP//PBE0-D3/6-31G(d), which means that both compounds are even stable at room 
+temperature but the interconversion can be possible at higher temperature. The structures of 7 and 
+7′ are more strained compared to 4 and 4′, which are rationalized by smaller sizes of macrocycles 
+in 7 and 7′ than 4 and 4′. Compound 7 was more stable than 7′ by 6 kcal/mol (Table S5b). 
+Interconversions corresponding to the rotation of a chrysene moiety or a dibenzochrysene moiety 
+can be potentially expected, while any distinct transition states were not obtained due to those highly 
+bent and strained structures. Therefore, we expected that not only the interconversion from 7 to 7′ 
+but also racemization would be difficult, and the optical resolution of enantiomers of 7 would also be 
+possible. 
+ 
+-500
+-400
+-300
+-200
+-100
+0
+100
+200
+300
+400
+500
+200 300 400 500 600
+De10–40/ esu2cm2
+Wavelength / nm
+De10–40/ esu2cm2
+Wavelength / nm
+(M,M)-1
+(P,P)-1
+Exited state Energy / eV Wavelength / nm Oscillator strength 
+(f) 
+Description 
+1 2.5748  481.54  0.0001 HOMO-1 to LUMO  
+0.69756 2 2.5983  477.18  0.0113 HOMO to LUMO+1  
+0.59325 3 2.7572  449.67  0.0024 HOMO to LUMO+2  
+0.67448 4 2.8860  429.60  0.1226 HOMO-1 to LUMO+2 
+5 2.9834  415.58  0.0214 HOMO-2 to LUMO+1  
+PDF PAGE 21
+ 
+ S21 
+Table S5. DFT calculations for estimating relative stabilities of (a) 4/4′, (b) 7/7′, and the transition states of 
+those interconversions. 
+ 
+ 
+(a) Interconversion of 4to 4′
+4 4′TS4–4′
+0.0030.40.03PBE0/6-311+G(d,p)//PBE0-D3/6-31G(d)
+PBE0/def2-TZVP//PBE0-D3/6-31G(d)
+0.0035.50.03PBE0-D3/def2-TZVP//PBE0-D3/6-31G(d)
+0.0037.00.04PBE0-D3/6-31G(d)
+0.0028.40.02
+Basissets
+(spcalc.//geom.optimization)
+DGvalues (kcal/mol) are shown
+(b) Optimizations of 7and 7′
+7 7′TS7–7′
+6.19not located0.00PBE0/6-311+G(d,p)//PBE0-D3/6-31G(d)
+PBE0/def2-TZVP//PBE0-D3/6-31G(d)
+10.07not located0.00PBE0-D3/def2-TZVP//PBE0-D3/6-31G(d)
+11.06not located0.00PBE0-D3/6-31G(d)
+6.30not located0.00
+Basissets
+(spcalc.//geom.optimization)
+DGvalues (kcal/mol) are shown
+
+PDF PAGE 22
+ 
+ S22 
+Table S6. Uncorrected and thermal-corrected (298.15 K, 1 atm) energies of stationary points (Hartree) 
+calculated by PBE0-D3/6-31G(d).a 
+structure E E + ZPE H G DZPE DH DG 
+4 -2642.491233 -2641.831783 -2641.794579 -2641.897272 0.659450 0.696655 0.593962 
+4′ -2642.491236 -2641.831809 -2641.794598 -2641.897332 0.659427 0.696638 0.593904 
+TS4–4′ -2642.433001 -2641.774315 -2641.737887 -2641.838408 0.658686 0.695114 0.594594 
+7 -1843.956216 -1843.346127 -1843.312921 -1843.407502 0.610090 0.643296 0.548714 
+7′ -1843.937261 -1843.328625 -1843.295247 -1843.389885 0.608636 0.642014 0.547376 
+a) E: electronic energy; ZPE: zero-point energy (DZPE); H: sum of electronic and thermal correction to enthalpies (E + 
+DH); G: sum of electronic and thermal correction to free energies (E + DG); DZPE: Zero-point energy correction; DH: 
+thermal correction to enthalpy; DG: thermal correction to free energy. 
+ 
+Table S7. Single point calculations of electronic energies (E: Hartree) of each stationary points obtained by 
+PBE0-D3/6-31G(d).a 
+structure E (PBE0/6-311+G(d,p) E (PBE0/def2-TZVP) E (PBE0-D3/def2-TZVP) 
+4 -2642.842991 -2643.052520 -2643.137646 
+4′ -2642.842976 -2643.052501 -2643.137641 
+TS4–4′ -2642.795226 -2643.007859 -2643.081688 
+7 -1844.266608 -1844.470821 -1844.542359 
+7′ -1844.255405 -1844.459439 -1844.524982 
+a) E: electronic energy; ZPE: zero-point energy (DZPE); H: sum of electronic and thermal correction to enthalpies (E + 
+DH); G: sum of electronic and thermal correction to free energies (E + DG); DZPE: Zero-point energy correction; DH: 
+thermal correction to enthalpy; DG: thermal correction to free energy. 
+ 
+Table S8. Summary of free energies (G: Hartree) of each stationary points obtained by PBE0-D3/6-31G(d).a 
+structure G (PBE0/6-311+G(d,p)  G (PBE0/def2-TZVP) G (PBE0-D3/def2-TZVP) G (PBE0-D3/6-31G(d)) 
+4 -2642.249029 -2642.458558 -2642.543684 -2641.897272 
+4′ -2642.249072 -2642.458597 -2642.543737 -2641.897332 
+TS4–4′ -2642.200632 -2642.413265 -2642.487094 -2641.838408 
+7 -1843.717894 -1843.922107 -1843.993645 -1843.407502 
+7′ -1843.708029 -1843.912063 -1843.977606 -1843.389885 
+a) G: sum of electronic and thermal correction to free energies (E + DG); DG: thermal correction to free Energy 
+obtained by PBE0-D3/6-31G(d). 
+ 
+ 
+PDF PAGE 23
+ 
+  S23 
+8. Cartesian coordinates of optimized structures 
+(P,P)-1 
+ 
+C -1.7549160 1.3330810 -1.2727700 
+C -1.9289940 2.4151310 -0.4688610 
+C -1.6363140 2.3466800 0.9196360 
+C -1.7126740 3.5219750 1.7029970 
+C -1.4569160 3.4601450 3.0340750 
+C -0.9837590 2.2636440 3.6334300 
+C -0.7733460 2.2764920 5.0351400 
+C -0.3860840 1.1453450 5.6687950 
+C 0.0000000 0.0000000 4.9246020 
+C 0.3860840 -1.1453450 5.6687950 
+C 0.7733460 -2.2764920 5.0351400 
+C 0.9837590 -2.2636440 3.6334300 
+C 0.7524840 -1.0879580 2.8612350 
+C 0.0000000 0.0000000 3.4992600 
+C -0.7524840 1.0879580 2.8612350 
+C -1.2798180 1.1097850 1.5133260 
+C -1.4757990 -0.0630220 0.7045480 
+C -1.7549160 -1.3330810 1.2727700 
+C -1.4757990 0.0630220 -0.7045480 
+C -1.9289940 -2.4151310 0.4688610 
+C -1.2798180 -1.1097850 -1.5133260 
+C -1.6363140 -2.3466800 -0.9196360 
+C -0.7524840 -1.0879580 -2.8612350 
+C -1.7126740 -3.5219750 -1.7029970 
+C -0.9837590 -2.2636440 -3.6334300 
+C 0.0000000 0.0000000 -3.4992600 
+C -1.4569160 -3.4601450 -3.0340750 
+C -0.7733460 -2.2764920 -5.0351400 
+C 0.0000000 0.0000000 -4.9246020 
+C 0.7524840 1.0879580 -2.8612350 
+C -0.3860840 -1.1453450 -5.6687950 
+C 0.3860840 1.1453450 -5.6687950 
+C 0.9837590 2.2636440 -3.6334300 
+C 1.2798180 1.1097850 -1.5133260 
+C 0.7733460 2.2764920 -5.0351400 
+C 1.4569160 3.4601450 -3.0340750 
+C 1.6363140 2.3466800 -0.9196360 
+C 1.7126740 3.5219750 -1.7029970 
+C 1.4757990 -0.0630220 -0.7045480 
+C 1.4757990 0.0630220 0.7045480 
+C 1.4569160 -3.4601450 3.0340750 
+C 1.7549160 1.3330810 1.2727700 
+C 1.9289940 2.4151310 0.4688610 
+C 1.2798180 -1.1097850 1.5133260 
+C 1.9289940 -2.4151310 -0.4688610 
+C 1.7549160 -1.3330810 -1.2727700 
+C 1.7126740 -3.5219750 1.7029970 
+C 1.6363140 -2.3466800 0.9196360 
+H -2.2392930 3.3684460 -0.8851660 
+H -2.0134520 4.4515360 1.2296440 
+H -1.5825920 4.3326040 3.6680320 
+H -0.9888310 3.1868630 5.5856190 
+H -0.3169590 1.1016610 6.7511970 
+H 0.3169590 -1.1016610 6.7511970 
+H 0.9888310 -3.1868630 5.5856190 
+H -2.2392930 -3.3684460 0.8851660 
+H -2.0134520 -4.4515360 -1.2296440 
+H -1.5825920 -4.3326040 -3.6680320 
+H -0.9888310 -3.1868630 -5.5856190 
+H -0.3169590 -1.1016610 -6.7511970 
+H 0.3169590 1.1016610 -6.7511970 
+H 0.9888310 3.1868630 -5.5856190 
+H 1.5825920 4.3326040 -3.6680320 
+H 2.0134520 4.4515360 -1.2296440 
+H -1.8969130 -1.4136950 2.3435870 
+H -1.8969130 1.4136950 -2.3435870 
+H 1.8969130 1.4136950 2.3435870 
+H 2.2392930 3.3684460 0.8851660 
+H 1.8969130 -1.4136950 -2.3435870 
+H 1.5825920 -4.3326040 3.6680320 
+H 2.0134520 -4.4515360 1.2296440 
+H 2.2392930 -3.3684460 -0.8851660 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(M,M)-1 
+ 
+C -1.7549160 1.3330810 1.2727700 
+C -1.9289940 2.4151310 0.4688610 
+C -1.6363140 2.3466800 -0.9196360 
+C -1.7126740 3.5219750 -1.7029970 
+C -1.4569160 3.4601450 -3.0340750 
+C -0.9837590 2.2636440 -3.6334300 
+C -0.7733460 2.2764920 -5.0351400 
+C -0.3860840 1.1453450 -5.6687950 
+C 0.0000000 0.0000000 -4.9246020 
+C 0.3860840 -1.1453450 -5.6687950 
+C 0.7733460 -2.2764920 -5.0351400 
+C 0.9837590 -2.2636440 -3.6334300 
+C 0.7524840 -1.0879580 -2.8612350 
+C 0.0000000 0.0000000 -3.4992600 
+C -0.7524840 1.0879580 -2.8612350 
+C -1.2798180 1.1097850 -1.5133260 
+C -1.4757990 -0.0630220 -0.7045480 
+C -1.7549160 -1.3330810 -1.2727700 
+C -1.4757990 0.0630220 0.7045480 
+C -1.9289940 -2.4151310 -0.4688610 
+C -1.2798180 -1.1097850 1.5133260 
+C -1.6363140 -2.3466800 0.9196360 
+C -0.7524840 -1.0879580 2.8612350 
+C -1.7126740 -3.5219750 1.7029970 
+C -0.9837590 -2.2636440 3.6334300 
+C 0.0000000 0.0000000 3.4992600 
+C -1.4569160 -3.4601450 3.0340750 
+C -0.7733460 -2.2764920 5.0351400 
+C 0.0000000 0.0000000 4.9246020 
+C 0.7524840 1.0879580 2.8612350 
+C -0.3860840 -1.1453450 5.6687950 
+C 0.3860840 1.1453450 5.6687950 
+C 0.9837590 2.2636440 3.6334300 
+C 1.2798180 1.1097850 1.5133260 
+C 0.7733460 2.2764920 5.0351400 
+C 1.4569160 3.4601450 3.0340750 
+C 1.6363140 2.3466800 0.9196360 
+C 1.7126740 3.5219750 1.7029970 
+C 1.4757990 -0.0630220 0.7045480 
+C 1.4757990 0.0630220 -0.7045480 
+H -2.2392930 3.3684460 0.8851660 
+H -2.0134520 4.4515360 -1.2296440 
+H -1.5825920 4.3326040 -3.6680320 
+H -0.9888310 3.1868630 -5.5856190 
+H -0.3169590 1.1016610 -6.7511970 
+H 0.3169590 -1.1016610 -6.7511970 
+H 0.9888310 -3.1868630 -5.5856190 
+H -2.2392930 -3.3684460 -0.8851660 
+H -2.0134520 -4.4515360 1.2296440 
+H -1.5825920 -4.3326040 3.6680320 
+H -0.9888310 -3.1868630 5.5856190 
+H -0.3169590 -1.1016610 6.7511970 
+H 0.3169590 1.1016610 6.7511970 
+H 0.9888310 3.1868630 5.5856190 
+H 1.5825920 4.3326040 3.6680320 
+H 2.0134520 4.4515360 1.2296440 
+H -1.8969130 -1.4136950 -2.3435870 
+H -1.8969130 1.4136950 2.3435870 
+C 1.4569160 -3.4601450 -3.0340750 
+C 1.7549160 1.3330810 -1.2727700 
+C 1.9289940 2.4151310 -0.4688610 
+H 1.8969130 1.4136950 -2.3435870 
+H 2.2392930 3.3684460 -0.8851660 
+C 1.2798180 -1.1097850 -1.5133260 
+C 1.9289940 -2.4151310 0.4688610 
+C 1.7549160 -1.3330810 1.2727700 
+H 1.8969130 -1.4136950 2.3435870 
+C 1.7126740 -3.5219750 -1.7029970 
+H 1.5825920 -4.3326040 -3.6680320 
+C 1.6363140 -2.3466800 -0.9196360 
+H 2.0134520 -4.4515360 -1.2296440 
+H 2.2392930 -3.3684460 0.8851660 
+  
+PDF PAGE 24
+ 
+  S24 
+(P,P)-1 for NICS(0) and NICS(1) calculations 
+ 
+C -1.8934679 1.3886487 -1.2874533 
+C -2.0675459 2.4706987 -0.4835443 
+C -1.7748659 2.4022477 0.9049527 
+C -1.8512259 3.5775427 1.6883137 
+C -1.5954679 3.5157127 3.0193917 
+C -1.1223109 2.3192117 3.6187467 
+C -0.9118979 2.3320597 5.0204567 
+C -0.5246359 1.2009127 5.6541117 
+C -0.1385519 0.0555677 4.9099187 
+C 0.2475321 -1.0897773 5.6541117 
+C 0.6347941 -2.2209243 5.0204567 
+C 0.8452071 -2.2080763 3.6187467 
+C 0.6139321 -1.0323903 2.8465517 
+C -0.1385519 0.0555677 3.4845767 
+C -0.8910359 1.1435257 2.8465517 
+C -1.4183699 1.1653527 1.4986427 
+C -1.6143509 -0.0074543 0.6898647 
+C -1.8934679 -1.2775133 1.2580867 
+C -1.6143509 0.1185897 -0.7192313 
+C -2.0675459 -2.3595633 0.4541777 
+C -1.4183699 -1.0542173 -1.5280093 
+C -1.7748659 -2.2911123 -0.9343193 
+C -0.8910359 -1.0323903 -2.8759183 
+C -1.8512259 -3.4664073 -1.7176803 
+C -1.1223109 -2.2080763 -3.6481133 
+C -0.1385519 0.0555677 -3.5139433 
+C -1.5954679 -3.4045773 -3.0487583 
+C -0.9118979 -2.2209243 -5.0498233 
+C -0.1385519 0.0555677 -4.9392853 
+C 0.6139321 1.1435257 -2.8759183 
+C -0.5246359 -1.0897773 -5.6834783 
+C 0.2475321 1.2009127 -5.6834783 
+C 0.8452071 2.3192117 -3.6481133 
+C 1.1412661 1.1653527 -1.5280093 
+C 0.6347941 2.3320597 -5.0498233 
+C 1.3183641 3.5157127 -3.0487583 
+C 1.4977621 2.4022477 -0.9343193 
+C 1.5741221 3.5775427 -1.7176803 
+C 1.3372471 -0.0074543 -0.7192313 
+C 1.3372471 0.1185897 0.6898647 
+H -2.3778449 3.4240137 -0.8998493 
+H -2.1520039 4.5071037 1.2149607 
+H -1.7211439 4.3881717 3.6533487 
+H -1.1273829 3.2424307 5.5709357 
+H -0.4555109 1.1572287 6.7365137 
+H 0.1784071 -1.0460933 6.7365137 
+H 0.8502791 -3.1312953 5.5709357 
+H -2.3778449 -3.3128783 0.8704827 
+H -2.1520039 -4.3959683 -1.2443273 
+H -1.7211439 -4.2770363 -3.6827153 
+H -1.1273829 -3.1312953 -5.6003023 
+H -0.4555109 -1.0460933 -6.7658803 
+H 0.1784071 1.1572287 -6.7658803 
+H 0.8502791 3.2424307 -5.6003023 
+H 1.4440401 4.3881717 -3.6827153 
+H 1.8749001 4.5071037 -1.2443273 
+H -2.0354649 -1.3581273 2.3289037 
+H -2.0354649 1.4692627 -2.3582703 
+C 1.3183641 -3.4045773 3.0193917 
+C 1.6163641 1.3886487 1.2580867 
+C 1.7904421 2.4706987 0.4541777 
+H 1.7583611 1.4692627 2.3289037 
+H 2.1007411 3.4240137 0.8704827 
+C 1.1412661 -1.0542173 1.4986427 
+C 1.7904421 -2.3595633 -0.4835443 
+C 1.6163641 -1.2775133 -1.2874533 
+H 1.7583611 -1.3581273 -2.3582703 
+C 1.5741221 -3.4664073 1.6883137 
+H 1.4440401 -4.2770363 3.6533487 
+C 1.4977621 -2.2911123 0.9049527 
+H 1.8749001 -4.3959683 1.2149607 
+H 2.1007411 -3.3128783 -0.8998493 
+Bq -0.6211641 -1.0733388 -4.2850936 
+Bq -1.4422128 -2.2427968 -2.2921331 
+Bq 0.3440602 1.1844742 -4.2850936 
+Bq 1.1651089 2.3539322 -2.2921331 
+Bq -1.7304919 1.2563472 0.1005385 
+Bq -1.7304919 -1.1452118 -0.1299051 
+Bq -0.7481974 -1.2811727 -0.0010173 
+Bq -2.7103735 -1.0044036 -0.2713446 
+Bq -0.4980905 -2.4738364 -2.0570716 
+Bq -2.3808629 -1.9912563 -2.5280639 
+Bq -1.5448436 -0.7028878 -4.3829823 
+Bq 0.3138521 -1.4352112 -4.1630563 
+Bq 1.2677397 0.8140231 -4.3829823 
+Bq -0.5816984 1.5427637 -4.1642646 
+Bq 2.1037590 2.1023916 -2.5280639 
+Bq 0.2209867 2.5849717 -2.0570716 
+Bq -0.7481974 1.3923080 -0.0283493 
+Bq -2.7103735 1.1155389 0.2419780 
+ 
+ 
+benzene 
+ 
+C -1.1820870 -0.7330860 0.0000000 
+C -1.2259210 0.6571660 0.0000000 
+C -0.0438320 1.3902510 0.0000000 
+C 1.1820870 0.7330860 0.0000000 
+C 1.2259210 -0.6571660 0.0000000 
+C 0.0438320 -1.3902510 0.0000000 
+H -2.1044460 -1.3051040 0.0000020 
+H -2.1824800 1.1699510 -0.0000010 
+H -0.0780280 2.4750480 -0.0000010 
+H 2.1044460 1.3051040 0.0000010 
+H 2.1824800 -1.1699510 -0.0000010 
+H 0.0780280 -2.4750480 -0.0000010  
+ 
+ 
+phenanthrene 
+ 
+C 3.5454770 -0.2964380 0.0000000 
+C 2.8251730 0.8750330 0.0000000 
+C 1.4161380 0.8620470 0.0000000 
+C 0.7255560 -0.3772390 0.0000000 
+C 1.4911120 -1.5599830 0.0000000 
+C 2.8681910 -1.5241130 0.0000000 
+C 0.6771420 2.0864110 0.0000000 
+C -0.7255560 -0.3772390 0.0000000 
+C -1.4161380 0.8620470 0.0000000 
+C -0.6771420 2.0864110 0.0000000 
+C -2.8251730 0.8750330 0.0000000 
+H -3.3359980 1.8335980 0.0000000 
+C -3.5454770 -0.2964380 0.0000000 
+C -2.8681910 -1.5241130 0.0000000 
+C -1.4911120 -1.5599830 0.0000000 
+H 1.2292250 3.0216340 0.0000000 
+H 4.6301870 -0.2728710 0.0000000 
+H 3.3359980 1.8335980 0.0000000 
+H 0.9970930 -2.5243980 0.0000000 
+H 3.4303360 -2.4522790 0.0000000 
+H -1.2292250 3.0216340 0.0000000 
+H -4.6301870 -0.2728710 0.0000000 
+H -3.4303360 -2.4522790 0.0000000 
+H -0.9970930 -2.5243980 0.0000000 
+  
+PDF PAGE 25
+ 
+  S25 
+4 
+ 
+S -6.0883620 0.5588900 -1.6148670 
+S 6.0789700 -0.5634280 -1.6293040 
+C 1.2486880 1.3863230 -1.6340500 
+C 0.4536450 2.4887680 -1.5609730 
+C -0.9618390 2.3775710 -1.6512170 
+C -1.7949420 3.5162060 -1.6314800 
+C -3.1583090 3.3995960 -1.7711220 
+C -3.7511650 2.1326190 -1.9587030 
+C -4.9297390 -0.4863410 0.7160870 
+C -5.5526760 -1.7332760 0.9215400 
+C -4.8087190 -2.8070520 1.3458880 
+C -3.4336200 -2.6783530 1.6392700 
+C -2.8047350 -1.4013720 1.5361880 
+C -1.5514330 1.0897570 -1.7719940 
+C -0.7063500 -0.0817980 -1.7235610 
+C -1.2591670 -1.3941610 -1.6284820 
+C 0.6956550 0.0736910 -1.7236030 
+C -0.4639330 -2.4960970 -1.5493800 
+C 1.5408350 -1.0979020 -1.7670320 
+C 0.9516060 -2.3851630 -1.6397290 
+C 1.7851330 -3.5234130 -1.6144420 
+C 3.7405840 -2.1410660 -1.9515880 
+C 3.1483100 -3.4071690 -1.7562690 
+C 4.9371160 0.4930870 0.7054890 
+C 2.8136950 1.4082340 1.5295940 
+C 5.5602680 1.7401950 0.9088510 
+C 3.4426910 2.6852850 1.6311400 
+C 1.4132170 1.2794440 1.8902200 
+C 4.8170580 2.8140610 1.3344630 
+C 2.6758610 3.8342670 1.9787020 
+C 0.6814920 2.4650730 2.1259520 
+C 1.3356890 3.7309270 2.1726200 
+C 0.7175550 0.0180540 2.0104860 
+C -0.7073810 -0.0115620 2.0121850 
+C -2.6660180 -3.8275020 1.9845700 
+C -1.3879600 1.2129730 2.2698640 
+C -0.7133440 2.3920990 2.3685480 
+C -1.4033820 -1.2728640 1.8933530 
+C 0.7243010 -2.3858260 2.3657590 
+C 1.3986890 -1.2066570 2.2659950 
+C -1.3252890 -3.7244230 2.1748300 
+C -0.6711420 -2.4586180 2.1268620 
+C -5.7249130 0.6721500 0.1861970 
+C -5.2380830 2.0528780 -2.2128310 
+C 5.2267510 -2.0627130 -2.2107790 
+C 5.7311310 -0.6661190 0.1754240 
+C 2.9381400 -1.0177690 -1.9426140 
+C 3.5919310 0.3546520 0.9930740 
+C -3.5840200 -0.3477870 1.0009900 
+C -2.9489390 1.0091490 -1.9454950 
+H 0.8958520 3.4739750 -1.4355920 
+H -1.3374170 4.4953580 -1.5094360 
+H -3.7855190 4.2886300 -1.7585300 
+H -6.6128770 -1.8486140 0.7078970 
+H -5.2712950 -3.7854240 1.4543970 
+H -0.9061240 -3.4806930 -1.4192680 
+H 1.3280080 -4.5020360 -1.4867690 
+H 3.7757360 -4.2959960 -1.7398880 
+H 6.6200480 1.8555680 0.6931400 
+H 5.2798040 3.7924920 1.4417130 
+H 3.1780840 4.7963100 2.0468970 
+H 0.7363600 4.6115620 2.3911540 
+H -2.3336770 -1.5184510 -1.5539130 
+H 2.3231690 1.5107260 -1.5591140 
+H -2.4479710 1.1944050 2.4881610 
+H -1.2454420 3.3037990 2.6286800 
+H 2.4592130 -1.1882960 2.4817250 
+H -3.1681980 -4.7894900 2.0538700 
+H -0.7254650 -4.6051930 2.3914460 
+H 1.2570860 -3.2976960 2.6238520 
+H -6.6860290 0.7409900 0.7061680 
+H -5.1908350 1.6129070 0.3484760 
+H -5.7355320 2.9391000 -1.8016380 
+H -5.4401570 2.0581030 -3.2918920 
+H 5.4251170 -2.0775720 -3.2904460 
+H 5.7260580 -2.9450880 -1.7935520 
+H 6.6968630 -0.7290490 0.6875080 
+H 5.2014070 -1.6075070 0.3480290 
+H -3.4278680 0.0447170 -2.0762010 
+H -3.1098010 0.5927530 0.7513740 
+H 3.4166260 -0.0539350 -2.0792060 
+H 3.1174100 -0.5860770 0.7449240 
+ 
+ 
+4′ 
+ S -6.6127190 1.1745450 1.6464780 
+S 6.6129130 1.1661330 -1.6528160 
+C 0.1523330 1.7179130 -1.8658990 
+C -1.1504730 1.6808500 -2.2609410 
+C -2.2046310 1.8330870 -1.3188460 
+C -3.5542670 1.9099790 -1.7313740 
+C -4.5621370 2.1196440 -0.8248960 
+C -4.2622670 2.2574030 0.5476680 
+C -4.9973000 -0.8591070 0.5353430 
+C -5.8604920 -1.1814110 -0.5304280 
+C -5.3371370 -1.6166710 -1.7218430 
+C -3.9477610 -1.8062660 -1.8894210 
+C -3.0674460 -1.6027140 -0.7859570 
+C -1.8902580 1.9279890 0.0622430 
+C -0.5114550 1.8325400 0.4822010 
+C -0.1519490 1.7239470 1.8579780 
+C 0.5118190 1.8306680 -0.4904670 
+C 1.1508740 1.6871090 2.2530270 
+C 1.8906860 1.9267290 -0.0708790 
+C 2.2051170 1.8358820 1.3104480 
+C 3.5548540 1.9134050 1.7226240 
+C 4.2627510 2.2536230 -0.5575640 
+C 4.5626920 2.1200470 0.8153930 
+C 4.9971770 -0.8616780 -0.5319390 
+C 3.0671240 -1.5981740 0.7931030 
+C 5.8602260 -1.1781980 0.5356630 
+C 3.9472640 -1.7952090 1.8978950 
+C 1.6506830 -1.8732560 0.9599730 
+C 5.3366870 -1.6068400 1.7293870 
+C 3.4226910 -2.1216320 3.1808080 
+C 1.1772170 -2.1030800 2.2720220 
+C 2.0813740 -2.2174960 3.3685530 
+C 0.7009670 -1.9576080 -0.1284020 
+C -0.7012250 -1.9568860 0.1374070 
+C -3.4233300 -2.1405030 -3.1703960 
+C -1.1127500 -2.1951820 1.4802980 
+C -0.2084060 -2.3003700 2.4933040 
+C -1.6510530 -1.8788980 -0.9513410 
+C 0.2079610 -2.3148400 -2.4822400 
+C 1.1124060 -2.2033940 -1.4699680 
+C -2.0820370 -2.2376320 -3.3577230 
+C -1.1777270 -2.1166190 -2.2620240 
+C -5.5522440 -0.3038270 1.8200050 
+C -5.3532920 2.4963890 1.5502100 
+C 5.3538210 2.4886610 -1.5610480 
+C 5.5520930 -0.3127880 -1.8193280 
+C 2.9526200 2.1451610 -0.9771420 
+C 3.6388410 -1.0608960 -0.3851470 
+C -3.6389460 -1.0586420 0.3892700 
+C -2.9522190 2.1496740 0.9677110 
+H -1.4035930 1.5541380 -3.3105270 
+H -3.7811740 1.8046840 -2.7894790 
+H -5.5983800 2.1616150 -1.1491940 
+H -6.9302160 -1.0225910 -0.4219880 
+H -5.9905440 -1.8058390 -2.5706430 
+H 1.4039400 1.5633600 3.3029830 
+H 3.7818970 1.8108490 2.7809680 
+H 5.5990350 2.1624360 1.1392960 
+H 6.9299940 -1.0201530 0.4265490 
+H 5.9899860 -1.7913700 2.5792910 
+H 4.1143280 -2.2548790 4.0093230 
+H 1.6708700 -2.4224980 4.3544430 
+H -0.9305100 1.6234410 2.6065450 
+H 0.9308290 1.6145750 -2.6141470 
+H -2.1543740 -2.4031640 1.6866270 
+H -0.5432340 -2.5548960 3.4961750 
+H 2.1540490 -2.4122710 -1.6752490 
+H -4.1150550 -2.2786560 -3.9980330 
+H -1.6716740 -2.4485780 -4.3424170 
+H 0.5427880 -2.5751090 -3.4836370 
+H -6.2036110 -1.0433600 2.3011250 
+H -4.7472240 -0.0803530 2.5289490 
+H -4.9262310 2.6531310 2.5468040 
+H -5.9322350 3.3930790 1.2987060 
+H 5.9330570 3.3860790 -1.3128230 
+H 4.9266820 2.6419530 -2.5581460 
+H 6.2032850 -1.0546990 -2.2970210 
+H 4.7470270 -0.0924730 -2.5292100 
+H -2.7395880 2.2697560 2.0262480 
+H -2.9878570 -0.7146950 1.1830110 
+H 2.7398840 2.2619900 -2.0360220 
+H 2.9879190 -0.7216370 -1.1810310 
+ 
+  
+PDF PAGE 26
+ 
+  S26 
+TS4–4′ 
+ 
+S -4.6719350 -3.3225520 -1.8606330 
+S 5.8865760 1.2400600 0.2527860 
+C 1.6833360 -1.6190970 1.7458750 
+C 0.4506780 -1.1214860 1.4806080 
+C -0.2972400 -1.6232480 0.3802860 
+C -1.3793860 -0.8847850 -0.1192600 
+C -2.1093550 -1.3645250 -1.1671220 
+C -1.9183310 -2.6723980 -1.6397710 
+C -5.3099860 -0.9301560 -0.4445930 
+C -5.9818080 -1.5055540 0.6542870 
+C -5.7983180 -0.9994080 1.9174900 
+C -4.8840450 0.0506800 2.1596980 
+C -4.2594490 0.7050260 1.0597170 
+C 0.0977520 -2.8200280 -0.2740960 
+C 1.4494610 -3.2880740 -0.0404270 
+C 2.0585480 -4.2941580 -0.8523940 
+C 2.2646730 -2.5933760 0.8780020 
+C 3.4143210 -4.4392460 -0.9133290 
+C 3.6973680 -2.6844810 0.7602260 
+C 4.2738740 -3.5546890 -0.1978540 
+C 5.6458430 -3.4087110 -0.5128990 
+C 5.8022220 -1.4659340 0.9198280 
+C 6.3784970 -2.3540750 -0.0156240 
+C 3.3317270 2.3923980 -0.0581730 
+C 1.1161320 3.2548660 -0.6869650 
+C 3.9341200 3.3202470 -0.9266720 
+C 1.7479430 4.0835500 -1.6609410 
+C -0.3368910 3.2447390 -0.6216280 
+C 3.1538320 4.1302390 -1.7205800 
+C 0.9609080 4.7790990 -2.6271580 
+C -1.0550380 3.7990950 -1.7052840 
+C -0.3812710 4.5844350 -2.6897170 
+C -1.1002850 2.7115980 0.4788910 
+C -2.4721520 2.3758070 0.2944880 
+C -4.4767950 0.3491080 3.4925720 
+C -3.1319940 2.8583790 -0.8677100 
+C -2.4588980 3.6084890 -1.7896950 
+C -3.1665440 1.6278800 1.3195510 
+C -1.3505250 2.2346470 2.8455300 
+C -0.5716040 2.6432090 1.8020940 
+C -3.3590970 1.0903420 3.7138370 
+C -2.6369160 1.6669300 2.6273600 
+C -5.3689780 -1.6056730 -1.7944360 
+C -2.9740640 -3.1927760 -2.5733330 
+C 6.4405920 -0.1660960 1.3105690 
+C 4.1243570 1.3636520 0.7226280 
+C 4.5246830 -1.7195050 1.3698990 
+C 1.9470110 2.3857780 0.0599950 
+C -4.5537410 0.2083000 -0.2348300 
+C -0.8041260 -3.3783010 -1.2193400 
+H 0.0297480 -0.3077580 2.0671430 
+H -1.5887580 0.0841130 0.3116510 
+H -2.8784140 -0.7603080 -1.6196620 
+H -6.6073280 -2.3817640 0.5025140 
+H -6.2894940 -1.4654440 2.7684470 
+H 3.8554370 -5.1677970 -1.5894880 
+H 6.0921830 -4.0902040 -1.2335220 
+H 7.3958930 -2.1859930 -0.3606310 
+H 5.0161670 3.3645650 -1.0116010 
+H 3.6219470 4.7925820 -2.4450610 
+H 1.4673590 5.4087260 -3.3546280 
+H -0.9742790 5.0455070 -3.4758030 
+H 1.4342450 -4.9076800 -1.4945520 
+H 2.2528300 -1.2221510 2.5790070 
+H -4.2047660 2.7239780 -0.9598420 
+H -2.9948800 4.0631420 -2.6193460 
+H 0.4261670 3.0242640 1.9901000 
+H -5.0111310 -0.1124690 4.3192600 
+H -2.9740830 1.2278310 4.7213600 
+H -0.9712290 2.2855920 3.8634130 
+H -6.4119320 -1.7510180 -2.0977730 
+H -4.8970500 -0.9990530 -2.5747940 
+H -3.0375460 -2.5748180 -3.4774310 
+H -2.7623130 -4.2176250 -2.8965200 
+H 7.5268920 -0.1796430 1.1758770 
+H 6.2364370 0.0842340 2.3579450 
+H 4.0657600 1.5800880 1.7982460 
+H 3.6563340 0.3869140 0.5590510 
+H -0.6107770 -4.3628480 -1.6378660 
+H -4.0629670 0.6625380 -1.0869970 
+H 4.1131420 -1.0535700 2.1192150 
+H 1.4859130 1.6296530 0.6902520 
+   
+7 
+ 
+C -1.3181860 1.3315970 2.2028930 
+C -0.5826890 2.4753130 2.1369660 
+C 0.8344690 2.4288060 2.0415850 
+C 1.5993110 3.5982060 1.8379500 
+C 2.9529450 3.5286200 1.6079770 
+C 3.6091320 2.2766530 1.6037210 
+C 5.0087340 2.1755870 1.1683890 
+C 5.5474370 1.2374230 0.3632850 
+C 5.7077980 -1.0430820 -0.5893940 
+C 5.1375410 -2.1713120 -1.1278930 
+C 3.7693800 -2.2121910 -1.4691300 
+C 2.9780250 -1.0291030 -1.3437450 
+C 1.4898160 1.1676160 2.1008740 
+C 0.7036920 -0.0431060 2.1980750 
+C 1.3181180 -1.3315840 2.2030500 
+C -0.7037600 0.0431180 2.1980400 
+C 0.5826240 -2.4753050 2.1371850 
+C -1.4898790 -1.1676110 2.1008910 
+C -0.8345280 -2.4288060 2.0417310 
+C -1.5993600 -3.5982220 1.8381450 
+C -3.6091650 -2.2766850 1.6036900 
+C -2.9529800 -3.5286510 1.6080830 
+C -5.0087400 -2.1756560 1.1682640 
+C -4.9186490 -0.0998540 -0.3304590 
+C -2.9779910 1.0291090 -1.3437450 
+C -5.5474250 -1.2375120 0.3631230 
+C -5.7077810 1.0430340 -0.5894570 
+C -3.7693450 2.2122030 -1.4690730 
+C -1.5690950 1.0774650 -1.7091790 
+C -5.1375150 2.1712970 -1.1278750 
+C -3.1649120 3.4388080 -1.8662300 
+C -1.0008920 2.3464530 -1.9587800 
+C -1.8215540 3.5100090 -2.0517580 
+C -0.7090720 -0.0801170 -1.8102390 
+C 0.7091190 0.0801610 -1.8102170 
+C 3.1649540 -3.4387680 -1.8663880 
+C 1.2235480 1.3858540 -2.0532640 
+C 0.3962940 2.4618160 -2.1711800 
+C 1.5691380 -1.0774290 -1.7092180 
+C -0.3962410 -2.4617460 -2.1713720 
+C -1.2234970 -1.3857920 -2.0533950 
+C 1.8216010 -3.5099510 -2.0519600 
+C 1.0009400 -2.3464000 -1.9589260 
+C -2.8853090 -1.1436570 1.9351900 
+C -3.5913690 -0.0905920 -0.7451020 
+C 3.5913930 0.0905580 -0.7450210 
+C 2.8852560 1.1436480 1.9352550 
+C 4.9186660 0.0997960 -0.3303530 
+H -1.0783190 3.4426670 2.1111370 
+H 1.0880550 4.5579340 1.8186480 
+H 3.5197630 4.4302410 1.3882180 
+H 5.6728760 2.9702570 1.5087130 
+H 6.6221370 1.3126830 0.1945470 
+H 6.7593640 -1.0416400 -0.3117450 
+H 5.7329710 -3.0707990 -1.2671840 
+H 1.0782570 -3.4426620 2.1114600 
+H -1.0881040 -4.5579510 1.8189500 
+H -3.5197840 -4.4302900 1.3883600 
+H -5.6728780 -2.9703490 1.5085440 
+H -6.6221110 -1.3128110 0.1943180 
+H -6.7593540 1.0415720 -0.3118310 
+H -5.7329460 3.0707910 -1.2671270 
+H -3.7905820 4.3227640 -1.9640960 
+H -1.3440110 4.4562870 -2.2945740 
+H 2.3985390 -1.4122870 2.2314960 
+H -2.3986080 1.4123050 2.2312890 
+H 2.2807480 1.5132250 -2.2488690 
+H 0.8054290 3.4363300 -2.4258830 
+H -2.2806930 -1.5131460 -2.2490340 
+H 3.7906230 -4.3227190 -1.9642950 
+H 1.3440630 -4.4562100 -2.2948570 
+H -0.8053700 -3.4362400 -2.4261570 
+H 3.4193630 0.2021650 1.9625310 
+H 2.9901130 0.9593240 -0.5254420 
+H -3.4194160 -0.2021730 1.9623710 
+H -2.9900900 -0.9593680 -0.5255540 
+  
+PDF PAGE 27
+ 
+  S27 
+7′ 
+ 
+C 0.1657890 2.8483770 1.8619160 
+C 1.5161640 2.8524720 2.0322860 
+C 2.3917650 2.6841000 0.9239510 
+C 3.7782220 2.4989780 1.1090430 
+C 4.5882140 2.1587330 0.0548530 
+C 4.0480690 2.0177420 -1.2437610 
+C 4.8710260 1.3876970 -2.3027280 
+C 5.2917240 0.1184450 -2.1931110 
+C 5.8964180 -1.3282000 -0.2338690 
+C 5.5288470 -1.9363610 0.9432600 
+C 4.1716220 -2.0699350 1.3083370 
+C 3.1557480 -1.6745460 0.3892050 
+C 1.8484780 2.6293220 -0.3881640 
+C 0.4209920 2.7574800 -0.5669710 
+C -0.1648640 2.8498180 -1.8640870 
+C -0.4201930 2.7573660 0.5647520 
+C -1.5152200 2.8547300 -2.0345070 
+C -1.8477750 2.6303650 0.3858070 
+C -2.3909530 2.6862250 -0.9263000 
+C -3.7775120 2.5022220 -1.1116380 
+C -4.0480920 2.0207590 1.2409960 
+C -4.5879740 2.1624790 -0.0576470 
+C -4.8719070 1.3914900 2.2997960 
+C -4.9091800 -0.7588550 1.0654770 
+C -3.1560410 -1.6756890 -0.3877880 
+C -5.2926040 0.1221870 2.1909060 
+C -5.8967030 -1.3282670 0.2345220 
+C -4.1718760 -2.0737550 -1.3058330 
+C -1.7633580 -1.9119400 -0.7281670 
+C -5.5291070 -1.9393550 -0.9410780 
+C -3.8120040 -2.5275330 -2.6081470 
+C -1.4652150 -2.2226530 -2.0727130 
+C -2.5104680 -2.5246490 -2.9973570 
+C -0.6775580 -1.9135130 0.2262940 
+C 0.6773000 -1.9142860 -0.2240660 
+C 3.8118090 -2.5199150 2.6119930 
+C 0.9159980 -2.1195630 -1.6138100 
+C -0.1122850 -2.3162130 -2.4864910 
+C 1.7631070 -1.9098630 0.7303470 
+C 0.1120810 -2.3086570 2.4899180 
+C -0.9162120 -2.1145270 1.6166760 
+C 2.5103080 -2.5158110 3.0013020 
+C 1.4650180 -2.2165370 2.0758310 
+C -2.7157500 2.3179720 1.4543920 
+C -3.5720180 -0.9644290 0.7584900 
+C 3.5716530 -0.9663010 -0.7589670 
+C 2.7160400 2.3164120 -1.4569470 
+C 4.9087980 -0.7611080 -1.0662870 
+H 1.9448080 2.9339290 3.0282340 
+H 4.1860060 2.5670420 2.1148770 
+H 5.6393480 1.9372510 0.2143210 
+H 5.1409220 1.9722130 -3.1817740 
+H 5.9564130 -0.2929020 -2.9530620 
+H 6.9471510 -1.2061070 -0.4852390 
+H 6.2888680 -2.2899860 1.6364410 
+H -1.9437790 2.9371190 -3.0304160 
+H -4.1850790 2.5708760 -2.1175220 
+H -5.6392940 1.9419710 -0.2172680 
+H -5.1427120 1.9767620 3.1780620 
+H -5.9580380 -0.2882970 2.9506790 
+H -6.9474490 -1.2059360 0.4857310 
+H -6.2891050 -2.2949480 -1.6332740 
+H -4.6010720 -2.8158700 -3.2985410 
+H -2.2340140 -2.8009940 -4.0121100 
+H 0.4770470 2.9425650 -2.7336450 
+H -0.4760100 2.9407930 2.7315850 
+H 1.9325340 -2.2430740 -1.9657170 
+H 0.0971310 -2.5733440 -3.5221750 
+H -1.9327420 -2.2367610 1.9690610 
+H 4.6009210 -2.8062160 3.3031840 
+H 2.2339190 -2.7891290 4.0168920 
+H -0.0973630 -2.5626130 3.5263780 
+H 2.3123740 2.1732280 -2.4545710 
+H 2.8264000 -0.4913110 -1.3855920 
+H -2.3123450 2.1741730 2.4520350 
+H -2.8267780 -0.4879030 1.3839210 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PDF PAGE 28
+ 
+  S28 
+9. References 
+ 
+(1) Jouanno, C.; Le Floc’h, Y.; Gree, R . A CONVENIENT ACCES TO 1,7 -DIFUNCTIONAL 
+NAPHTHALENES: THE SYNTHESIS OF THE 1,7-DICARBALDEHYDE 7-MONODIMETHYLACETAL. 
+Bull. Soc. Chim. Belg. 1995, 104, 49-53. 
+(2) Zrida, H.; Hriz, K.; Jaballah, N.; Kreher, D.; Majdoub, M. Synthesis and study of morphological, optical 
+and electrical properties of new organic semi conducting polymers containing isosorbide pendant 
+group. Synth. Met. 2016, 221, 227-235. 
+(3) (a) Sudhakar, A.; Katz, T. J. Directive effect of bromine on stilbene photocyclizations. an improved 
+synthesis of [7]helicene. Tetrahedron Lett. 1986, 27, 2231-2234. (b) Liu, L.; Katz, T. J. Bromine 
+auxiliaries in photosyntheses of [5]helicenes.Tetrahedron Lett. 1991, 32, 6831-6834.  
+(4) Sheldrick, G. SHELXT - Integrated space-group and crystal-structure determination. Acta Crystallogr. 
+A 2015, A71, 3-8. 
+(5) Sheldrick, G. Crystal structure refinement with SHELXL. Acta Crystallogr. 2015, C71, 3-8. 
+(6) Dolomanov, O. V.; Bourhis, L. J.; Gildea, R. J.; Howard, J. A. K.; Puschmann, H. OLEX2: a complete 
+structure solution, refinement and analysis program. J. Appl. Crystallogr. 2009, 42, 339-341. 
+(7) Frisch, M. J.; Trucks, G. W.; Schlegel, H. B.; Scuseria, G. E.; Robb, M. A.; Cheeseman, J. R.; Scalmani, 
+G.; Barone, V.; Petersson, G. A.; Nakatsuji, H.; Li, X.; Caricato, M.; Marenich, A. V.; Bloino, J.; Janesko, 
+B. G.; Gomperts, R.; Mennucci, B.; Hratchian, H. P.; Ortiz, J. V.; Izmaylov, A. F.; Sonnenberg, J. L.; 
+Williams; Ding, F.; Lipparini, F.; Egidi, F.; Goings, J.; Peng, B.; Petrone, A.; Henderson, T.; Ranasinghe, 
+D.; Zakrzewski, V. G.; Gao, J.; Rega, N.; Zheng, G.; Liang, W.; Hada, M.; Ehara, M.; Toyota, K.; 
+Fukuda, R.; Hasegawa, J.; Ishida, M.; Nakajima, T.; Honda, Y.; Kitao, O.; Nakai, H.; Vreven, T.; 
+Throssell, K.; Montgomery Jr., J. A.; Peralta, J. E.; Ogliaro, F.; Bearpark, M. J.; Heyd, J. J.; Brothers, 
+E. N.; Kudin, K. N.; Staroverov, V. N.; Keith, T. A.; Kobayashi, R.; Normand, J.; Raghavachari, K.; 
+Rendell, A. P.; Burant, J. C.; Iyengar, S. S.; Tomasi, J.; Cossi, M.; Millam, J. M.; Klene, M.; Adamo, 
+C.; Cammi, R.; Ochterski, J. W.; Martin, R. L.; Morokuma, K.; Farkas, O.; Foresman, J. B.; Fox, D. J. 
+Gaussian 16 Rev. C.01, Wallingford, CT, 2016. 
+(8) Adamo, C.; Barone, V. Toward reliable density functional methods without adjustable parameters: The 
+PBE0 model, J. Chem. Phys. 1999, 110, 6158-6169. 
+(9) (a) Becke, A. D. Density-functional thermochemistry. III. The role of exact exchange. J. Chem. Phys. 
+1993, 98, 5648-5652. (b) Lee, C.; Yang, W.; Parr, R. G. Development of the Colle-Salvetti correlation-
+energy formula into a functional of the electron density. Phys. Rev. B 1988, 37, 785-789. 
+(10)  (a) London, L.  The quantic theory of inter-atomic currents in aromatic combinations, J. Phys. Radium, 
+1937, 8, 397-409. (b) McWeeny, R. Perturbation Theory for Fock-Dirac Density Matrix.  Phys. Rev. 
+1962, 126, 1028. (c) Ditchfield, R. Self-consistent perturbation theory of diamagnetism. 1. Gauge-
+invariant LCAO method for N.M.R. chemical shifts.  Mol. Phys. 1974, 27, 789-807. (d) Cheeseman, J. 
+R.; Trucks, G. W.; Keith, T. A.; Frisch, M. J. A Comparison of Models for Calculating Nuclear Magnetic 
+Resonance Shielding Tensors. J. Chem. Phys. 1996, 104, 5497-509. (e) Ebrahimi, H. P.; Shaghaghi, 
+H.; Tafazzoli, M. Gauge invariant atomic orbital-density functional theory prediction of accurate gas 
+phase 1H and 13C NMR chemical shifts. Concepts Magn. Reson. 2011, 38A, 269-279. 
+(11)  (a) Schleyer, P. v. R.; Maerker, C.; Dransfeld, A.; Jiao, H.; van Eikema Hommes, N. J. R. Nucleus-
+Independent Chemical Shifts: A Simple and Efficient Aromatocity Probe. J. Am. Chem. Soc. 1996, 
+118, 6317-6318. (b) Chen, Z.; Wannere, C. S.; Corminboeuf, C.; Puchta, R.; Schleyer, P. V. R. 
+Nucleus-independent chemical shifts (NICS) as an aromaticity criterion. Chem. Rev. 2005, 105, 3842-
+3888. 
+(12)  Marenich, A. V.; Cramer, C. J.; Truhlar, D. J. Universal Solvation Model Based on Solute Electron 
+Density and on a Continuum Model of the Solvent Defined by the Bulk Dielectric Constant and Atomic 
+Surface Tensions. J. Phys. Chem. B 2009, 113, 6378-6396. 
+(13)  Dennington, R.; Keith, T. A.; Millam, J. M. GaussView, Version 6, Semichem Inc., Shawnee Mission, 
+KS, 2016. 
+PDF PAGE 29
+ 
+  S29 
+10. 1H and 13C NMR spectra of synthesized compounds 
+(a)  
+ 
+(b) 
+ 
+Figure S16. (a) 1H NMR of S2 (600 MHz, CDCl3); (b) 13C NMR of S2 (151 MHz, CDCl3)
+abundance
+0 1.0 2.0 3.0 4.0 5.0 6.0 7.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+7.964
+7.827
+7.800
+7.763
+7.749
+7.744
+7.730
+7.697
+7.685
+7.514
+7.501
+7.417
+7.404
+7.243
+7.217
+7.204
+7.114
+7.087
+2.549
+2.386
+1.520
+0.000
+16.158.258.257.22
+8.2515.461.728.421.377.9016.15
+3.04
+3.03
+2.02
+2.00
+1.051.05
+1.03
+1.00
+1.00
+1.00
+0.980.92
+0.84
+0.72
+abundance
+0 1.0 2.0
+X : parts per Million : 1H
+8.0 7.9 7.8 7.7 7.6 7.5 7.4 7.3 7.2 7.1
+7.964
+7.827
+7.813
+7.800
+7.763
+7.749
+7.730
+7.697
+7.691
+7.685
+7.514
+7.507
+7.501
+7.417
+7.404
+7.404
+7.391
+7.341
+7.338
+7.326
+7.324
+7.243
+7.217
+7.210
+7.204
+7.114
+7.101
+7.087
+16.15
+8.258.25
+7.22
+8.25
+15.46
+1.728.421.37
+7.90
+16.15
+3.04
+3.03
+2.02
+2.00
+1.05
+1.05
+1.03
+1.00
+1.00
+1.00
+0.98
+0.92
+0.84
+0.72
+Filename          = MK175-1HNMR-3.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 21:21:17
+Revision_Time     =  9-OCT-2021 20:03:26
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 50
+Temp_Get          = 27.1[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK175-1HNMR-1.jdf
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+137.601
+135.694
+134.995
+134.535
+131.947
+131.574
+131.411
+129.437
+128.402
+127.999
+127.607
+126.600
+125.086
+124.789
+123.582
+122.873
+77.211
+77.000
+76.789
+22.081
+21.267
+-0.017
+abundance
+0 0.1 0.2 0.3
+X : parts per Million : 13C
+140.0 130.0 120.0
+137.601
+135.694
+134.995
+134.535
+131.947
+131.574
+131.411
+129.437
+128.402
+127.999
+127.607
+126.600
+125.086
+124.789
+123.582
+122.873
+Filename          = MK175-13CNMR-2.jdf
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 21:24:28
+Revision_Time     =  9-OCT-2021 20:06:56
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 741
+Total_Scans       = 741
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 28.2[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK175-13CNMR-1.jdf
+PDF PAGE 30
+ 
+  S30 
+(a) 
+ 
+(b) 
+ 
+Figure S17. (a) 1H NMR of S3 (600 MHz, CDCl3); (b) 13C NMR of S3 (151 MHz, CDCl3) 
+abundance
+0 1.0 2.0 3.0 4.0 5.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+8.639
+8.631
+8.624
+8.542
+7.940
+7.933
+7.925
+7.874
+7.861
+7.455
+7.454
+7.452
+7.447
+7.441
+7.440
+7.439
+7.240
+2.647
+1.518
+-0.006
+8.94
+8.947.90
+1.378.081.03
+6.17
+2.052.04
+2.001.99
+1.97
+abundance
+0 1.0 2.0 3.0
+X : parts per Million : 1H
+8.7 8.6 8.5 8.4 8.3 8.2 8.1 8.0 7.9 7.8 7.7 7.6 7.5
+8.639
+8.631
+8.624
+8.542
+7.940
+7.933
+7.925
+7.874
+7.868
+7.861
+7.455
+7.454
+7.452
+7.447
+7.441
+7.440
+7.439
+8.94
+8.94
+7.90
+1.378.081.03
+6.17
+2.05
+2.04
+2.00
+1.99
+1.97
+Filename          = MK177-1HNMR-3.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 20:44:48
+Revision_Time     =  9-OCT-2021 19:42:31
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 50
+Temp_Get          = 26.9[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK177-1HNMR-1.jdf
+abundance
+0 0.10.20.30.40.50.60.70.80.91.01.11.21.31.41.51.6
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+136.260
+130.702
+130.203
+128.335
+128.162
+127.971
+126.849
+122.719
+120.304
+77.211
+77.000
+76.780
+22.254
+abundance
+0 0.1 0.2 0.3 0.4
+X : parts per Million : 13C
+130.0 120.0
+136.260
+130.702
+130.203
+128.335
+128.162
+127.971
+126.849
+122.719
+120.304
+Filename          = MK177-13CNMR-5.jdf
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 20:47:58
+Revision_Time     =  9-OCT-2021 19:47:20
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 630
+Total_Scans       = 630
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 28[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK177-13CNMR-3.jdf
+PDF PAGE 31
+ 
+  S31 
+(a)  
+ 
+(b) 
+ 
+Figure S18. (a) 1H NMR of (Z,Z)-S5 (600 MHz, CDCl3); (b) 13C NMR of (Z,Z)-S5 (151 MHz, CDCl3)
+abundance
+0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+7.560
+7.455
+7.446
+7.444
+7.440
+7.254
+7.179
+7.176
+7.164
+7.162
+7.087
+7.074
+6.866
+6.865
+6.853
+6.768
+6.747
+6.662
+6.642
+2.304
+1.531
+0.000
+1.378.681.207.90
+0.697.900.6912.3712.03
+5.98
+3.95
+2.022.02
+2.00
+1.99
+1.961.92
+abundance
+0 1.0 2.0 3.0
+X : parts per Million : 1H
+7.6 7.5 7.4 7.3 7.2 7.1 7.0 6.9 6.8 6.7 6.6
+7.560
+7.455
+7.446
+7.444
+7.440
+7.254
+7.179
+7.176
+7.164
+7.162
+7.087
+7.081
+7.074
+6.866
+6.866
+6.865
+6.859
+6.853
+6.852
+6.852
+6.768
+6.757
+6.747
+6.662
+6.652
+6.642
+1.378.681.20
+7.90
+0.697.900.69
+12.37
+12.03
+5.98
+3.95
+2.02
+2.02
+2.00
+1.99
+1.96
+1.92
+Filename          = MK186 (Z,Z)-1HNMR-2.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 02:06:30
+Revision_Time     =  9-OCT-2021 18:33:00
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 52
+Temp_Get          = 27.3[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK186 (Z,Z)-1HNMR-1.jdf
+abundance
+0 0.10.20.30.40.50.60.70.80.91.01.11.21.31.41.51.61.7
+X : parts per Million : 13C
+190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.0 0
+139.058
+134.813
+134.391
+133.126
+132.522
+130.826
+130.568
+129.705
+128.038
+127.904
+127.520
+126.964
+123.735
+77.211
+77.000
+76.789
+20.835
+abundance
+0 0.1 0.2
+X : parts per Million : 13C
+139.0138.0137.0136.0135.0134.0133.0132.0131.0130.0129.0128.0127.0126.0125.0124.0
+139.058
+134.813
+134.391
+133.126
+132.522
+130.826
+130.568
+129.705
+128.038
+127.904
+127.520
+126.964
+123.735
+Filename          = MK186 (Z,Z)-13CNMR-2.jdf
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 02:09:45
+Revision_Time     =  9-OCT-2021 18:35:20
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 609
+Total_Scans       = 609
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 28.3[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK186 (Z,Z)-13CNMR-1.jdf
+PDF PAGE 32
+ 
+  S32 
+(a) 
+ 
+(b) 
+ 
+Figure S19. (a) 1H NMR of (E,Z)-S5 (600 MHz, CDCl3); (b) 13C NMR of (E,Z)-S5 (151 MHz, CDCl3) 
+  
+abundance
+0 1.0 2.0 3.0 4.0 5.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0
+7.754
+7.681
+7.632
+7.597
+7.584
+7.459
+7.458
+7.424
+7.423
+7.248
+7.133
+6.868
+6.867
+6.855
+6.854
+6.802
+6.782
+6.688
+6.668
+2.334
+2.308
+1.526
+1.728.591.728.597.908.5916.150.690.69
+1.728.591.7216.157.90
+1.037.731.0312.0312.03
+3.233.19
+3.05
+2.08
+1.141.121.10
+1.06
+1.05
+1.03
+1.02
+1.01
+1.00
+0.99
+0.990.98
+0.88
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6 1.7
+X : parts per Million : 1H
+7.7 7.6 7.5 7.4
+7.754
+7.697
+7.694
+7.681
+7.632
+7.597
+7.584
+7.539
+7.526
+7.512
+7.459
+7.424
+7.424
+7.423
+1.728.591.728.59
+7.908.59
+16.15
+0.69
+0.69
+3.23
+3.19
+3.05
+2.08
+1.14
+1.12
+1.10
+1.06
+1.05
+1.03
+1.02
+1.01
+1.00
+0.99
+0.99
+0.98
+0.88
+abundance
+-0.1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4
+X : parts per Million : 1H
+7.2 7.1 7.0 6.9 6.8 6.7
+7.248
+7.238
+7.236
+7.235
+7.229
+7.223
+7.222
+7.220
+7.133
+7.129
+7.119
+7.114
+7.106
+7.095
+7.089
+7.082
+6.868
+6.868
+6.867
+6.861
+6.855
+6.855
+6.854
+6.802
+6.792
+6.782
+6.688
+6.678
+6.668
+1.728.591.72
+16.15
+7.90
+1.037.731.03
+12.03
+12.03
+3.23
+3.19
+3.05
+2.08
+1.14
+1.12
+1.10
+1.06
+1.05
+1.03
+1.02
+1.01
+1.00
+0.99
+0.99
+0.98
+0.88
+Filename          = MK186 (E,Z)-1HNMR-2.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 01:22:32
+Revision_Time     =  9-OCT-2021 18:56:08
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 50
+Temp_Get          = 27.3[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK186 (E,Z)-1HNMR-1.jdf
+abundance
+0 0.10.20.30.40.50.60.70.80.91.01.11.21.31.41.5
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.0
+139.221
+134.928
+134.199
+133.519
+133.385
+130.443
+128.517
+127.674
+126.696
+126.313
+124.233
+124.042
+77.211
+77.000
+76.789
+20.816
+abundance
+0 0.1 0.2
+X : parts per Million : 13C
+142.0141.0140.0139.0138.0137.0136.0135.0134.0133.0132.0131.0130.0129.0128.0127.0126.0125.0124.0123.0
+139.221
+134.928
+134.199
+133.519
+133.385
+130.443
+128.517
+127.674
+126.696
+126.313
+124.233
+124.042
+Filename          = MK186 (E,E)-13CNMR-2.jdf
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 00:50:23
+Revision_Time     =  9-OCT-2021 18:21:54
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 601
+Total_Scans       = 601
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 28.3[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK186 (E,E)-13CNMR-1.jdf
+PDF PAGE 33
+ 
+  S33 
+(a) 
+  
+(b) 
+ 
+Figure S20. (a) 1H NMR of (E,E)-S5 (600 MHz, CDCl3); (b) 13C NMR of (E,E)-S5 (151 MHz, CDCl3)
+abundance
+0 1.0 2.0 3.0 4.0 5.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+7.835
+7.826
+7.812
+7.768
+7.765
+7.618
+7.605
+7.576
+7.549
+7.438
+7.436
+7.254
+7.164
+7.145
+7.144
+7.142
+7.137
+2.345
+1.535
+0.072
+0.000
+8.251.378.591.377.9016.151.03
+16.15
+6.13
+3.99
+2.08
+2.07
+2.02
+2.00
+2.00
+1.98
+abundance
+0 1.0 2.0 3.0
+X : parts per Million : 1H
+7.8 7.7 7.6 7.5 7.4 7.3 7.2 7.1
+7.835
+7.826
+7.819
+7.812
+7.768
+7.767
+7.765
+7.759
+7.753
+7.752
+7.751
+7.618
+7.611
+7.605
+7.576
+7.563
+7.549
+7.438
+7.437
+7.436
+7.254
+7.164
+7.150
+7.145
+7.144
+7.142
+7.137
+7.132
+7.130
+8.25
+1.378.591.37
+7.90
+16.15
+1.03
+16.15
+6.13
+3.99
+2.08
+2.07
+2.02
+2.00
+2.00
+1.98
+Filename          = MK186 (E,E)-1HNMR-2.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 00:46:25
+Revision_Time     =  9-OCT-2021 18:18:13
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 50
+Temp_Get          = 27.1[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK186 (E,E)-1HNMR-1.jdf
+abundance
+0 0.10.20.30.40.50.60.70.80.91.01.11.21.31.41.5
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.0
+139.221
+134.928
+134.199
+133.519
+133.385
+130.443
+128.517
+127.674
+126.696
+126.313
+124.233
+124.042
+77.211
+77.000
+76.789
+20.816
+abundance
+0 0.1 0.2
+X : parts per Million : 13C
+142.0141.0140.0139.0138.0137.0136.0135.0134.0133.0132.0131.0130.0129.0128.0127.0126.0125.0124.0123.0
+139.221
+134.928
+134.199
+133.519
+133.385
+130.443
+128.517
+127.674
+126.696
+126.313
+124.233
+124.042
+Filename          = MK186 (E,E)-13CNMR-2.jdf
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 00:50:23
+Revision_Time     =  9-OCT-2021 18:21:54
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 601
+Total_Scans       = 601
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 28.3[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK186 (E,E)-13CNMR-1.jdf
+PDF PAGE 34
+ 
+  S34 
+(a) 
+ 
+(b) 
+ Figure S21. (a) 1H NMR of S7 (600 MHz, CDCl3); (b) 13C NMR of S7 (151 MHz, CDCl3)
+abundance
+0 1.0 2.0 3.0 4.0 5.0 6.0 7.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+9.125
+9.118
+9.110
+8.853
+7.952
+7.938
+7.926
+7.912
+7.905
+7.890
+7.833
+7.819
+7.491
+7.489
+7.477
+7.476
+7.475
+7.249
+2.648
+1.528
+0.000
+8.59
+8.258.598.598.59
+1.378.081.03
+6.04
+2.00
+2.00
+2.00
+1.98
+1.97
+1.931.88
+abundance
+0 1.0 2.0
+X : parts per Million : 1H
+8.0 7.9 7.8
+7.952
+7.945
+7.938
+7.926
+7.919
+7.912
+7.905
+7.897
+7.890
+7.833
+7.826
+7.819
+8.25
+8.59
+8.59
+8.59
+6.04
+2.00
+2.00
+2.00
+1.98
+1.97
+1.93
+1.88
+abundance
+0 1.0 2.0
+X : parts per Million : 1H
+9.2 9.1 9.0
+9.125
+9.118
+9.110 8.59
+6.04
+2.00
+2.00
+2.00
+1.98
+1.97
+1.93
+1.88
+Filename          = MK171-1HNMR-3.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 22:03:00
+Revision_Time     =  9-OCT-2021 17:06:08
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 52
+Temp_Get          = 27.2[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK171-1HNMR-1.jdf
+abundance
+0 1.0 2.0 3.0 4.0 5.0 6.0 7.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+9.125
+9.118
+9.110
+8.853
+7.952
+7.938
+7.926
+7.912
+7.905
+7.890
+7.833
+7.819
+7.491
+7.489
+7.477
+7.476
+7.475
+7.249
+2.648
+1.528
+0.000
+8.59
+8.258.598.598.59
+1.378.081.03
+6.04
+2.00
+2.00
+2.00
+1.98
+1.97
+1.931.88
+abundance
+0 1.0 2.0
+X : parts per Million : 1H
+8.0 7.9 7.8
+7.952
+7.945
+7.938
+7.926
+7.919
+7.912
+7.905
+7.897
+7.890
+7.833
+7.826
+7.819
+8.25
+8.59
+8.59
+8.59
+6.04
+2.00
+2.00
+2.00
+1.98
+1.97
+1.93
+1.88
+abundance
+0 1.0 2.0
+X : parts per Million : 1H
+9.2 9.1 9.0
+9.125
+9.118
+9.110 8.59
+6.04
+2.00
+2.00
+2.00
+1.98
+1.97
+1.93
+1.88
+Filename          = MK171-1HNMR-3.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 21-AUG-2019 22:03:00
+Revision_Time     =  9-OCT-2021 17:06:08
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 52
+Temp_Get          = 27.2[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK171-1HNMR-1.jdf
+PDF PAGE 35
+ 
+  S35 
+(a) 
+ 
+(b)
+  
+Figure S22. (a) 1H NMR of S8 (600 MHz, CDCl3); (b) 13C NMR of S8 (151 MHz, CDCl3) 
+abundance
+0 1.0 2.0 3.0 4.0 5.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+9.089
+9.082
+9.075
+9.043
+8.058
+8.044
+7.996
+7.981
+7.944
+7.937
+7.703
+7.259
+4.807
+1.548
+0.005
+0.000
+-0.006
+8.59
+8.258.948.598.59
+1.728.251.72
+4.02
+2.04
+2.03
+2.01
+2.00
+2.00
+1.921.82
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6
+X : parts per Million : 1H
+9.1
+9.089
+9.082
+9.075
+9.043
+8.59
+4.02
+2.04
+2.03
+2.01
+2.00
+2.00
+1.92
+1.82
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8
+X : parts per Million : 1H
+8.1 8.0 7.9 7.8 7.7
+8.058
+8.051
+8.044
+7.996
+7.988
+7.981
+7.958
+7.951
+7.944
+7.937
+7.930
+7.923
+7.703
+7.702
+7.701
+7.695
+7.690
+7.688
+7.687
+8.25
+8.94
+8.59
+8.59
+1.728.251.72
+4.02
+2.04
+2.03
+2.01
+2.00
+2.00
+1.92
+1.82
+Filename          = MK R785 (MK176)1HNMR-3.jd
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 20-JUN-2019 03:24:00
+Revision_Time     =  9-OCT-2021 15:54:49
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 54
+Temp_Get          = 24.7[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK R785 (MK176)1HNMR-1.jdf
+abundance
+0 0.10.20.30.40.50.60.70.80.91.01.11.21.31.41.51.6
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+135.694
+133.241
+130.702
+130.577
+130.079
+129.389
+128.737
+127.501
+127.396
+127.012
+126.936
+126.428
+77.211
+77.000
+76.789
+34.500
+29.700
+abundance
+-0.02 -0.01 0 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.11 0.12
+X : parts per Million : 13C
+136.0 135.0 134.0 133.0 132.0 131.0 130.0 129.0 128.0 127.0
+135.694
+133.241
+130.702
+130.577
+130.079
+129.389
+128.737
+127.501
+127.396
+127.012
+126.936
+126.428
+Filename          = MK176_13CNMR-3.jdf
+Author            = delta
+Experiment        = single_pulse_dec
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  4-SEP-2019 22:07:07
+Revision_Time     =  9-OCT-2021 16:49:17
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 502
+Total_Scans       = 502
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 27.1[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK176_13CNMR-1.jdf
+H grease 
+PDF PAGE 36
+ 
+  S36 
+(a) 
+  
+(b) 
+ 
+Figure S23. (a) 1H NMR of 2 (600 MHz, Cl2CDCDCl2, 80 °C); (b) 13C NMR of 2 (151 MHz, Cl2CDCDCl2, 
+80 °C)
+abundance
+0 0.10.20.30.40.50.60.70.80.91.01.11.21.31.41.51.61.71.8
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+8.796
+8.754
+8.747
+8.739
+8.060
+8.052
+8.044
+8.041
+8.034
+8.026
+7.735
+7.728
+7.722
+6.000
+4.864
+2.711
+1.532
+0.126
+8.94
+9.288.59
+8.25
+4.30
+4.15
+2.152.08
+2.00
+abundance
+0 0.1 0.2 0.3
+X : parts per Million : 1H
+8.1 8.0 7.9 7.8 7.7
+8.060
+8.052
+8.044
+8.041
+8.034
+8.026
+7.735
+7.728
+7.722
+9.28
+8.59
+8.25
+4.30
+4.15
+2.15
+2.08
+2.00
+abundance
+0 0.1 0.2 0.3
+X : parts per Million : 1H
+8.8 8.7 8.6
+8.796
+8.754
+8.747
+8.739 8.94
+4.30
+4.15
+2.15
+2.08
+2.00
+Filename          = MK179_TCE_80C-1HNMR-3.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = TETRACHLOROETHAN
+Actual_Start_Time = 22-AUG-2019 02:46:07
+Revision_Time     =  9-OCT-2021 15:30:28
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 54
+Temp_Get          = 80[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK179_TCE_80C-1HNMR-1.jdf
+abundance
+-0.01 0 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+136.088
+131.881
+130.319
+129.217
+128.288
+127.300
+127.090
+123.391
+121.637
+74.049
+73.982
+73.800
+73.608
+34.166
+ (thousandths)
+-10.0 0 10.0 20.0 30.0 40.0 50.0
+X : parts per Million : 13C
+130.0 120.0
+136.088
+131.881
+130.319
+129.217
+128.288
+127.300
+127.090
+123.391
+121.637
+Filename          = MK179_TCE_80C-13CNMR-3.jd
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = TETRACHLOROETHAN
+Actual_Start_Time = 22-AUG-2019 02:49:37
+Revision_Time     =  9-OCT-2021 15:38:45
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 800
+Total_Scans       = 800
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 80[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK179_TCE_80C-13CNMR-1.jdf
+PDF PAGE 37
+ 
+  S37 
+(a) 
+  
+(b) 
+ 
+Figure S24. (a) 1H NMR of 3 (600 MHz, CDCl3); (b) 13C NMR of 3 (151 MHz, CDCl3) 
+ 
+abundance
+0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.6 2.8
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+9.098
+9.091
+9.084
+8.965
+8.010
+7.963
+7.916
+7.889
+7.644
+7.642
+7.253
+4.041
+4.035
+4.029
+3.494
+3.482
+3.476
+3.470
+3.459
+1.905
+1.892
+1.892
+1.880
+1.570
+1.252
+1.218
+1.206
+1.194
+0.000
+-0.006
+8.59
+8.258.598.598.59
+1.378.251.37
+7.56
+20.96
+15.12
+4.14
+2.112.09
+2.08
+2.06
+2.021.98
+1.92
+1.90
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5
+X : parts per Million : 1H
+8.0 7.9 7.8 7.7 7.6
+8.023
+8.016
+8.010
+7.963
+7.949
+7.916
+7.889
+7.881
+7.874
+7.644
+7.643
+7.642
+7.636
+7.631
+7.630
+7.628
+8.25
+8.59
+8.59
+8.59
+1.378.251.37
+4.14
+2.11
+2.09
+2.08
+2.06
+2.02
+1.98
+1.92
+1.90
+abundance
+0 1.0 2.0
+X : parts per Million : 1H
+4.0
+4.041
+4.035
+4.029 7.56
+4.14
+2.11
+2.09
+2.08
+2.06
+2.02
+1.98
+1.92
+1.90
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3
+X : parts per Million : 1H
+1.9 1.8
+1.905
+1.892
+1.892
+1.880
+15.12
+4.14
+2.11
+2.09
+2.08
+2.06
+2.02
+1.98
+1.92
+1.90
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3
+X : parts per Million : 1H
+9.19.0
+9.098
+9.091
+9.084
+8.965
+8.59
+4.14
+2.11
+2.09
+2.08
+2.06
+2.02
+1.98
+1.92
+1.90
+Filename          = MK178-1HNMR-3.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 27-AUG-2019 00:59:56
+Revision_Time     =  9-OCT-2021 12:32:13
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 50
+Temp_Get          = 26.1[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK178-1HNMR-1.jdf
+abundance
+0 0.1 0.2 0.3
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+139.115
+132.494
+130.730
+130.529
+130.242
+129.178
+127.472
+127.415
+127.386
+127.329
+126.428
+126.265
+77.211
+77.000
+76.789
+29.747
+-0.007
+abundance
+0 0.1 0.2
+X : parts per Million : 13C
+131.0 130.0 129.0 128.0 127.0 126.0
+130.730
+130.529
+130.242
+129.178
+127.472
+127.415
+127.386
+127.329
+126.428
+126.265
+Filename          = MK178-13CNMR-3.jdf
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time = 27-AUG-2019 01:03:19
+Revision_Time     =  9-OCT-2021 12:43:09
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 763
+Total_Scans       = 763
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 27.3[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK178-13CNMR-1.jdf
+PDF PAGE 38
+ 
+  S38 
+(a) 
+  
+(b) 
+ 
+Figure S25. (a) 1H NMR of 4 (600 MHz, Cl2CDCDCl2,); (b) 13C NMR of 4 (151 MHz, Cl2CDCDCl2,) 
+ 
+abundance
+0 1.0 2.0 3.0 4.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+8.406
+8.398
+8.391
+8.111
+7.879
+7.830
+7.498
+7.491
+7.301
+7.259
+7.244
+7.232
+7.217
+6.000
+4.229
+4.217
+4.205
+4.008
+3.985
+3.870
+3.721
+3.698
+2.936
+2.858
+2.165
+1.618
+1.270
+0.092
+8.94
+8.25
+8.598.591.038.080.69
+8.94
+9.289.28
+14.43
+13.7513.75
+14.09
+13.16
+4.23
+2.49
+2.14
+2.11
+2.06
+2.05
+2.04
+2.04
+2.03
+2.00
+1.98
+1.96
+1.951.94
+1.94
+0.22
+abundance
+0 0.1 0.2 0.3 0.4
+X : parts per Million : 1H
+8.4 8.3 8.2 8.1 8.0 7.9 7.8 7.7
+8.406
+8.398
+8.391
+8.125
+8.118
+8.111
+7.966
+7.959
+7.952
+7.892
+7.879
+7.868
+7.830
+7.823
+7.816
+7.766
+7.765
+7.765
+7.753
+7.752
+7.751
+8.94
+8.25
+8.59
+8.59
+1.038.080.69
+13.16
+4.23
+2.49
+2.14
+2.11
+2.06
+2.05
+2.04
+2.04
+2.03
+2.00
+1.98
+1.96
+1.95
+1.94
+1.94
+0.22
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+X : parts per Million : 1H
+7.6 7.5 7.4 7.3 7.2
+7.571
+7.563
+7.556
+7.498
+7.491
+7.301
+7.259
+7.251
+7.244
+7.232
+7.224
+7.217
+8.94
+9.28
+9.28
+13.16
+4.23
+2.49
+2.14
+2.11
+2.06
+2.05
+2.04
+2.04
+2.03
+2.00
+1.98
+1.96
+1.95
+1.94
+1.94
+0.22
+Filename          = MK184_TCE_25C-1HNMR-3.jdf
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = TETRACHLOROETHAN
+Actual_Start_Time = 22-AUG-2019 03:31:56
+Revision_Time     = 10-OCT-2021 15:46:03
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 54
+Temp_Get          = 31.6[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK184_TCE_25C-1HNMR-1.jdf
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.0
+130.492
+129.744
+129.677
+129.121
+128.939
+128.728
+128.163
+127.138
+127.023
+126.735
+126.448
+126.275
+126.227
+126.160
+125.489
+124.052
+119.768
+74.049
+73.982
+73.800
+73.618
+35.661
+34.578
+ (thousandths)
+-10.0 0 10.0 20.0 30.0 40.0 50.0 60.0
+X : parts per Million : 13C
+136.0135.0134.0133.0132.0131.0130.0129.0128.0127.0126.0125.0124.0123.0122.0121.0120.0119.0
+135.561
+134.698
+131.871
+130.492
+130.175
+129.744
+129.677
+129.121
+128.939
+128.728
+128.163
+127.138
+127.023
+126.783
+126.735
+126.448
+126.275
+126.227
+126.160
+125.489
+124.052
+119.768
+Filename          = MK184(2)_TCE_25C-13CNMR-3
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = TETRACHLOROETHAN
+Actual_Start_Time = 23-AUG-2019 05:36:49
+Revision_Time     = 10-OCT-2021 15:50:01
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 16968
+Total_Scans       = 16968
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 27.5[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK184(2)_TCE_25C-13CNMR-1.jdf
+PDF PAGE 39
+ 
+  S39 
+(a)
+ 
+(b)
+  
+Figure S26. (a) 1H NMR of 4′ (600 MHz, CDCl3); (b) 13C NMR of 4′ (151 MHz, CDCl3)  
+abundance
+0 1.0 2.0 3.0 4.0 5.0 6.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0
+8.658
+8.651
+8.643
+8.239
+7.849
+7.810
+7.741
+7.685
+7.256
+6.809
+6.795
+6.621
+6.614
+6.607
+4.324
+4.311
+4.299
+4.201
+4.189
+4.177
+4.043
+4.030
+4.017
+3.998
+3.986
+3.974
+3.861
+1.542
+8.59
+8.94
+8.258.258.598.941.038.251.03
+1.378.251.378.59
+8.25
+15.1214.09
+15.1214.092.16
+2.07
+2.02
+2.00
+1.99
+1.99
+1.99
+1.98
+1.971.95
+1.93
+1.91
+1.91
+1.861.86
+1.84
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+X : parts per Million : 1H
+4.4 4.3 4.2 4.1 4.0 3.9
+4.324
+4.311
+4.299
+4.201
+4.189
+4.177
+4.043
+4.030
+4.017
+3.998
+3.986
+3.974
+15.12
+14.09
+15.12
+14.09
+2.16
+2.07
+2.02
+2.00
+1.99
+1.99
+1.99
+1.98
+1.97
+1.95
+1.93
+1.91
+1.91
+1.86
+1.86
+1.84
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+X : parts per Million : 1H
+8.0 7.9 7.8 7.7 7.6
+7.968
+7.960
+7.953
+7.849
+7.824
+7.810
+7.755
+7.741
+7.685
+7.670
+7.648
+7.633
+7.619
+7.617
+7.605
+7.603
+8.94
+8.25
+8.25
+8.59
+8.941.038.251.03
+2.16
+2.07
+2.02
+2.00
+1.99
+1.99
+1.99
+1.98
+1.97
+1.95
+1.93
+1.91
+1.91
+1.86
+1.86
+1.84
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8
+X : parts per Million : 1H
+8.658
+8.651
+8.643
+8.239
+8.59
+2.16
+2.07
+2.02
+2.00
+1.99
+1.99
+1.99
+1.98
+1.971.95
+1.93
+1.91
+1.91
+1.861.86
+1.84
+abundance
+0 0.10.20.30.40.50.6
+X : parts per Million : 1H
+6.9 6.8 6.7 6.6
+6.902
+6.901
+6.899
+6.888
+6.887
+6.886
+6.809
+6.802
+6.795
+6.621
+6.614
+6.607
+1.378.251.37
+8.59
+8.25
+2.16
+2.07
+2.02
+2.00
+1.99
+1.99
+1.99
+1.98
+1.97
+1.95
+1.93
+1.91
+1.91
+1.86
+1.86
+1.84
+Filename          = MK184B_1HNMR-2.jdf
+Author            = delta
+Experiment        = single_pulse.ex2
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  6-SEP-2019 00:11:27
+Revision_Time     = 10-OCT-2021 16:10:55
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 16
+Total_Scans       = 16
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 54
+Temp_Get          = 26.3[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK184B_1HNMR-1.jdf
+abundance
+0 0.1 0.2 0.3
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+135.704
+130.347
+128.814
+128.488
+127.951
+127.271
+127.079
+126.888
+126.543
+126.303
+126.265
+126.140
+125.891
+125.642
+125.268
+122.518
+119.452
+77.211
+77.000
+76.789
+39.369
+38.104
+-0.017
+ (thousandths)
+0 10.0 20.0 30.0 40.0 50.0
+X : parts per Million : 13C
+137.0136.0135.0134.0133.0132.0131.0130.0129.0128.0127.0126.0125.0124.0123.0122.0121.0120.0
+137.592
+135.704
+131.104
+130.501
+130.347
+130.156
+128.929
+128.814
+128.488
+127.951
+127.271
+127.079
+126.888
+126.543
+126.303
+126.265
+126.140
+125.891
+125.642
+125.268
+122.518
+119.452
+Filename          = MK184B_13CNMR-2.jdf
+Author            = delta
+Experiment        = single_pulse_dec
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  6-SEP-2019 00:15:48
+Revision_Time     = 10-OCT-2021 16:13:56
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 1119
+Total_Scans       = 1119
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 27.4[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK184B_13CNMR-1.jdf
+PDF PAGE 40
+ 
+  S40 
+(a) 
+  
+(b) 
+ 
+Figure S27. (a) 1H NMR of 4″(600 MHz, CDCl3); (b) 13C NMR of 4″ (151 MHz, CDCl3) 
+abundance
+0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.6 2.8
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+8.400
+8.393
+8.387
+8.246
+8.061
+8.047
+7.842
+7.835
+7.828
+7.742
+7.736
+7.729
+7.369
+7.362
+7.355
+7.254
+6.542
+6.536
+6.530
+4.109
+4.098
+4.088
+3.501
+3.491
+3.480
+1.539
+0.000
+7.90
+8.25
+8.258.25
+8.25
+7.22
+12.72
+12.37
+4.424.40
+4.37
+4.32
+4.00
+3.79
+3.78
+3.75
+3.59
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+X : parts per Million : 1H
+8.0
+8.400
+8.393
+8.387
+8.246
+8.061
+8.054
+8.047
+7.842
+7.828
+7.742
+7.736
+7.729
+7.369
+7.362
+7.355
+7.254
+7.90
+8.25
+8.25
+8.25
+8.25
+4.42
+4.40
+4.37
+4.32
+4.00
+3.79
+3.78
+3.75
+3.59
+Filename          = MK195_1HNMR-2.jdf
+Author            = delta
+Experiment        = single_pulse.ex2
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  4-SEP-2019 22:35:24
+Revision_Time     = 10-OCT-2021 16:25:40
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 56
+Temp_Get          = 26.3[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK195_1HNMR-1.jdf
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+134.410
+132.484
+129.868
+129.849
+129.705
+129.446
+128.910
+126.821
+126.639
+126.572
+126.514
+126.485
+125.517
+77.211
+77.000
+76.789
+44.208
+abundance
+-0.01 0 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.11
+X : parts per Million : 13C
+134.0 133.0 132.0 131.0 130.0 129.0 128.0 127.0 126.0
+134.410
+132.484
+129.868
+129.849
+129.705
+129.446
+128.910
+126.821
+126.639
+126.572
+126.514
+126.485
+125.517
+Filename          = MK195_13CNMR-2.jdf
+Author            = delta
+Experiment        = single_pulse_dec
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  4-SEP-2019 22:38:06
+Revision_Time     = 10-OCT-2021 16:27:38
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 1000
+Total_Scans       = 1000
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 27.2[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK195_13CNMR-1.jdf
+PDF PAGE 41
+ 
+  S41 
+(a)  
+ 
+(b)  
+ 
+Figure S28. (a) 1H NMR of 5 (600 MHz, CDCl3); (b) 13C NMR of 5 (151 MHz, CDCl3) 
+abundance
+0 1.0 2.0 3.0 4.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0
+8.513
+8.499
+7.843
+7.620
+7.612
+7.600
+7.598
+7.587
+7.503
+7.252
+7.075
+6.926
+6.736
+6.705
+6.446
+6.433
+4.808
+4.795
+4.734
+4.576
+4.565
+3.962
+3.946
+3.844
+3.579
+3.551
+3.529
+2.910
+2.842
+2.821
+2.800
+2.467
+2.269
+2.130
+2.078
+1.527
+1.284
+1.253
+0.891
+0.880
+0.868
+abundance
+0 0.1 0.2 0.3 0.4
+X : parts per Million : 1H
+8.0 7.0
+8.513
+8.499
+8.183
+8.105
+7.843
+7.600
+7.503
+7.424
+7.252
+7.075
+6.926
+6.656
+6.446
+6.433
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+X : parts per Million : 1H
+5.0 4.0 3.0
+4.808
+4.795
+4.734
+4.585
+4.576
+4.565
+4.555
+3.962
+3.946
+3.866
+3.856
+3.844
+3.833
+3.649
+3.625
+3.617
+3.603
+3.593
+3.579
+3.573
+3.566
+3.551
+3.543
+3.529
+3.508
+2.931
+2.910
+2.890
+2.842
+2.821
+2.800
+Filename          = MK R844 (MK188_(2)) 1HNMR
+Author            = Itami
+Experiment        = single_pulse.ex2
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  7-AUG-2019 03:43:08
+Revision_Time     = 10-OCT-2021 16:41:24
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 8
+Total_Scans       = 8
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 54
+Temp_Get          = 28.4[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK R844 (MK188_(2)) 1HNMR-1.jdf
+abundance
+-0.01 0.01 0.03 0.05 0.07 0.09 0.11 0.13 0.15 0.17 0.19 0.21
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+130.443
+129.351
+128.824
+127.386
+127.166
+126.869
+126.648
+126.457
+126.227
+125.834
+125.747
+125.527
+125.431
+125.335
+124.138
+123.888
+119.471
+77.211
+77.000
+76.789
+55.410
+54.596
+51.989
+45.224
+43.748
+43.336
+43.250
+15.670
+15.488
+15.076
+-0.017
+ (thousandths)
+-10.0 0 10.0 20.0 30.0 40.0
+X : parts per Million : 13C
+140.0 130.0 120.0
+137.400
+136.940
+136.701
+134.420
+132.235
+131.641
+131.277
+131.028
+130.577
+130.443
+129.609
+129.533
+129.351
+129.283
+128.824
+127.836
+127.386
+127.166
+126.869
+126.648
+126.457
+126.227
+125.834
+125.747
+125.527
+125.431
+125.335
+125.125
+124.138
+123.888
+123.122
+122.374
+122.288
+120.046
+119.471
+ (thousandths)
+0 10.0 20.0 30.0 40.0
+X : parts per Million : 13C
+50.0 40.0 30.0 20.0 10.0 0
+55.410
+54.596
+51.989
+45.224
+43.748
+43.336
+43.250
+15.670
+15.488
+15.076
+-0.017
+Filename          = MK R844 (MK188_(2)) 13CNM
+Author            = Itami
+Experiment        = single_pulse_dec
+Sample_Id         = /usr/people/Itami/files/d
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  7-AUG-2019 03:48:04
+Revision_Time     = 10-OCT-2021 16:43:48
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 19235
+Total_Scans       = 19235
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 28.5[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK R844 (MK188_(2)) 13CNMR-1.jdf
+PDF PAGE 42
+ 
+  S42 
+(a) 
+ 
+(b) 
+ 
+Figure S29. (a) 1H NMR of 7 (600 MHz, CDCl3); (b) 13C NMR of 7 (151 MHz, CDCl3) 
+abundance
+0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+8.815
+8.503
+8.071
+8.057
+7.834
+7.720
+7.707
+7.647
+7.632
+7.299
+7.285
+7.125
+6.981
+6.936
+6.903
+5.322
+5.320
+5.318
+1.529
+1.265
+0.096
+0.086
+8.598.25
+8.257.908.591.728.597.901.037.900.69
+8.59
+8.9412.038.9412.03
+3.62
+2.20
+2.072.04
+2.03
+2.00
+1.98
+1.96
+1.95
+1.941.93
+1.91
+1.90
+1.89
+1.80
+1.24
+0.29
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+X : parts per Million : 1H
+8.1 8.0 7.9 7.8 7.7 7.6 7.5 7.4 7.3 7.2 7.1 7.0 6.9
+8.071
+8.065
+8.064
+8.058
+8.057
+8.051
+7.848
+7.841
+7.834
+7.720
+7.714
+7.707
+7.647
+7.632
+7.615
+7.612
+7.601
+7.599
+7.499
+7.498
+7.496
+7.489
+7.484
+7.483
+7.482
+7.482
+7.299
+7.292
+7.285
+7.140
+7.132
+7.125
+7.001
+6.991
+6.981
+6.936
+6.921
+6.903
+6.893
+6.883
+8.598.25
+8.25
+7.90
+8.59
+1.728.597.901.03
+7.900.69
+8.59
+8.94
+12.03
+8.94
+12.03
+3.62
+2.20
+2.07
+2.04
+2.03
+2.00
+1.98
+1.96
+1.95
+1.94
+1.93
+1.91
+1.90
+1.89
+1.80
+1.24
+0.29
+Filename          = MK190_CD2Cl2_1HNMR-3.jdf
+Author            = delta
+Experiment        = single_pulse.ex2
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = METHYLENE-CHLORI
+Actual_Start_Time =  5-SEP-2019 01:38:34
+Revision_Time     =  9-OCT-2021 00:44:38
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 32
+Total_Scans       = 32
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 56
+Temp_Get          = 26.2[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+134.401
+134.123
+131.439
+130.836
+129.523
+129.111
+128.986
+128.689
+127.233
+127.204
+127.031
+126.744
+126.706
+126.121
+125.441
+124.128
+119.950
+54.164
+53.982
+53.800
+53.628
+53.445
+1.152
+ (thousandths)
+-10.0 0 10.0 20.0 30.0 40.0 50.0
+X : parts per Million : 13C
+134.0 133.0 132.0 131.0 130.0 129.0 128.0 127.0 126.0 125.0 124.0 123.0 122.0 121.0 120.0 119.0
+134.401
+134.123
+133.136
+131.602
+131.439
+130.836
+130.385
+129.954
+129.887
+129.523
+129.111
+128.986
+128.689
+127.271
+127.233
+127.204
+127.031
+126.744
+126.706
+126.121
+125.441
+124.128
+119.950
+ (thousandths)
+0 10.0 20.0 30.0 40.0
+X : parts per Million : 13C
+127.0 126.0
+127.271
+127.233
+127.204
+127.031
+126.744
+126.706
+126.121
+Filename          = MK190_CD2Cl2_13CNMR-2.jdf
+Author            = delta
+Experiment        = single_pulse_dec
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = METHYLENE-CHLORI
+Actual_Start_Time =  5-SEP-2019 01:43:58
+Revision_Time     =  9-OCT-2021 00:03:05
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 2312
+Total_Scans       = 2312
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 27.5[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK190_CD2Cl2_13CNMR-1.jdf
+PDF PAGE 43
+ 
+  S43 
+(a) 
+ 
+(b) 
+ 
+Figure S30. (a) 1H NMR of 1 (600 MHz, CDCl3); (b) 13C NMR of 1 (151 MHz, CDCl3) 
+abundance
+0 1.0 2.0 3.0 4.0 5.0
+X : parts per Million : 1H
+9.0 8.0 7.0 6.0 5.0 4.0 3.0 2.0 1.0 0
+8.179
+8.172
+8.165
+8.159
+8.145
+8.044
+8.038
+8.031
+7.602
+7.595
+7.589
+7.252
+6.988
+6.981
+6.975
+6.428
+6.421
+6.414
+1.536
+1.252
+1.249
+0.065
+0.000
+-0.005
+-0.011
+7.907.907.90
+7.90
+7.90
+8.59
+4.25
+4.12
+4.02
+4.00
+3.96
+3.82
+abundance
+0 1.0 2.0 3.0 4.0
+X : parts per Million : 1H
+8.28.18.07.97.87.77.67.57.47.37.27.17.06.96.86.76.66.56.4
+8.179
+8.172
+8.165
+8.159
+8.145
+8.044
+8.038
+8.031
+7.602
+7.595
+7.589
+7.252
+6.988
+6.981
+6.975
+6.428
+6.421
+6.414
+7.907.90
+7.90
+7.90
+7.90
+8.59
+4.25
+4.12
+4.02
+4.00
+3.96
+3.82
+Filename          = MK209_1HNMR-2.jdf
+Author            = delta
+Experiment        = single_pulse.ex2
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  6-SEP-2019 01:44:01
+Revision_Time     =  8-OCT-2021 23:40:38
+Comment           = single_pulse
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 1H
+Dim_Title         = 1H
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 2.9097984[s]
+X_Domain          = 1H
+X_Freq            = 599.67230511[MHz]
+X_Offset          = 5[ppm]
+X_Points          = 32768
+X_Prescans        = 1
+X_Resolution      = 0.34366642[Hz]
+X_Sweep           = 11.26126126[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Tri_Domain        = 1H
+Tri_Freq          = 599.67230511[MHz]
+Tri_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 32
+Total_Scans       = 32
+Relaxation_Delay  = 5[s]
+Recvr_Gain        = 56
+Temp_Get          = 26.5[dC]
+X_90_Width        = 15.6[us]
+X_Acq_Time        = 2.9097984[s]
+X_Angle           = 45[deg]
+X_Atn             = 3.3[dB]
+X_Pulse           = 7.8[us]
+Irr_Mode          = Off
+Tri_Mode          = Off
+Dante_Presat      = FALSE
+Initial_Wait      = 1[s]
+Repetition_Time   = 7.9097984[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 0.2[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK209_1HNMR-1.jdf
+abundance
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4
+X : parts per Million : 13C
+210.0200.0190.0180.0170.0160.0150.0140.0130.0120.0110.0100.090.080.070.060.050.040.030.020.010.00
+133.117
+132.954
+131.861
+130.702
+128.718
+128.277
+127.884
+127.492
+126.725
+126.514
+121.972
+120.678
+77.460
+77.211
+77.000
+76.789
+-0.007
+ (thousandths)
+-10.0 0 10.0 20.0 30.0 40.0 50.0 60.0 70.0 80.0
+X : parts per Million : 13C
+136.0135.0134.0133.0132.0131.0130.0129.0128.0127.0126.0125.0124.0123.0122.0121.0120.0119.0118.0
+133.117
+132.954
+131.861
+130.702
+128.718
+128.277
+127.884
+127.492
+126.725
+126.514
+121.972
+120.678
+Filename          = MK209_13CNMR-2.jdf
+Author            = delta
+Experiment        = single_pulse_dec
+Sample_Id         = ${SOURCE_WORKDIR}/
+Solvent           = CHLOROFORM-D
+Actual_Start_Time =  6-SEP-2019 01:49:09
+Revision_Time     =  8-OCT-2021 23:23:54
+Comment           = single pulse decoupled ga
+Data_Format       = 1D COMPLEX
+Dim_Size          = 26214
+X_Domain          = 13C
+Dim_Title         = 13C
+Dim_Units         = [ppm]
+Dimensions        = X
+Site              = ECA600
+Spectrometer      = JNM-ECA600
+Field_Strength    = 14.08462569[T] (600[MHz])
+X_Acq_Duration    = 0.69206016[s]
+X_Domain          = 13C
+X_Freq            = 150.78770543[MHz]
+X_Offset          = 100[ppm]
+X_Points          = 32768
+X_Prescans        = 4
+X_Resolution      = 1.44496109[Hz]
+X_Sweep           = 47.34848485[kHz]
+Irr_Domain        = 1H
+Irr_Freq          = 599.67230511[MHz]
+Irr_Offset        = 5[ppm]
+Clipped           = FALSE
+Scans             = 2345
+Total_Scans       = 2345
+Relaxation_Delay  = 2[s]
+Recvr_Gain        = 60
+Temp_Get          = 27.7[dC]
+X_90_Width        = 12.2[us]
+X_Acq_Time        = 0.69206016[s]
+X_Angle           = 30[deg]
+X_Atn             = 7.8[dB]
+X_Pulse           = 4.06666667[us]
+Irr_Atn_Dec       = 17.054[dB]
+Irr_Atn_Noe       = 17.054[dB]
+Irr_Noise         = WALTZ
+Decoupling        = TRUE
+Initial_Wait      = 1[s]
+Noe               = TRUE
+Noe_Time          = 2[s]
+Repetition_Time   = 2.69206016[s]
+---- PROCESSING PARAMETERS ----
+dc_balance( 0, FALSE )
+sexp( 2.0[Hz], 0.0[s] )
+trapezoid3( 0[%], 80[%], 100[%] )
+zerofill( 1, TRUE )
+fft( 1, TRUE, TRUE )
+machinephase
+ppm
+ҎԼʹ༝དྷɿ: MK209_13CNMR-1.jdf

@@ -1,0 +1,40 @@
+{
+  "cause": "CLI wrote empty different_settings_to_system; GUI reset overrides to installed system presets",
+  "different_settings_to_system": [
+    "wall_loops;sparse_infill_density;brim_type;brim_width;brim_object_gap;enable_support;initial_layer_speed;outer_wall_speed;enable_prime_tower",
+    "filament_colour",
+    ""
+  ],
+  "gcode_sha256_unchanged": "b29ff02eae34610edfd3dfde94d84119bc953a9a7ce3b00e30071c7f310b59f0",
+  "gui_before": {
+    "seconds": 1369,
+    "grams": 5.74,
+    "sent": false
+  },
+  "gui_after": {
+    "seconds": 1739,
+    "grams": 6.86,
+    "layers": 56,
+    "outer_brim_visible": true,
+    "sent": true
+  },
+  "source": "https://github.com/bambulab/BambuStudio/blob/master/src/libslic3r/PresetBundle.cpp",
+  "scope": "Packaging metadata only; no geometry or machine start/end G-code changes",
+  "gui_roundtrip_verified": true,
+  "verified_keys": [
+    "wall_loops",
+    "brim_type",
+    "brim_width",
+    "brim_object_gap",
+    "sparse_infill_density",
+    "outer_wall_speed",
+    "initial_layer_speed",
+    "enable_support",
+    "enable_prime_tower",
+    "layer_height",
+    "nozzle_temperature",
+    "textured_plate_temp",
+    "machine_start_gcode",
+    "machine_end_gcode"
+  ]
+}

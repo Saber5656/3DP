@@ -1,0 +1,222 @@
+{
+  "blue-body": {
+    "estimated_g": 72.54,
+    "estimated_seconds": 21654,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA17",
+        "type": "PLA",
+        "color": "#0050B3",
+        "used_m": "24.72",
+        "used_g": "72.54",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "gcode_sha256": "2233c53495e9a63fa0d69be2fa12df60a120073b3d5e4d2c38f3d8543b5c4592",
+    "file_sha256": "db25faf90a97a64c7ad5dbb076c02ce0754fb9a5aa1caa203790bc134b14fc6c",
+    "source_matches_current_CAD": true
+  },
+  "black-stand": {
+    "estimated_g": 120.13,
+    "estimated_seconds": 21457,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#000000",
+        "used_m": "39.64",
+        "used_g": "120.13",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "gcode_sha256": "56d05067bb0d6082e6503af336638c3ade3f8c3198c268ab36deb15355f4144b",
+    "file_sha256": "6b7d74b569a903aed1405d862fc6d8841ebbf5f514e9a6c57f2721836bbbd6f3",
+    "source_matches_current_CAD": true
+  },
+  "total_g": 192.67,
+  "total_seconds": 43111,
+  "body_local_dimensions_mm": [
+    150.0,
+    142.65847744427305,
+    67.8792068812046
+  ],
+  "assembly_bounds_mm": [
+    [
+      -75.00000000000001,
+      -76.0,
+      0.0
+    ],
+    [
+      75.0,
+      48.0,
+      145.67627457812108
+    ]
+  ],
+  "display_tilt_degrees": 18.0,
+  "city_support_summary": {
+    "sample_spacing_mm": 2.0,
+    "samples": 317,
+    "projected_candidate_area_mm2": 1268.0,
+    "estimated_sloped_candidate_area_mm2": 1985.6754316477047,
+    "shell_com_support_hull_margin_mm": 18.47765069781607,
+    "uniform_shell_com_mm": [
+      -3.4812659309717924e-14,
+      -5.234545913372101,
+      74.98751224828003
+    ],
+    "contact_x_span_mm": 60.0,
+    "contact_y_span_mm": 66.0,
+    "tip_near_contact_count": 0,
+    "nearest_tip_to_contact_mm": 9.919728033611634,
+    "candidate_patches": [
+      {
+        "samples": 56,
+        "projected_candidate_area_mm2": 224.0,
+        "xy_span_mm": [
+          14.0,
+          16.0
+        ]
+      },
+      {
+        "samples": 56,
+        "projected_candidate_area_mm2": 224.0,
+        "xy_span_mm": [
+          14.0,
+          16.0
+        ]
+      },
+      {
+        "samples": 52,
+        "projected_candidate_area_mm2": 208.0,
+        "xy_span_mm": [
+          10.0,
+          28.0
+        ]
+      },
+      {
+        "samples": 47,
+        "projected_candidate_area_mm2": 188.0,
+        "xy_span_mm": [
+          10.0,
+          28.0
+        ]
+      },
+      {
+        "samples": 27,
+        "projected_candidate_area_mm2": 108.0,
+        "xy_span_mm": [
+          10.0,
+          12.0
+        ]
+      },
+      {
+        "samples": 27,
+        "projected_candidate_area_mm2": 108.0,
+        "xy_span_mm": [
+          10.0,
+          12.0
+        ]
+      },
+      {
+        "samples": 16,
+        "projected_candidate_area_mm2": 64.0,
+        "xy_span_mm": [
+          6.0,
+          10.0
+        ]
+      },
+      {
+        "samples": 16,
+        "projected_candidate_area_mm2": 64.0,
+        "xy_span_mm": [
+          6.0,
+          10.0
+        ]
+      },
+      {
+        "samples": 7,
+        "projected_candidate_area_mm2": 28.0,
+        "xy_span_mm": [
+          6.0,
+          4.0
+        ]
+      },
+      {
+        "samples": 7,
+        "projected_candidate_area_mm2": 28.0,
+        "xy_span_mm": [
+          6.0,
+          4.0
+        ]
+      },
+      {
+        "samples": 1,
+        "projected_candidate_area_mm2": 4.0,
+        "xy_span_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "samples": 1,
+        "projected_candidate_area_mm2": 4.0,
+        "xy_span_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "samples": 1,
+        "projected_candidate_area_mm2": 4.0,
+        "xy_span_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "samples": 1,
+        "projected_candidate_area_mm2": 4.0,
+        "xy_span_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "samples": 1,
+        "projected_candidate_area_mm2": 4.0,
+        "xy_span_mm": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "samples": 1,
+        "projected_candidate_area_mm2": 4.0,
+        "xy_span_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "tip_exclusion_radius_mm": 7.5,
+    "limitations": "Potential bearing region with clearance; finite samples, uniform-density shell COM. No physical load, friction or tolerance validation."
+  },
+  "bead_diameter_mm": 3.0,
+  "nominal_wall_mm": 1.2,
+  "physical_print": "NOT_RUN",
+  "GUI_roundtrip": "NOT_RUN"
+}

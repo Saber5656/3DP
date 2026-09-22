@@ -1,0 +1,29 @@
+{
+  "assets": [
+    {
+      "contentType": "image/webp",
+      "id": "8ea776bb90b515f8",
+      "kind": "image",
+      "name": "655",
+      "path": "${BROWSER_ASSET_CACHE}/8ea776bb90b515f8",
+      "url": "https://static.wikia.nocookie.net/vsbattles/images/1/1f/The_Sixth_Angel_-_Pentagram_Form_%28Rebuild%29.png/revision/latest/scale-to-width-down/655?cb=20240229025419"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "7c2ba8f05c480e29",
+      "kind": "image",
+      "name": "1000",
+      "path": "${BROWSER_ASSET_CACHE}/7c2ba8f05c480e29",
+      "url": "https://static.wikia.nocookie.net/vsbattles/images/1/1f/The_Sixth_Angel_-_Pentagram_Form_%28Rebuild%29.png/revision/latest/scale-to-width-down/1000?cb=20240229025419"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "1596fdb5e024aad8",
+      "kind": "image",
+      "name": "latest",
+      "path": "${BROWSER_ASSET_CACHE}/1596fdb5e024aad8",
+      "url": "https://static.wikia.nocookie.net/vsbattles/images/1/1f/The_Sixth_Angel_-_Pentagram_Form_%28Rebuild%29.png/revision/latest?cb=20240229025419"
+    }
+  ],
+  "failures": []
+}

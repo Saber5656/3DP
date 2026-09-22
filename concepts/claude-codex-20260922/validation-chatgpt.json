@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-09-22",
+  "status": "PASS",
+  "new_ids": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8"
+  ],
+  "new_concepts": 8,
+  "total_concepts": 20,
+  "selected_sheets": 2,
+  "generation_calls": 4,
+  "files": [
+    {
+      "file": "images/d1-d4-chatgpt-companions.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b9de6da206511e64593b2964e88dd86b6ef3c38a701e080e2b02faca3eb86f49",
+      "png_crc": "PASS"
+    },
+    {
+      "file": "images/d5-d8-chatgpt-objects.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e1db65c639e549de50404d137a1fe8e7ad3581407a7732a3e96fabf03ab93bef",
+      "png_crc": "PASS"
+    },
+    {
+      "file": "references/chatgpt-app.png",
+      "width": 2048,
+      "height": 2048,
+      "sha256": "3453947a9ce2709b7ec51c0559c7eb976e4ac53b232b607d1d81b0d1d1048b61",
+      "png_crc": "PASS"
+    }
+  ],
+  "prior_reference_and_image_hashes_unchanged": true,
+  "self_review": "REVIEW.md",
+  "limits": [
+    "Visual concepts only, no STL/CAD or printability verification.",
+    "Knot connections remain stylized, especially D1 and D6-D8; exact geometry requires tracing source."
+  ]
+}

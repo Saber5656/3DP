@@ -1,0 +1,668 @@
+{
+  "units": "mm",
+  "stage": "geometry validation; fit_30 tightness accepted by user; rear adapter remains preliminary",
+  "measured": {
+    "units": "mm",
+    "nozzle_outer_width": 37,
+    "nozzle_outer_height": 13,
+    "nozzle_insertion": 20,
+    "kirby_insertion": 8,
+    "existing_back_hole_width": 5,
+    "unit_confirmation": "縦13 mm × 横37 mmです",
+    "body": "硬めだが押すとへこむ",
+    "rear_hole_enlargement": "allowed in prior conversation",
+    "fit_feedback": {
+      "part": "fit_30",
+      "source": "user report after physical trial",
+      "tightness_raw": "キツさはちょうどいいと思う",
+      "depth_raw": "深さはあと1.5cmぐらいは入る",
+      "selected_clearance_per_side": 0.3,
+      "selected_cad_outer_width": 36.4,
+      "selected_cad_outer_height": 12.4,
+      "depth_interpretation": "pending clarification; do not replace 20 mm with 35 mm yet",
+      "note": "CAD nominal dimensions, not caliper measurements of the printed part"
+    },
+    "unknowns": [
+      "exact profile and corner radius",
+      "axial taper",
+      "rim slope angle",
+      "shell thickness",
+      "rear seating curvature",
+      "meaning of additional 15 mm insertion allowance"
+    ]
+  },
+  "parameters": {
+    "nozzle_width": 37.0,
+    "nozzle_height": 13.0,
+    "nozzle_depth": 20.0,
+    "kirby_depth": 8.0,
+    "clearance_per_side": 0.3,
+    "nozzle_wall": 1.6,
+    "rear_bore": 20.0,
+    "rear_outer_base": 24.0,
+    "rear_outer_tip": 22.0,
+    "rear_flange": 36.0,
+    "transition_end": 43.0,
+    "rear_flange_top": 50.0,
+    "gasket_thickness": 2.0
+  },
+  "versions": {
+    "cadquery": "2.8.0",
+    "trimesh": "5.1.0",
+    "numpy": "2.5.3"
+  },
+  "parts": {
+    "fit_15": {
+      "cad_valid": true,
+      "cad_solid_count": 1,
+      "step_roundtrip_valid": true,
+      "step_volume_error_mm3": 9.276845958083868e-11,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "connected_bodies": 1,
+      "euler_number": 0,
+      "degenerate_faces": 0,
+      "extent_mm": [
+        44.995849609375,
+        21.0,
+        23.0
+      ],
+      "cad_extent_mm": [
+        45.0000002,
+        21.0000002,
+        23.000000000000004
+      ],
+      "max_extent_error_mm": 0.004150590625002337,
+      "volume_mm3": 4295.3458961129045,
+      "triangles": 5354,
+      "stl_sha256": "7ce8db6444d079137395b557feba58891395113b308e86d8762279ca9716ae9f"
+    },
+    "fit_30": {
+      "cad_valid": true,
+      "cad_solid_count": 1,
+      "step_roundtrip_valid": true,
+      "step_volume_error_mm3": 8.640199666842818e-11,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "connected_bodies": 1,
+      "euler_number": 0,
+      "degenerate_faces": 0,
+      "extent_mm": [
+        44.995849609375,
+        21.0,
+        23.0
+      ],
+      "cad_extent_mm": [
+        45.0000002,
+        21.0000002,
+        23.0
+      ],
+      "max_extent_error_mm": 0.004150590625002337,
+      "volume_mm3": 4299.977331473635,
+      "triangles": 10618,
+      "stl_sha256": "dd5a0831fd6cb54bc80cf4678b7ce894f2f3422ea523f703a3110274617ec364"
+    },
+    "fit_45": {
+      "cad_valid": true,
+      "cad_solid_count": 1,
+      "step_roundtrip_valid": true,
+      "step_volume_error_mm3": 9.367795428261161e-11,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "connected_bodies": 1,
+      "euler_number": 0,
+      "degenerate_faces": 0,
+      "extent_mm": [
+        44.995849609375,
+        21.0,
+        23.0
+      ],
+      "cad_extent_mm": [
+        45.0000002,
+        21.0000002,
+        23.000000000000004
+      ],
+      "max_extent_error_mm": 0.004150590625002337,
+      "volume_mm3": 4304.315364669664,
+      "triangles": 5236,
+      "stl_sha256": "63b157070f846988b7fd31343b144ac28f19b3c6480118727cb131bd69a82c7f"
+    },
+    "draft_rear_adapter": {
+      "cad_valid": true,
+      "cad_solid_count": 1,
+      "step_roundtrip_valid": true,
+      "step_volume_error_mm3": 4.361936589702964e-09,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "connected_bodies": 1,
+      "euler_number": 0,
+      "degenerate_faces": 0,
+      "extent_mm": [
+        44.995849609375,
+        35.99288558959961,
+        58.0
+      ],
+      "cad_extent_mm": [
+        45.0000002,
+        36.0000002,
+        58.0000001
+      ],
+      "max_extent_error_mm": 0.007114610400392962,
+      "volume_mm3": 10859.76178970363,
+      "triangles": 25026,
+      "stl_sha256": "1d334f345187475b0034bb34c4a7388fdecc535195eadfcfca774f4b86925a61"
+    },
+    "draft_rear_gasket_TPU": {
+      "cad_valid": true,
+      "cad_solid_count": 1,
+      "step_roundtrip_valid": true,
+      "step_volume_error_mm3": 2.4783730623312294e-11,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "connected_bodies": 1,
+      "euler_number": 0,
+      "degenerate_faces": 0,
+      "extent_mm": [
+        36.0,
+        35.99288558959961,
+        2.0
+      ],
+      "cad_extent_mm": [
+        36.0,
+        36.0,
+        2.0
+      ],
+      "max_extent_error_mm": 0.007114410400390625,
+      "volume_mm3": 1100.2726804929362,
+      "triangles": 1264,
+      "stl_sha256": "55295ae3bfe89cecf6ff5076e139d4dc7e24c6d83a0235016d673100d2b952c3"
+    }
+  },
+  "fit_set_3mf": {
+    "unit": "millimeter",
+    "mesh_parts": 3,
+    "watertight_without_repair": true,
+    "printer_profile_included": false
+  },
+  "section_wall_checks": [
+    {
+      "z_mm": 0.25,
+      "minimum_in_plane_wall_mm": 1.4000000000000004
+    },
+    {
+      "z_mm": 0.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 1.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 1.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 2.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 2.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 3.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 3.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 4.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 4.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 5.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 5.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 6.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 6.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 7.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 7.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 8.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 8.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 9.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 9.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 10.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 10.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 11.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 11.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 12.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 12.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 13.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 13.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 14.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 14.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 15.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 15.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 16.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 16.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 17.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 17.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 18.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 18.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 19.25,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 19.75,
+      "minimum_in_plane_wall_mm": 1.5999999999999996
+    },
+    {
+      "z_mm": 20.25,
+      "minimum_in_plane_wall_mm": 5.841304348396339
+    },
+    {
+      "z_mm": 20.75,
+      "minimum_in_plane_wall_mm": 5.7239130452119005
+    },
+    {
+      "z_mm": 21.25,
+      "minimum_in_plane_wall_mm": 5.606521742019834
+    },
+    {
+      "z_mm": 21.75,
+      "minimum_in_plane_wall_mm": 5.489130438827766
+    },
+    {
+      "z_mm": 22.25,
+      "minimum_in_plane_wall_mm": 5.3717391356357
+    },
+    {
+      "z_mm": 22.75,
+      "minimum_in_plane_wall_mm": 5.2543478324436315
+    },
+    {
+      "z_mm": 23.25,
+      "minimum_in_plane_wall_mm": 1.6562192112493137
+    },
+    {
+      "z_mm": 23.75,
+      "minimum_in_plane_wall_mm": 1.6652173891148205
+    },
+    {
+      "z_mm": 24.25,
+      "minimum_in_plane_wall_mm": 1.6739130410613634
+    },
+    {
+      "z_mm": 24.75,
+      "minimum_in_plane_wall_mm": 1.6826086930078954
+    },
+    {
+      "z_mm": 25.25,
+      "minimum_in_plane_wall_mm": 1.6913043449544518
+    },
+    {
+      "z_mm": 25.75,
+      "minimum_in_plane_wall_mm": 1.6999999969009174
+    },
+    {
+      "z_mm": 26.25,
+      "minimum_in_plane_wall_mm": 1.7086956488475054
+    },
+    {
+      "z_mm": 26.75,
+      "minimum_in_plane_wall_mm": 1.7173913007940371
+    },
+    {
+      "z_mm": 27.25,
+      "minimum_in_plane_wall_mm": 1.7260869527406861
+    },
+    {
+      "z_mm": 27.75,
+      "minimum_in_plane_wall_mm": 1.734782604687074
+    },
+    {
+      "z_mm": 28.25,
+      "minimum_in_plane_wall_mm": 1.7434782566336389
+    },
+    {
+      "z_mm": 28.75,
+      "minimum_in_plane_wall_mm": 1.752173908580076
+    },
+    {
+      "z_mm": 29.25,
+      "minimum_in_plane_wall_mm": 1.760869560526606
+    },
+    {
+      "z_mm": 29.75,
+      "minimum_in_plane_wall_mm": 1.7695652124731325
+    },
+    {
+      "z_mm": 30.25,
+      "minimum_in_plane_wall_mm": 1.7782608644196607
+    },
+    {
+      "z_mm": 30.75,
+      "minimum_in_plane_wall_mm": 1.786956516366189
+    },
+    {
+      "z_mm": 31.25,
+      "minimum_in_plane_wall_mm": 1.7956521683127127
+    },
+    {
+      "z_mm": 31.75,
+      "minimum_in_plane_wall_mm": 1.8043478202592422
+    },
+    {
+      "z_mm": 32.25,
+      "minimum_in_plane_wall_mm": 1.8130434722057691
+    },
+    {
+      "z_mm": 32.75,
+      "minimum_in_plane_wall_mm": 1.8217391241522958
+    },
+    {
+      "z_mm": 33.25,
+      "minimum_in_plane_wall_mm": 1.8304347760988227
+    },
+    {
+      "z_mm": 33.75,
+      "minimum_in_plane_wall_mm": 1.839130428045351
+    },
+    {
+      "z_mm": 34.25,
+      "minimum_in_plane_wall_mm": 1.8478260799918766
+    },
+    {
+      "z_mm": 34.75,
+      "minimum_in_plane_wall_mm": 1.8565217319384058
+    },
+    {
+      "z_mm": 35.25,
+      "minimum_in_plane_wall_mm": 1.865217383884934
+    },
+    {
+      "z_mm": 35.75,
+      "minimum_in_plane_wall_mm": 1.8739130358314586
+    },
+    {
+      "z_mm": 36.25,
+      "minimum_in_plane_wall_mm": 1.8826086877779868
+    },
+    {
+      "z_mm": 36.75,
+      "minimum_in_plane_wall_mm": 1.8913043397245146
+    },
+    {
+      "z_mm": 37.25,
+      "minimum_in_plane_wall_mm": 1.8999999916710415
+    },
+    {
+      "z_mm": 37.75,
+      "minimum_in_plane_wall_mm": 1.9086956436175697
+    },
+    {
+      "z_mm": 38.25,
+      "minimum_in_plane_wall_mm": 1.9173912955640962
+    },
+    {
+      "z_mm": 38.75,
+      "minimum_in_plane_wall_mm": 1.9260869475106226
+    },
+    {
+      "z_mm": 39.25,
+      "minimum_in_plane_wall_mm": 1.934782599457149
+    },
+    {
+      "z_mm": 39.75,
+      "minimum_in_plane_wall_mm": 1.9434782514036772
+    },
+    {
+      "z_mm": 40.25,
+      "minimum_in_plane_wall_mm": 1.9521739033502037
+    },
+    {
+      "z_mm": 40.75,
+      "minimum_in_plane_wall_mm": 1.960869555296732
+    },
+    {
+      "z_mm": 41.25,
+      "minimum_in_plane_wall_mm": 1.9695652072432601
+    },
+    {
+      "z_mm": 41.75,
+      "minimum_in_plane_wall_mm": 1.978260859189785
+    },
+    {
+      "z_mm": 42.25,
+      "minimum_in_plane_wall_mm": 1.9869565111363132
+    },
+    {
+      "z_mm": 42.75,
+      "minimum_in_plane_wall_mm": 1.9956521630828428
+    },
+    {
+      "z_mm": 43.25,
+      "minimum_in_plane_wall_mm": 2.2500000000000018
+    },
+    {
+      "z_mm": 43.75,
+      "minimum_in_plane_wall_mm": 2.7499999999999964
+    },
+    {
+      "z_mm": 44.25,
+      "minimum_in_plane_wall_mm": 3.2499999999999982
+    },
+    {
+      "z_mm": 44.75,
+      "minimum_in_plane_wall_mm": 3.7500000000000018
+    },
+    {
+      "z_mm": 45.25,
+      "minimum_in_plane_wall_mm": 4.25
+    },
+    {
+      "z_mm": 45.75,
+      "minimum_in_plane_wall_mm": 4.75
+    },
+    {
+      "z_mm": 46.25,
+      "minimum_in_plane_wall_mm": 5.25
+    },
+    {
+      "z_mm": 46.75,
+      "minimum_in_plane_wall_mm": 5.7499999999999964
+    },
+    {
+      "z_mm": 47.25,
+      "minimum_in_plane_wall_mm": 6.25
+    },
+    {
+      "z_mm": 47.75,
+      "minimum_in_plane_wall_mm": 6.7499999999999964
+    },
+    {
+      "z_mm": 48.25,
+      "minimum_in_plane_wall_mm": 7.25
+    },
+    {
+      "z_mm": 48.75,
+      "minimum_in_plane_wall_mm": 7.75
+    },
+    {
+      "z_mm": 49.25,
+      "minimum_in_plane_wall_mm": 8.0
+    },
+    {
+      "z_mm": 49.75,
+      "minimum_in_plane_wall_mm": 8.0
+    },
+    {
+      "z_mm": 50.25,
+      "minimum_in_plane_wall_mm": 1.96875
+    },
+    {
+      "z_mm": 50.75,
+      "minimum_in_plane_wall_mm": 1.9062499999999982
+    },
+    {
+      "z_mm": 51.25,
+      "minimum_in_plane_wall_mm": 1.84375
+    },
+    {
+      "z_mm": 51.75,
+      "minimum_in_plane_wall_mm": 1.7812500000000018
+    },
+    {
+      "z_mm": 52.25,
+      "minimum_in_plane_wall_mm": 1.71875
+    },
+    {
+      "z_mm": 52.75,
+      "minimum_in_plane_wall_mm": 1.65625
+    },
+    {
+      "z_mm": 53.25,
+      "minimum_in_plane_wall_mm": 1.59375
+    },
+    {
+      "z_mm": 53.75,
+      "minimum_in_plane_wall_mm": 1.53125
+    },
+    {
+      "z_mm": 54.25,
+      "minimum_in_plane_wall_mm": 1.46875
+    },
+    {
+      "z_mm": 54.75,
+      "minimum_in_plane_wall_mm": 1.40625
+    },
+    {
+      "z_mm": 55.25,
+      "minimum_in_plane_wall_mm": 1.34375
+    },
+    {
+      "z_mm": 55.75,
+      "minimum_in_plane_wall_mm": 1.28125
+    },
+    {
+      "z_mm": 56.25,
+      "minimum_in_plane_wall_mm": 1.21875
+    },
+    {
+      "z_mm": 56.75,
+      "minimum_in_plane_wall_mm": 1.15625
+    },
+    {
+      "z_mm": 57.25,
+      "minimum_in_plane_wall_mm": 1.09375
+    },
+    {
+      "z_mm": 57.75,
+      "minimum_in_plane_wall_mm": 1.03125
+    }
+  ],
+  "minimum_sampled_wall_mm": 1.03125,
+  "limitations": [
+    "Capsule cross section is a photo-based approximation, not a measured contour.",
+    "User accepted fit_30 tightness. Additional insertion depth needs clarification; rim angle, axial taper and sealing remain unmeasured.",
+    "Rear dimensions and flat washer are provisional; only insertion length 8 mm is measured.",
+    "Rear taper is a fit mock-up, not a verified positive lock. Do not drill the toy from this draft.",
+    "Section wall checks are sampled in XY, not a global normal wall-thickness proof.",
+    "Independent mesh triangle self-intersection test NOT_RUN; OpenCascade BRep validity and mesh topology checked.",
+    "Fit_30 was sent to the connected X2D and physically tried by the user; see design/print-job-2026-09-21.md and design/fit-feedback.md. Rear adapter printing, retention, suction and leak tests NOT_RUN."
+  ]
+}

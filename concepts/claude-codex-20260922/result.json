@@ -1,0 +1,87 @@
+{
+    "error_string": "Success.",
+    "export_time": 360,
+    "layer_height": 0.1599999964237213,
+    "plate_index": 0,
+    "prepare_time": 76,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 77.99598693847656,
+                "Bridge": 52.422611236572266,
+                "Brim": 70.22917938232422,
+                "Custom": 286.45703125,
+                "Flush": 29.0,
+                "Gap infill": 6.180711269378662,
+                "Inner wall": 458.38250732421875,
+                "Internal solid infill": 423.64337158203125,
+                "Outer wall": 602.1515502929688,
+                "Sparse infill": 620.4766235351563,
+                "Top surface": 20.649290084838867,
+                "Travel": 290.3258972167969,
+                "Undefined": 283.4499206542969
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 17.530431747436523,
+                    "total_used_g": 17.530431747436523
+                }
+            ],
+            "generate_support_material_time": 95,
+            "id": 1,
+            "infill_time": 492,
+            "layer_filament_change": 0,
+            "main_predication": 2593.5146484375,
+            "make_perimeters_time": 219,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 30.280832290649414,
+                        "height": 21.751585006713867,
+                        "width": 73.44644165039063,
+                        "x": 101.56114196777344,
+                        "y": 142.1756591796875,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "A2_cloud.stl",
+                    "triangle_count": 15312
+                },
+                {
+                    "bbox": {
+                        "depth": 37.3329963684082,
+                        "height": 15.551580429077148,
+                        "width": 52.07088851928711,
+                        "x": 112.52123260498047,
+                        "y": 82.35246276855469,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "A3_cloud.stl",
+                    "triangle_count": 18386
+                }
+            ],
+            "sliced_time": 1599,
+            "sliced_time_with_cache": 661,
+            "total_predication": 2931.095703125,
+            "triangle_count": 33698,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

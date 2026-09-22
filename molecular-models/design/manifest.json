@@ -1,0 +1,278 @@
+{
+  "date": "2026-09-21",
+  "version": "Design 01, MOF 3.5 mm coupon-selected socket revision",
+  "units": {
+    "STL": "millimeter assumed",
+    "3MF": "millimeter explicit",
+    "GLB": "meter, Y up",
+    "design-data.json": "millimeter, Z up"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 104,
+      "sha256": "630822a5ed9eb49c403d270877f3bd4f3a0ead92f98618c1f0f529547767cba8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 172,
+      "sha256": "1687a69e95c71642660fffa4d859145a390028f629ad495ccfbdcd1ac94b0a3f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10626,
+      "sha256": "d5d10cba9a99922318ae704f53239db1ef0cc75ec30887dbc18e73fc42b4c2d5"
+    },
+    {
+      "path": "design/fit-3p5.md",
+      "bytes": 2426,
+      "sha256": "de360e7ce3c5576b144f2142375ea320cc48ed955d0c72407f5cb1e7a0caed7b"
+    },
+    {
+      "path": "design/print-job.md",
+      "bytes": 7447,
+      "sha256": "933588b441c1dd9383a3325b91103e22314ee0bc3e88f82de614ef8543ba1424"
+    },
+    {
+      "path": "design/review.md",
+      "bytes": 5089,
+      "sha256": "a2d4db2daab34307afcb48955aa62cc982a71f627988addd0613cc9a5d856852"
+    },
+    {
+      "path": "design/vault-export-location.txt",
+      "bytes": 111,
+      "sha256": "9a0098f67ac80a8e89162454c2ab85cc6fc86bbaa0346101695a5153befefca8"
+    },
+    {
+      "path": "output/assembly-validation.json",
+      "bytes": 1513,
+      "sha256": "9ce347a70acf32e90926acf14354a0e4de8b70ed8c0ed11bb0a8e51296ed82d1"
+    },
+    {
+      "path": "output/caffeine-views.png",
+      "bytes": 37387,
+      "sha256": "5b168dd19243082a19d9cfd7d651638594523d8f787ff95a3f26afa2e6dcd03c"
+    },
+    {
+      "path": "output/caffeine.3mf",
+      "bytes": 98276,
+      "sha256": "b7b1494b1a3be0f6ddff2ab2cf487d4362fea79e7b5bdb2bf823b97df561cfdc"
+    },
+    {
+      "path": "output/caffeine.glb",
+      "bytes": 159980,
+      "sha256": "135d48f298b3603659662962a77bad9f348d3e343a45c54ebc29eea433d76f3b"
+    },
+    {
+      "path": "output/caffeine.stl",
+      "bytes": 332984,
+      "sha256": "8363e8a61bcfbd0c472eba7fcabb48cecd0b505ec5f83455496982ea694a1543"
+    },
+    {
+      "path": "output/design-data.json",
+      "bytes": 242062,
+      "sha256": "6cb2cdb3847637397c9e2ac060a920ff7997fe51a5271740c46d3d6ba76e35e2"
+    },
+    {
+      "path": "output/design-overview.png",
+      "bytes": 713449,
+      "sha256": "547a311b5f400d94aea59d5940931cac3e6fc8e35652255ee911a3b7aa2209b9"
+    },
+    {
+      "path": "output/fit_coupon_3p3_3p4_3p5.stl",
+      "bytes": 19884,
+      "sha256": "d451dc751393960568b564ba9c3a8879aacb78c0fe22181e16cdad49cc477573"
+    },
+    {
+      "path": "output/fit_pin_3p0.stl",
+      "bytes": 6284,
+      "sha256": "e037592cb5e60fff473d3ca02d7af5c0d1cf678b3c86e52f3c74aaadb72550d7"
+    },
+    {
+      "path": "output/helicene_A-views.png",
+      "bytes": 55096,
+      "sha256": "56d21cc25890478eba27ab5af79a1f6716ab7eb2a92b4bdabdd955183f5dfbaa"
+    },
+    {
+      "path": "output/helicene_A.3mf",
+      "bytes": 159879,
+      "sha256": "174c3a8c2fbb4c6934c0d27114c865faee591c5124370fd56ed5272a2a5ede29"
+    },
+    {
+      "path": "output/helicene_A.glb",
+      "bytes": 262120,
+      "sha256": "87f1a9d0fd30c522c110120fff167d1722adf345fee2a85550670a10d381afc9"
+    },
+    {
+      "path": "output/helicene_A.stl",
+      "bytes": 653184,
+      "sha256": "cf38030f1057c8678c0d7cb8178cb6cef582ae0eb4699114b2e6e7d8665c9af8"
+    },
+    {
+      "path": "output/helicene_B-views.png",
+      "bytes": 54844,
+      "sha256": "deb54238711ccf7dc0e87d3290b8645247940397908285465244ecaee0edc2bc"
+    },
+    {
+      "path": "output/helicene_B.3mf",
+      "bytes": 158054,
+      "sha256": "89ac923f7bb063adf2789ddae4331a2130f8a316bb489225ba7526f9411f1a6b"
+    },
+    {
+      "path": "output/helicene_B.glb",
+      "bytes": 262084,
+      "sha256": "596710f8029062afdbd0074190c8ee175b0d9d2b98c1852d820f442ef948f43a"
+    },
+    {
+      "path": "output/helicene_B.stl",
+      "bytes": 653184,
+      "sha256": "4359028f8cf7c995e74a371652265978caa695a6e3b866ef043d8e75872003ae"
+    },
+    {
+      "path": "output/infinitene-views.png",
+      "bytes": 71867,
+      "sha256": "0b098ca302bfc407f66d9936004d76b9ef51e0e1dc772409ebe178cce37409c3"
+    },
+    {
+      "path": "output/infinitene.3mf",
+      "bytes": 291782,
+      "sha256": "52cae75b42d58e16fcc5b18a5461061c322d1eecbbdfdc8f0802901f46d32d8a"
+    },
+    {
+      "path": "output/infinitene.glb",
+      "bytes": 485216,
+      "sha256": "178d7013e6013b0bc19ea32a08b302f9a0db743a7ff684b126131cf8ad39bbf9"
+    },
+    {
+      "path": "output/infinitene.stl",
+      "bytes": 1211584,
+      "sha256": "37e950931ecf5fceb7d2d4acad428411df355dc6adbf28d8f18edfff063e4526"
+    },
+    {
+      "path": "output/mof-assembly.png",
+      "bytes": 794878,
+      "sha256": "d426e535bfd12bc330103532b72137890c34262f47ffe95c05342559bc657bbd"
+    },
+    {
+      "path": "output/mof5-views.png",
+      "bytes": 166286,
+      "sha256": "b02d4cceae2fc299150e694b401af43424fa1e17c559f9fc072f8025aff110b7"
+    },
+    {
+      "path": "output/mof5_assembled.glb",
+      "bytes": 8787372,
+      "sha256": "0ec821dc0377ac52656d003e7e19ee5224efc36b692542291852a566809ea56f"
+    },
+    {
+      "path": "output/mof5_assembly.3mf",
+      "bytes": 4569950,
+      "sha256": "65873d2c397627c466374b6c05102f40a5d2b35f186ce031f8e5fb1687b49e95"
+    },
+    {
+      "path": "output/mof5_guest_CH4.3mf",
+      "bytes": 49448,
+      "sha256": "f5a0b9626666c6acc659b137e153bdcb2ff6ba1080b9d3eafceb59fc35c83e3a"
+    },
+    {
+      "path": "output/mof5_guest_CH4.stl",
+      "bytes": 197284,
+      "sha256": "9ab616d1594b8cc8779e2082bca1661e0b3417de82ddf42e02eb609151a62272"
+    },
+    {
+      "path": "output/mof5_lower.stl",
+      "bytes": 6637584,
+      "sha256": "ce421cece38614b24eb1fd1a424d42c15ba0488721f736d4683fcd5dbc356404"
+    },
+    {
+      "path": "output/mof5_upper.stl",
+      "bytes": 12610484,
+      "sha256": "95a3ac4c4409724050d6553eea6ef9f516e58edb61aa7a09a40b35e16863396c"
+    },
+    {
+      "path": "output/validation.json",
+      "bytes": 7243,
+      "sha256": "c5255d438b94b36985916d72afad8b7afe5e8ac8764b74a7e8d186cc9b602411"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 408,
+      "sha256": "4d16e7756213884f8b8fbbe22b7c18a70433b7b9faf746a74277f72bffc32c52"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 18889,
+      "sha256": "3a6e25cbbdb83a590e6e18767b3b7fa14106ad6427d4727fbed17bcdc8be9093"
+    },
+    {
+      "path": "scripts/design.py",
+      "bytes": 9508,
+      "sha256": "ec4480612412098b4e521baabf233a9ba0accc946624ab0d49b2162eb0b1ba90"
+    },
+    {
+      "path": "scripts/verify_assembly.py",
+      "bytes": 3577,
+      "sha256": "e71d824b4d43c3c3a1db7dce6d1138bf3ea3259eee0df7a2572962fae1b31316"
+    },
+    {
+      "path": "slicing/fit-result.json",
+      "bytes": 672,
+      "sha256": "723488f997d02e247599a379f6493e28024b1251501de40e771de2a89a3815a8"
+    },
+    {
+      "path": "sources/IRMOF-1.cif",
+      "bytes": 4591,
+      "sha256": "e5d0b3d72445c15cd2ed02a36fa2fdf3d5d13f6c21441984475449d48d3f0ad2"
+    },
+    {
+      "path": "sources/caffeine.sdf",
+      "bytes": 3950,
+      "sha256": "c585bed02e1784f36dbdcb1501c1d3e1f6382659e730653bfc54cac6e92707c1"
+    },
+    {
+      "path": "sources/downloads.json",
+      "bytes": 1081,
+      "sha256": "0c69f031f574849156d397771364ed22be2234d59486954729283f2264060cab"
+    },
+    {
+      "path": "sources/helicene.sdf",
+      "bytes": 6649,
+      "sha256": "8acc1f4c444c32c031f3226432d066de59233220dc98637e9a1d3310fef75559"
+    },
+    {
+      "path": "sources/infinitene-figshare.json",
+      "bytes": 9792,
+      "sha256": "641229898cf6f6e03d3ccc3d364b5ae714784bc8bf210a65813dc7a99cbb98b2"
+    },
+    {
+      "path": "sources/infinitene.xyz",
+      "bytes": 2483,
+      "sha256": "d8fea4c04964c3628e81962ac610aa45ed42cb71947f3b09f3df54151873ce43"
+    },
+    {
+      "path": "sources/ja1c10807_si_001.pdf",
+      "bytes": 22595757,
+      "sha256": "6ecd9b5bdfd6d2fcf166239a46cba142054391b6483932e8b461a6fa7bd27aca"
+    },
+    {
+      "path": "sources/ja1c10807_si_001.txt",
+      "bytes": 137910,
+      "sha256": "57f773689714fa6d6f922f143852a9795472498190ec2762926eafce66018d1c"
+    },
+    {
+      "path": "tests/test_assembly_path.py",
+      "bytes": 1085,
+      "sha256": "bf4b8f76b3ba755672c01be67da6eacaca7f38d41720c809e521b6927a8021e8"
+    },
+    {
+      "path": "tests/test_design.py",
+      "bytes": 4350,
+      "sha256": "40940b54e00e565fdd9a5ede74d12dc74265d9aacb3c77ae2d0f88b6053355cf"
+    },
+    {
+      "path": "tests/test_exports.py",
+      "bytes": 5111,
+      "sha256": "6993e0defef82c6975a06d5683eb58ef258fe2f26b29a189d8765d5b350a9704"
+    }
+  ],
+  "note": "Base design files with documentation updated for first-trial preparation; slicing artifacts have their own manifest."
+}

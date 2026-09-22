@@ -1,0 +1,18 @@
+test_actual_insert_is_five_mm_outer_not_inner (test_body_v3.BodyV3Tests.test_actual_insert_is_five_mm_outer_not_inner) ... ok
+test_eight_mm_insert_and_continuous_airway (test_body_v3.BodyV3Tests.test_eight_mm_insert_and_continuous_airway) ... ok
+test_invalid_oversize_tip_is_rejected (test_body_v3.BodyV3Tests.test_invalid_oversize_tip_is_rejected) ... FAIL
+test_tested_vacuum_fitting_is_preserved (test_body_v3.BodyV3Tests.test_tested_vacuum_fitting_is_preserved) ... ok
+
+======================================================================
+FAIL: test_invalid_oversize_tip_is_rejected (test_body_v3.BodyV3Tests.test_invalid_oversize_tip_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "$PROJECT_ROOT/tests/test_body_v3.py", line 47, in test_invalid_oversize_tip_is_rejected
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.220s
+
+FAILED (failures=1)

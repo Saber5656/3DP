@@ -1,0 +1,188 @@
+{
+  "revision": "default-v4-star-v6-star-recess",
+  "units": "mm",
+  "versions": {
+    "numpy": "2.5.3",
+    "trimesh": "5.1.0",
+    "manifold3d": "3.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0",
+    "rtree": "1.4.1"
+  },
+  "parts": [
+    {
+      "part": "default_body",
+      "file": "output/stl/default_body.stl",
+      "dimensions_mm": [
+        66.66666412353516,
+        94.2809066772461,
+        70.71067810058594
+      ],
+      "volume_mm3": 19932.589183826924,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 2,
+      "triangles": 16,
+      "min_triangle_area_mm2": 1988.8046052335958,
+      "sha256": "9fc6258dc7455f0988ea79b59f315361149dc6a22707af503190e074a27fe16f"
+    },
+    {
+      "part": "default_cradle",
+      "file": "output/stl/default_cradle.stl",
+      "dimensions_mm": [
+        60.0,
+        60.0,
+        22.0
+      ],
+      "volume_mm3": 20125.483331330644,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 518,
+      "min_triangle_area_mm2": 0.07157627283777401,
+      "sha256": "215f998684f3f09431ae51fcf06b050fe7fdad3166e52d7e79adcc5b18d2f585"
+    },
+    {
+      "part": "default_tip_test",
+      "file": "output/stl/default_tip_test.stl",
+      "dimensions_mm": [
+        16.970561981201172,
+        16.970561981201172,
+        12.0
+      ],
+      "volume_mm3": 1151.9998958311626,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 6,
+      "min_triangle_area_mm2": 124.70765062722083,
+      "sha256": "236b6acd498a1ef51b26fefb0859abe5b4999c1b0a6d95db9ed53e94720da231"
+    },
+    {
+      "part": "star_body",
+      "file": "output/stl/star_body.stl",
+      "dimensions_mm": [
+        67.87920761108398,
+        150.0,
+        142.65847778320312
+      ],
+      "volume_mm3": 36070.80034249485,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 2,
+      "triangles": 2856,
+      "min_triangle_area_mm2": 1.268505787484538e-06,
+      "sha256": "6192d9f4fca83048d9bf1b5554b6fb20d2922b081e0775475149c37b2de2d463"
+    },
+    {
+      "part": "star_base",
+      "file": "output/stl/star_base.stl",
+      "dimensions_mm": [
+        124.0,
+        124.0,
+        52.0
+      ],
+      "volume_mm3": 227954.1982555984,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 1678,
+      "min_triangle_area_mm2": 4.760508090839721e-06,
+      "sha256": "d67e2eae43d44246a494f715563f56634e5da279471a42bd4507ee919a0b8f77"
+    },
+    {
+      "part": "star_ray_test",
+      "file": "output/stl/star_ray_test.stl",
+      "dimensions_mm": [
+        32.026376247406006,
+        15.482959747314453,
+        21.85966682434082
+      ],
+      "volume_mm3": 738.2891914092883,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 16,
+      "min_triangle_area_mm2": 6.073233439233263,
+      "sha256": "19138b252954a9d2b8281a795925e8be5c162054291fcf1bacce4f664122eaa3"
+    },
+    {
+      "part": "bead_seat_coupon",
+      "file": "output/stl/bead_seat_coupon.stl",
+      "dimensions_mm": [
+        10.0,
+        10.0,
+        3.0999999046325684
+      ],
+      "volume_mm3": 149.94319896944256,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 1662,
+      "min_triangle_area_mm2": 2.489925045232742e-05,
+      "sha256": "9bb42ea65d469449fe8a3bc57b05264a1e193102fbb09da32c2d0e30e8d6b265"
+    },
+    {
+      "part": "blue_tile_0.8mm",
+      "file": "output/stl/blue_tile_0.8mm.stl",
+      "dimensions_mm": [
+        20.0,
+        20.0,
+        0.800000011920929
+      ],
+      "volume_mm3": 320.0000047683716,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 12,
+      "min_triangle_area_mm2": 8.00000011920929,
+      "sha256": "17d28790781c700b31bcde9928117075b832565cf7bd026f075e3f5abf8066f9"
+    },
+    {
+      "part": "blue_tile_1.2mm",
+      "file": "output/stl/blue_tile_1.2mm.stl",
+      "dimensions_mm": [
+        20.0,
+        20.0,
+        1.2000000476837158
+      ],
+      "volume_mm3": 480.0000190734863,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 12,
+      "min_triangle_area_mm2": 12.000000476837158,
+      "sha256": "d4ad4d79f659f36a6c82be019dfddf8faf993520d0b72579b224f8ed567e82ff"
+    },
+    {
+      "part": "blue_tile_1.6mm",
+      "file": "output/stl/blue_tile_1.6mm.stl",
+      "dimensions_mm": [
+        20.0,
+        20.0,
+        1.600000023841858
+      ],
+      "volume_mm3": 640.0000095367432,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 12,
+      "min_triangle_area_mm2": 16.00000023841858,
+      "sha256": "342a935fac7e6aba59f5455aaeb81668d38c3a60555b76b61e436e415bfcfe65"
+    }
+  ],
+  "joints": {
+    "star_city": {
+      "clearance": 0.25
+    }
+  },
+  "star_center_height_mm": 73.27821349033186,
+  "limitations": [
+    "Geometry report only; see printing/ and JOB-RECORD.md for slicing and physical status. The enclosed void has a separate inward-facing surface, not a floating part.",
+    "Star tips are mathematically pointed; tiny terminal geometry can disappear in slicing.",
+    "Star arm proportions, aligned rear relief and display angle are design estimates from photos, not official measurements.",
+    "Displayed red core is a full 3 mm sphere representing an aftermarket bead. It is not included in the print plates. No LED.",
+    "Pairwise triangle self-intersection and slicer-specific thin-wall checks require separate validation."
+  ]
+}

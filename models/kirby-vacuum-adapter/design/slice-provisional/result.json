@@ -1,0 +1,63 @@
+{
+    "error_string": "Success.",
+    "export_time": 776,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 14,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 29.72488784790039,
+                "Bridge": 19.834184646606445,
+                "Custom": 35.13060760498047,
+                "Gap infill": 2.5181262493133545,
+                "Inner wall": 217.12196350097656,
+                "Internal solid infill": 31.104013442993164,
+                "Outer wall": 234.45530700683594,
+                "Sparse infill": 14.960124015808105,
+                "Top surface": 13.0568265914917,
+                "Travel": 78.39645385742188,
+                "Undefined": 63.068336486816406
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 4.833813190460205,
+                    "total_used_g": 4.833813190460205
+                }
+            ],
+            "generate_support_material_time": 25,
+            "id": 1,
+            "infill_time": 59,
+            "layer_filament_change": 0,
+            "main_predication": 641.1991577148438,
+            "make_perimeters_time": 75,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 21.0,
+                        "height": 23.0,
+                        "width": 44.995853424072266,
+                        "x": 115.7520523071289,
+                        "y": 117.5,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "fit_30.stl",
+                    "triangle_count": 10618
+                }
+            ],
+            "sliced_time": 357,
+            "sliced_time_with_cache": 176,
+            "total_predication": 660.9743041992188,
+            "triangle_count": 10618,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "wall_loops": 2
+}

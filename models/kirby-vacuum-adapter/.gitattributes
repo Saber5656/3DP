@@ -1,0 +1,6 @@
+*.stl binary
+*.3mf binary
+*.step -diff
+*.png binary
+*.jpg binary
+*.zip binary

@@ -1,0 +1,75 @@
+{
+  "status": "Provisional slice verified; not sent to printer",
+  "package_sha256": "7345556656c429e1ec1adffc8b31a2b7aadd6478d6779b2d6c86fa4ddc16066b",
+  "printer": "Bambu Lab X2D",
+  "nozzle_mm": [
+    "0.4",
+    "0.4"
+  ],
+  "bed": "Textured PEI Plate",
+  "layer_count": 56,
+  "estimated_seconds": 1739,
+  "estimated_filament_g": 6.86,
+  "support_used": "false",
+  "all_three_objects_start_on_layer_1": true,
+  "extrusion_path_bounds_mm": [
+    [
+      79.121,
+      74.505
+    ],
+    [
+      197.382,
+      181.5
+    ]
+  ],
+  "objects": {
+    "caffeine_flatback_trial.stl": {
+      "first_layer": 1,
+      "last_layer": 21,
+      "max_z_mm": 3.4,
+      "features": {
+        "Outer wall": 6620,
+        "Inner wall": 10419,
+        "Gap infill": 642,
+        "Bottom surface": 287,
+        "Internal solid infill": 13568,
+        "Top surface": 608
+      }
+    },
+    "fit_coupon_3p3_3p4_3p5.stl": {
+      "first_layer": 1,
+      "last_layer": 43,
+      "max_z_mm": 6.92,
+      "features": {
+        "Outer wall": 502,
+        "Inner wall": 4107,
+        "Bottom surface": 55,
+        "Internal solid infill": 2483,
+        "Sparse infill": 1452,
+        "Top surface": 112,
+        "Gap infill": 57,
+        "Floating vertical shell": 684,
+        "Bridge": 152
+      }
+    },
+    "fit_pin_3p0.stl": {
+      "first_layer": 1,
+      "last_layer": 56,
+      "max_z_mm": 9.0,
+      "features": {
+        "Outer wall": 183,
+        "Inner wall": 364,
+        "Top surface": 4,
+        "Gap infill": 5
+      }
+    }
+  },
+  "first_layer_time": "CLI metadata reports 0; do not use this field for estimates",
+  "warnings": "CLI parser logs Invalid T65279/T65535 for unchanged official end-template unload macros; physical execution untested",
+  "unknowns": [
+    "physical nozzle installation beyond saved profile",
+    "current clear-bed state",
+    "physical fit and strength"
+  ],
+  "gcode_preview_scope": "Object extrusion paths including G2/G3 arcs; travel and startup/end macros excluded. Not a firmware simulator."
+}

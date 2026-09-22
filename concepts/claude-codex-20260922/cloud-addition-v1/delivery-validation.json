@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "file": "white.3mf",
+      "hash_valid": true,
+      "build_z_axis_preserved": true,
+      "end_macro_warnings_match_official_template": true,
+      "private_path_scan": "PASS"
+    },
+    {
+      "file": "orange.3mf",
+      "hash_valid": true,
+      "build_z_axis_preserved": true,
+      "end_macro_warnings_match_official_template": true,
+      "private_path_scan": "PASS"
+    },
+    {
+      "file": "black.3mf",
+      "hash_valid": true,
+      "build_z_axis_preserved": true,
+      "end_macro_warnings_match_official_template": true,
+      "private_path_scan": "PASS"
+    },
+    {
+      "file": "translucent_blue.3mf",
+      "hash_valid": true,
+      "build_z_axis_preserved": true,
+      "end_macro_warnings_match_official_template": true,
+      "private_path_scan": "PASS"
+    }
+  ],
+  "source_image_sha256": "f7bfd1ad49dd5a1a872c8daebce61cec86d520c9d22365bea634f518b0490547",
+  "legacy_artifacts_unchanged": 118,
+  "assembly_3mf_roundtrip": [
+    {
+      "file": "output/assembly/A1-assembled.3mf",
+      "dimensions_mm": [
+        50.467455,
+        20.71115,
+        48.0
+      ],
+      "parts": 4,
+      "closed_single_parts": true
+    },
+    {
+      "file": "output/assembly/A2-assembled.3mf",
+      "dimensions_mm": [
+        73.22337300000001,
+        24.434398,
+        48.0
+      ],
+      "parts": 4,
+      "closed_single_parts": true
+    },
+    {
+      "file": "output/assembly/A3-assembled.3mf",
+      "dimensions_mm": [
+        50.925722,
+        17.808281,
+        48.0
+      ],
+      "parts": 4,
+      "closed_single_parts": true
+    },
+    {
+      "file": "output/assembly/A4-assembled.3mf",
+      "dimensions_mm": [
+        70.944158,
+        23.675665000000002,
+        48.0
+      ],
+      "parts": 4,
+      "closed_single_parts": true
+    }
+  ]
+}

@@ -1,0 +1,3363 @@
+[
+  {
+    "status": "OFFLINE_SLICE_VALIDATED",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_mm": [
+      "0.4",
+      "0.4"
+    ],
+    "bed": "Textured PEI Plate",
+    "filament_density_g_cm3": 1.26,
+    "estimated_seconds": 1228,
+    "estimated_filament_g": 6.68,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#8E9089",
+        "used_m": "2.20",
+        "used_g": "6.68",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "support_used": false,
+    "warnings": [
+      "[2026-09-22 07:40:20.290029] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+      "[2026-09-22 07:40:20.376733] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:20.517428] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+      "[2026-09-22 07:40:20.517443] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+    ],
+    "gcode_sha256": "321346364b1001907bdff8a14dccd5bbef1cef827a612a7ee0909dd65e3495a5",
+    "package_sha256": "0c2666f63ccb8cb112ef668325c0f1edc376d3cea5f92aaa5b8ad19f936362bc",
+    "gui_roundtrip": "NOT_RUN",
+    "physical_print": "NOT_RUN",
+    "physical_slot_binding": "NOT_SET",
+    "first_layer_time_metadata": "0.000000",
+    "limitations": [
+      "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+      "No live printer, current AMS allocation or clear-bed state was inspected.",
+      "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+    ],
+    "layer_count": 70,
+    "extrusion_moves": 23685,
+    "arc_extrusion_moves": 8577,
+    "support_extrusion_moves": 0,
+    "features": {
+      "Brim": 236,
+      "Outer wall": 3027,
+      "Inner wall": 5609,
+      "Bottom surface": 180,
+      "Internal solid infill": 2870,
+      "Sparse infill": 9719,
+      "Bridge": 276,
+      "Floating vertical shell": 1513,
+      "Top surface": 227,
+      "Gap infill": 28
+    },
+    "layers": [
+      {
+        "layer": 1,
+        "z_mm": 0.2,
+        "extrusion_moves": 440,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 2,
+        "z_mm": 0.36,
+        "extrusion_moves": 279,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 3,
+        "z_mm": 0.52,
+        "extrusion_moves": 289,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 4,
+        "z_mm": 0.68,
+        "extrusion_moves": 286,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 5,
+        "z_mm": 0.84,
+        "extrusion_moves": 308,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 6,
+        "z_mm": 1.0,
+        "extrusion_moves": 316,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 7,
+        "z_mm": 1.16,
+        "extrusion_moves": 328,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 8,
+        "z_mm": 1.32,
+        "extrusion_moves": 261,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 9,
+        "z_mm": 1.48,
+        "extrusion_moves": 326,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 10,
+        "z_mm": 1.64,
+        "extrusion_moves": 285,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 11,
+        "z_mm": 1.8,
+        "extrusion_moves": 264,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 12,
+        "z_mm": 1.96,
+        "extrusion_moves": 281,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 13,
+        "z_mm": 2.12,
+        "extrusion_moves": 327,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 14,
+        "z_mm": 2.28,
+        "extrusion_moves": 319,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 15,
+        "z_mm": 2.44,
+        "extrusion_moves": 447,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 16,
+        "z_mm": 2.6,
+        "extrusion_moves": 573,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 17,
+        "z_mm": 2.76,
+        "extrusion_moves": 441,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 18,
+        "z_mm": 2.92,
+        "extrusion_moves": 461,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 19,
+        "z_mm": 3.08,
+        "extrusion_moves": 401,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 20,
+        "z_mm": 3.24,
+        "extrusion_moves": 366,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 21,
+        "z_mm": 3.4,
+        "extrusion_moves": 350,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 22,
+        "z_mm": 3.56,
+        "extrusion_moves": 321,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 23,
+        "z_mm": 3.72,
+        "extrusion_moves": 324,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 24,
+        "z_mm": 3.88,
+        "extrusion_moves": 367,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 25,
+        "z_mm": 4.04,
+        "extrusion_moves": 374,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 26,
+        "z_mm": 4.2,
+        "extrusion_moves": 388,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 27,
+        "z_mm": 4.36,
+        "extrusion_moves": 385,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 28,
+        "z_mm": 4.52,
+        "extrusion_moves": 356,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 29,
+        "z_mm": 4.68,
+        "extrusion_moves": 404,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 30,
+        "z_mm": 4.84,
+        "extrusion_moves": 323,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 31,
+        "z_mm": 5.0,
+        "extrusion_moves": 307,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 32,
+        "z_mm": 5.16,
+        "extrusion_moves": 245,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 33,
+        "z_mm": 5.32,
+        "extrusion_moves": 227,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 34,
+        "z_mm": 5.48,
+        "extrusion_moves": 244,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 35,
+        "z_mm": 5.64,
+        "extrusion_moves": 274,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 36,
+        "z_mm": 5.8,
+        "extrusion_moves": 274,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 37,
+        "z_mm": 5.96,
+        "extrusion_moves": 339,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 38,
+        "z_mm": 6.12,
+        "extrusion_moves": 355,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 39,
+        "z_mm": 6.28,
+        "extrusion_moves": 319,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 40,
+        "z_mm": 6.44,
+        "extrusion_moves": 364,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 41,
+        "z_mm": 6.6,
+        "extrusion_moves": 404,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 42,
+        "z_mm": 6.76,
+        "extrusion_moves": 309,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 43,
+        "z_mm": 6.92,
+        "extrusion_moves": 276,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 44,
+        "z_mm": 7.08,
+        "extrusion_moves": 259,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 45,
+        "z_mm": 7.24,
+        "extrusion_moves": 273,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 46,
+        "z_mm": 7.4,
+        "extrusion_moves": 292,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 47,
+        "z_mm": 7.56,
+        "extrusion_moves": 301,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 48,
+        "z_mm": 7.72,
+        "extrusion_moves": 352,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 49,
+        "z_mm": 7.88,
+        "extrusion_moves": 350,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 50,
+        "z_mm": 8.04,
+        "extrusion_moves": 335,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 51,
+        "z_mm": 8.2,
+        "extrusion_moves": 359,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 52,
+        "z_mm": 8.36,
+        "extrusion_moves": 335,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 53,
+        "z_mm": 8.52,
+        "extrusion_moves": 286,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 54,
+        "z_mm": 8.68,
+        "extrusion_moves": 275,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 55,
+        "z_mm": 8.84,
+        "extrusion_moves": 240,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 56,
+        "z_mm": 9.0,
+        "extrusion_moves": 239,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 57,
+        "z_mm": 9.16,
+        "extrusion_moves": 276,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 58,
+        "z_mm": 9.32,
+        "extrusion_moves": 282,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 59,
+        "z_mm": 9.48,
+        "extrusion_moves": 360,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 60,
+        "z_mm": 9.64,
+        "extrusion_moves": 378,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 61,
+        "z_mm": 9.8,
+        "extrusion_moves": 364,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 62,
+        "z_mm": 9.96,
+        "extrusion_moves": 367,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 63,
+        "z_mm": 10.12,
+        "extrusion_moves": 396,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 64,
+        "z_mm": 10.28,
+        "extrusion_moves": 337,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 65,
+        "z_mm": 10.44,
+        "extrusion_moves": 443,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 66,
+        "z_mm": 10.6,
+        "extrusion_moves": 479,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 67,
+        "z_mm": 10.76,
+        "extrusion_moves": 450,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 68,
+        "z_mm": 10.92,
+        "extrusion_moves": 462,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 69,
+        "z_mm": 11.08,
+        "extrusion_moves": 451,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 70,
+        "z_mm": 11.24,
+        "extrusion_moves": 217,
+        "support_extrusion_moves": 0
+      }
+    ],
+    "objects": {
+      "15": {
+        "first_layer": 1,
+        "last_layer": 70,
+        "extrusion_moves": 23449
+      }
+    },
+    "empty_layers": [],
+    "color_key": "gray",
+    "gui_delta_metadata": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ]
+  },
+  {
+    "status": "OFFLINE_SLICE_VALIDATED",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_mm": [
+      "0.4",
+      "0.4"
+    ],
+    "bed": "Textured PEI Plate",
+    "filament_density_g_cm3": 1.22,
+    "estimated_seconds": 1447,
+    "estimated_filament_g": 6.53,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA17",
+        "type": "PLA",
+        "color": "#0050B3",
+        "used_m": "2.22",
+        "used_g": "6.53",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "support_used": false,
+    "warnings": [
+      "[2026-09-22 07:40:21.450948] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+      "[2026-09-22 07:40:21.554547] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:21.770793] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+      "[2026-09-22 07:40:21.770805] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+    ],
+    "gcode_sha256": "561494a228ede37cdf9c45857fabf03c6f17cfd61b730760cb2db888cd32837c",
+    "package_sha256": "6dba53eaac0b2fb568d0c98ab1b59f09a3c4d7c801f0a889f5ecb5983a7fde93",
+    "gui_roundtrip": "NOT_RUN",
+    "physical_print": "NOT_RUN",
+    "physical_slot_binding": "NOT_SET",
+    "first_layer_time_metadata": "0.000000",
+    "limitations": [
+      "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+      "No live printer, current AMS allocation or clear-bed state was inspected.",
+      "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+    ],
+    "layer_count": 50,
+    "extrusion_moves": 57985,
+    "arc_extrusion_moves": 8224,
+    "support_extrusion_moves": 0,
+    "features": {
+      "Brim": 1651,
+      "Outer wall": 14480,
+      "Inner wall": 24315,
+      "Gap infill": 91,
+      "Bottom surface": 248,
+      "Internal solid infill": 3930,
+      "Sparse infill": 11280,
+      "Overhang wall": 20,
+      "Bridge": 575,
+      "Floating vertical shell": 1123,
+      "Top surface": 272
+    },
+    "layers": [
+      {
+        "layer": 1,
+        "z_mm": 0.2,
+        "extrusion_moves": 2645,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 2,
+        "z_mm": 0.36,
+        "extrusion_moves": 1067,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 3,
+        "z_mm": 0.52,
+        "extrusion_moves": 1074,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 4,
+        "z_mm": 0.68,
+        "extrusion_moves": 1067,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 5,
+        "z_mm": 0.84,
+        "extrusion_moves": 1156,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 6,
+        "z_mm": 1.0,
+        "extrusion_moves": 1199,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 7,
+        "z_mm": 1.16,
+        "extrusion_moves": 1139,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 8,
+        "z_mm": 1.32,
+        "extrusion_moves": 1051,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 9,
+        "z_mm": 1.48,
+        "extrusion_moves": 1049,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 10,
+        "z_mm": 1.64,
+        "extrusion_moves": 1062,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 11,
+        "z_mm": 1.8,
+        "extrusion_moves": 1018,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 12,
+        "z_mm": 1.96,
+        "extrusion_moves": 1046,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 13,
+        "z_mm": 2.12,
+        "extrusion_moves": 1003,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 14,
+        "z_mm": 2.28,
+        "extrusion_moves": 1009,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 15,
+        "z_mm": 2.44,
+        "extrusion_moves": 1172,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 16,
+        "z_mm": 2.6,
+        "extrusion_moves": 1109,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 17,
+        "z_mm": 2.76,
+        "extrusion_moves": 1112,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 18,
+        "z_mm": 2.92,
+        "extrusion_moves": 1089,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 19,
+        "z_mm": 3.08,
+        "extrusion_moves": 1001,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 20,
+        "z_mm": 3.24,
+        "extrusion_moves": 994,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 21,
+        "z_mm": 3.4,
+        "extrusion_moves": 948,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 22,
+        "z_mm": 3.56,
+        "extrusion_moves": 906,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 23,
+        "z_mm": 3.72,
+        "extrusion_moves": 941,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 24,
+        "z_mm": 3.88,
+        "extrusion_moves": 987,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 25,
+        "z_mm": 4.04,
+        "extrusion_moves": 996,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 26,
+        "z_mm": 4.2,
+        "extrusion_moves": 1089,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 27,
+        "z_mm": 4.36,
+        "extrusion_moves": 1180,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 28,
+        "z_mm": 4.52,
+        "extrusion_moves": 1095,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 29,
+        "z_mm": 4.68,
+        "extrusion_moves": 1118,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 30,
+        "z_mm": 4.84,
+        "extrusion_moves": 1001,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 31,
+        "z_mm": 5.0,
+        "extrusion_moves": 1002,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 32,
+        "z_mm": 5.16,
+        "extrusion_moves": 950,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 33,
+        "z_mm": 5.32,
+        "extrusion_moves": 912,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 34,
+        "z_mm": 5.48,
+        "extrusion_moves": 958,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 35,
+        "z_mm": 5.64,
+        "extrusion_moves": 1013,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 36,
+        "z_mm": 5.8,
+        "extrusion_moves": 1047,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 37,
+        "z_mm": 5.96,
+        "extrusion_moves": 1229,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 38,
+        "z_mm": 6.12,
+        "extrusion_moves": 1330,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 39,
+        "z_mm": 6.28,
+        "extrusion_moves": 1375,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 40,
+        "z_mm": 6.44,
+        "extrusion_moves": 1387,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 41,
+        "z_mm": 6.6,
+        "extrusion_moves": 1361,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 42,
+        "z_mm": 6.76,
+        "extrusion_moves": 1210,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 43,
+        "z_mm": 6.92,
+        "extrusion_moves": 1408,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 44,
+        "z_mm": 7.08,
+        "extrusion_moves": 1373,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 45,
+        "z_mm": 7.24,
+        "extrusion_moves": 1500,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 46,
+        "z_mm": 7.4,
+        "extrusion_moves": 1504,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 47,
+        "z_mm": 7.56,
+        "extrusion_moves": 1497,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 48,
+        "z_mm": 7.72,
+        "extrusion_moves": 1507,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 49,
+        "z_mm": 7.88,
+        "extrusion_moves": 1498,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 50,
+        "z_mm": 8.04,
+        "extrusion_moves": 601,
+        "support_extrusion_moves": 0
+      }
+    ],
+    "objects": {
+      "15": {
+        "first_layer": 1,
+        "last_layer": 50,
+        "extrusion_moves": 56334
+      }
+    },
+    "empty_layers": [],
+    "color_key": "translucent_blue",
+    "gui_delta_metadata": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ]
+  },
+  {
+    "status": "OFFLINE_SLICE_VALIDATED",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_mm": [
+      "0.4",
+      "0.4"
+    ],
+    "bed": "Textured PEI Plate",
+    "filament_density_g_cm3": 1.26,
+    "estimated_seconds": 3614,
+    "estimated_filament_g": 22.34,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#000000",
+        "used_m": "7.37",
+        "used_g": "22.34",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "support_used": false,
+    "warnings": [
+      "[2026-09-22 07:40:22.475978] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+      "[2026-09-22 07:40:23.177061] [0x000000016d2ef000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177115] [0x000000016d6fb000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177132] [0x000000016baa7000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177151] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177174] [0x000000016c6cb000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177209] [0x000000016c2bf000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177239] [0x000000016db07000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177304] [0x000000016beb3000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177342] [0x000000016cee3000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177361] [0x000000016cad7000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.177982] [0x000000016d6fb000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.179072] [0x000000016c6cb000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:23.837610] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+      "[2026-09-22 07:40:23.837625] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+    ],
+    "gcode_sha256": "0ba17b491e28933270447e81ca68aa769068e9521b2d0392f418149eaf846903",
+    "package_sha256": "52d6480e5178c5de0a13fb0243a35bc16c61fd0187791b35b5cf4e6f192a94f3",
+    "gui_roundtrip": "NOT_RUN",
+    "physical_print": "NOT_RUN",
+    "physical_slot_binding": "NOT_SET",
+    "first_layer_time_metadata": "0.000000",
+    "limitations": [
+      "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+      "No live printer, current AMS allocation or clear-bed state was inspected.",
+      "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+    ],
+    "layer_count": 30,
+    "extrusion_moves": 62258,
+    "arc_extrusion_moves": 17925,
+    "support_extrusion_moves": 0,
+    "features": {
+      "Brim": 3970,
+      "Outer wall": 7277,
+      "Gap infill": 5872,
+      "Inner wall": 8620,
+      "Bottom surface": 759,
+      "Internal solid infill": 15129,
+      "Overhang wall": 48,
+      "Sparse infill": 15720,
+      "Top surface": 1783,
+      "Floating vertical shell": 1110,
+      "Bridge": 1970
+    },
+    "layers": [
+      {
+        "layer": 1,
+        "z_mm": 0.2,
+        "extrusion_moves": 5555,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 2,
+        "z_mm": 0.36,
+        "extrusion_moves": 1999,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 3,
+        "z_mm": 0.52,
+        "extrusion_moves": 1967,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 4,
+        "z_mm": 0.68,
+        "extrusion_moves": 1988,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 5,
+        "z_mm": 0.84,
+        "extrusion_moves": 2374,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 6,
+        "z_mm": 1.0,
+        "extrusion_moves": 2403,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 7,
+        "z_mm": 1.16,
+        "extrusion_moves": 2337,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 8,
+        "z_mm": 1.32,
+        "extrusion_moves": 2147,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 9,
+        "z_mm": 1.48,
+        "extrusion_moves": 2091,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 10,
+        "z_mm": 1.64,
+        "extrusion_moves": 1817,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 11,
+        "z_mm": 1.8,
+        "extrusion_moves": 1509,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 12,
+        "z_mm": 1.96,
+        "extrusion_moves": 1642,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 13,
+        "z_mm": 2.12,
+        "extrusion_moves": 1779,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 14,
+        "z_mm": 2.28,
+        "extrusion_moves": 1834,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 15,
+        "z_mm": 2.44,
+        "extrusion_moves": 2584,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 16,
+        "z_mm": 2.6,
+        "extrusion_moves": 2005,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 17,
+        "z_mm": 2.76,
+        "extrusion_moves": 1932,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 18,
+        "z_mm": 2.92,
+        "extrusion_moves": 1794,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 19,
+        "z_mm": 3.08,
+        "extrusion_moves": 1501,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 20,
+        "z_mm": 3.24,
+        "extrusion_moves": 1475,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 21,
+        "z_mm": 3.4,
+        "extrusion_moves": 1454,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 22,
+        "z_mm": 3.56,
+        "extrusion_moves": 1582,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 23,
+        "z_mm": 3.72,
+        "extrusion_moves": 2095,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 24,
+        "z_mm": 3.88,
+        "extrusion_moves": 2420,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 25,
+        "z_mm": 4.04,
+        "extrusion_moves": 2485,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 26,
+        "z_mm": 4.2,
+        "extrusion_moves": 2548,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 27,
+        "z_mm": 4.36,
+        "extrusion_moves": 2496,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 28,
+        "z_mm": 4.52,
+        "extrusion_moves": 2311,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 29,
+        "z_mm": 4.68,
+        "extrusion_moves": 1621,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 30,
+        "z_mm": 4.84,
+        "extrusion_moves": 513,
+        "support_extrusion_moves": 0
+      }
+    ],
+    "objects": {
+      "275": {
+        "first_layer": 1,
+        "last_layer": 15,
+        "extrusion_moves": 3612
+      },
+      "242": {
+        "first_layer": 1,
+        "last_layer": 15,
+        "extrusion_moves": 2848
+      },
+      "330": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 209
+      },
+      "297": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 221
+      },
+      "286": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 221
+      },
+      "253": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 211
+      },
+      "264": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 211
+      },
+      "341": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 209
+      },
+      "319": {
+        "first_layer": 1,
+        "last_layer": 30,
+        "extrusion_moves": 20304
+      },
+      "352": {
+        "first_layer": 1,
+        "last_layer": 29,
+        "extrusion_moves": 18243
+      },
+      "231": {
+        "first_layer": 1,
+        "last_layer": 28,
+        "extrusion_moves": 7124
+      },
+      "308": {
+        "first_layer": 1,
+        "last_layer": 16,
+        "extrusion_moves": 4875
+      }
+    },
+    "empty_layers": [],
+    "color_key": "black",
+    "gui_delta_metadata": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ]
+  },
+  {
+    "status": "OFFLINE_SLICE_VALIDATED",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_mm": [
+      "0.4",
+      "0.4"
+    ],
+    "bed": "Textured PEI Plate",
+    "filament_density_g_cm3": 1.26,
+    "estimated_seconds": 5523,
+    "estimated_filament_g": 30.64,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FFFFFF",
+        "used_m": "10.11",
+        "used_g": "30.64",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "support_used": true,
+    "warnings": [
+      "[2026-09-22 07:40:24.836760] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+      "[2026-09-22 07:40:26.042043] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:26.042086] [0x000000016e673000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:26.042106] [0x000000016f297000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:26.042125] [0x000000016febb000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:26.042146] [0x00000001702c7000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:26.042183] [0x000000016ee8b000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:26.063081] [0x000000016ee8b000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:26.069730] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:26.108297] [0x000000016f297000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:27.500770] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+      "[2026-09-22 07:40:27.500784] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+    ],
+    "gcode_sha256": "3ff511374af0749c8d60000b422defdf807f23b00424f5d24ebfa290902f474f",
+    "package_sha256": "d7683707fcad856ab3c67f0cb424a1e2c5b5a46234469234ca1dfc648281bd32",
+    "gui_roundtrip": "NOT_RUN",
+    "physical_print": "NOT_RUN",
+    "physical_slot_binding": "NOT_SET",
+    "first_layer_time_metadata": "0.000000",
+    "limitations": [
+      "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+      "No live printer, current AMS allocation or clear-bed state was inspected.",
+      "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+    ],
+    "layer_count": 137,
+    "extrusion_moves": 233571,
+    "arc_extrusion_moves": 104018,
+    "support_extrusion_moves": 2633,
+    "features": {
+      "Brim": 2779,
+      "Outer wall": 47378,
+      "Inner wall": 86833,
+      "Gap infill": 4972,
+      "Bottom surface": 597,
+      "Support": 2335,
+      "Internal solid infill": 26053,
+      "Overhang wall": 332,
+      "Sparse infill": 47223,
+      "Support interface": 298,
+      "Top surface": 1939,
+      "Floating vertical shell": 12026,
+      "Bridge": 806
+    },
+    "layers": [
+      {
+        "layer": 1,
+        "z_mm": 0.2,
+        "extrusion_moves": 6719,
+        "support_extrusion_moves": 469
+      },
+      {
+        "layer": 2,
+        "z_mm": 0.36,
+        "extrusion_moves": 4591,
+        "support_extrusion_moves": 116
+      },
+      {
+        "layer": 3,
+        "z_mm": 0.52,
+        "extrusion_moves": 5436,
+        "support_extrusion_moves": 56
+      },
+      {
+        "layer": 4,
+        "z_mm": 0.68,
+        "extrusion_moves": 5183,
+        "support_extrusion_moves": 56
+      },
+      {
+        "layer": 5,
+        "z_mm": 0.84,
+        "extrusion_moves": 5660,
+        "support_extrusion_moves": 64
+      },
+      {
+        "layer": 6,
+        "z_mm": 1.0,
+        "extrusion_moves": 5030,
+        "support_extrusion_moves": 55
+      },
+      {
+        "layer": 7,
+        "z_mm": 1.16,
+        "extrusion_moves": 5004,
+        "support_extrusion_moves": 63
+      },
+      {
+        "layer": 8,
+        "z_mm": 1.32,
+        "extrusion_moves": 4774,
+        "support_extrusion_moves": 67
+      },
+      {
+        "layer": 9,
+        "z_mm": 1.48,
+        "extrusion_moves": 4753,
+        "support_extrusion_moves": 86
+      },
+      {
+        "layer": 10,
+        "z_mm": 1.64,
+        "extrusion_moves": 4737,
+        "support_extrusion_moves": 89
+      },
+      {
+        "layer": 11,
+        "z_mm": 1.8,
+        "extrusion_moves": 4639,
+        "support_extrusion_moves": 99
+      },
+      {
+        "layer": 12,
+        "z_mm": 1.96,
+        "extrusion_moves": 4649,
+        "support_extrusion_moves": 113
+      },
+      {
+        "layer": 13,
+        "z_mm": 2.12,
+        "extrusion_moves": 4651,
+        "support_extrusion_moves": 93
+      },
+      {
+        "layer": 14,
+        "z_mm": 2.28,
+        "extrusion_moves": 4722,
+        "support_extrusion_moves": 81
+      },
+      {
+        "layer": 15,
+        "z_mm": 2.44,
+        "extrusion_moves": 5534,
+        "support_extrusion_moves": 69
+      },
+      {
+        "layer": 16,
+        "z_mm": 2.6,
+        "extrusion_moves": 5274,
+        "support_extrusion_moves": 58
+      },
+      {
+        "layer": 17,
+        "z_mm": 2.76,
+        "extrusion_moves": 5364,
+        "support_extrusion_moves": 52
+      },
+      {
+        "layer": 18,
+        "z_mm": 2.92,
+        "extrusion_moves": 5327,
+        "support_extrusion_moves": 30
+      },
+      {
+        "layer": 19,
+        "z_mm": 3.08,
+        "extrusion_moves": 4992,
+        "support_extrusion_moves": 27
+      },
+      {
+        "layer": 20,
+        "z_mm": 3.24,
+        "extrusion_moves": 5374,
+        "support_extrusion_moves": 36
+      },
+      {
+        "layer": 21,
+        "z_mm": 3.4,
+        "extrusion_moves": 5219,
+        "support_extrusion_moves": 51
+      },
+      {
+        "layer": 22,
+        "z_mm": 3.56,
+        "extrusion_moves": 6011,
+        "support_extrusion_moves": 53
+      },
+      {
+        "layer": 23,
+        "z_mm": 3.72,
+        "extrusion_moves": 5203,
+        "support_extrusion_moves": 75
+      },
+      {
+        "layer": 24,
+        "z_mm": 3.88,
+        "extrusion_moves": 4606,
+        "support_extrusion_moves": 97
+      },
+      {
+        "layer": 25,
+        "z_mm": 4.04,
+        "extrusion_moves": 4743,
+        "support_extrusion_moves": 104
+      },
+      {
+        "layer": 26,
+        "z_mm": 4.2,
+        "extrusion_moves": 4693,
+        "support_extrusion_moves": 94
+      },
+      {
+        "layer": 27,
+        "z_mm": 4.36,
+        "extrusion_moves": 4267,
+        "support_extrusion_moves": 93
+      },
+      {
+        "layer": 28,
+        "z_mm": 4.52,
+        "extrusion_moves": 4022,
+        "support_extrusion_moves": 116
+      },
+      {
+        "layer": 29,
+        "z_mm": 4.68,
+        "extrusion_moves": 2783,
+        "support_extrusion_moves": 101
+      },
+      {
+        "layer": 30,
+        "z_mm": 4.84,
+        "extrusion_moves": 1319,
+        "support_extrusion_moves": 70
+      },
+      {
+        "layer": 31,
+        "z_mm": 5.0,
+        "extrusion_moves": 1249,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 32,
+        "z_mm": 5.16,
+        "extrusion_moves": 1173,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 33,
+        "z_mm": 5.32,
+        "extrusion_moves": 1005,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 34,
+        "z_mm": 5.48,
+        "extrusion_moves": 1083,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 35,
+        "z_mm": 5.64,
+        "extrusion_moves": 1215,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 36,
+        "z_mm": 5.8,
+        "extrusion_moves": 1288,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 37,
+        "z_mm": 5.96,
+        "extrusion_moves": 1484,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 38,
+        "z_mm": 6.12,
+        "extrusion_moves": 1574,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 39,
+        "z_mm": 6.28,
+        "extrusion_moves": 1497,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 40,
+        "z_mm": 6.44,
+        "extrusion_moves": 1536,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 41,
+        "z_mm": 6.6,
+        "extrusion_moves": 1512,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 42,
+        "z_mm": 6.76,
+        "extrusion_moves": 1164,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 43,
+        "z_mm": 6.92,
+        "extrusion_moves": 1030,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 44,
+        "z_mm": 7.08,
+        "extrusion_moves": 903,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 45,
+        "z_mm": 7.24,
+        "extrusion_moves": 1033,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 46,
+        "z_mm": 7.4,
+        "extrusion_moves": 1140,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 47,
+        "z_mm": 7.56,
+        "extrusion_moves": 1118,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 48,
+        "z_mm": 7.72,
+        "extrusion_moves": 1435,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 49,
+        "z_mm": 7.88,
+        "extrusion_moves": 1488,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 50,
+        "z_mm": 8.04,
+        "extrusion_moves": 1429,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 51,
+        "z_mm": 8.2,
+        "extrusion_moves": 1587,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 52,
+        "z_mm": 8.36,
+        "extrusion_moves": 1441,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 53,
+        "z_mm": 8.52,
+        "extrusion_moves": 1394,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 54,
+        "z_mm": 8.68,
+        "extrusion_moves": 1473,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 55,
+        "z_mm": 8.84,
+        "extrusion_moves": 1318,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 56,
+        "z_mm": 9.0,
+        "extrusion_moves": 1177,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 57,
+        "z_mm": 9.16,
+        "extrusion_moves": 1340,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 58,
+        "z_mm": 9.32,
+        "extrusion_moves": 1659,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 59,
+        "z_mm": 9.48,
+        "extrusion_moves": 1927,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 60,
+        "z_mm": 9.64,
+        "extrusion_moves": 2105,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 61,
+        "z_mm": 9.8,
+        "extrusion_moves": 1947,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 62,
+        "z_mm": 9.96,
+        "extrusion_moves": 2351,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 63,
+        "z_mm": 10.12,
+        "extrusion_moves": 2123,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 64,
+        "z_mm": 10.28,
+        "extrusion_moves": 2039,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 65,
+        "z_mm": 10.44,
+        "extrusion_moves": 1981,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 66,
+        "z_mm": 10.6,
+        "extrusion_moves": 1532,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 67,
+        "z_mm": 10.76,
+        "extrusion_moves": 1751,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 68,
+        "z_mm": 10.92,
+        "extrusion_moves": 1583,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 69,
+        "z_mm": 11.08,
+        "extrusion_moves": 1506,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 70,
+        "z_mm": 11.24,
+        "extrusion_moves": 1640,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 71,
+        "z_mm": 11.4,
+        "extrusion_moves": 1588,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 72,
+        "z_mm": 11.56,
+        "extrusion_moves": 1679,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 73,
+        "z_mm": 11.72,
+        "extrusion_moves": 1620,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 74,
+        "z_mm": 11.88,
+        "extrusion_moves": 1624,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 75,
+        "z_mm": 12.04,
+        "extrusion_moves": 767,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 76,
+        "z_mm": 12.2,
+        "extrusion_moves": 851,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 77,
+        "z_mm": 12.36,
+        "extrusion_moves": 1057,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 78,
+        "z_mm": 12.52,
+        "extrusion_moves": 942,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 79,
+        "z_mm": 12.68,
+        "extrusion_moves": 950,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 80,
+        "z_mm": 12.84,
+        "extrusion_moves": 923,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 81,
+        "z_mm": 13.0,
+        "extrusion_moves": 971,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 82,
+        "z_mm": 13.16,
+        "extrusion_moves": 940,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 83,
+        "z_mm": 13.32,
+        "extrusion_moves": 894,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 84,
+        "z_mm": 13.48,
+        "extrusion_moves": 321,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 85,
+        "z_mm": 13.64,
+        "extrusion_moves": 318,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 86,
+        "z_mm": 13.8,
+        "extrusion_moves": 309,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 87,
+        "z_mm": 13.96,
+        "extrusion_moves": 262,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 88,
+        "z_mm": 14.12,
+        "extrusion_moves": 257,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 89,
+        "z_mm": 14.28,
+        "extrusion_moves": 250,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 90,
+        "z_mm": 14.44,
+        "extrusion_moves": 254,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 91,
+        "z_mm": 14.6,
+        "extrusion_moves": 260,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 92,
+        "z_mm": 14.76,
+        "extrusion_moves": 263,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 93,
+        "z_mm": 14.92,
+        "extrusion_moves": 275,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 94,
+        "z_mm": 15.08,
+        "extrusion_moves": 278,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 95,
+        "z_mm": 15.24,
+        "extrusion_moves": 274,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 96,
+        "z_mm": 15.4,
+        "extrusion_moves": 276,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 97,
+        "z_mm": 15.56,
+        "extrusion_moves": 264,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 98,
+        "z_mm": 15.72,
+        "extrusion_moves": 258,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 99,
+        "z_mm": 15.88,
+        "extrusion_moves": 259,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 100,
+        "z_mm": 16.04,
+        "extrusion_moves": 261,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 101,
+        "z_mm": 16.2,
+        "extrusion_moves": 257,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 102,
+        "z_mm": 16.36,
+        "extrusion_moves": 259,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 103,
+        "z_mm": 16.52,
+        "extrusion_moves": 264,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 104,
+        "z_mm": 16.68,
+        "extrusion_moves": 271,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 105,
+        "z_mm": 16.84,
+        "extrusion_moves": 282,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 106,
+        "z_mm": 17.0,
+        "extrusion_moves": 267,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 107,
+        "z_mm": 17.16,
+        "extrusion_moves": 273,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 108,
+        "z_mm": 17.32,
+        "extrusion_moves": 265,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 109,
+        "z_mm": 17.48,
+        "extrusion_moves": 259,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 110,
+        "z_mm": 17.64,
+        "extrusion_moves": 250,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 111,
+        "z_mm": 17.8,
+        "extrusion_moves": 245,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 112,
+        "z_mm": 17.96,
+        "extrusion_moves": 251,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 113,
+        "z_mm": 18.12,
+        "extrusion_moves": 255,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 114,
+        "z_mm": 18.28,
+        "extrusion_moves": 175,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 115,
+        "z_mm": 18.44,
+        "extrusion_moves": 184,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 116,
+        "z_mm": 18.6,
+        "extrusion_moves": 228,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 117,
+        "z_mm": 18.76,
+        "extrusion_moves": 299,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 118,
+        "z_mm": 18.92,
+        "extrusion_moves": 302,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 119,
+        "z_mm": 19.08,
+        "extrusion_moves": 278,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 120,
+        "z_mm": 19.24,
+        "extrusion_moves": 246,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 121,
+        "z_mm": 19.4,
+        "extrusion_moves": 239,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 122,
+        "z_mm": 19.56,
+        "extrusion_moves": 311,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 123,
+        "z_mm": 19.72,
+        "extrusion_moves": 259,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 124,
+        "z_mm": 19.88,
+        "extrusion_moves": 310,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 125,
+        "z_mm": 20.04,
+        "extrusion_moves": 319,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 126,
+        "z_mm": 20.2,
+        "extrusion_moves": 268,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 127,
+        "z_mm": 20.36,
+        "extrusion_moves": 340,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 128,
+        "z_mm": 20.52,
+        "extrusion_moves": 289,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 129,
+        "z_mm": 20.68,
+        "extrusion_moves": 303,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 130,
+        "z_mm": 20.84,
+        "extrusion_moves": 370,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 131,
+        "z_mm": 21.0,
+        "extrusion_moves": 358,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 132,
+        "z_mm": 21.16,
+        "extrusion_moves": 284,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 133,
+        "z_mm": 21.32,
+        "extrusion_moves": 254,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 134,
+        "z_mm": 21.48,
+        "extrusion_moves": 240,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 135,
+        "z_mm": 21.64,
+        "extrusion_moves": 158,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 136,
+        "z_mm": 21.8,
+        "extrusion_moves": 137,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 137,
+        "z_mm": 21.96,
+        "extrusion_moves": 68,
+        "support_extrusion_moves": 0
+      }
+    ],
+    "objects": {
+      "121": {
+        "first_layer": 1,
+        "last_layer": 29,
+        "extrusion_moves": 103841
+      },
+      "154": {
+        "first_layer": 1,
+        "last_layer": 74,
+        "extrusion_moves": 35467
+      },
+      "143": {
+        "first_layer": 1,
+        "last_layer": 65,
+        "extrusion_moves": 19114
+      },
+      "132": {
+        "first_layer": 1,
+        "last_layer": 137,
+        "extrusion_moves": 66830
+      },
+      "165": {
+        "first_layer": 1,
+        "last_layer": 12,
+        "extrusion_moves": 2146
+      },
+      "176": {
+        "first_layer": 1,
+        "last_layer": 12,
+        "extrusion_moves": 761
+      }
+    },
+    "empty_layers": [],
+    "color_key": "white",
+    "gui_delta_metadata": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;enable_support;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ]
+  },
+  {
+    "status": "OFFLINE_SLICE_VALIDATED",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_mm": [
+      "0.4",
+      "0.4"
+    ],
+    "bed": "Textured PEI Plate",
+    "filament_density_g_cm3": 1.26,
+    "estimated_seconds": 5728,
+    "estimated_filament_g": 31.95,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FF6A13",
+        "used_m": "10.54",
+        "used_g": "31.95",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "support_used": true,
+    "warnings": [
+      "[2026-09-22 07:40:29.741351] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+      "[2026-09-22 07:40:30.076661] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:30.076698] [0x00000001711eb000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:30.076714] [0x000000016fdaf000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:30.133753] [0x000000016fdaf000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:30.133792] [0x00000001711eb000] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:30.136855] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-22 07:40:31.064194] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+      "[2026-09-22 07:40:31.064203] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+    ],
+    "gcode_sha256": "d39109778fa27b670b55d595a34d89367c2c1badf509515b416bb9c32204a4a6",
+    "package_sha256": "0cd7cb6d9027732a15b45f4695cb14cbe54ce61aa8eaa29b7dd741a1d4a2149f",
+    "gui_roundtrip": "NOT_RUN",
+    "physical_print": "NOT_RUN",
+    "physical_slot_binding": "NOT_SET",
+    "first_layer_time_metadata": "0.000000",
+    "limitations": [
+      "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+      "No live printer, current AMS allocation or clear-bed state was inspected.",
+      "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+    ],
+    "layer_count": 187,
+    "extrusion_moves": 197494,
+    "arc_extrusion_moves": 59746,
+    "support_extrusion_moves": 11917,
+    "features": {
+      "Support": 10977,
+      "Brim": 627,
+      "Outer wall": 34994,
+      "Inner wall": 59744,
+      "Bottom surface": 349,
+      "Support interface": 940,
+      "Overhang wall": 753,
+      "Internal solid infill": 13444,
+      "Sparse infill": 59768,
+      "Bridge": 1156,
+      "Floating vertical shell": 13204,
+      "Top surface": 1048,
+      "Gap infill": 490
+    },
+    "layers": [
+      {
+        "layer": 1,
+        "z_mm": 0.2,
+        "extrusion_moves": 2397,
+        "support_extrusion_moves": 1348
+      },
+      {
+        "layer": 2,
+        "z_mm": 0.36,
+        "extrusion_moves": 884,
+        "support_extrusion_moves": 278
+      },
+      {
+        "layer": 3,
+        "z_mm": 0.52,
+        "extrusion_moves": 1019,
+        "support_extrusion_moves": 304
+      },
+      {
+        "layer": 4,
+        "z_mm": 0.68,
+        "extrusion_moves": 979,
+        "support_extrusion_moves": 277
+      },
+      {
+        "layer": 5,
+        "z_mm": 0.84,
+        "extrusion_moves": 1024,
+        "support_extrusion_moves": 148
+      },
+      {
+        "layer": 6,
+        "z_mm": 1.0,
+        "extrusion_moves": 1736,
+        "support_extrusion_moves": 148
+      },
+      {
+        "layer": 7,
+        "z_mm": 1.16,
+        "extrusion_moves": 1335,
+        "support_extrusion_moves": 151
+      },
+      {
+        "layer": 8,
+        "z_mm": 1.32,
+        "extrusion_moves": 1220,
+        "support_extrusion_moves": 153
+      },
+      {
+        "layer": 9,
+        "z_mm": 1.48,
+        "extrusion_moves": 1324,
+        "support_extrusion_moves": 136
+      },
+      {
+        "layer": 10,
+        "z_mm": 1.64,
+        "extrusion_moves": 1198,
+        "support_extrusion_moves": 134
+      },
+      {
+        "layer": 11,
+        "z_mm": 1.8,
+        "extrusion_moves": 1041,
+        "support_extrusion_moves": 145
+      },
+      {
+        "layer": 12,
+        "z_mm": 1.96,
+        "extrusion_moves": 1127,
+        "support_extrusion_moves": 137
+      },
+      {
+        "layer": 13,
+        "z_mm": 2.12,
+        "extrusion_moves": 1198,
+        "support_extrusion_moves": 142
+      },
+      {
+        "layer": 14,
+        "z_mm": 2.28,
+        "extrusion_moves": 1133,
+        "support_extrusion_moves": 144
+      },
+      {
+        "layer": 15,
+        "z_mm": 2.44,
+        "extrusion_moves": 1326,
+        "support_extrusion_moves": 148
+      },
+      {
+        "layer": 16,
+        "z_mm": 2.6,
+        "extrusion_moves": 1241,
+        "support_extrusion_moves": 171
+      },
+      {
+        "layer": 17,
+        "z_mm": 2.76,
+        "extrusion_moves": 1264,
+        "support_extrusion_moves": 193
+      },
+      {
+        "layer": 18,
+        "z_mm": 2.92,
+        "extrusion_moves": 1204,
+        "support_extrusion_moves": 197
+      },
+      {
+        "layer": 19,
+        "z_mm": 3.08,
+        "extrusion_moves": 1064,
+        "support_extrusion_moves": 186
+      },
+      {
+        "layer": 20,
+        "z_mm": 3.24,
+        "extrusion_moves": 1082,
+        "support_extrusion_moves": 205
+      },
+      {
+        "layer": 21,
+        "z_mm": 3.4,
+        "extrusion_moves": 957,
+        "support_extrusion_moves": 215
+      },
+      {
+        "layer": 22,
+        "z_mm": 3.56,
+        "extrusion_moves": 1116,
+        "support_extrusion_moves": 184
+      },
+      {
+        "layer": 23,
+        "z_mm": 3.72,
+        "extrusion_moves": 1409,
+        "support_extrusion_moves": 125
+      },
+      {
+        "layer": 24,
+        "z_mm": 3.88,
+        "extrusion_moves": 1235,
+        "support_extrusion_moves": 131
+      },
+      {
+        "layer": 25,
+        "z_mm": 4.04,
+        "extrusion_moves": 1349,
+        "support_extrusion_moves": 130
+      },
+      {
+        "layer": 26,
+        "z_mm": 4.2,
+        "extrusion_moves": 1612,
+        "support_extrusion_moves": 129
+      },
+      {
+        "layer": 27,
+        "z_mm": 4.36,
+        "extrusion_moves": 1621,
+        "support_extrusion_moves": 134
+      },
+      {
+        "layer": 28,
+        "z_mm": 4.52,
+        "extrusion_moves": 1596,
+        "support_extrusion_moves": 137
+      },
+      {
+        "layer": 29,
+        "z_mm": 4.68,
+        "extrusion_moves": 1586,
+        "support_extrusion_moves": 148
+      },
+      {
+        "layer": 30,
+        "z_mm": 4.84,
+        "extrusion_moves": 1371,
+        "support_extrusion_moves": 152
+      },
+      {
+        "layer": 31,
+        "z_mm": 5.0,
+        "extrusion_moves": 1335,
+        "support_extrusion_moves": 160
+      },
+      {
+        "layer": 32,
+        "z_mm": 5.16,
+        "extrusion_moves": 1203,
+        "support_extrusion_moves": 171
+      },
+      {
+        "layer": 33,
+        "z_mm": 5.32,
+        "extrusion_moves": 1124,
+        "support_extrusion_moves": 173
+      },
+      {
+        "layer": 34,
+        "z_mm": 5.48,
+        "extrusion_moves": 1185,
+        "support_extrusion_moves": 172
+      },
+      {
+        "layer": 35,
+        "z_mm": 5.64,
+        "extrusion_moves": 1230,
+        "support_extrusion_moves": 181
+      },
+      {
+        "layer": 36,
+        "z_mm": 5.8,
+        "extrusion_moves": 1252,
+        "support_extrusion_moves": 182
+      },
+      {
+        "layer": 37,
+        "z_mm": 5.96,
+        "extrusion_moves": 1467,
+        "support_extrusion_moves": 194
+      },
+      {
+        "layer": 38,
+        "z_mm": 6.12,
+        "extrusion_moves": 1613,
+        "support_extrusion_moves": 205
+      },
+      {
+        "layer": 39,
+        "z_mm": 6.28,
+        "extrusion_moves": 1530,
+        "support_extrusion_moves": 208
+      },
+      {
+        "layer": 40,
+        "z_mm": 6.44,
+        "extrusion_moves": 1684,
+        "support_extrusion_moves": 211
+      },
+      {
+        "layer": 41,
+        "z_mm": 6.6,
+        "extrusion_moves": 1724,
+        "support_extrusion_moves": 226
+      },
+      {
+        "layer": 42,
+        "z_mm": 6.76,
+        "extrusion_moves": 1423,
+        "support_extrusion_moves": 241
+      },
+      {
+        "layer": 43,
+        "z_mm": 6.92,
+        "extrusion_moves": 1341,
+        "support_extrusion_moves": 254
+      },
+      {
+        "layer": 44,
+        "z_mm": 7.08,
+        "extrusion_moves": 1301,
+        "support_extrusion_moves": 269
+      },
+      {
+        "layer": 45,
+        "z_mm": 7.24,
+        "extrusion_moves": 1376,
+        "support_extrusion_moves": 257
+      },
+      {
+        "layer": 46,
+        "z_mm": 7.4,
+        "extrusion_moves": 1447,
+        "support_extrusion_moves": 245
+      },
+      {
+        "layer": 47,
+        "z_mm": 7.56,
+        "extrusion_moves": 1459,
+        "support_extrusion_moves": 266
+      },
+      {
+        "layer": 48,
+        "z_mm": 7.72,
+        "extrusion_moves": 1690,
+        "support_extrusion_moves": 315
+      },
+      {
+        "layer": 49,
+        "z_mm": 7.88,
+        "extrusion_moves": 1798,
+        "support_extrusion_moves": 281
+      },
+      {
+        "layer": 50,
+        "z_mm": 8.04,
+        "extrusion_moves": 1787,
+        "support_extrusion_moves": 241
+      },
+      {
+        "layer": 51,
+        "z_mm": 8.2,
+        "extrusion_moves": 1893,
+        "support_extrusion_moves": 171
+      },
+      {
+        "layer": 52,
+        "z_mm": 8.36,
+        "extrusion_moves": 1708,
+        "support_extrusion_moves": 169
+      },
+      {
+        "layer": 53,
+        "z_mm": 8.52,
+        "extrusion_moves": 1507,
+        "support_extrusion_moves": 184
+      },
+      {
+        "layer": 54,
+        "z_mm": 8.68,
+        "extrusion_moves": 1403,
+        "support_extrusion_moves": 199
+      },
+      {
+        "layer": 55,
+        "z_mm": 8.84,
+        "extrusion_moves": 1247,
+        "support_extrusion_moves": 154
+      },
+      {
+        "layer": 56,
+        "z_mm": 9.0,
+        "extrusion_moves": 1371,
+        "support_extrusion_moves": 120
+      },
+      {
+        "layer": 57,
+        "z_mm": 9.16,
+        "extrusion_moves": 1393,
+        "support_extrusion_moves": 113
+      },
+      {
+        "layer": 58,
+        "z_mm": 9.32,
+        "extrusion_moves": 1599,
+        "support_extrusion_moves": 36
+      },
+      {
+        "layer": 59,
+        "z_mm": 9.48,
+        "extrusion_moves": 1721,
+        "support_extrusion_moves": 34
+      },
+      {
+        "layer": 60,
+        "z_mm": 9.64,
+        "extrusion_moves": 1803,
+        "support_extrusion_moves": 32
+      },
+      {
+        "layer": 61,
+        "z_mm": 9.8,
+        "extrusion_moves": 1786,
+        "support_extrusion_moves": 23
+      },
+      {
+        "layer": 62,
+        "z_mm": 9.96,
+        "extrusion_moves": 1921,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 63,
+        "z_mm": 10.12,
+        "extrusion_moves": 1759,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 64,
+        "z_mm": 10.28,
+        "extrusion_moves": 1536,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 65,
+        "z_mm": 10.44,
+        "extrusion_moves": 1419,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 66,
+        "z_mm": 10.6,
+        "extrusion_moves": 1277,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 67,
+        "z_mm": 10.76,
+        "extrusion_moves": 1187,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 68,
+        "z_mm": 10.92,
+        "extrusion_moves": 1289,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 69,
+        "z_mm": 11.08,
+        "extrusion_moves": 1361,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 70,
+        "z_mm": 11.24,
+        "extrusion_moves": 1641,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 71,
+        "z_mm": 11.4,
+        "extrusion_moves": 1683,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 72,
+        "z_mm": 11.56,
+        "extrusion_moves": 1589,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 73,
+        "z_mm": 11.72,
+        "extrusion_moves": 1618,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 74,
+        "z_mm": 11.88,
+        "extrusion_moves": 1629,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 75,
+        "z_mm": 12.04,
+        "extrusion_moves": 1388,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 76,
+        "z_mm": 12.2,
+        "extrusion_moves": 1369,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 77,
+        "z_mm": 12.36,
+        "extrusion_moves": 1330,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 78,
+        "z_mm": 12.52,
+        "extrusion_moves": 1288,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 79,
+        "z_mm": 12.68,
+        "extrusion_moves": 1372,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 80,
+        "z_mm": 12.84,
+        "extrusion_moves": 1494,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 81,
+        "z_mm": 13.0,
+        "extrusion_moves": 1604,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 82,
+        "z_mm": 13.16,
+        "extrusion_moves": 1775,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 83,
+        "z_mm": 13.32,
+        "extrusion_moves": 1700,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 84,
+        "z_mm": 13.48,
+        "extrusion_moves": 1858,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 85,
+        "z_mm": 13.64,
+        "extrusion_moves": 1608,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 86,
+        "z_mm": 13.8,
+        "extrusion_moves": 1366,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 87,
+        "z_mm": 13.96,
+        "extrusion_moves": 1350,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 88,
+        "z_mm": 14.12,
+        "extrusion_moves": 1143,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 89,
+        "z_mm": 14.28,
+        "extrusion_moves": 1114,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 90,
+        "z_mm": 14.44,
+        "extrusion_moves": 1278,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 91,
+        "z_mm": 14.6,
+        "extrusion_moves": 1306,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 92,
+        "z_mm": 14.76,
+        "extrusion_moves": 1405,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 93,
+        "z_mm": 14.92,
+        "extrusion_moves": 1730,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 94,
+        "z_mm": 15.08,
+        "extrusion_moves": 1634,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 95,
+        "z_mm": 15.24,
+        "extrusion_moves": 1758,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 96,
+        "z_mm": 15.4,
+        "extrusion_moves": 1787,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 97,
+        "z_mm": 15.56,
+        "extrusion_moves": 1883,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 98,
+        "z_mm": 15.72,
+        "extrusion_moves": 1792,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 99,
+        "z_mm": 15.88,
+        "extrusion_moves": 1818,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 100,
+        "z_mm": 16.04,
+        "extrusion_moves": 1711,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 101,
+        "z_mm": 16.2,
+        "extrusion_moves": 1865,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 102,
+        "z_mm": 16.36,
+        "extrusion_moves": 1754,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 103,
+        "z_mm": 16.52,
+        "extrusion_moves": 1697,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 104,
+        "z_mm": 16.68,
+        "extrusion_moves": 1733,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 105,
+        "z_mm": 16.84,
+        "extrusion_moves": 1600,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 106,
+        "z_mm": 17.0,
+        "extrusion_moves": 1238,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 107,
+        "z_mm": 17.16,
+        "extrusion_moves": 1245,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 108,
+        "z_mm": 17.32,
+        "extrusion_moves": 1154,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 109,
+        "z_mm": 17.48,
+        "extrusion_moves": 978,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 110,
+        "z_mm": 17.64,
+        "extrusion_moves": 723,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 111,
+        "z_mm": 17.8,
+        "extrusion_moves": 706,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 112,
+        "z_mm": 17.96,
+        "extrusion_moves": 684,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 113,
+        "z_mm": 18.12,
+        "extrusion_moves": 850,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 114,
+        "z_mm": 18.28,
+        "extrusion_moves": 942,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 115,
+        "z_mm": 18.44,
+        "extrusion_moves": 946,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 116,
+        "z_mm": 18.6,
+        "extrusion_moves": 923,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 117,
+        "z_mm": 18.76,
+        "extrusion_moves": 917,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 118,
+        "z_mm": 18.92,
+        "extrusion_moves": 956,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 119,
+        "z_mm": 19.08,
+        "extrusion_moves": 905,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 120,
+        "z_mm": 19.24,
+        "extrusion_moves": 1117,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 121,
+        "z_mm": 19.4,
+        "extrusion_moves": 850,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 122,
+        "z_mm": 19.56,
+        "extrusion_moves": 802,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 123,
+        "z_mm": 19.72,
+        "extrusion_moves": 774,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 124,
+        "z_mm": 19.88,
+        "extrusion_moves": 783,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 125,
+        "z_mm": 20.04,
+        "extrusion_moves": 775,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 126,
+        "z_mm": 20.2,
+        "extrusion_moves": 646,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 127,
+        "z_mm": 20.36,
+        "extrusion_moves": 562,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 128,
+        "z_mm": 20.52,
+        "extrusion_moves": 524,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 129,
+        "z_mm": 20.68,
+        "extrusion_moves": 486,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 130,
+        "z_mm": 20.84,
+        "extrusion_moves": 502,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 131,
+        "z_mm": 21.0,
+        "extrusion_moves": 478,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 132,
+        "z_mm": 21.16,
+        "extrusion_moves": 470,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 133,
+        "z_mm": 21.32,
+        "extrusion_moves": 464,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 134,
+        "z_mm": 21.48,
+        "extrusion_moves": 460,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 135,
+        "z_mm": 21.64,
+        "extrusion_moves": 466,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 136,
+        "z_mm": 21.8,
+        "extrusion_moves": 491,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 137,
+        "z_mm": 21.96,
+        "extrusion_moves": 479,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 138,
+        "z_mm": 22.12,
+        "extrusion_moves": 481,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 139,
+        "z_mm": 22.28,
+        "extrusion_moves": 488,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 140,
+        "z_mm": 22.44,
+        "extrusion_moves": 517,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 141,
+        "z_mm": 22.6,
+        "extrusion_moves": 526,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 142,
+        "z_mm": 22.76,
+        "extrusion_moves": 505,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 143,
+        "z_mm": 22.92,
+        "extrusion_moves": 536,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 144,
+        "z_mm": 23.08,
+        "extrusion_moves": 476,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 145,
+        "z_mm": 23.24,
+        "extrusion_moves": 472,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 146,
+        "z_mm": 23.4,
+        "extrusion_moves": 516,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 147,
+        "z_mm": 23.56,
+        "extrusion_moves": 514,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 148,
+        "z_mm": 23.72,
+        "extrusion_moves": 524,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 149,
+        "z_mm": 23.88,
+        "extrusion_moves": 546,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 150,
+        "z_mm": 24.04,
+        "extrusion_moves": 555,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 151,
+        "z_mm": 24.2,
+        "extrusion_moves": 524,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 152,
+        "z_mm": 24.36,
+        "extrusion_moves": 562,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 153,
+        "z_mm": 24.52,
+        "extrusion_moves": 514,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 154,
+        "z_mm": 24.68,
+        "extrusion_moves": 468,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 155,
+        "z_mm": 24.84,
+        "extrusion_moves": 509,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 156,
+        "z_mm": 25.0,
+        "extrusion_moves": 496,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 157,
+        "z_mm": 25.16,
+        "extrusion_moves": 566,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 158,
+        "z_mm": 25.32,
+        "extrusion_moves": 554,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 159,
+        "z_mm": 25.48,
+        "extrusion_moves": 524,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 160,
+        "z_mm": 25.64,
+        "extrusion_moves": 532,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 161,
+        "z_mm": 25.8,
+        "extrusion_moves": 505,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 162,
+        "z_mm": 25.96,
+        "extrusion_moves": 475,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 163,
+        "z_mm": 26.12,
+        "extrusion_moves": 396,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 164,
+        "z_mm": 26.28,
+        "extrusion_moves": 317,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 165,
+        "z_mm": 26.44,
+        "extrusion_moves": 286,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 166,
+        "z_mm": 26.6,
+        "extrusion_moves": 279,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 167,
+        "z_mm": 26.76,
+        "extrusion_moves": 278,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 168,
+        "z_mm": 26.92,
+        "extrusion_moves": 274,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 169,
+        "z_mm": 27.08,
+        "extrusion_moves": 233,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 170,
+        "z_mm": 27.24,
+        "extrusion_moves": 248,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 171,
+        "z_mm": 27.4,
+        "extrusion_moves": 289,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 172,
+        "z_mm": 27.56,
+        "extrusion_moves": 324,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 173,
+        "z_mm": 27.72,
+        "extrusion_moves": 297,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 174,
+        "z_mm": 27.88,
+        "extrusion_moves": 308,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 175,
+        "z_mm": 28.04,
+        "extrusion_moves": 252,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 176,
+        "z_mm": 28.2,
+        "extrusion_moves": 308,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 177,
+        "z_mm": 28.36,
+        "extrusion_moves": 268,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 178,
+        "z_mm": 28.52,
+        "extrusion_moves": 300,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 179,
+        "z_mm": 28.68,
+        "extrusion_moves": 404,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 180,
+        "z_mm": 28.84,
+        "extrusion_moves": 352,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 181,
+        "z_mm": 29.0,
+        "extrusion_moves": 327,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 182,
+        "z_mm": 29.16,
+        "extrusion_moves": 321,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 183,
+        "z_mm": 29.32,
+        "extrusion_moves": 265,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 184,
+        "z_mm": 29.48,
+        "extrusion_moves": 188,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 185,
+        "z_mm": 29.64,
+        "extrusion_moves": 183,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 186,
+        "z_mm": 29.8,
+        "extrusion_moves": 82,
+        "support_extrusion_moves": 0
+      },
+      {
+        "layer": 187,
+        "z_mm": 29.96,
+        "extrusion_moves": 67,
+        "support_extrusion_moves": 0
+      }
+    ],
+    "objects": {
+      "66": {
+        "first_layer": 1,
+        "last_layer": 187,
+        "extrusion_moves": 98356
+      },
+      "77": {
+        "first_layer": 1,
+        "last_layer": 109,
+        "extrusion_moves": 44317
+      },
+      "88": {
+        "first_layer": 1,
+        "last_layer": 105,
+        "extrusion_moves": 42277
+      }
+    },
+    "empty_layers": [],
+    "color_key": "orange",
+    "gui_delta_metadata": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;enable_support;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ]
+  }
+]

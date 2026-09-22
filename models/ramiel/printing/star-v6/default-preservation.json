@@ -1,0 +1,22 @@
+{
+  "output/stl/default_body.stl": {
+    "unchanged": true,
+    "sha256": "9fc6258dc7455f0988ea79b59f315361149dc6a22707af503190e074a27fe16f"
+  },
+  "output/stl/default_cradle.stl": {
+    "unchanged": true,
+    "sha256": "215f998684f3f09431ae51fcf06b050fe7fdad3166e52d7e79adcc5b18d2f585"
+  },
+  "output/stl/default_tip_test.stl": {
+    "unchanged": true,
+    "sha256": "236b6acd498a1ef51b26fefb0859abe5b4999c1b0a6d95db9ed53e94720da231"
+  },
+  "output/default-preview.glb": {
+    "unchanged": true,
+    "sha256": "640ec6ae8b8d8fbca346dc0e8333c609556ccf4f077bd29a8d5c94275895930c"
+  },
+  "output/default-display-assembly.3mf": {
+    "unchanged": true,
+    "sha256": "68454a0a2a8db4eaaccbcd8aad19d72d79ae0fee73073e39aba19303712ef124"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "revision": "v3-default-shell-only",
+  "model_source_commit": "11f1e74fb484da4e5f7ac3aa493c61b23d6c6194",
+  "objects": 2,
+  "central_tube": false,
+  "pins": 0,
+  "source_stl_sha256": "4ce347a6816bdc7fbcaae775441a99258d3e3228e8ab1dcad5d0359ff5f6b280",
+  "positions_mm": [
+    [
+      83,
+      140,
+      0
+    ],
+    [
+      173,
+      140,
+      0
+    ]
+  ],
+  "body_height_mm": 100,
+  "wall_mm": 1.2,
+  "printer": "Bambu Lab X2D",
+  "main_nozzle_mm": 0.4,
+  "material": "Bambu PLA Translucent blue 13611",
+  "feed": "AMS A2, final dialog verification pending",
+  "plate": "Textured PEI Plate",
+  "process": "0.16mm Standard @BBL X2D with prior verified overrides; 0% infill and 2mm outer brim",
+  "profile_sources": "copied from verified v2 resolved official presets; geometry regenerated from v3"
+}

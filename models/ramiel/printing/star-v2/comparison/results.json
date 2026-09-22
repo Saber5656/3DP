@@ -1,0 +1,115 @@
+{
+  "upright": {
+    "estimated_g": 37.2,
+    "estimated_seconds": 12974,
+    "longest_bridge_mm": 11.439999999999984,
+    "bridge_z": 73.96,
+    "features": {
+      "Support": 71339,
+      "Outer wall": 45302,
+      "Gap infill": 30468,
+      "Inner wall": 19404,
+      "Internal solid infill": 2479,
+      "Support interface": 2144,
+      "Overhang wall": 638,
+      "Floating vertical shell": 1340,
+      "Top surface": 763,
+      "Bridge": 218
+    },
+    "layers": 890
+  },
+  "roll18": {
+    "estimated_g": 37.61,
+    "estimated_seconds": 13029,
+    "longest_bridge_mm": 6.74499999999999,
+    "bridge_z": 81.96,
+    "features": {
+      "Support": 70925,
+      "Brim": 248,
+      "Outer wall": 48978,
+      "Gap infill": 24855,
+      "Inner wall": 22037,
+      "Internal solid infill": 2260,
+      "Overhang wall": 1299,
+      "Top surface": 771,
+      "Support interface": 116,
+      "Floating vertical shell": 1671,
+      "Bridge": 238
+    },
+    "layers": 937
+  },
+  "roll36": {
+    "estimated_g": 38.73,
+    "estimated_seconds": 12732,
+    "longest_bridge_mm": 4.172431425440113,
+    "bridge_z": 85.32,
+    "features": {
+      "Support": 82440,
+      "Outer wall": 47194,
+      "Gap infill": 31243,
+      "Inner wall": 18095,
+      "Internal solid infill": 2544,
+      "Top surface": 797,
+      "Floating vertical shell": 1302,
+      "Overhang wall": 441,
+      "Bridge": 259,
+      "Support interface": 336
+    },
+    "layers": 891
+  },
+  "tilt15": {
+    "estimated_g": 37.51,
+    "estimated_seconds": 13023,
+    "longest_bridge_mm": 3.9475137745168274,
+    "bridge_z": 74.6,
+    "features": {
+      "Support": 72050,
+      "Outer wall": 52276,
+      "Gap infill": 30276,
+      "Inner wall": 23640,
+      "Internal solid infill": 1292,
+      "Floating vertical shell": 3829,
+      "Top surface": 367,
+      "Support interface": 53,
+      "Bridge": 344,
+      "Overhang wall": 368
+    },
+    "layers": 908
+  },
+  "star_base": {
+    "estimated_g": 16.4,
+    "estimated_seconds": 3376,
+    "longest_bridge_mm": 87.84033989574495,
+    "bridge_z": 5.0,
+    "features": {
+      "Brim": 105,
+      "Outer wall": 268,
+      "Inner wall": 586,
+      "Bottom surface": 395,
+      "Internal solid infill": 4404,
+      "Sparse infill": 2211,
+      "Top surface": 324,
+      "Floating vertical shell": 123,
+      "Bridge": 398
+    },
+    "layers": 37
+  },
+  "star_mast": {
+    "estimated_g": 5.45,
+    "estimated_seconds": 1324,
+    "longest_bridge_mm": 15.568370017442414,
+    "bridge_z": 7.08,
+    "features": {
+      "Brim": 233,
+      "Outer wall": 600,
+      "Inner wall": 1274,
+      "Bottom surface": 321,
+      "Internal solid infill": 3088,
+      "Sparse infill": 2264,
+      "Floating vertical shell": 34,
+      "Bridge": 271,
+      "Top surface": 200
+    },
+    "layers": 50
+  }
+}

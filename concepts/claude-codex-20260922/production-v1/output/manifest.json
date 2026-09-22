@@ -1,0 +1,861 @@
+{
+  "unit": "mm",
+  "target_height_mm": 48.0,
+  "selected_ids": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "B4"
+  ],
+  "quantity_note": "D3 repeated in request; one copy included unless requested otherwise.",
+  "models": [
+    {
+      "id": "D1",
+      "height_mm": 48.0,
+      "extents_mm": [
+        44.34778349087945,
+        20.030256300586746,
+        48.0
+      ],
+      "parts": 2,
+      "master_scale": 0.6461373000189273,
+      "quantity": 1
+    },
+    {
+      "id": "D2",
+      "height_mm": 48.0,
+      "extents_mm": [
+        46.7040585578842,
+        29.98557741338752,
+        48.0
+      ],
+      "parts": 3,
+      "master_scale": 0.6672008365412029,
+      "quantity": 1
+    },
+    {
+      "id": "D3",
+      "height_mm": 48.0,
+      "extents_mm": [
+        44.52173913043478,
+        29.91304347826087,
+        48.0
+      ],
+      "parts": 5,
+      "master_scale": 0.6956521739130435,
+      "quantity": 1
+    },
+    {
+      "id": "D4",
+      "height_mm": 48.0,
+      "extents_mm": [
+        85.48905109489051,
+        29.43065693430657,
+        48.0
+      ],
+      "parts": 6,
+      "master_scale": 0.7007299270072993,
+      "quantity": 1
+    },
+    {
+      "id": "B4",
+      "height_mm": 48.0,
+      "extents_mm": [
+        82.29822959980156,
+        28.332177403210373,
+        48.0
+      ],
+      "parts": 7,
+      "master_scale": 0.6745756524573898,
+      "quantity": 1
+    }
+  ],
+  "parts": [
+    {
+      "id": "D1_knot",
+      "design": "D1",
+      "part": "knot",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/D1_knot.stl",
+      "assembly_stl": "output/assembly/D1_knot.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        44.347782135009766,
+        46.707725524902344,
+        4.71680212020874
+      ],
+      "assembly_bounds_mm": [
+        [
+          -22.193275491636538,
+          -4.71680229013817,
+          1.2922746000378547
+        ],
+        [
+          22.15450799924291,
+          0.0,
+          48.0
+        ]
+      ],
+      "volume_mm3": 4970.834098253465,
+      "watertight": true,
+      "components": 1,
+      "euler": -12,
+      "faces": 158762,
+      "sha256": "8728e2e8811d98e2f1f7cc0d31468e50de6dd89be556bea49995e825ae4e227a"
+    },
+    {
+      "id": "D1_cradle",
+      "design": "D1",
+      "part": "cradle",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D1_cradle.stl",
+      "assembly_stl": "output/assembly/D1_cradle.stl",
+      "orientation": "bottom",
+      "support_recommended": false,
+      "print_extents_mm": [
+        38.76823806762695,
+        20.030256271362305,
+        4.522961139678955
+      ],
+      "assembly_bounds_mm": [
+        [
+          -19.38411900056782,
+          -13.24581465038801,
+          0.0
+        ],
+        [
+          19.38411900056782,
+          6.784441650198737,
+          4.522961100132491
+        ]
+      ],
+      "volume_mm3": 3128.244082095423,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 2134,
+      "sha256": "0b967a0e5bde137e7a7eadcaac0dfc2ad88de41fa8e402da19d9edca10eddcea"
+    },
+    {
+      "id": "D2_seated_tile",
+      "design": "D2",
+      "part": "seated_tile",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/D2_seated_tile.stl",
+      "assembly_stl": "output/assembly/D2_seated_tile.stl",
+      "orientation": "back",
+      "support_recommended": true,
+      "print_extents_mm": [
+        46.70405960083008,
+        45.36965560913086,
+        22.017627716064453
+      ],
+      "assembly_bounds_mm": [
+        [
+          -23.3520292789421,
+          -15.345619240447666,
+          2.6303431151982037
+        ],
+        [
+          23.3520292789421,
+          6.672008365412029,
+          48.0
+        ]
+      ],
+      "volume_mm3": 20285.33903253991,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 7632,
+      "sha256": "821deac5f9184f43af407eef5d1c12394fdcab8b0d9e8700b14c5df7d5bed302"
+    },
+    {
+      "id": "D2_seat",
+      "design": "D2",
+      "part": "seat",
+      "color": "gray",
+      "count": 1,
+      "stl": "output/stl/D2_seat.stl",
+      "assembly_stl": "output/assembly/D2_seat.stl",
+      "orientation": "bottom",
+      "support_recommended": false,
+      "print_extents_mm": [
+        45.2927360534668,
+        25.31517219543457,
+        11.303954124450684
+      ],
+      "assembly_bounds_mm": [
+        [
+          -22.64636821143429,
+          -10.675213384659246,
+          0.0
+        ],
+        [
+          22.64636821143429,
+          14.639958172939854,
+          11.303953990233842
+        ]
+      ],
+      "volume_mm3": 10844.744632292799,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 1358,
+      "sha256": "245bb22b58cb6a4a095c25a7c6bfbe46b665c8de5e406801a8c683437dd41134"
+    },
+    {
+      "id": "D2_seated_tile_logo",
+      "design": "D2",
+      "part": "seated_tile_logo",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D2_seated_tile_logo.stl",
+      "assembly_stl": "output/assembly/D2_seated_tile_logo.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        28.021533966064453,
+        28.022024154663086,
+        2.4019229412078857
+      ],
+      "assembly_bounds_mm": [
+        [
+          -14.010766759240544,
+          -8.139850205802675,
+          17.308743046743785
+        ],
+        [
+          14.010767927433442,
+          -5.737927194254344,
+          45.33076625677446
+        ]
+      ],
+      "volume_mm3": 694.7801090747103,
+      "watertight": true,
+      "components": 1,
+      "euler": -12,
+      "faces": 3316,
+      "sha256": "38270625bb614a45c5bcc1c26ed9e2b4080919d56cdb1e895312912f23ea63ba"
+    },
+    {
+      "id": "D3_hugging_clawd",
+      "design": "D3",
+      "part": "hugging_clawd",
+      "color": "orange",
+      "count": 1,
+      "stl": "output/stl/D3_hugging_clawd.stl",
+      "assembly_stl": "output/assembly/D3_hugging_clawd.stl",
+      "orientation": "back",
+      "support_recommended": true,
+      "print_extents_mm": [
+        44.5217399597168,
+        48.0,
+        29.913043975830078
+      ],
+      "assembly_bounds_mm": [
+        [
+          -22.26086956521739,
+          -17.043478260869566,
+          0.0
+        ],
+        [
+          22.26086956521739,
+          12.869565217391305,
+          48.0
+        ]
+      ],
+      "volume_mm3": 31856.89542021547,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 5194,
+      "sha256": "fdcb41c8e78ebf1ea7ca891c1da1a56dc2c4d5041e9f01c35af8da51ea0c2e44"
+    },
+    {
+      "id": "D3_pillow",
+      "design": "D3",
+      "part": "pillow",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/D3_pillow.stl",
+      "assembly_stl": "output/assembly/D3_pillow.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        28.521739959716797,
+        29.913043975830078,
+        10.434782981872559
+      ],
+      "assembly_bounds_mm": [
+        [
+          -14.26086956521739,
+          -14.26086956521739,
+          3.1304347826086953
+        ],
+        [
+          14.26086956521739,
+          -3.8260869565217392,
+          33.04347826086956
+        ]
+      ],
+      "volume_mm3": 7723.7181142970285,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 4144,
+      "sha256": "ad6c1d3b0e97b13d7395d2eb14a7d8e6a96b0a1c49109e7a9704dfb1e9de0125"
+    },
+    {
+      "id": "D3_hugging_clawd_eye_1",
+      "design": "D3",
+      "part": "hugging_clawd_eye_1",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D3_hugging_clawd_eye_1.stl",
+      "assembly_stl": "output/assembly/D3_hugging_clawd_eye_1.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        3.82608699798584,
+        3.82608699798584,
+        1.6347825527191162
+      ],
+      "assembly_bounds_mm": [
+        [
+          -10.956521739130434,
+          -8.208695652173914,
+          39.130434782608695
+        ],
+        [
+          -7.130434782608695,
+          -6.573913043478263,
+          42.95652173913043
+        ]
+      ],
+      "volume_mm3": 22.75866929414062,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 708,
+      "sha256": "80f05c78bc7b05e37e6e7de801c1db4ae0521e5c6e0eda22085aca54944b70ff"
+    },
+    {
+      "id": "D3_hugging_clawd_eye_2",
+      "design": "D3",
+      "part": "hugging_clawd_eye_2",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D3_hugging_clawd_eye_2.stl",
+      "assembly_stl": "output/assembly/D3_hugging_clawd_eye_2.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        3.82608699798584,
+        3.82608699798584,
+        1.6347825527191162
+      ],
+      "assembly_bounds_mm": [
+        [
+          7.130434782608695,
+          -8.208695652173914,
+          39.130434782608695
+        ],
+        [
+          10.956521739130434,
+          -6.573913043478263,
+          42.95652173913043
+        ]
+      ],
+      "volume_mm3": 22.75866929414062,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 708,
+      "sha256": "80f05c78bc7b05e37e6e7de801c1db4ae0521e5c6e0eda22085aca54944b70ff"
+    },
+    {
+      "id": "D3_pillow_logo",
+      "design": "D3",
+      "part": "pillow_logo",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D3_pillow_logo.stl",
+      "assembly_stl": "output/assembly/D3_pillow_logo.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        20.868894577026367,
+        20.869258880615234,
+        2.504347801208496
+      ],
+      "assembly_bounds_mm": [
+        [
+          -10.434446873872176,
+          -15.791304347826088,
+          7.652160157328066
+        ],
+        [
+          10.434447739435278,
+          -13.286956521739132,
+          28.521418597387232
+        ]
+      ],
+      "volume_mm3": 401.80176915573315,
+      "watertight": true,
+      "components": 1,
+      "euler": -12,
+      "faces": 3216,
+      "sha256": "a850b0904ed2e58f8c1bcdfc8c5d0fa789379587a921badc583798719b97868f"
+    },
+    {
+      "id": "D4_clawd",
+      "design": "D4",
+      "part": "clawd",
+      "color": "orange",
+      "count": 1,
+      "stl": "output/stl/D4_clawd.stl",
+      "assembly_stl": "output/assembly/D4_clawd.stl",
+      "orientation": "back",
+      "support_recommended": true,
+      "print_extents_mm": [
+        40.07966995239258,
+        34.22108840942383,
+        17.518247604370117
+      ],
+      "assembly_bounds_mm": [
+        [
+          -40.53221491650582,
+          -8.75912408759124,
+          3.854014598540146
+        ],
+        [
+          -0.4525437919308343,
+          8.75912408759124,
+          38.07510444249321
+        ]
+      ],
+      "volume_mm3": 14294.28221946987,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 5832,
+      "sha256": "08ec6c452ac38f13958f0f841edbe5992adbfe37a14881c5faff5514b1c70301"
+    },
+    {
+      "id": "D4_clawd_eye_1",
+      "design": "D4",
+      "part": "clawd_eye_1",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D4_clawd_eye_1.stl",
+      "assembly_stl": "output/assembly/D4_clawd_eye_1.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        4.361496925354004,
+        4.361496925354004,
+        1.6467152833938599
+      ],
+      "assembly_bounds_mm": [
+        [
+          -29.159693051210027,
+          -9.670072992700732,
+          26.89435530388246
+        ],
+        [
+          -24.7981961220431,
+          -8.023357664233579,
+          31.255852233049385
+        ]
+      ],
+      "volume_mm3": 23.260680325409755,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 708,
+      "sha256": "2ae8e3b0f5258f6cc084a2627e7e40a65a7262e7e1bb4ab4bf7e3f9fcae4f31d"
+    },
+    {
+      "id": "D4_clawd_eye_2",
+      "design": "D4",
+      "part": "clawd_eye_2",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D4_clawd_eye_2.stl",
+      "assembly_stl": "output/assembly/D4_clawd_eye_2.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        4.361496925354004,
+        4.361496925354004,
+        1.6467152833938599
+      ],
+      "assembly_bounds_mm": [
+        [
+          -14.026871069885456,
+          -9.670072992700732,
+          23.95283268902653
+        ],
+        [
+          -9.66537414071853,
+          -8.023357664233579,
+          28.31432961819345
+        ]
+      ],
+      "volume_mm3": 23.260680325409755,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 708,
+      "sha256": "2ae8e3b0f5258f6cc084a2627e7e40a65a7262e7e1bb4ab4bf7e3f9fcae4f31d"
+    },
+    {
+      "id": "D4_gpt_tile",
+      "design": "D4",
+      "part": "gpt_tile",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/D4_gpt_tile.stl",
+      "assembly_stl": "output/assembly/D4_gpt_tile.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        40.642333984375,
+        44.1459846496582,
+        11.912408828735352
+      ],
+      "assembly_bounds_mm": [
+        [
+          -1.4014598540145986,
+          -5.956204379562044,
+          3.854014598540146
+        ],
+        [
+          39.24087591240876,
+          5.956204379562044,
+          48.0
+        ]
+      ],
+      "volume_mm3": 19032.70636905505,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 4162,
+      "sha256": "e90b6510401590b7f1493252b98042b5b28ab3ddb7d7508e29aa1a2645d73f4d"
+    },
+    {
+      "id": "D4_gpt_tile_logo",
+      "design": "D4",
+      "part": "gpt_tile_logo",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D4_gpt_tile_logo.stl",
+      "assembly_stl": "output/assembly/D4_gpt_tile_logo.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        30.831125259399414,
+        30.831663131713867,
+        2.522627830505371
+      ],
+      "assembly_bounds_mm": [
+        [
+          3.5041456466173604,
+          -7.497810218978102,
+          10.51092858036069
+        ],
+        [
+          34.33527170132547,
+          -4.975182481751824,
+          41.342592141924115
+        ]
+      ],
+      "volume_mm3": 883.3290521203938,
+      "watertight": true,
+      "components": 1,
+      "euler": -12,
+      "faces": 3552,
+      "sha256": "2405be47e622a6a588f73b7fab9021518cbd01e2a1752908d78886ae4b80367a"
+    },
+    {
+      "id": "D4_pair_base",
+      "design": "D4",
+      "part": "pair_base",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/D4_pair_base.stl",
+      "assembly_stl": "output/assembly/D4_pair_base.stl",
+      "orientation": "bottom",
+      "support_recommended": false,
+      "print_extents_mm": [
+        85.48905181884766,
+        29.43065643310547,
+        4.905109405517578
+      ],
+      "assembly_bounds_mm": [
+        [
+          -42.74452554744526,
+          -14.715328467153284,
+          0.0
+        ],
+        [
+          42.74452554744526,
+          14.715328467153284,
+          4.905109489051095
+        ]
+      ],
+      "volume_mm3": 11390.685198531508,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 3350,
+      "sha256": "dda33e844e932443141de3c01b3e7cdebab8bb3b18c30d67912553d2b32da2f5"
+    },
+    {
+      "id": "B4_clawd",
+      "design": "B4",
+      "part": "clawd",
+      "color": "orange",
+      "count": 1,
+      "stl": "output/stl/B4_clawd.stl",
+      "assembly_stl": "output/assembly/B4_clawd.stl",
+      "orientation": "back",
+      "support_recommended": true,
+      "print_extents_mm": [
+        38.800357818603516,
+        32.943809509277344,
+        16.864391326904297
+      ],
+      "assembly_bounds_mm": [
+        [
+          -39.019377179476805,
+          -8.432195655717372,
+          3.710166088515644
+        ],
+        [
+          -0.21901806689095293,
+          8.432195655717372,
+          36.65397670593648
+        ]
+      ],
+      "volume_mm3": 12776.69686066084,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 5922,
+      "sha256": "e7ecd200e125432a393ba643effc973a386942f9c83af0c537ec29853fe54b36"
+    },
+    {
+      "id": "B4_clawd_eye_1",
+      "design": "B4",
+      "part": "clawd_eye_1",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/B4_clawd_eye_1.stl",
+      "assembly_stl": "output/assembly/B4_clawd_eye_1.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        4.198707103729248,
+        4.198707103729248,
+        1.5852527618408203
+      ],
+      "assembly_bounds_mm": [
+        [
+          -28.07132706531645,
+          -9.30914400391198,
+          25.89054153005854
+        ],
+        [
+          -23.872620083799113,
+          -7.723891220637116,
+          30.089248511575878
+        ]
+      ],
+      "volume_mm3": 20.75211819296238,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 708,
+      "sha256": "047fa2df8a3c6281b43c8ad34347dcbd15f405939e1e07693e6d2ec90fb8efd2"
+    },
+    {
+      "id": "B4_clawd_eye_2",
+      "design": "B4",
+      "part": "clawd_eye_2",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/B4_clawd_eye_2.stl",
+      "assembly_stl": "output/assembly/B4_clawd_eye_2.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        4.198707103729248,
+        4.198707103729248,
+        1.5852527618408203
+      ],
+      "assembly_bounds_mm": [
+        [
+          -13.503327514945857,
+          -9.30914400391198,
+          23.05880927393936
+        ],
+        [
+          -9.30462053342852,
+          -7.723891220637116,
+          27.257516255456697
+        ]
+      ],
+      "volume_mm3": 20.75211819296238,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 708,
+      "sha256": "047fa2df8a3c6281b43c8ad34347dcbd15f405939e1e07693e6d2ec90fb8efd2"
+    },
+    {
+      "id": "B4_codex_flower",
+      "design": "B4",
+      "part": "codex_flower",
+      "color": "translucent_blue",
+      "count": 1,
+      "stl": "output/stl/B4_codex_flower.stl",
+      "assembly_stl": "output/assembly/B4_codex_flower.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        43.1728401184082,
+        45.97627258300781,
+        8.094907760620117
+      ],
+      "assembly_bounds_mm": [
+        [
+          -3.372878262286949,
+          -4.722029567201728,
+          2.0237269573721695
+        ],
+        [
+          39.799963494986,
+          3.372878262286949,
+          48.0
+        ]
+      ],
+      "volume_mm3": 11387.72349417069,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 2472,
+      "sha256": "e74dce6d01e8db6b28d90aa75fbb166756013697394b62e567cb19b8cb0afce2"
+    },
+    {
+      "id": "B4_codex_glyph_1",
+      "design": "B4",
+      "part": "codex_glyph_1",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/B4_codex_glyph_1.stl",
+      "assembly_stl": "output/assembly/B4_codex_glyph_1.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        6.517977714538574,
+        15.138528823852539,
+        2.0237269401550293
+      ],
+      "assembly_bounds_mm": [
+        [
+          6.859645920965507,
+          -5.868808176379291,
+          18.704143090407083
+        ],
+        [
+          13.377623652756187,
+          -3.845081219007122,
+          33.8426720192611
+        ]
+      ],
+      "volume_mm3": 108.83941849478482,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 208,
+      "sha256": "10bee70863585f2fc3bf8ee939e7d35c864e2cd086062de3631b855c7daa3b3b"
+    },
+    {
+      "id": "B4_codex_glyph_2",
+      "design": "B4",
+      "part": "codex_glyph_2",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/B4_codex_glyph_2.stl",
+      "assembly_stl": "output/assembly/B4_codex_glyph_2.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        11.494068145751953,
+        3.3641176223754883,
+        2.0237269401550293
+      ],
+      "assembly_bounds_mm": [
+        [
+          18.003285270324856,
+          -5.868808176379291,
+          18.704143090407083
+        ],
+        [
+          29.49735352972532,
+          -3.845081219007122,
+          22.068260631827748
+        ]
+      ],
+      "volume_mm3": 73.3639724079549,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 76,
+      "sha256": "ae1211ed9a24b6b90d2645ab9e63ada4ed8da563a0ddd51cd70c2e90d0c3810d"
+    },
+    {
+      "id": "B4_pair_base",
+      "design": "B4",
+      "part": "pair_base",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/B4_pair_base.stl",
+      "assembly_stl": "output/assembly/B4_pair_base.stl",
+      "orientation": "bottom",
+      "support_recommended": false,
+      "print_extents_mm": [
+        82.29823303222656,
+        28.332178115844727,
+        4.722029685974121
+      ],
+      "assembly_bounds_mm": [
+        [
+          -41.14911479990078,
+          -14.166088701605187,
+          0.0
+        ],
+        [
+          41.14911479990078,
+          14.166088701605187,
+          4.722029567201728
+        ]
+      ],
+      "volume_mm3": 10193.078033524656,
+      "watertight": true,
+      "components": 1,
+      "euler": 2,
+      "faces": 4332,
+      "sha256": "554f0d03bfbad2b8d9cb6801825fb4202f786dbac663e9f9bee53cd97cc83c1d"
+    }
+  ],
+  "assembly_method": "Color-separated parts, matching shallow recesses, glue assembly. Physical fit not yet tested.",
+  "physical_print_status": "NOT_RUN",
+  "device_sent": false
+}

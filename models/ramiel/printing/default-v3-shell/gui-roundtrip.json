@@ -1,0 +1,29 @@
+{
+  "source": "ready/ramiel-shell-only-v3-X2D-blue.3mf",
+  "gui_saved": "ready/ramiel-shell-v3-GUI-verified.3mf",
+  "comparisons": {
+    "printer_model": true,
+    "nozzle_diameter": true,
+    "curr_bed_type": true,
+    "layer_height": true,
+    "initial_layer_print_height": true,
+    "wall_loops": true,
+    "sparse_infill_density": true,
+    "enable_support": true,
+    "brim_type": true,
+    "brim_width": true,
+    "brim_object_gap": true,
+    "outer_wall_speed": true,
+    "inner_wall_speed": true,
+    "initial_layer_speed": true,
+    "seam_position": true,
+    "seam_slope_type": true,
+    "nozzle_temperature": true,
+    "textured_plate_temp": true,
+    "filament_density": true,
+    "filament_colour": true,
+    "machine_start_gcode": true,
+    "machine_end_gcode": true
+  },
+  "gui_saved_sha256": "f05e203d1d0c58b5aa64d1bb677506567e3bb59eaa702d2fd8189a60efe076fa"
+}

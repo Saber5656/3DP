@@ -1,0 +1,52 @@
+{
+  "source": "5-Photo-5.jpg",
+  "front_tip_observations_pixels": [
+    [
+      373,
+      768
+    ],
+    [
+      727,
+      528
+    ],
+    [
+      599,
+      89
+    ],
+    [
+      135,
+      93
+    ],
+    [
+      15,
+      525
+    ]
+  ],
+  "model_front_tips_mm": [
+    [
+      4.828761927516565e-15,
+      78.85966681787005
+    ],
+    [
+      75.0,
+      24.368977217467975
+    ],
+    [
+      46.35254915624212,
+      -63.798810626403004
+    ],
+    [
+      -46.35254915624211,
+      -63.798810626403004
+    ],
+    [
+      -75.00000000000001,
+      24.368977217467965
+    ]
+  ],
+  "fit": "2D similarity only; no lens or perspective correction",
+  "rms_pixels": 10.440053239323957,
+  "reference_width_pixels": 712,
+  "relative_rms_percent": 1.4662996122646008,
+  "limitations": "Manual landmarks are approximate. Rear depth is separately estimated from photo2/photo3/photo4; this is not photogrammetry or measured reproduction."
+}

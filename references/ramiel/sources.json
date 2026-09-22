@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-default.jpg",
+    "page_url": "https://evangelion.fandom.com/wiki/Sixth_Angel",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-seLIzCryQ3LvWx5uEPaCuN8orRDNuMQl99soam1wOw&s=10",
+    "quality": "検索プレビュー",
+    "bytes": 12284,
+    "sha256": "92b84c37b0f3e34465d5db0fc5af4b4cda1e3218af54b2f4efd834183c0c803d"
+  },
+  {
+    "file": "02-core-exposed.webp",
+    "page_url": "https://vsbattles.fandom.com/wiki/User_blog:DestrudoD4Ray/Ramiel_%28Rebuild%29",
+    "image_url": "https://static.wikia.nocookie.net/vsbattles/images/8/8e/The_Sixth_Angel_-_Hourglass_Form_%28Rebuild%29.png/revision/latest/scale-to-width-down/655?cb=20240229025128",
+    "quality": "掲載画像・655px版",
+    "bytes": 27326,
+    "sha256": "e080f6d38249edc08e51a6b03dafbc35c22947f3de7c58ca2c7b6d7d59775ba9"
+  },
+  {
+    "file": "cross-hatena.png",
+    "page_url": "https://kichitan.hatenablog.com/entry/2021/02/18/114321",
+    "image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/k/kichitan/20210211/20210211105414.png",
+    "quality": "掲載画像",
+    "bytes": 253100,
+    "sha256": "728ce9224478eec462334fbc962edc734a7352dc6791fb1f270d4a93b01d8020"
+  },
+  {
+    "file": "04-plates.jpg",
+    "page_url": "https://vsbattles.fandom.com/wiki/User_blog:DestrudoD4Ray/Ramiel_%28Rebuild%29",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipM70bXMgmjOseS_nfRmIzxYqPtPwBfVN4IWey50xjw&s=10",
+    "quality": "検索プレビュー",
+    "bytes": 20404,
+    "sha256": "ad2152e3c5b0cb774f51b7e7e0b4ac3c76108605e874ec19c10b782da8740f44"
+  },
+  {
+    "file": "05-star.webp",
+    "page_url": "https://vsbattles.fandom.com/wiki/User_blog:DestrudoD4Ray/Ramiel_%28Rebuild%29",
+    "image_url": "https://static.wikia.nocookie.net/vsbattles/images/1/1f/The_Sixth_Angel_-_Pentagram_Form_%28Rebuild%29.png/revision/latest?cb=20240229025419",
+    "quality": "掲載画像・原寸",
+    "bytes": 153298,
+    "sha256": "bb78c2971f1edf1df2fa8bc92cf1c7abbd2e597e5b2fead9c0e61bb96251b052"
+  }
+]

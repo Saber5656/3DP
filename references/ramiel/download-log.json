@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-default.png",
+    "url": "https://moegirl.uk/images/b/b9/%E7%AC%AC%E4%BA%94%E4%BD%BF%E5%BE%92.png",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "02-core-exposed.png",
+    "url": "https://vignette.wikia.nocookie.net/evangelion/images/8/8e/The_Sixth_Angel_-_Hourglass_Form_%28Rebuild%29.png",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "03-cross.png",
+    "url": "https://images4.wikia.nocookie.net/__cb20120211034707/evangelion/images/d/da/The_Sixth_Angel_-_Cross_Form_%28Rebuild%29.png",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "04-star.png",
+    "url": "https://img2.wikia.nocookie.net/__cb20120211034706/evangelion/images/1/1f/The_Sixth_Angel_-_Pentagram_Form_%28Rebuild%29.png",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "05-night.png",
+    "url": "https://moegirl.uk/images/7/74/%E7%AC%AC%E5%9B%9B%E5%BD%A2%E6%80%81.png",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

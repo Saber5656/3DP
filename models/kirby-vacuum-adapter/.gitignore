@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.DS_Store
+
+design/slice-provisional/*.gcode
+design/slice-provisional/*.3mf
+
+/result.json
+
+# Machine-specific exports and withdrawn debug meshes are kept privately.
+output/body-v2/*.gcode
+output/body-v2/kirby-body-v2-X2D-black-PLA.3mf
+output/body-v3/*.gcode
+output/body-v3/kirby-v3-5mmOD-X2D-black-PLA.3mf
+design/body-v2/debug-*.stl

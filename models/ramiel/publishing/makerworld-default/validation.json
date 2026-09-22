@@ -1,0 +1,37 @@
+{
+  "source": "printing/default-v4-onepiece/ready/ramiel-v4-GUI-verified.3mf",
+  "source_sha256": "011cad4ba0eae179b4d5a81abd79eb43c5b0af2834a7d7b2c1b3f1df85c64607",
+  "public_project_sha256": "ebe0e81ca887ebedd272216054e1547baaf27ddce0202dc714f68893e7cac6dd",
+  "metadata_change": "DesignerUserId cleared",
+  "print_success": "user-reported 2026-09-22",
+  "checks": {
+    "archive_integrity": true,
+    "only_designer_id_changed": true,
+    "all_geometry_settings_transforms_preserved": true,
+    "common_private_path_and_secret_patterns_absent": true
+  },
+  "files": {
+    "ramiel-default-body.stl": {
+      "source": "output/stl/default_body.stl",
+      "sha256": "9fc6258dc7455f0988ea79b59f315361149dc6a22707af503190e074a27fe16f",
+      "watertight": true,
+      "volume_mm3": 19932.589183826924,
+      "extents_mm": [
+        66.66666412353516,
+        94.2809066772461,
+        70.71067810058594
+      ]
+    },
+    "ramiel-display-stand.stl": {
+      "source": "output/stl/default_cradle.stl",
+      "sha256": "215f998684f3f09431ae51fcf06b050fe7fdad3166e52d7e79adcc5b18d2f585",
+      "watertight": true,
+      "volume_mm3": 20125.483331330644,
+      "extents_mm": [
+        60.0,
+        60.0,
+        22.0
+      ]
+    }
+  }
+}

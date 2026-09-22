@@ -1,0 +1,22 @@
+{
+  "stage": "provisional geometry slice only",
+  "bambu_version": "02.08.02.61",
+  "nozzle_assumption_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "material_assumption": "Bambu PLA Basic",
+  "layers": 115,
+  "selected_layers": [
+    0.2,
+    2.8,
+    3.2,
+    10.0,
+    20.0,
+    22.8
+  ],
+  "central_corridor_extrusion_violations": [],
+  "extruding_arcs": 2426,
+  "actual_print": "NOT_RUN",
+  "startup_and_plate_configuration": "NOT_VERIFIED",
+  "estimated_time": "11m00s (provisional profile; not a prediction for the real setup)",
+  "estimated_filament_g": 4.83
+}

@@ -1,0 +1,48 @@
+{
+  "face": {
+    "estimated_g": 23.87,
+    "estimated_seconds": 7117,
+    "longest_bridge_segment_mm": 57.879999999999995,
+    "bridge_z_mm": 56.68,
+    "features": {
+      "Brim": 734,
+      "Outer wall": 8424,
+      "Inner wall": 96,
+      "Bottom surface": 272,
+      "Internal solid infill": 3649,
+      "Top surface": 346,
+      "Gap infill": 6494,
+      "Bridge": 347
+    }
+  },
+  "edge": {
+    "estimated_g": 33.04,
+    "estimated_seconds": 10495,
+    "longest_bridge_segment_mm": 1.7468706305848969,
+    "bridge_z_mm": 69.32,
+    "features": {
+      "Support": 95806,
+      "Outer wall": 8575,
+      "Gap infill": 4224,
+      "Inner wall": 3511,
+      "Floating vertical shell": 9,
+      "Internal solid infill": 13,
+      "Top surface": 76,
+      "Bridge": 295
+    }
+  },
+  "point": {
+    "estimated_g": 53.33,
+    "estimated_seconds": 13194,
+    "longest_bridge_segment_mm": 0.612000000000009,
+    "bridge_z_mm": 97.96,
+    "features": {
+      "Support": 324811,
+      "Outer wall": 4884,
+      "Inner wall": 84,
+      "Gap infill": 16744,
+      "Bridge": 1,
+      "Internal solid infill": 2
+    }
+  }
+}

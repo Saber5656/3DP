@@ -1,0 +1,212 @@
+[
+  {
+    "file": "black.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        90.125,
+        65.692
+      ],
+      [
+        185.82,
+        190.238
+      ]
+    ],
+    "objects": {
+      "D4_pair_base.stl": {
+        "first_layer": 1,
+        "last_layer": 30,
+        "moves": 20304
+      },
+      "B4_pair_base.stl": {
+        "first_layer": 1,
+        "last_layer": 29,
+        "moves": 18243
+      },
+      "D1_cradle.stl": {
+        "first_layer": 1,
+        "last_layer": 28,
+        "moves": 7124
+      },
+      "D4_gpt_tile_logo.stl": {
+        "first_layer": 1,
+        "last_layer": 16,
+        "moves": 4875
+      },
+      "D2_seated_tile_logo.stl": {
+        "first_layer": 1,
+        "last_layer": 15,
+        "moves": 2848
+      },
+      "D3_pillow_logo.stl": {
+        "first_layer": 1,
+        "last_layer": 15,
+        "moves": 3612
+      },
+      "D4_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 221
+      },
+      "D4_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 221
+      },
+      "D3_hugging_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 211
+      },
+      "D3_hugging_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 211
+      },
+      "B4_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 209
+      },
+      "B4_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 209
+      }
+    },
+    "preview": "black-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  },
+  {
+    "file": "gray.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        124.26,
+        103.983
+      ],
+      [
+        152.278,
+        152.017
+      ]
+    ],
+    "objects": {
+      "D2_seat.stl": {
+        "first_layer": 1,
+        "last_layer": 70,
+        "moves": 23449
+      }
+    },
+    "preview": "gray-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  },
+  {
+    "file": "orange.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        87.091,
+        75.94418444139448
+      ],
+      [
+        189.413,
+        180.11432148837332
+      ]
+    ],
+    "objects": {
+      "D3_hugging_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 187,
+        "moves": 98356
+      },
+      "D4_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 109,
+        "moves": 44317
+      },
+      "B4_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 105,
+        "moves": 42277
+      }
+    },
+    "preview": "orange-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  },
+  {
+    "file": "translucent_blue.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        114.616,
+        103.382
+      ],
+      [
+        161.156,
+        152.621
+      ]
+    ],
+    "objects": {
+      "B4_codex_flower.stl": {
+        "first_layer": 1,
+        "last_layer": 50,
+        "moves": 56334
+      }
+    },
+    "preview": "translucent_blue-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  },
+  {
+    "file": "white.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        56.526,
+        60.479
+      ],
+      [
+        222.481,
+        193.223
+      ]
+    ],
+    "objects": {
+      "D4_gpt_tile.stl": {
+        "first_layer": 1,
+        "last_layer": 74,
+        "moves": 35467
+      },
+      "D2_seated_tile.stl": {
+        "first_layer": 1,
+        "last_layer": 137,
+        "moves": 66830
+      },
+      "D1_knot.stl": {
+        "first_layer": 1,
+        "last_layer": 29,
+        "moves": 103841
+      },
+      "D3_pillow.stl": {
+        "first_layer": 1,
+        "last_layer": 65,
+        "moves": 19114
+      },
+      "B4_codex_glyph_1.stl": {
+        "first_layer": 1,
+        "last_layer": 12,
+        "moves": 2146
+      },
+      "B4_codex_glyph_2.stl": {
+        "first_layer": 1,
+        "last_layer": 12,
+        "moves": 761
+      }
+    },
+    "preview": "white-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  }
+]

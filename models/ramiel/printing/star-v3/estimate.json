@@ -1,0 +1,91 @@
+{
+  "blue-body": {
+    "estimated_g": 100.2,
+    "estimated_seconds": 30771,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA17",
+        "type": "PLA",
+        "color": "#0050B3",
+        "used_m": "34.15",
+        "used_g": "100.20",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "gcode_sha256": "5b61076feea042a534ac419ff77e50f6af42df7852cdd2124c43a145e4f40ea0",
+    "file_sha256": "28f87bd0f54e9efa27975412afe3723d0a2b618f8550938ae44eba9b6bc520ae",
+    "source_matches_current_CAD": true
+  },
+  "black-stand": {
+    "estimated_g": 19.44,
+    "estimated_seconds": 3951,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#000000",
+        "used_m": "6.41",
+        "used_g": "19.44",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "gcode_sha256": "fc47e357e58723b8c0feebb8dfd0cf0de6e07fa244ec84a46be0370748581220",
+    "file_sha256": "11514e85b9a03e7c3bf3134fde7b5185a92689355e4d47238af9d0272e316f96",
+    "source_matches_current_CAD": true
+  },
+  "total_g": 119.64,
+  "total_seconds": 34722,
+  "body_local_dimensions_mm": [
+    150.0,
+    142.65847744427305,
+    124.77795382574375
+  ],
+  "assembly_bounds_mm": [
+    [
+      -75.00000000000001,
+      -59.58887005452347,
+      0.0
+    ],
+    [
+      75.0,
+      98.28615297670338,
+      143.69616173072686
+    ]
+  ],
+  "display_tilt_degrees": 22.607943778529766,
+  "contact_points_mm": [
+    [
+      4.828761927516565e-15,
+      -50.58887005452347,
+      12.000000000000014
+    ],
+    [
+      23.469645142401074,
+      70.51843390182528,
+      12.0
+    ],
+    [
+      -23.469645142401077,
+      70.51843390182529,
+      12.000000000000014
+    ]
+  ],
+  "bead_diameter_mm": 3.0,
+  "nominal_wall_mm": 1.2,
+  "physical_print": "NOT_RUN",
+  "GUI_roundtrip": "NOT_RUN"
+}

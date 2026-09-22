@@ -1,0 +1,218 @@
+[
+  {
+    "file": "black.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        110.567,
+        82.809
+      ],
+      [
+        164.506,
+        174.548
+      ]
+    ],
+    "objects": {
+      "B4_pair_base.stl": {
+        "first_layer": 1,
+        "last_layer": 29,
+        "moves": 18243
+      },
+      "D3_pillow_logo.stl": {
+        "first_layer": 1,
+        "last_layer": 15,
+        "moves": 3683
+      },
+      "A1_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 11,
+        "moves": 288
+      },
+      "A1_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 11,
+        "moves": 288
+      },
+      "A2_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 259
+      },
+      "A2_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 259
+      },
+      "A4_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 13,
+        "moves": 244
+      },
+      "A4_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 13,
+        "moves": 244
+      },
+      "D3_hugging_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 211
+      },
+      "D3_hugging_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 211
+      },
+      "B4_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 209
+      },
+      "B4_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "moves": 209
+      },
+      "A3_clawd_eye_1.stl": {
+        "first_layer": 1,
+        "last_layer": 9,
+        "moves": 172
+      },
+      "A3_clawd_eye_2.stl": {
+        "first_layer": 1,
+        "last_layer": 9,
+        "moves": 172
+      }
+    },
+    "preview": "black-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  },
+  {
+    "file": "orange.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        42.36057912148372,
+        56.19306873072319
+      ],
+      [
+        233.96000270480343,
+        194.195611814671
+      ]
+    ],
+    "objects": {
+      "D3_hugging_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 187,
+        "moves": 98356
+      },
+      "A4_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 122,
+        "moves": 53601
+      },
+      "A1_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 113,
+        "moves": 49025
+      },
+      "B4_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 105,
+        "moves": 42643
+      },
+      "A2_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 109,
+        "moves": 40250
+      },
+      "A3_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 92,
+        "moves": 32354
+      }
+    },
+    "preview": "orange-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  },
+  {
+    "file": "translucent_blue.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        114.616,
+        103.382
+      ],
+      [
+        161.156,
+        152.621
+      ]
+    ],
+    "objects": {
+      "B4_codex_flower.stl": {
+        "first_layer": 1,
+        "last_layer": 50,
+        "moves": 56334
+      }
+    },
+    "preview": "translucent_blue-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  },
+  {
+    "file": "white.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        49.584,
+        51.462
+      ],
+      [
+        226.763,
+        206.699
+      ]
+    ],
+    "objects": {
+      "A4_cloud.stl": {
+        "first_layer": 1,
+        "last_layer": 129,
+        "moves": 73703
+      },
+      "A2_cloud.stl": {
+        "first_layer": 1,
+        "last_layer": 136,
+        "moves": 79303
+      },
+      "A3_cloud.stl": {
+        "first_layer": 1,
+        "last_layer": 97,
+        "moves": 57531
+      },
+      "D3_pillow.stl": {
+        "first_layer": 1,
+        "last_layer": 65,
+        "moves": 19365
+      },
+      "A1_cloud.stl": {
+        "first_layer": 1,
+        "last_layer": 112,
+        "moves": 38522
+      },
+      "B4_codex_glyph_1.stl": {
+        "first_layer": 1,
+        "last_layer": 12,
+        "moves": 2149
+      },
+      "B4_codex_glyph_2.stl": {
+        "first_layer": 1,
+        "last_layer": 12,
+        "moves": 762
+      }
+    },
+    "preview": "white-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  }
+]

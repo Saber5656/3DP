@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+production-v1/slice-work/
+claude-codex-48mm.zip
+cloud-addition-v1/slice-work/
+claude-cloud-48mm.zip

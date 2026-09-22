@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "A2-A3-white-cloud-AUX-GUI-final.gcode.3mf": "SHA256 and ZIP CRC PASS",
+    "A2-A3-black-eyes.3mf": "SHA256 and ZIP CRC PASS",
+    "A2-A3-white-cloud-AUX-GUI-verified.3mf": "SHA256 and ZIP CRC PASS",
+    "A2-A3-orange-body-GUI-final.gcode.3mf": "SHA256 and ZIP CRC PASS",
+    "A2-A3-white-cloud-ESTIMATE-main-only.3mf": "SHA256 and ZIP CRC PASS",
+    "A2-A3-orange-body.3mf": "SHA256 and ZIP CRC PASS",
+    "A2-A3-orange-body-GUI-verified.3mf": "SHA256 and ZIP CRC PASS"
+  },
+  "white_auxiliary_metadata": "PASS",
+  "send_state": "one orange send, white not sent",
+  "model_source_changes": "none; prior geometry tests retained",
+  "gui_blocker": "Mac locked; black final GUI not executed"
+}

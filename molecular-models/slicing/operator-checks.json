@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-09-21T16:13:39.116725+09:00",
+  "plate": {
+    "type": "Textured PEI Plate",
+    "confirmed_by_user": true,
+    "user_answer": "テクスチャPEI（ざらざらした標準プレート）"
+  },
+  "nozzle": {
+    "slicer_profile_mm": 0.4,
+    "physical_confirmation_pending": false,
+    "confirmed_by_user": true,
+    "physical_mm": 0.4,
+    "user_answer": "標準0.4 mmのまま・プレート上は空"
+  },
+  "bed_clear": {
+    "confirmation_pending": false,
+    "reason": "User checked current physical state before print submission",
+    "confirmed_by_user": true,
+    "user_answer": "標準0.4 mmのまま・プレート上は空"
+  },
+  "material": {
+    "type": "PLA",
+    "color": "black",
+    "ams_slot": "1",
+    "source": "Connected-device Bambu Studio UI"
+  },
+  "printer_sent": true,
+  "printing_started": true,
+  "transmission_status": "Accepted by printer; homing then plate identification observed",
+  "destination": "3DP-20P-483",
+  "ams_mapping": "A1 black PLA",
+  "bed_leveling": "On",
+  "flow_calibration": "Auto",
+  "timelapse": "Off",
+  "gui_slice_estimate": {
+    "seconds": 1739,
+    "grams": 6.86
+  },
+  "observed_stage": "造形中",
+  "observed_layers": "1/56",
+  "estimated_finish_local": "2026-09-21 16:35 JST",
+  "first_layer_verified": false,
+  "print_completed": false,
+  "plate_marker_warning": {
+    "code": "0500-8062",
+    "message": "Plate marker not detected",
+    "action_by_agent": "No bypass or resume clicked; subsequent UI progressed to plate position check and filament loading",
+    "still_blocking": false
+  },
+  "observed_percent": 18,
+  "estimated_minutes_remaining": 23,
+  "first_layer_started": true,
+  "first_layer_note": "Printer telemetry confirms layer 1 is running; adhesion and completed first layer not yet verified",
+  "observed_nozzle_celsius": 220,
+  "observed_bed_celsius": 55
+}

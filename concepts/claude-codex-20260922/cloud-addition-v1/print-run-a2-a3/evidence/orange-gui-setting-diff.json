@@ -1,0 +1,129 @@
+{
+  "different_settings_to_system": {
+    "source": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;enable_support;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ],
+    "gui": [
+      "brim_type;brim_width;enable_arc_fitting;enable_prime_tower;enable_support;initial_layer_speed;outer_wall_speed;sparse_infill_pattern;support_on_build_plate_only;wall_loops",
+      "",
+      ""
+    ]
+  },
+  "enable_arc_fitting": {
+    "source": "1",
+    "gui": "0"
+  },
+  "extruder_ams_count": {
+    "source": [],
+    "gui": [
+      "1#0|4#1",
+      "1#0|4#0"
+    ]
+  },
+  "filament_colour_type": {
+    "source": null,
+    "gui": [
+      "1"
+    ]
+  },
+  "filament_dev_ams_drying_ams_limitations": {
+    "source": [
+      "1"
+    ],
+    "gui": [
+      "1",
+      "0"
+    ]
+  },
+  "filament_dev_ams_drying_temperature": {
+    "source": [
+      "45"
+    ],
+    "gui": [
+      "45",
+      "45",
+      "45",
+      "45"
+    ]
+  },
+  "filament_dev_ams_drying_time": {
+    "source": [
+      "12"
+    ],
+    "gui": [
+      "12",
+      "12",
+      "12",
+      "12"
+    ]
+  },
+  "filament_flush_temp_fast": {
+    "source": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "gui": [
+      "0"
+    ]
+  },
+  "filament_multi_colour": {
+    "source": null,
+    "gui": [
+      "#FF6A13"
+    ]
+  },
+  "filament_settings_id": {
+    "source": [
+      "Collectibles PLA Basic Orange"
+    ],
+    "gui": [
+      "Bambu PLA Basic @BBL X2D 0.4 nozzle"
+    ]
+  },
+  "host_type": {
+    "source": null,
+    "gui": "octoprint"
+  },
+  "inherits_group": {
+    "source": [
+      "0.16mm Standard @BBL X2D",
+      "Bambu PLA Basic @BBL X2D 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle"
+    ],
+    "gui": [
+      "0.16mm Standard @BBL X2D",
+      "",
+      ""
+    ]
+  },
+  "print_settings_id": {
+    "source": "Collectibles 0.16mm orange support 1",
+    "gui": "0.16mm Standard @BBL X2D"
+  },
+  "printer_settings_id": {
+    "source": "Collectibles X2D 0.4",
+    "gui": "Bambu Lab X2D 0.4 nozzle"
+  },
+  "printhost_authorization_type": {
+    "source": null,
+    "gui": "key"
+  },
+  "printhost_ssl_ignore_revoke": {
+    "source": null,
+    "gui": "0"
+  },
+  "wipe_tower_y": {
+    "source": [
+      "239.596"
+    ],
+    "gui": [
+      "207.272"
+    ]
+  }
+}

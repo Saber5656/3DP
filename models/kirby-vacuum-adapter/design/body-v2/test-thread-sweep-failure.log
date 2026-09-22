@@ -1,0 +1,17 @@
+test_body_preserves_tested_nozzle_and_stop (tests.test_body_v2.BodyV2Tests.test_body_preserves_tested_nozzle_and_stop) ... ok
+test_each_part_is_valid_and_flow_stays_open (tests.test_body_v2.BodyV2Tests.test_each_part_is_valid_and_flow_stays_open) ... ok
+test_thread_has_axial_retention_without_rotation (tests.test_body_v2.BodyV2Tests.test_thread_has_axial_retention_without_rotation) ... FAIL
+test_threads_assemble_without_collision_for_wall_and_seal_stack (tests.test_body_v2.BodyV2Tests.test_threads_assemble_without_collision_for_wall_and_seal_stack) ... ok
+
+======================================================================
+FAIL: test_thread_has_axial_retention_without_rotation (tests.test_body_v2.BodyV2Tests.test_thread_has_axial_retention_without_rotation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "$PROJECT_ROOT/tests/test_body_v2.py", line 40, in test_thread_has_axial_retention_without_rotation
+    self.assertGreater(self.body.intersect(shifted).val().Volume(), 1.)
+AssertionError: 0.0 not greater than 1.0
+
+----------------------------------------------------------------------
+Ran 4 tests in 4.848s
+
+FAILED (failures=1)

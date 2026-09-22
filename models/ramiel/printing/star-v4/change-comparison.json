@@ -1,0 +1,18 @@
+{
+  "before_body_dimensions_mm": [
+    150.0,
+    142.65847744427305,
+    124.77795382574375
+  ],
+  "after_body_dimensions_mm": [
+    150.0,
+    142.65847744427305,
+    79.857890448476
+  ],
+  "rear_depth_parameter_before_mm": -90.0,
+  "rear_depth_parameter_after_mm": -45.0,
+  "front_symmetric_difference_volume_mm3": 5.230178496013559e-12,
+  "front_landmarks_unchanged": true,
+  "before_display_tilt_degrees": 22.607943778529766,
+  "after_display_tilt_degrees": 34.84213371651318
+}

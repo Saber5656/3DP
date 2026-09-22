@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-09-21T21:18:02.413636+09:00",
+  "user_request": "ではデフォルトモードを作成して",
+  "model_revision": "v2-default-central-joint",
+  "body_height_mm": 100,
+  "body_parts": [
+    "upper half",
+    "lower half",
+    "one D-shaped central pin"
+  ],
+  "printer_display_name": "3DP-20P-483",
+  "job_display_name": "Ramiel_default_central-joint_print_layout",
+  "material": "Bambu PLA Translucent blue 13611",
+  "ams_slot": "A2",
+  "gui_verified_settings": 22,
+  "gui_estimated_mass_g": 24.23,
+  "gui_estimated_duration": "1h55m",
+  "gui_estimated_completion_local": "2026-09-21 23:11 Asia/Tokyo",
+  "state": "stopped_by_user; design questioned; do not resume",
+  "observed_layer": 0,
+  "total_layers": 311,
+  "physical_completed": false,
+  "first_layer_confirmed": false,
+  "stand_sent": false,
+  "send_options": {
+    "timelapse": "off",
+    "bed_leveling": "on",
+    "flow_calibration": "auto",
+    "nozzle_offset_calibration": "off"
+  },
+  "inventory_updated": false,
+  "gui_saved_file": "ready/ramiel-central-v2-GUI-verified.3mf",
+  "gui_saved_sha256": "313ac5eaa596aa47c05a8175af90f3bace865c4c4e050710fdcf60f341925221",
+  "stopped_observed_at": "2026-09-21T21:19:35.267895+09:00",
+  "gui_resume_button_visible": true,
+  "user_clarification": "Central connection was intended for separated attack form; closed default form should have no central tube."
+}

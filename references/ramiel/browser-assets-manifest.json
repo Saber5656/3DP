@@ -1,0 +1,29 @@
+{
+  "assets": [
+    {
+      "contentType": "image/jpeg",
+      "id": "48c026a4f373638c",
+      "kind": "image",
+      "name": "images",
+      "path": "${BROWSER_ASSET_CACHE}/48c026a4f373638c",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-seLIzCryQ3LvWx5uEPaCuN8orRDNuMQl99soam1wOw&s=10"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "cd3c01372c282fcb",
+      "kind": "image",
+      "name": "images",
+      "path": "${BROWSER_ASSET_CACHE}/cd3c01372c282fcb",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipM70bXMgmjOseS_nfRmIzxYqPtPwBfVN4IWey50xjw&s=10"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "e1f14daa8ee18a7e",
+      "kind": "image",
+      "name": "655",
+      "path": "${BROWSER_ASSET_CACHE}/e1f14daa8ee18a7e",
+      "url": "https://static.wikia.nocookie.net/vsbattles/images/8/8e/The_Sixth_Angel_-_Hourglass_Form_%28Rebuild%29.png/revision/latest/scale-to-width-down/655?cb=20240229025128"
+    }
+  ],
+  "failures": []
+}

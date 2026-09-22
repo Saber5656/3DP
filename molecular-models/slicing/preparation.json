@@ -1,0 +1,36 @@
+{
+  "stage": "First prototype; final physical checks required before printing",
+  "source_sha256": "8363e8a61bcfbd0c472eba7fcabb48cecd0b505ec5f83455496982ea694a1543",
+  "caffeine_original_preserved": true,
+  "flatback_plane_original_z_mm": 0,
+  "flatback_extents_mm": [
+    109.9992904663086,
+    92.8008041381836,
+    3.5129847526550293
+  ],
+  "flatback_watertight": true,
+  "flatback_bodies": 1,
+  "nozzle_mm": 0.4,
+  "layer_mm": 0.16,
+  "filament": "Bambu PLA Basic black, AMS slot 1 observed in connected-device UI",
+  "bed": "Textured PEI Plate, confirmed by user on 2026-09-21",
+  "preset_names": {
+    "machine": "Bambu Lab X2D 0.4 nozzle",
+    "process": "0.16mm Standard @BBL X2D",
+    "filament": "Bambu PLA Basic @BBL X2D 0.4 nozzle"
+  },
+  "parameters": {
+    "walls": 3,
+    "infill": "20%",
+    "support": false,
+    "outer_brim_mm": 5,
+    "brim_gap_mm": 0.1,
+    "first_layer_mm_s": 30,
+    "outer_wall_mm_s": 60
+  },
+  "start_gcode_template_characters": 14848,
+  "filament_density_g_cm3": [
+    "1.26"
+  ],
+  "sources": "Installed official BambuStudio system/BBL presets, recursively resolving inherits and include"
+}
