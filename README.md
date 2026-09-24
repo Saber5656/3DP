@@ -8,6 +8,7 @@
 | [ラミエル](models/ramiel/README.md) | 通常形態・星形のモデルと印刷データ |
 | [カービィのアダプター](models/kirby-vacuum-adapter/README.md) | 接続部の試験片とアダプター |
 | [Claude / Cloud・Codex・ChatGPT](concepts/claude-codex-20260922/README.md) | キャラクター案、モデル、色別の印刷データ |
+| [動物フィギュア×3Dプリント](concepts/animal-figures-20260924/README.md) | 市販の動物フィギュアを使う作品案 |
 | [ラミエルの参考資料](references/ramiel/README.md) | 形態比較と出典 |
 
 最新の印刷対象・条件・確認状況は、各プロジェクトのREADMEと印刷記録を参照してください。過去の試作や比較用データも含むため、ファイル名だけで印刷対象を決めないでください。
