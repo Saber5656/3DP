@@ -9,6 +9,7 @@
 | [カービィのアダプター](models/kirby-vacuum-adapter/README.md) | 接続部の試験片とアダプター |
 | [Claude / Cloud・Codex・ChatGPT](concepts/claude-codex-20260922/README.md) | キャラクター案、モデル、色別の印刷データ |
 | [ラミエルの参考資料](references/ramiel/README.md) | 形態比較と出典 |
+| [524 ぬいぐるみ](crafts/524-plushie/README.md) | 524キーホルダーと同じデザインのあみぐるみ作成手順 |
 
 最新の印刷対象・条件・確認状況は、各プロジェクトのREADMEと印刷記録を参照してください。過去の試作や比較用データも含むため、ファイル名だけで印刷対象を決めないでください。
 
