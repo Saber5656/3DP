@@ -4,6 +4,8 @@
 
 ![パーツの配置と寸法](layout.svg)
 
+手順を約1分40秒のアニメーションにまとめた動画：[524-plushie-guide.mp4](524-plushie-guide.mp4)（音声なし・字幕付き）。動画は `video/scenes.html` を `video/render.cjs` でコマ撮りし、ffmpegでMP4にしています。
+
 ## 用意するもの
 
 | 手元にあるもの | 使う場所 |

@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>524 ぬいぐるみ 手順動画</title>
+<style>
+  html, body { margin: 0; background: #fbf6e9; }
+  body { width: 1280px; height: 720px; overflow: hidden; font-family: "IPAPGothic", "IPAGothic", sans-serif; }
+  svg { display: block; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1280" height="720" viewBox="0 0 1280 720"></svg>
+<script>
+const Y = '#f7d93a', YD = '#c9a800', YL = '#fbe98a', W = '#ffffff', WD = '#bbbbbb',
+      B = '#1f6f7a', BY = '#1d7fb0', O = '#e8742f', INK = '#3a3226', SUB = '#7a6e5c', BG = '#fbf6e9';
+
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const ease = p => p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+const back = p => { const c = 1.70158; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
+const fade = (t, a, d = 0.4) => ease(seg(t, a, a + d));
+
+function txt(x, y, s, size = 28, o = {}) {
+  const a = o.anchor || 'start', c = o.color || INK, w = o.weight || 'normal', op = o.op ?? 1;
+  return `<text x="${x}" y="${y}" font-size="${size}" fill="${c}" text-anchor="${a}" font-weight="${w}" opacity="${op}">${s}</text>`;
+}
+function box(x, y, w, h, o = {}) {
+  return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${o.rx ?? 18}" fill="${o.fill || '#fff'}" stroke="${o.stroke || '#e6dcc4'}" stroke-width="2" opacity="${o.op ?? 1}"/>`;
+}
+
+// 524 キャラクター（layout.svg と同じ座標系、中心 210,170）
+function char524(cx, cy, s, o = {}) {
+  const parts = o.parts || { ears: 1, drips: 1, eyes: 1, nums: 1, mouth: 1 };
+  let g = `<g transform="translate(${cx},${cy}) scale(${s}) translate(-210,-170)">`;
+  g += `<g fill="${Y}" stroke="${YD}" stroke-width="3">`;
+  if (parts.ears) g += `<path d="M100 135 L118 62 L160 105 Z"/><path d="M260 105 L302 62 L320 135 Z"/>`;
+  if (parts.drips) g += `<rect x="98" y="222" width="24" height="50"/><circle cx="110" cy="276" r="14"/>
+    <rect x="143" y="238" width="24" height="30"/><circle cx="155" cy="270" r="14"/>
+    <rect x="223" y="238" width="24" height="46"/><circle cx="235" cy="288" r="14"/>
+    <rect x="283" y="222" width="24" height="24"/><circle cx="295" cy="250" r="14"/>`;
+  g += `<ellipse cx="210" cy="170" rx="110" ry="80"/></g>`;
+  if (parts.eyes) g += `<g fill="${W}" stroke="${WD}" stroke-width="2"><circle cx="152" cy="150" r="30"/><circle cx="268" cy="150" r="30"/><circle cx="210" cy="150" r="30"/></g>`;
+  if (parts.nums) g += `<g fill="${O}" font-size="36" font-weight="bold" text-anchor="middle"><text x="152" y="163">5</text><text x="210" y="163">2</text><text x="268" y="163">4</text></g>`;
+  if (parts.mouth) g += `<rect x="160" y="198" width="100" height="12" rx="6" fill="${B}"/>`;
+  return g + '</g>';
+}
+
+function yarnBall(x, y, r, col, stroke) {
+  let g = `<g transform="translate(${x},${y})"><circle r="${r}" fill="${col}" stroke="${stroke}" stroke-width="2"/>`;
+  for (let i = -2; i <= 2; i++) g += `<path d="M${-r * 0.9} ${i * r * 0.28} Q0 ${i * r * 0.28 - r * 0.35} ${r * 0.9} ${i * r * 0.28}" fill="none" stroke="${stroke}" stroke-width="1.5" opacity="0.6"/>`;
+  return g + '</g>';
+}
+
+// 楕円（鎖の両側に編むスタジアム形）を段ごとに描く
+function stadiumRounds(cx, cy, rounds, h, S, prog) {
+  let g = '';
+  for (let r = rounds; r >= 1; r--) {
+    const R = r * h + h * 0.4;
+    const col = r % 2 ? Y : YL;
+    g += `<rect x="${cx - S / 2 - R}" y="${cy - R}" width="${S + 2 * R}" height="${2 * R}" rx="${R}" fill="${col}" stroke="${YD}" stroke-width="1.5" stroke-dasharray="7 5"/>`;
+  }
+  return g;
+}
+
+const scenes = [
+  { dur: 5, step: '', title: '', cap: '手元の毛糸で、524キーホルダーと同じデザインのぬいぐるみを編みます',
+    draw(t) {
+      const p = back(seg(t, 0.2, 1.2));
+      let g = `<circle cx="380" cy="360" r="${230 * ease(seg(t, 0, 0.8))}" fill="#5bb4d6"/>`;
+      g += char524(380, 350, 1.25 * p);
+      g += txt(680, 300, '524 ぬいぐるみの', 58, { weight: 'bold', op: fade(t, 1) });
+      g += txt(680, 380, '作り方', 58, { weight: 'bold', op: fade(t, 1.3) });
+      g += txt(682, 450, 'あみぐるみ・細編みだけで作れます', 28, { color: SUB, op: fade(t, 2) });
+      g += txt(682, 495, '完成サイズ 約 幅11 cm × 高さ12 cm', 28, { color: SUB, op: fade(t, 2.4) });
+      return g;
+    } },
+  { dur: 9, step: '準備', title: '材料と道具', cap: 'かぎ針は毛糸ラベルの推奨より1〜2号細くすると、目が詰まって綿が透けません',
+    draw(t) {
+      let g = box(80, 150, 520, 450) + txt(110, 200, '手元にあるもの', 32, { weight: 'bold' });
+      const have = [[Y, YD, '黄の毛糸', '本体・耳・たれ'], [W, WD, '白の毛糸', '目'], [BY, '#135d82', '青の毛糸', '口']];
+      have.forEach((h, i) => {
+        const op = fade(t, 0.4 + i * 0.5), y = 270 + i * 90;
+        g += `<g opacity="${op}">${yarnBall(150, y, 32, h[0], h[1])}${txt(205, y - 4, h[2], 28, { weight: 'bold' })}${txt(205, y + 30, h[3], 24, { color: SUB })}</g>`;
+      });
+      const op = fade(t, 1.9), y = 540;
+      g += `<g opacity="${op}"><rect x="126" y="${y - 30}" width="48" height="60" rx="6" fill="#d9c7a3"/><rect x="120" y="${y - 20}" width="60" height="40" rx="4" fill="${O}"/>
+        ${txt(205, y - 4, 'オレンジの糸＋裁縫セット', 28, { weight: 'bold' })}${txt(205, y + 30, '数字の刺しゅう', 24, { color: SUB })}</g>`;
+      g += box(680, 150, 520, 450) + txt(710, 200, '買い足すもの（100円ショップ）', 32, { weight: 'bold' });
+      const buy = [['かぎ針 5/0〜6/0号', '本体を編む'], ['とじ針（毛糸用）', 'パーツの縫い付け'], ['手芸綿', '中身'], ['段数マーカー', '安全ピンでも可']];
+      buy.forEach((b, i) => {
+        const op = fade(t, 2.8 + i * 0.5), y = 270 + i * 85;
+        g += `<g opacity="${op}"><circle cx="725" cy="${y - 10}" r="12" fill="${Y}" stroke="${YD}" stroke-width="2"/>
+          ${txt(755, y - 4, b[0], 28, { weight: 'bold' })}${txt(755, y + 28, b[1], 22, { color: SUB })}</g>`;
+      });
+      return g;
+    } },
+  { dur: 8, step: '準備', title: '使う編み方は5つだけ', cap: 'ぐるぐる編み：段の終わりで引き抜かず、そのまま次の段へ。各段の1目めにマーカーを',
+    draw(t) {
+      const rows = [['鎖', '鎖編み', '針に糸をかけて引き抜く'], ['細', '細編み', '目から糸を引き出し、2本を一度に引き抜く'],
+        ['増', '増し目', '同じ目に細編みを2回'], ['減', '減らし目', '2目から糸を引き出し、3本を一度に引き抜く'], ['輪', '輪の作り目', '指に2回巻いた輪に細編みを入れ、糸端を引き締める']];
+      let g = '';
+      rows.forEach((r, i) => {
+        const op = fade(t, 0.3 + i * 0.6), y = 170 + i * 92, dx = 30 * (1 - op);
+        g += `<g opacity="${op}" transform="translate(${dx},0)">${box(140, y, 1000, 76, { rx: 14 })}
+          <circle cx="198" cy="${y + 38}" r="26" fill="${Y}" stroke="${YD}" stroke-width="2"/>${txt(198, y + 49, r[0], 30, { anchor: 'middle', weight: 'bold' })}
+          ${txt(250, y + 49, r[1], 30, { weight: 'bold' })}${txt(470, y + 48, r[2], 26, { color: SUB })}</g>`;
+      });
+      return g;
+    } },
+  { dur: 14, step: 'STEP 1', title: '本体（黄）を2枚編む', cap: '同じ楕円を2枚（前面・背面）。背面は、とじるための糸端を約60 cm残します',
+    draw(t) {
+      const rowsTbl = [['作り目', '鎖9目', '—'], ['1段', '針から2目めに細2、細6、端に細3、反対側に細6、最初の目に細1', '18'],
+        ['2段', '増3、細6、増3、細6', '24'], ['3段', '（細1、増）×3、細6、（細1、増）×3、細6', '30'],
+        ['4段', '（細2、増）×3、細6、…', '36'], ['5段', '（細3、増）×3、細6、…', '42'], ['6段', '（細4、増）×3、細6、…', '48']];
+      const cur = t < 1.5 ? 0 : Math.min(6, 1 + Math.floor((t - 1.5) / 1.6));
+      const rp = t < 1.5 ? seg(t, 0.2, 1.3) : seg((t - 1.5) % 1.6, 0, 0.6);
+      const cx = 330, cy = 360, h = 22, S = 130;
+      let g = '';
+      if (cur >= 1) {
+        const R = cur * h + h * 0.4, sc = 0.85 + 0.15 * ease(rp);
+        g += `<g transform="translate(${cx},${cy}) scale(${sc}) translate(${-cx},${-cy})" opacity="${ease(rp)}">`;
+        g += `<rect x="${cx - S / 2 - R}" y="${cy - R}" width="${S + 2 * R}" height="${2 * R}" rx="${R}" fill="${cur % 2 ? Y : YL}" stroke="${YD}" stroke-width="1.5" stroke-dasharray="7 5"/></g>`;
+        g += stadiumRounds(cx, cy, cur - 1, h, S);
+      }
+      for (let i = 0; i < 9; i++) {
+        const on = t < 1.5 ? (i / 9 < rp) : true;
+        if (on) g += `<ellipse cx="${cx - S / 2 - 8 + i * ((S + 16) / 8)}" cy="${cy}" rx="8" ry="5" fill="none" stroke="#8a7300" stroke-width="2.5"/>`;
+      }
+      if (cur >= 1) g += txt(cx, 690 - 60, `${rowsTbl[cur][0]}：${rowsTbl[cur][2]}目`, 34, { anchor: 'middle', weight: 'bold', color: '#8a7300' });
+      else g += txt(cx, 630, '鎖9目', 34, { anchor: 'middle', weight: 'bold', color: '#8a7300' });
+      g += box(620, 140, 610, 470);
+      rowsTbl.forEach((r, i) => {
+        const y = 185 + i * 62, on = i === cur;
+        if (on) g += `<rect x="636" y="${y - 34}" width="578" height="56" rx="10" fill="${YL}"/>`;
+        g += txt(655, y, r[0], 24, { weight: 'bold', op: i <= cur ? 1 : 0.35 });
+        g += `<foreignObject x="740" y="${y - 30}" width="400" height="56"><div xmlns="http://www.w3.org/1999/xhtml" style="font:20px IPAPGothic,IPAGothic,sans-serif;color:${INK};opacity:${i <= cur ? 1 : 0.35};line-height:1.3">${r[1]}</div></foreignObject>`;
+        g += txt(1195, y, r[2], 26, { anchor: 'end', weight: 'bold', op: i <= cur ? 1 : 0.35 });
+      });
+      return g;
+    } },
+  { dur: 7, step: 'STEP 2', title: '耳（黄）を2つ編む', cap: '綿は入れずに平たくつぶして三角に。糸端は20 cm残します',
+    draw(t) {
+      const cnt = [4, 6, 9, 12, 12], lab = ['輪に細4', '（細1、増）×2', '（細1、増）×3', '（細2、増）×3', '細12'];
+      const cur = Math.min(4, Math.floor(t / 1.1));
+      let g = '';
+      for (let i = 0; i <= cur; i++) {
+        const w = cnt[i] * 16, y = 190 + i * 62, op = i === cur ? ease(seg(t - i * 1.1, 0, 0.5)) : 1;
+        g += `<rect x="${380 - w / 2}" y="${y}" width="${w}" height="56" rx="${i === 0 ? 28 : 10}" fill="${i % 2 ? YL : Y}" stroke="${YD}" stroke-width="2" stroke-dasharray="7 5" opacity="${op}"/>`;
+        g += txt(620, y + 38, `${i + 1}段　${lab[i]}`, 28, { op, weight: i === cur ? 'bold' : 'normal' });
+        g += txt(1000, y + 38, `${cnt[i]}目`, 28, { op, weight: 'bold', anchor: 'end' });
+      }
+      const fp = ease(seg(t, 5.6, 6.6));
+      if (fp > 0) g += `<g opacity="${fp}"><path d="M1060 520 L1110 400 L1160 520 Z" fill="${Y}" stroke="${YD}" stroke-width="3"/>${txt(1110, 560, 'つぶすと三角', 22, { anchor: 'middle', color: SUB })}</g>`;
+      return g;
+    } },
+  { dur: 8, step: 'STEP 3', title: 'たれ（黄）を4本編む', cap: '先端のしずくから編み始め、細6の段数を1・2・3・4段と変えて長さ違いに',
+    draw(t) {
+      let g = '';
+      const baseY = 500, xs = [300, 500, 700, 900];
+      xs.forEach((x, k) => {
+        const st = k * 1.4, p = seg(t, st, st + 1.6);
+        if (p <= 0) return;
+        const bulb = ease(seg(p, 0, 0.45)), tubeRows = k + 1, tp = seg(p, 0.45, 1);
+        g += `<circle cx="${x}" cy="${baseY}" r="${44 * bulb}" fill="${Y}" stroke="${YD}" stroke-width="2" stroke-dasharray="7 5"/>`;
+        const shown = Math.ceil(tubeRows * tp);
+        for (let r = 0; r < shown; r++) g += `<rect x="${x - 28}" y="${baseY - 52 - (r + 1) * 44}" width="56" height="44" fill="${r % 2 ? YL : Y}" stroke="${YD}" stroke-width="2" stroke-dasharray="7 5"/>`;
+        if (p >= 1) g += txt(x, baseY + 100, `＋${tubeRows}段`, 28, { anchor: 'middle', weight: 'bold', color: '#8a7300' });
+      });
+      g += box(1000, 150, 240, 250, { op: fade(t, 0.3) });
+      const lines = ['1段 輪に細6', '2段 (細1,増)×3', '3段 細9', '4段 (細1,減)×3', '5段〜 細6'];
+      lines.forEach((l, i) => g += txt(1020, 200 + i * 44, l, 21, { op: fade(t, 0.3 + i * 0.2) }));
+      return g;
+    } },
+  { dur: 6, step: 'STEP 4', title: '目（白）を3枚編む', cap: '直径約3 cmの平らな丸。糸端は30 cm残します',
+    draw(t) {
+      const cnt = [6, 12, 18], lab = ['輪に細6', '増×6', '（細1、増）×6'];
+      let g = '';
+      const cur = Math.min(2, Math.floor(t / 1.2));
+      for (let i = cur; i >= 0; i--) g += `<circle cx="360" cy="370" r="${(i + 1) * 55 * (i === cur ? ease(seg(t - i * 1.2, 0, 0.5)) : 1)}" fill="${i % 2 ? '#f3f0ea' : W}" stroke="${WD}" stroke-width="2" stroke-dasharray="7 5"/>`;
+      for (let i = 0; i <= cur; i++) g += txt(640, 280 + i * 70, `${i + 1}段　${lab[i]}`, 30, { weight: i === cur ? 'bold' : 'normal' }) + txt(1000, 280 + i * 70, `${cnt[i]}目`, 30, { anchor: 'end', weight: 'bold' });
+      const fp = fade(t, 4.2);
+      [0, 1, 2].forEach(k => g += `<circle cx="${700 + k * 110}" cy="560" r="48" fill="${W}" stroke="${WD}" stroke-width="2" opacity="${fp}"/>`);
+      g += txt(1060, 570, '×3', 32, { weight: 'bold', op: fp });
+      return g;
+    } },
+  { dur: 9, step: 'STEP 5', title: '目に「5・2・4」を刺しゅう', cap: '本体に付ける前に刺すと、裏の玉結びが隠れてきれいに仕上がります',
+    draw(t) {
+      let g = '<defs>';
+      ['5', '2', '4'].forEach((n, k) => {
+        const p = seg(t, 0.5 + k * 1.4, 1.8 + k * 1.4);
+        g += `<clipPath id="c${k}"><rect x="${130 + k * 170 - 70}" y="${280 - 80 + 160 * (1 - p)}" width="140" height="${160 * p}"/></clipPath>`;
+      });
+      g += '</defs>';
+      ['5', '2', '4'].forEach((n, k) => {
+        const x = 130 + k * 170;
+        g += `<circle cx="${x}" cy="280" r="78" fill="${W}" stroke="${WD}" stroke-width="3"/>`;
+        g += `<text x="${x}" y="312" font-size="96" font-weight="bold" fill="${O}" text-anchor="middle" clip-path="url(#c${k})">${n}</text>`;
+      });
+      g += box(640, 150, 580, 280);
+      const tips = ['① チャコペンで数字を下書き', '② 返し縫いで線をなぞる', '③ 縫い糸なら2本取りで2〜3回重ねる', '④ 数字の高さは約2 cm'];
+      tips.forEach((s, i) => g += txt(670, 205 + i * 60, s, 27, { op: fade(t, 0.5 + i * 0.9) }));
+      // 返し縫いの図
+      const bp = seg(t, 4.5, 8.2), n = 6;
+      g += txt(100, 520, '返し縫い', 26, { weight: 'bold', op: fade(t, 4.3) });
+      g += `<line x1="100" y1="580" x2="${100 + n * 90}" y2="580" stroke="#ddd" stroke-width="2" stroke-dasharray="4 6" opacity="${fade(t, 4.3)}"/>`;
+      const k = Math.floor(bp * n);
+      for (let i = 0; i < k; i++) g += `<line x1="${100 + i * 90}" y1="580" x2="${100 + (i + 1) * 90 - 4}" y2="580" stroke="${O}" stroke-width="8" stroke-linecap="round"/>`;
+      if (bp > 0 && bp < 1) {
+        const x = 100 + (k + 1) * 90;
+        g += `<path d="M${x + 90} 610 Q${x + 45} 640 ${x} 590" fill="none" stroke="${SUB}" stroke-width="2" marker-end="url(#ar)"/>${txt(x + 100, 640, '1目先から出して、戻って刺す', 20, { color: SUB })}`;
+      }
+      g += `<defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="${SUB}"/></marker></defs>`;
+      return g;
+    } },
+  { dur: 5, step: 'STEP 6', title: '口（青）を編む', cap: '鎖13目＋細編み12目で、長さ約5 cmの細い棒に',
+    draw(t) {
+      let g = '';
+      const cp = seg(t, 0.2, 1.8), sp = seg(t, 2, 3.6);
+      for (let i = 0; i < 13; i++) if (i / 13 < cp) g += `<ellipse cx="${250 + i * 60}" cy="400" rx="24" ry="14" fill="none" stroke="${B}" stroke-width="5"/>`;
+      g += txt(640, 330, `鎖 ${Math.ceil(cp * 13)}目`, 32, { anchor: 'middle', weight: 'bold', op: 1 - fade(t, 2) });
+      if (sp > 0) g += `<rect x="250" y="${340}" width="${12 * 60 * sp}" height="40" rx="12" fill="${B}"/>` + txt(640, 310, `細編み ${Math.ceil(sp * 12)}目`, 32, { anchor: 'middle', weight: 'bold', op: fade(t, 2) });
+      const fp = fade(t, 3.8);
+      g += `<g opacity="${fp}"><path d="M250 470 H970 M250 460 V480 M970 460 V480" stroke="${SUB}" stroke-width="2"/>${txt(610, 510, '約5 cm', 26, { anchor: 'middle', color: SUB })}</g>`;
+      return g;
+    } },
+  { dur: 9, step: 'STEP 7', title: '前面に目と口を縫い付ける', cap: 'まち針で仮止めしてバランスを確認してから、とじ針でたてまつり',
+    draw(t) {
+      const drop = (a) => ease(seg(t, a, a + 0.8));
+      const d2 = drop(0.8), d5 = drop(2), d4 = drop(2.6), dm = drop(3.8);
+      let g = `<g transform="translate(360,390) scale(2.1) translate(-210,-170)"><ellipse cx="210" cy="170" rx="110" ry="80" fill="${Y}" stroke="${YD}" stroke-width="2"/>`;
+      const eye = (x, n, p) => p > 0 ? `<g opacity="${p}" transform="translate(0,${-60 * (1 - p)})"><circle cx="${x}" cy="150" r="30" fill="${W}" stroke="${WD}" stroke-width="1.5"/><text x="${x}" y="163" font-size="36" font-weight="bold" fill="${O}" text-anchor="middle">${n}</text></g>` : '';
+      g += eye(210, '2', d2) + eye(152, '5', d5) + eye(268, '4', d4);
+      if (dm > 0) g += `<rect x="160" y="198" width="100" height="12" rx="6" fill="${B}" opacity="${dm}" transform="translate(0,${40 * (1 - dm)})"/>`;
+      g += '</g>';
+      const fp = fade(t, 1);
+      g += `<g opacity="${fp}"><path d="M360 222 V288" stroke="${SUB}" stroke-width="2" stroke-dasharray="5 4"/>${txt(380, 262, '約1.5 cm', 22, { color: SUB })}</g>`;
+      const steps = ['① 真ん中の「2」を上から1.5 cmの位置に', '② 左に「5」、右に「4」を少し重ねて', '③ 口は目の下 約1.5 cm', '④ 糸端は裏で結んで短く切る'];
+      g += box(720, 190, 510, 340);
+      steps.forEach((s, i) => g += txt(745, 250 + i * 72, s, 25, { op: fade(t, [0.8, 2, 3.8, 5.2][i]) }));
+      return g;
+    } },
+  { dur: 12, step: 'STEP 8', title: '2枚をとじて綿を詰める', cap: '',
+    draw(t) {
+      const sp = ease(seg(t, 0.3, 2)), ip = ease(seg(t, 2.2, 3.6));
+      let g = '';
+      // 背面（左）と前面（右）が重なる
+      const bx = 640 - 190 * (1 - sp);
+      g += `<g opacity="${1 - 0.6 * sp}" transform="translate(${bx - 26 * sp},${360 - 14 * sp}) scale(1.9) translate(-210,-170)"><ellipse cx="210" cy="170" rx="110" ry="80" fill="${YD}" opacity="0.7"/></g>`;
+      g += `<g transform="translate(${640 + 190 * (1 - sp)},360) scale(1.9) translate(-210,-170)">`;
+      // 挟む耳とたれ（本体の後ろ）
+      g += `<g opacity="${ip}" transform="translate(0,${-30 * (1 - ip)})"><path d="M100 135 L118 62 L160 105 Z" fill="${Y}" stroke="${YD}" stroke-width="2"/><path d="M260 105 L302 62 L320 135 Z" fill="${Y}" stroke="${YD}" stroke-width="2"/></g>`;
+      g += `<g opacity="${ip}" transform="translate(0,${30 * (1 - ip)})" fill="${Y}" stroke="${YD}" stroke-width="2"><rect x="98" y="222" width="24" height="50"/><circle cx="110" cy="276" r="14"/><rect x="143" y="238" width="24" height="30"/><circle cx="155" cy="270" r="14"/><rect x="223" y="238" width="24" height="46"/><circle cx="235" cy="288" r="14"/><rect x="283" y="222" width="24" height="24"/><circle cx="295" cy="250" r="14"/></g>`;
+      g += `<ellipse cx="210" cy="170" rx="110" ry="80" fill="${Y}" stroke="${YD}" stroke-width="2"/>`;
+      g += `<g fill="${W}" stroke="${WD}" stroke-width="1.5"><circle cx="152" cy="150" r="30"/><circle cx="268" cy="150" r="30"/><circle cx="210" cy="150" r="30"/></g><g fill="${O}" font-size="36" font-weight="bold" text-anchor="middle"><text x="152" y="163">5</text><text x="210" y="163">2</text><text x="268" y="163">4</text></g><rect x="160" y="198" width="100" height="12" rx="6" fill="${B}"/>`;
+      // 一周細編みでとじる
+      const stitch = t < 8 ? 0.85 * seg(t, 3.8, 7.2) : 0.85 + 0.15 * seg(t, 9.4, 10.6);
+      if (stitch > 0) {
+        g += `<path d="M210 90 A110 80 0 1 1 210 250 A110 80 0 1 1 210 90" fill="none" stroke="#8a7300" stroke-width="3.5" pathLength="1" stroke-dasharray="${stitch} 1"/>`;
+        const a = -Math.PI / 2 + stitch * 2 * Math.PI;
+        g += `<circle cx="${210 + 110 * Math.cos(a)}" cy="${170 + 80 * Math.sin(a)}" r="6" fill="${INK}"/>`;
+      }
+      const cot = seg(t, 7.4, 9.3);
+      if (cot > 0 && cot < 1 || (t > 7.4 && t < 9.4)) {
+        for (let i = 0; i < 5; i++) { const q = clamp(cot * 5 - i); if (q > 0) g += `<circle cx="${130 + i * 14}" cy="${60 + 50 * q}" r="${12}" fill="#fff" stroke="#ddd" opacity="${1 - q * 0.8}"/>`; }
+      }
+      g += '</g>';
+      let cap = '前面と背面を外表に重ねます';
+      if (t > 2.2) cap = '耳とたれの根元を2枚の間に1 cmほど挟み、まち針で留めます';
+      if (t > 3.8) cap = '2枚の最終段の目を一緒にすくって、一周細編みでとじます';
+      if (t > 7.3) cap = '残り5 cmほどで手を止め、綿を詰めます';
+      if (t > 9.4) cap = '最後までとじて引き抜き、糸端は中に通して隠して完成！';
+      g += `<g id="dyncap" data-cap="${cap}"></g>`;
+      return g;
+    } },
+  { dur: 7, step: '完成', title: '', cap: '段ごとの目数と、うまくいかないときの直し方は README にまとめています',
+    draw(t) {
+      const bob = Math.sin(t * 3) * 8 * seg(t, 0.8, 1.5);
+      let g = `<circle cx="400" cy="360" r="240" fill="#5bb4d6"/>` + char524(400, 350 + bob, 1.3 * back(seg(t, 0, 0.9)));
+      g += txt(720, 220, '完成！', 60, { weight: 'bold', op: fade(t, 0.6) });
+      const tr = [['本体が波打つ', '針を1号細く'], ['お椀状に丸まる', '針を1号太く'], ['綿が透ける', '針を細く・綿は控えめ'], ['数字が細い', '糸の本数を増やす']];
+      g += box(720, 260, 500, 300, { op: fade(t, 1.4) }) + txt(745, 305, 'うまくいかないとき', 26, { weight: 'bold', op: fade(t, 1.4) });
+      tr.forEach((r, i) => g += txt(745, 360 + i * 52, r[0], 24, { op: fade(t, 1.8 + i * 0.4) }) + txt(1195, 360 + i * 52, r[1], 24, { anchor: 'end', color: '#8a7300', weight: 'bold', op: fade(t, 1.8 + i * 0.4) }));
+      return g;
+    } },
+];
+
+const total = scenes.reduce((s, x) => s + x.dur, 0);
+
+function render(T) {
+  let acc = 0, i = 0;
+  while (i < scenes.length - 1 && T >= acc + scenes[i].dur) acc += scenes[i++].dur;
+  const sc = scenes[i], t = T - acc;
+  const inA = ease(seg(t, 0, 0.35)), outA = 1 - ease(seg(t, sc.dur - 0.3, sc.dur));
+  let body = sc.draw(t);
+  let cap = sc.cap;
+  const m = body.match(/data-cap="([^"]*)"/);
+  if (m) cap = m[1];
+  let g = `<rect width="1280" height="720" fill="${BG}"/>`;
+  g += `<g opacity="${Math.min(inA, outA)}">`;
+  if (sc.title) {
+    g += `<rect x="0" y="0" width="1280" height="110" fill="${Y}"/>`;
+    if (sc.step) g += `<rect x="60" y="32" width="${sc.step.length * 17 + 40}" height="46" rx="23" fill="${INK}"/>` + txt(80 + sc.step.length * 17 / 2, 65, sc.step, 24, { anchor: 'middle', color: '#fff', weight: 'bold' });
+    g += txt(sc.step ? 110 + sc.step.length * 17 : 60, 72, sc.title, 40, { weight: 'bold' });
+  }
+  g += body;
+  if (cap) g += `<rect x="0" y="640" width="1280" height="80" fill="${INK}" opacity="0.88"/>` + txt(640, 690, cap, 28, { anchor: 'middle', color: '#fff' });
+  g += '</g>';
+  g += `<rect x="0" y="714" width="${1280 * T / total}" height="6" fill="${O}"/>`;
+  document.getElementById('stage').innerHTML = g;
+}
+window.TOTAL = total;
+render(0);
+</script>
+</body>
+</html>
