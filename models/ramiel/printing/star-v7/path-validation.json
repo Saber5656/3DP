@@ -1,0 +1,17 @@
+{
+  "layers": 247,
+  "continuous_layers": true,
+  "xy_bounds_mm": [
+    [
+      64.301,
+      64.303
+    ],
+    [
+      191.699,
+      191.699
+    ]
+  ],
+  "support_paths": 0,
+  "gcode_sha256": "65b4db0b73baddaf1846ca8ae417fb8d72b4f0ee3094ec1b26927e8b3752ca43",
+  "scope": "Deposited model paths incl. arcs; not a firmware or physical load simulation."
+}

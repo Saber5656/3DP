@@ -1,0 +1,16 @@
+{
+  "provider": "claude",
+  "requested_model": "sonnet",
+  "actual_model": "claude-sonnet-5",
+  "effort": "low",
+  "run_id": "20260927T102109-1095a16b3ced",
+  "wrapper_status": "review_incomplete",
+  "content_verdict": "approve",
+  "blocking_findings": 0,
+  "low_findings": [
+    "Synthetic inspection archive requires provenance note.",
+    "Legacy report scope/readiness labels must not be used as runtime status."
+  ],
+  "parent_disposition": "Both accepted and documented in README/execution. Additionally confirmed inspection G-code is byte-identical to the actual GUI export by SHA256. Main agent directly verified checksums, transformed geometry, live supply mapping and camera. Wrapper did not recognize the returned review schema; substantive completed response retained in Vault.",
+  "independent_limitations": "Reviewer read reports and parser; did not rerun hashes/geometry or operate GUI."
+}

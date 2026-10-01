@@ -1,0 +1,120 @@
+{
+  "status": "PRINTING_FIRST_LAYER",
+  "send_count": 1,
+  "user_authorization": [
+    "print one normal v6",
+    "substitute currently loaded bright translucent blue mouth",
+    "minimize material consumed by nozzle filament switching"
+  ],
+  "printer": "Bambu Lab X2D / 3DP-20P-483",
+  "materials": [
+    {
+      "logical_filament": 1,
+      "color": "yellow",
+      "profile": "Generic PLA",
+      "nozzle": "Main",
+      "source": "AMS A2"
+    },
+    {
+      "logical_filament": 2,
+      "color": "white",
+      "profile": "Bambu PLA Basic / Jade White",
+      "nozzle": "Aux",
+      "source": "Ext"
+    },
+    {
+      "logical_filament": 3,
+      "color": "orange",
+      "profile": "Bambu PLA Basic",
+      "nozzle": "Main",
+      "source": "AMS A4"
+    },
+    {
+      "logical_filament": 4,
+      "color": "blue",
+      "profile": "Bambu PLA Translucent",
+      "nozzle": "Main",
+      "source": "AMS A3"
+    }
+  ],
+  "send_dialog_observation_jst": "2026-09-27 19:22",
+  "send_dialog_mapping_verified": true,
+  "calibration": {
+    "bed_leveling": "On",
+    "dynamic_flow": "Auto",
+    "nozzle_offset": "Auto",
+    "timelapse": "Off"
+  },
+  "camera_observation": "Live camera: no printed object or loose debris visible; previous rectangular surface marks remain. Previous Ramiel job complete 100%, 888/888. Bed 30 C / target 0; nozzles 32/31 C / target 0.",
+  "geometry_changed": false,
+  "process_changes": {
+    "support_top_z_distance": ".08 to .16 mm",
+    "support_bottom_z_distance": ".08 to .16 mm",
+    "flush_into_infill": "enabled",
+    "white_nozzle": "Aux fixed"
+  },
+  "estimated_time_seconds": 14352,
+  "estimated_total_grams": 42.95,
+  "estimated_mass_by_filament_g": [
+    30.26,
+    2.13,
+    6.6,
+    3.97
+  ],
+  "GUI_savings_vs_single_nozzle": {
+    "filament_g": 17,
+    "purge_events": 42
+  },
+  "toolpath_checks": {
+    "status": "PASS",
+    "layer_count": 276,
+    "empty_layers": [],
+    "outside": false,
+    "face_min_extrusion_z_mm": 18.6,
+    "support_max_extrusion_z_mm": 10.12,
+    "eyelet_inner_2mm_passage_moves": {},
+    "tower_to_object_support_bbox_gap_mm": 15.210999999999999,
+    "extrusion_xy_bounds_mm": {
+      "tower": [
+        [
+          33.676,
+          78.176
+        ],
+        [
+          93.392,
+          137.892
+        ]
+      ],
+      "object_and_support": [
+        [
+          108.603,
+          110.21
+        ],
+        [
+          147.398,
+          156.764
+        ]
+      ]
+    }
+  },
+  "file_sha256": {
+    "524-Keychain-v6-Blue-Mouth-GUI-Verified.3mf": "6738d9484a5bbff3054851d26134968abdd4fad8ddee3bd78f9432baf2b3cd17",
+    "524-Keychain-v6-Blue-Mouth-GUI-Verified.gcode.3mf": "69d0ad1bd47072d25f0a62eed131a707f981077abcd7cd3f4ab003a41746e655"
+  },
+  "limitations": [
+    "Slicer estimate, not measured consumption. Savings comparison is Bambu Studio grouping estimate.",
+    "Physical strength, clasp fit, final color appearance and full print completion not yet verified.",
+    "inspection.json is a reused provisional checker: scope/readiness/runtime labels are fixed legacy strings, not final print status. Synthetic inspection archive is not the sent artifact."
+  ],
+  "send_clicked_at": "2026-09-27T19:23:58.795020+09:00",
+  "job_name": "524-Keychain-v6-Blue-Mouth-GUI-Verified",
+  "transfer": "Bambu Studio cloud send observed progress 57% / 60%",
+  "received_job_name": "524_keychain_v6_blue_mouth_40_mm",
+  "received": true,
+  "observed_at": "2026-09-27T19:34:24.511712+09:00",
+  "observed_state": "2%; layer 1/276; printing; remaining 3h53m",
+  "estimated_finish_local": "2026-09-27 23:26 JST",
+  "full_print_completed": false,
+  "camera_initial_print": "Yellow extrusion visible on plate and toolhead moving over first-layer paths; no displayed error.",
+  "initial_layer_completed": false
+}

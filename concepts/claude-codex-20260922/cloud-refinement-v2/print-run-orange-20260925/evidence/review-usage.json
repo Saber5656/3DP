@@ -1,0 +1,41 @@
+{
+  "status": "review_incomplete",
+  "model_observations": [
+    {
+      "requested_model": "sonnet",
+      "actual_model": "claude-sonnet-5",
+      "provider_reported": true,
+      "model_verified": true,
+      "model_mismatch": false,
+      "match_type": "provider_alias"
+    }
+  ],
+  "usage": {
+    "attempts_reported": 1,
+    "attempts_missing": 0,
+    "attempts_complete": 1,
+    "attempts_partial": 0,
+    "attempts_unknown": 0,
+    "totals_by_completeness": {
+      "complete": {
+        "input_tokens": 6,
+        "cache_creation_input_tokens": 38730,
+        "cache_read_input_tokens": 17192,
+        "output_tokens": 2251
+      },
+      "partial": {},
+      "unknown": {}
+    },
+    "totals": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 38730,
+      "cache_read_input_tokens": 17192,
+      "output_tokens": 2251
+    },
+    "totals_are_provider_reported_only": true,
+    "elapsed_seconds": 24.167166667059064,
+    "elapsed_attempts_reported": 1,
+    "elapsed_attempts_missing": 0,
+    "elapsed_is_observed_wall_time_sum": true
+  }
+}

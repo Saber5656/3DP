@@ -1,0 +1,8237 @@
+{
+  "status": "OK",
+  "source_path": "models/524-keychain/statue-v7/slicing/full/524-v7-CANDIDATE-NOT-SENT.3mf",
+  "source_sha256": "7270b7677b1d77994ece3825081c227fc59c5315182691e410b8b1190c326306",
+  "source_kind": "zip:Metadata/plate_1.gcode",
+  "base_color_id": 0,
+  "layer_count": 276,
+  "filament_count": 4,
+  "filament_diameter_mm": [
+    1.75,
+    1.75,
+    1.75,
+    1.75
+  ],
+  "filament_density_g_cm3": [
+    1.24,
+    1.26,
+    1.26,
+    1.22
+  ],
+  "filament_map_nozzle": [
+    "1",
+    "2",
+    "1",
+    "1"
+  ],
+  "declared_total_grams_by_filament_id": [
+    21.82,
+    2.16,
+    6.6,
+    3.97
+  ],
+  "declared_total_grams_source": "G-code header comment '; total filament weight [g]'",
+  "tool_change_commands_total": 82,
+  "tool_change_commands_accepted_as_color": 80,
+  "tool_change_commands_sentinel_or_out_of_range": {
+    "65279": 1,
+    "65535": 1
+  },
+  "print_color_change_event_count": 78,
+  "nozzle_filament_replacement_count": 37,
+  "nozzle_filament_replacements": [
+    {
+      "layer": 238,
+      "nozzle": "1",
+      "from": 0,
+      "to": 3
+    },
+    {
+      "layer": 239,
+      "nozzle": "1",
+      "from": 3,
+      "to": 0
+    },
+    {
+      "layer": 240,
+      "nozzle": "1",
+      "from": 0,
+      "to": 3
+    },
+    {
+      "layer": 241,
+      "nozzle": "1",
+      "from": 3,
+      "to": 0
+    },
+    {
+      "layer": 242,
+      "nozzle": "1",
+      "from": 0,
+      "to": 3
+    },
+    {
+      "layer": 243,
+      "nozzle": "1",
+      "from": 3,
+      "to": 0
+    },
+    {
+      "layer": 244,
+      "nozzle": "1",
+      "from": 0,
+      "to": 3
+    },
+    {
+      "layer": 245,
+      "nozzle": "1",
+      "from": 3,
+      "to": 0
+    },
+    {
+      "layer": 246,
+      "nozzle": "1",
+      "from": 0,
+      "to": 3
+    },
+    {
+      "layer": 247,
+      "nozzle": "1",
+      "from": 3,
+      "to": 2
+    },
+    {
+      "layer": 247,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 248,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    },
+    {
+      "layer": 248,
+      "nozzle": "1",
+      "from": 2,
+      "to": 3
+    },
+    {
+      "layer": 249,
+      "nozzle": "1",
+      "from": 3,
+      "to": 2
+    },
+    {
+      "layer": 249,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 250,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    },
+    {
+      "layer": 250,
+      "nozzle": "1",
+      "from": 2,
+      "to": 3
+    },
+    {
+      "layer": 251,
+      "nozzle": "1",
+      "from": 3,
+      "to": 2
+    },
+    {
+      "layer": 251,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 252,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    },
+    {
+      "layer": 252,
+      "nozzle": "1",
+      "from": 2,
+      "to": 3
+    },
+    {
+      "layer": 253,
+      "nozzle": "1",
+      "from": 3,
+      "to": 2
+    },
+    {
+      "layer": 253,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 254,
+      "nozzle": "1",
+      "from": 0,
+      "to": 3
+    },
+    {
+      "layer": 254,
+      "nozzle": "1",
+      "from": 3,
+      "to": 2
+    },
+    {
+      "layer": 255,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 256,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    },
+    {
+      "layer": 257,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 258,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    },
+    {
+      "layer": 259,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 260,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    },
+    {
+      "layer": 261,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 262,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    },
+    {
+      "layer": 263,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 264,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    },
+    {
+      "layer": 265,
+      "nozzle": "1",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "layer": 265,
+      "nozzle": "1",
+      "from": 0,
+      "to": 2
+    }
+  ],
+  "color_change_events": [
+    {
+      "layer": 231,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 232,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 233,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 234,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 235,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 236,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 237,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 238,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 238,
+      "from": 0,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 239,
+      "from": 3,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 239,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 240,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 240,
+      "from": 0,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 241,
+      "from": 3,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 241,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 242,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 242,
+      "from": 0,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 243,
+      "from": 3,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 243,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 244,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 244,
+      "from": 0,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 245,
+      "from": 3,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 245,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 246,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 246,
+      "from": 0,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 247,
+      "from": 3,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 247,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 247,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 248,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 248,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 248,
+      "from": 2,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 249,
+      "from": 3,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 249,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 249,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 250,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 250,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 250,
+      "from": 2,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 251,
+      "from": 3,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 251,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 251,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 252,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 252,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 252,
+      "from": 2,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 253,
+      "from": 3,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 253,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 253,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 254,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 254,
+      "from": 0,
+      "to": 3,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 254,
+      "from": 3,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 255,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 255,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 256,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 256,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 257,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 257,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 258,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 258,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 259,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 259,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 260,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 260,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 261,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 261,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 262,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 262,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 263,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 263,
+      "from": 0,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 264,
+      "from": 1,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 264,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 265,
+      "from": 2,
+      "to": 0,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 265,
+      "from": 0,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": true,
+      "requires_filament_replacement": true
+    },
+    {
+      "layer": 265,
+      "from": 2,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 266,
+      "from": 1,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 267,
+      "from": 2,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 268,
+      "from": 1,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 269,
+      "from": 2,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 270,
+      "from": 1,
+      "to": 2,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    },
+    {
+      "layer": 271,
+      "from": 2,
+      "to": 1,
+      "category": "tower",
+      "same_nozzle": false,
+      "requires_filament_replacement": false
+    }
+  ],
+  "categories": [
+    "model",
+    "support",
+    "tower",
+    "brim",
+    "custom"
+  ],
+  "extrusion_mm_by_category_color": {
+    "model": {
+      "0": 3434.296559999997,
+      "1": 110.67974999999998,
+      "3": 15.840179999999998,
+      "2": 21.69624
+    },
+    "support": {
+      "0": 98.22760999999998
+    },
+    "tower": {
+      "0": 989.6090999999997,
+      "1": 601.9664000000001,
+      "3": 226.66249999999988,
+      "2": 283.97859999999986
+    },
+    "brim": {},
+    "custom": {}
+  },
+  "extrusion_grams_by_category_color": {
+    "model": {
+      "0": 10.242959575460484,
+      "1": 0.3354321557781453,
+      "3": 0.046482119385720284,
+      "2": 0.065753821773902
+    },
+    "support": {
+      "0": 0.2929687115966767
+    },
+    "tower": {
+      "0": 2.951558151637272,
+      "1": 1.8243525781184833,
+      "3": 0.6651283877623754,
+      "2": 0.8606412102743236
+    },
+    "brim": {},
+    "custom": {}
+  },
+  "unresolved_density_filament_ids": [],
+  "preparation_extrusion_mm_by_color": {},
+  "layers": {
+    "1": {
+      "z_mm": 0.2,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 54.38493999999997
+        },
+        "model": {
+          "0": 12.040449999999996
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.1622057769914443
+        },
+        "model": {
+          "0": 0.03591123843432825
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "2": {
+      "z_mm": 0.28,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 4.2245100000000075
+        },
+        "model": {
+          "0": 12.520349999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.012599810295977672
+        },
+        "model": {
+          "0": 0.037342563951616566
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "3": {
+      "z_mm": 0.36,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 3.925760000000007
+        },
+        "model": {
+          "0": 11.037669999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.011708773625234004
+        },
+        "model": {
+          "0": 0.032920397421145546
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "4": {
+      "z_mm": 0.44,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 3.6837199999999997
+        },
+        "model": {
+          "0": 12.312830000000007
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.010986877338081525
+        },
+        "model": {
+          "0": 0.03672362527408446
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "5": {
+      "z_mm": 0.52,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 3.2073499999999977
+        },
+        "model": {
+          "0": 13.522199999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.009566080220618221
+        },
+        "model": {
+          "0": 0.04033063119374055
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "6": {
+      "z_mm": 0.6,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 2.7354999999999943
+        },
+        "model": {
+          "0": 14.051329999999991
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.008158764227010182
+        },
+        "model": {
+          "0": 0.041908787624169316
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "7": {
+      "z_mm": 0.68,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 1.9313999999999993
+        },
+        "model": {
+          "0": 14.84680999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.005760496153554193
+        },
+        "model": {
+          "0": 0.04428134612071549
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "8": {
+      "z_mm": 0.76,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 1.1535200000000005
+        },
+        "model": {
+          "0": 11.82701000000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.003440430528656849
+        },
+        "model": {
+          "0": 0.03527464306360519
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "9": {
+      "z_mm": 0.84,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.8329300000000006
+        },
+        "model": {
+          "0": 10.962380000000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.002484254976276224
+        },
+        "model": {
+          "0": 0.03269584126737053
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "10": {
+      "z_mm": 0.92,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.7283899999999998
+        },
+        "model": {
+          "0": 10.786780000000007
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0021724592488802626
+        },
+        "model": {
+          "0": 0.03217210557069243
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "11": {
+      "z_mm": 1.0,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.6704700000000006
+        },
+        "model": {
+          "0": 10.652969999999964
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0019997099803632
+        },
+        "model": {
+          "0": 0.031773010618684906
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "12": {
+      "z_mm": 1.08,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.6000300000000003
+        },
+        "model": {
+          "0": 10.607489999999983
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0017896191917868517
+        },
+        "model": {
+          "0": 0.031637364266265136
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "13": {
+      "z_mm": 1.16,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.56796
+        },
+        "model": {
+          "0": 10.446500000000022
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.001693968828504008
+        },
+        "model": {
+          "0": 0.031157203618154716
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "14": {
+      "z_mm": 1.24,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.5243599999999996
+        },
+        "model": {
+          "0": 10.465999999999976
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0015639296691921279
+        },
+        "model": {
+          "0": 0.031215363333901867
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "15": {
+      "z_mm": 1.32,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.4724899999999999
+        },
+        "model": {
+          "0": 10.532129999999967
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0014092248253043498
+        },
+        "model": {
+          "0": 0.031412599334023274
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "16": {
+      "z_mm": 1.4,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.4263999999999999
+        },
+        "model": {
+          "0": 10.675609999999976
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0012717591176739714
+        },
+        "model": {
+          "0": 0.0318405355399423
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "17": {
+      "z_mm": 1.48,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.36158999999999997
+        },
+        "model": {
+          "0": 10.704600000000017
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0010784600829261992
+        },
+        "model": {
+          "0": 0.031926999650686724
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "18": {
+      "z_mm": 1.56,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.3129000000000002
+        },
+        "model": {
+          "0": 10.725199999999987
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0009332397465295167
+        },
+        "model": {
+          "0": 0.031988440170911965
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "19": {
+      "z_mm": 1.64,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.27580000000000005
+        },
+        "model": {
+          "0": 10.846600000000015
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0008225871591333992
+        },
+        "model": {
+          "0": 0.03235052168330797
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "20": {
+      "z_mm": 1.72,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.24622999999999998
+        },
+        "model": {
+          "0": 10.930049999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0007343931696643104
+        },
+        "model": {
+          "0": 0.03259941544121104
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "21": {
+      "z_mm": 1.8,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.23078000000000004
+        },
+        "model": {
+          "0": 11.015729999999971
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006883127794953078
+        },
+        "model": {
+          "0": 0.032854960284555965
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "22": {
+      "z_mm": 1.88,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.20441999999999996
+        },
+        "model": {
+          "0": 11.190219999999986
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006096927740030798
+        },
+        "model": {
+          "0": 0.03337538535126082
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "23": {
+      "z_mm": 1.96,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.18675000000000003
+        },
+        "model": {
+          "0": 11.35008000000003
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005569911238874631
+        },
+        "model": {
+          "0": 0.03385217571840767
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "24": {
+      "z_mm": 2.04,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.18078
+        },
+        "model": {
+          "0": 11.591980000000005
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000539185303220217
+        },
+        "model": {
+          "0": 0.034573654448626485
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "25": {
+      "z_mm": 2.12,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.17740999999999998
+        },
+        "model": {
+          "0": 11.706599999999966
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000529134111319276
+        },
+        "model": {
+          "0": 0.03491551427523938
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "26": {
+      "z_mm": 2.2,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.17687999999999998
+        },
+        "model": {
+          "0": 11.603370000000051
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00052755336007076
+        },
+        "model": {
+          "0": 0.034607625687722084
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "27": {
+      "z_mm": 2.28,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.17593999999999999
+        },
+        "model": {
+          "0": 11.550730000000032
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005247497635167883
+        },
+        "model": {
+          "0": 0.034450624280699615
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "28": {
+      "z_mm": 2.36,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.1749
+        },
+        "model": {
+          "0": 11.654740000000023
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005216479120102665
+        },
+        "model": {
+          "0": 0.034760839256847025
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "29": {
+      "z_mm": 2.44,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.17431999999999997
+        },
+        "model": {
+          "0": 11.604469999999987
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005199180332854754
+        },
+        "model": {
+          "0": 0.034610906492199944
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "30": {
+      "z_mm": 2.52,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.17339000000000002
+        },
+        "model": {
+          "0": 11.637449999999989
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005171442622267588
+        },
+        "model": {
+          "0": 0.034709270975551
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "31": {
+      "z_mm": 2.6,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.17157999999999995
+        },
+        "model": {
+          "0": 11.66179000000004
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005117458475856004
+        },
+        "model": {
+          "0": 0.03478186623100187
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "32": {
+      "z_mm": 2.68,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16906000000000004
+        },
+        "model": {
+          "0": 11.699590000000052
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005042298227813361
+        },
+        "model": {
+          "0": 0.03489460660306588
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "33": {
+      "z_mm": 2.76,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16657
+        },
+        "model": {
+          "0": 11.671539999999915
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004968032744628364
+        },
+        "model": {
+          "0": 0.03481094608887513
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "34": {
+      "z_mm": 2.84,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16413000000000003
+        },
+        "model": {
+          "0": 11.743799999999954
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004895258536206121
+        },
+        "model": {
+          "0": 0.035026465117588015
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "35": {
+      "z_mm": 2.92,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16186
+        },
+        "model": {
+          "0": 11.838909999999972
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004827554661977229
+        },
+        "model": {
+          "0": 0.03531013540295854
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "36": {
+      "z_mm": 3.0,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16207999999999997
+        },
+        "model": {
+          "0": 11.893200000000027
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00048341162709333326
+        },
+        "model": {
+          "0": 0.0354720580166982
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "37": {
+      "z_mm": 3.08,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16056
+        },
+        "model": {
+          "0": 12.061249999999895
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004788781518145706
+        },
+        "model": {
+          "0": 0.03597327546445839
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "38": {
+      "z_mm": 3.16,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.15971000000000002
+        },
+        "model": {
+          "0": 12.217400000000117
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00047634298471789407
+        },
+        "model": {
+          "0": 0.036439000572866156
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "39": {
+      "z_mm": 3.24,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.15885999999999995
+        },
+        "model": {
+          "0": 12.36365000000006
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00047380781762121734
+        },
+        "model": {
+          "0": 0.036875198440970626
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "40": {
+      "z_mm": 3.32,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.1588
+        },
+        "model": {
+          "0": 12.502880000000017
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004736288646496874
+        },
+        "model": {
+          "0": 0.03729045881140612
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "41": {
+      "z_mm": 3.4,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.15898
+        },
+        "model": {
+          "0": 12.71498000000007
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00047416572356427764
+        },
+        "model": {
+          "0": 0.03792305756576521
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "42": {
+      "z_mm": 3.48,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.15904
+        },
+        "model": {
+          "0": 13.178979999999918
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00047434467653580776
+        },
+        "model": {
+          "0": 0.03930696054559759
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "43": {
+      "z_mm": 3.56,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.15952
+        },
+        "model": {
+          "0": 12.8247199999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004757763003080487
+        },
+        "model": {
+          "0": 0.038250362550693265
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "44": {
+      "z_mm": 3.64,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.15988000000000008
+        },
+        "model": {
+          "0": 12.761249999999945
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00047685001813722953
+        },
+        "model": {
+          "0": 0.0380610601323098
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "45": {
+      "z_mm": 3.72,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16122000000000006
+        },
+        "model": {
+          "0": 12.663109999999998
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00048084663450140194
+        },
+        "model": {
+          "0": 0.037768352721877216
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "46": {
+      "z_mm": 3.8,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16205999999999998
+        },
+        "model": {
+          "0": 12.639400000000158
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004833519761028232
+        },
+        "model": {
+          "0": 0.03769763647262805
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "47": {
+      "z_mm": 3.88,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16457999999999998
+        },
+        "model": {
+          "0": 12.6214399999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004908680009070878
+        },
+        "model": {
+          "0": 0.037644069883149264
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "48": {
+      "z_mm": 3.96,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16698
+        },
+        "model": {
+          "0": 12.703409999999922
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004980261197682921
+        },
+        "model": {
+          "0": 0.03788854946775471
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "49": {
+      "z_mm": 4.04,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16612000000000002
+        },
+        "model": {
+          "0": 12.3555600000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0004954611271763607
+        },
+        "model": {
+          "0": 0.036851069615309436
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "50": {
+      "z_mm": 4.12,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.16802999999999996
+        },
+        "model": {
+          "0": 11.860830000000021
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000501157796770069
+        },
+        "model": {
+          "0": 0.03537551288855769
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "51": {
+      "z_mm": 4.2,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.17303000000000004
+        },
+        "model": {
+          "0": 12.030430000000019
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005160705443975782
+        },
+        "model": {
+          "0": 0.03588135328808279
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "52": {
+      "z_mm": 4.28,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.17486000000000002
+        },
+        "model": {
+          "0": 12.120870000000004
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005215286100292465
+        },
+        "model": {
+          "0": 0.03615109506716913
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "53": {
+      "z_mm": 4.36,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.18004
+        },
+        "model": {
+          "0": 12.103130000000014
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005369782165713458
+        },
+        "model": {
+          "0": 0.03609818463858676
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "54": {
+      "z_mm": 4.44,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.18012999999999998
+        },
+        "model": {
+          "0": 12.196679999999983
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000537246646028641
+        },
+        "model": {
+          "0": 0.03637720214669737
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "55": {
+      "z_mm": 4.52,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.18201999999999996
+        },
+        "model": {
+          "0": 12.307059999999952
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005428836646318392
+        },
+        "model": {
+          "0": 0.03670641596332216
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "56": {
+      "z_mm": 4.6,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.18836
+        },
+        "model": {
+          "0": 12.511910000000075
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005617930286235209
+        },
+        "model": {
+          "0": 0.03731739123362157
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "57": {
+      "z_mm": 4.68,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.20296000000000003
+        },
+        "model": {
+          "0": 12.64217000000009
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006053382516958473
+        },
+        "model": {
+          "0": 0.03770589813481348
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "58": {
+      "z_mm": 4.76,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.20235999999999998
+        },
+        "model": {
+          "0": 12.870490000000064
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006035487219805462
+        },
+        "model": {
+          "0": 0.03838687384247598
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "59": {
+      "z_mm": 4.84,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.20298999999999998
+        },
+        "model": {
+          "0": 13.340660000000252
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006054277281816123
+        },
+        "model": {
+          "0": 0.03978917915288172
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "60": {
+      "z_mm": 4.92,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.20371
+        },
+        "model": {
+          "0": 13.37605999999997
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006075751638399737
+        },
+        "model": {
+          "0": 0.03989476140608365
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "61": {
+      "z_mm": 5.0,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.20574999999999988
+        },
+        "model": {
+          "0": 13.137769999999954
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006136595648719971
+        },
+        "model": {
+          "0": 0.03918404967965177
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "62": {
+      "z_mm": 5.08,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.2076
+        },
+        "model": {
+          "0": 13.028279999999873
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006191772814941757
+        },
+        "model": {
+          "0": 0.03885749033210434
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "63": {
+      "z_mm": 5.16,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.20976
+        },
+        "model": {
+          "0": 12.956499999999869
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006256195884692595
+        },
+        "model": {
+          "0": 0.038643402927163804
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "64": {
+      "z_mm": 5.24,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.2125
+        },
+        "model": {
+          "0": 12.882149999999953
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006337917741691346
+        },
+        "model": {
+          "0": 0.038421650369942995
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "65": {
+      "z_mm": 5.32,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.21441999999999997
+        },
+        "model": {
+          "0": 12.794209999999888
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000639518269258098
+        },
+        "model": {
+          "0": 0.03815936496467018
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "66": {
+      "z_mm": 5.4,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.21792000000000009
+        },
+        "model": {
+          "0": 12.710450000000103
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006499571925973547
+        },
+        "model": {
+          "0": 0.03790954661641478
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "67": {
+      "z_mm": 5.48,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.21825999999999998
+        },
+        "model": {
+          "0": 12.856659999999904
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006509712594360248
+        },
+        "model": {
+          "0": 0.038345625182537806
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "68": {
+      "z_mm": 5.56,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.22192999999999996
+        },
+        "model": {
+          "0": 12.905680000000041
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006619172161946164
+        },
+        "model": {
+          "0": 0.038491829760278325
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "69": {
+      "z_mm": 5.64,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.22438
+        },
+        "model": {
+          "0": 12.965440000000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0006692244625320961
+        },
+        "model": {
+          "0": 0.03867006691992218
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "70": {
+      "z_mm": 5.72,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.22717999999999997
+        },
+        "model": {
+          "0": 12.947329999999903
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000677575601203501
+        },
+        "model": {
+          "0": 0.03861605294801506
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "71": {
+      "z_mm": 5.8,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.23042
+        },
+        "model": {
+          "0": 13.020239999999843
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000687239061666127
+        },
+        "model": {
+          "0": 0.03883351063391921
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "72": {
+      "z_mm": 5.88,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.2338799999999999
+        },
+        "model": {
+          "0": 13.1771599999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000697558683024363
+        },
+        "model": {
+          "0": 0.03930153230546113
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "73": {
+      "z_mm": 5.96,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.23740999999999995
+        },
+        "model": {
+          "0": 13.145279999999955
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0007080870828493844
+        },
+        "model": {
+          "0": 0.0392064486265883
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "74": {
+      "z_mm": 6.04,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.24310000000000004
+        },
+        "model": {
+          "0": 13.344649999999884
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0007250577896494901
+        },
+        "model": {
+          "0": 0.03980107952548738
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "75": {
+      "z_mm": 6.12,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.24682000000000004
+        },
+        "model": {
+          "0": 13.553979999999884
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0007361528738843568
+        },
+        "model": {
+          "0": 0.04042541661766067
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "76": {
+      "z_mm": 6.2,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.24968999999999988
+        },
+        "model": {
+          "0": 13.877020000000101
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0007447127910225464
+        },
+        "model": {
+          "0": 0.041388899416379424
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "77": {
+      "z_mm": 6.28,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.25424
+        },
+        "model": {
+          "0": 14.250149999999849
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0007582833913635801
+        },
+        "model": {
+          "0": 0.04250177812082916
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "78": {
+      "z_mm": 6.36,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.26051999999999986
+        },
+        "model": {
+          "0": 13.735800000000049
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000777013802383731
+        },
+        "model": {
+          "0": 0.040967703772387905
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "79": {
+      "z_mm": 6.44,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.26665999999999995
+        },
+        "model": {
+          "0": 13.622539999999997
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0007953266564703124
+        },
+        "model": {
+          "0": 0.04062990021312942
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "80": {
+      "z_mm": 6.52,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.27247999999999994
+        },
+        "model": {
+          "0": 13.46911999999984
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000812685094708733
+        },
+        "model": {
+          "0": 0.04017231746492646
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "81": {
+      "z_mm": 6.6,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.27581000000000006
+        },
+        "model": {
+          "0": 13.305009999999845
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0008226169846286543
+        },
+        "model": {
+          "0": 0.03968285126229637
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "82": {
+      "z_mm": 6.68,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.2805199999999999
+        },
+        "model": {
+          "0": 13.221789999999936
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0008366647928937673
+        },
+        "model": {
+          "0": 0.039434643490784384
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "83": {
+      "z_mm": 6.76,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.28454999999999997
+        },
+        "model": {
+          "0": 13.164720000000173
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.00084868446748154
+        },
+        "model": {
+          "0": 0.039264429389364704
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "84": {
+      "z_mm": 6.84,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.2917900000000001
+        },
+        "model": {
+          "0": 13.148000000000057
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0008702781260461734
+        },
+        "model": {
+          "0": 0.039214561161297956
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "85": {
+      "z_mm": 6.92,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.29478
+        },
+        "model": {
+          "0": 13.107590000000123
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0008791959491274234
+        },
+        "model": {
+          "0": 0.03909403633497263
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "86": {
+      "z_mm": 7.0,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.31245000000000006
+        },
+        "model": {
+          "0": 13.141529999999964
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0009318975992430405
+        },
+        "model": {
+          "0": 0.03919526406586769
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "87": {
+      "z_mm": 7.08,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.31465999999999983
+        },
+        "model": {
+          "0": 13.16522999999983
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000938489033694399
+        },
+        "model": {
+          "0": 0.03926595048962168
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "88": {
+      "z_mm": 7.16,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.31784999999999997
+        },
+        "model": {
+          "0": 13.291489999999941
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0009480033666807501
+        },
+        "model": {
+          "0": 0.039642527192711864
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "89": {
+      "z_mm": 7.24,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.31982999999999995
+        },
+        "model": {
+          "0": 13.34660999999977
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0009539088147412437
+        },
+        "model": {
+          "0": 0.039806925322557016
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "90": {
+      "z_mm": 7.32,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.32492999999999994
+        },
+        "model": {
+          "0": 13.425019999999856
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0009691198173213028
+        },
+        "model": {
+          "0": 0.04004078703085187
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "91": {
+      "z_mm": 7.4,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.32442
+        },
+        "model": {
+          "0": 13.626429999999855
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.000967598717063297
+        },
+        "model": {
+          "0": 0.040641502330783195
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "92": {
+      "z_mm": 7.48,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.32288
+        },
+        "model": {
+          "0": 13.833839999999777
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0009630055907940243
+        },
+        "model": {
+          "0": 0.04126011292786729
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "93": {
+      "z_mm": 7.56,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.25266999999999995
+        },
+        "model": {
+          "0": 14.058910000000038
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0007536007886085421
+        },
+        "model": {
+          "0": 0.04193139534957276
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "94": {
+      "z_mm": 7.64,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.39194999999999997
+        },
+        "model": {
+          "0": 14.365090000000036
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0011690102865204342
+        },
+        "model": {
+          "0": 0.0428445923632909
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "95": {
+      "z_mm": 7.72,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.40952999999999995
+        },
+        "model": {
+          "0": 14.118099999999824
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.001221443507178756
+        },
+        "model": {
+          "0": 0.042107932455986576
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "96": {
+      "z_mm": 7.8,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.38365
+        },
+        "model": {
+          "0": 13.841740000000135
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.001144255125458769
+        },
+        "model": {
+          "0": 0.04128367506911981
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "97": {
+      "z_mm": 7.88,
+      "colors_by_category": {
+        "support": [
+          0
+        ],
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "support": {
+          "0": 0.19852000000000003
+        },
+        "model": {
+          "0": 13.594620000000084
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "support": {
+          "0": 0.0005920957318026193
+        },
+        "model": {
+          "0": 0.04054662743037766
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "98": {
+      "z_mm": 7.96,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.982949999999954
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04170484088761539
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "99": {
+      "z_mm": 8.04,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.74258000000014
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04098792545817108
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "100": {
+      "z_mm": 8.12,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.689799999999693
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040830506494213756
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "101": {
+      "z_mm": 8.2,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.677119999999857
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040792687766230885
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "102": {
+      "z_mm": 8.28,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.646290000000176
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04070073576436062
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "103": {
+      "z_mm": 8.36,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.665759999999864
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04075880600362121
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "104": {
+      "z_mm": 8.44,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.724210000000175
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04093313602338772
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "105": {
+      "z_mm": 8.52,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.721089999999826
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040923830468867106
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "106": {
+      "z_mm": 8.6,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.78810999999983
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04112372093806625
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "107": {
+      "z_mm": 8.68,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.878170000000106
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04139232934833376
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "108": {
+      "z_mm": 8.76,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.996269999999916
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04174456844729496
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "109": {
+      "z_mm": 8.84,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.152969999999957
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04221193395794122
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "110": {
+      "z_mm": 8.92,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.382830000000173
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0428975027918737
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "111": {
+      "z_mm": 9.0,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.717619999999885
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0438960305475156
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "112": {
+      "z_mm": 9.08,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.998200000000027
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.044732874293381325
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "113": {
+      "z_mm": 9.16,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.611460000000097
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04357940308988896
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "114": {
+      "z_mm": 9.24,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.370389999999933
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04286039987577576
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "115": {
+      "z_mm": 9.32,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.237469999999924
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042463959392846015
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "116": {
+      "z_mm": 9.4,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.061390000000028
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041938792072395974
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "117": {
+      "z_mm": 9.48,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.06703999999979
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04195564347721435
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "118": {
+      "z_mm": 9.56,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.986009999999938
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04171396748916338
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "119": {
+      "z_mm": 9.64,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.95365999999984
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041617482012013096
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "120": {
+      "z_mm": 9.72,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.919519999999805
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04151565777121236
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "121": {
+      "z_mm": 9.8,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.9166300000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041507038203084545
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "122": {
+      "z_mm": 9.88,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.963270000000167
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04164614431295415
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "123": {
+      "z_mm": 9.96,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.025110000000144
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04183058517561111
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "124": {
+      "z_mm": 10.04,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.073450000000028
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04197476161967352
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "125": {
+      "z_mm": 10.12,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.15816999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042227443215473774
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "126": {
+      "z_mm": 10.2,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.25930999999993
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04252909827448301
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "127": {
+      "z_mm": 10.28,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.555169999999922
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04341151537709794
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "128": {
+      "z_mm": 10.36,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.814550000000029
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04418512907302292
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "129": {
+      "z_mm": 10.44,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 15.313070000000076
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04567198966247623
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "130": {
+      "z_mm": 10.52,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.806819999999945
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.044162073965190535
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "131": {
+      "z_mm": 10.6,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.53775999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04335958918985916
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "132": {
+      "z_mm": 10.68,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.346869999999962
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04279025031093603
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "133": {
+      "z_mm": 10.76,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.17534999999997
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04227868341632198
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "134": {
+      "z_mm": 10.84,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.157679999999958
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04222598176620634
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "135": {
+      "z_mm": 10.92,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.088849999999848
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042020692882365714
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "136": {
+      "z_mm": 11.0,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.052689999999874
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04191284389152365
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "137": {
+      "z_mm": 11.08,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.020499999999991
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0418168356222981
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "138": {
+      "z_mm": 11.16,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.955510000000054
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041622999728635916
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "139": {
+      "z_mm": 11.24,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.95544999999985
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041622820775663774
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "140": {
+      "z_mm": 11.32,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.989600000000161
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0417246748419606
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "141": {
+      "z_mm": 11.4,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.027329999999928
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04183720643555708
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "142": {
+      "z_mm": 11.48,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.099850000000114
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042053500927147026
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "143": {
+      "z_mm": 11.56,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.209400000000052
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04238023922766556
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "144": {
+      "z_mm": 11.64,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.351309999999906
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04280349283082909
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "145": {
+      "z_mm": 11.72,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.606109999999989
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0435634464499272
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "146": {
+      "z_mm": 11.8,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.94755999999989
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0445818379854095
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "147": {
+      "z_mm": 11.88,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 15.108410000000074
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04506158107658702
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "148": {
+      "z_mm": 11.96,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.731910000000182
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.043938651180235905
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "149": {
+      "z_mm": 12.04,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.521359999999932
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04331067537764076
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "150": {
+      "z_mm": 12.12,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.373350000000222
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042869228222372095
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "151": {
+      "z_mm": 12.2,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.266979999999911
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042551974429343546
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "152": {
+      "z_mm": 12.28,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.194409999999861
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04233553081027772
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "153": {
+      "z_mm": 12.36,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.135109999999985
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04215866562341584
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "154": {
+      "z_mm": 12.44,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.106149999999998
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042072290989157345
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "155": {
+      "z_mm": 12.52,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.058510000000046
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041930202329762585
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "156": {
+      "z_mm": 12.6,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.07714999999989
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04198579705291747
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "157": {
+      "z_mm": 12.68,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.997770000000141
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04174904227158389
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "158": {
+      "z_mm": 12.76,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.103199999999816
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042063492468056574
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "159": {
+      "z_mm": 12.84,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.157849999999923
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04222648879962557
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "160": {
+      "z_mm": 12.92,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.28327000000021
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04260056016111485
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "161": {
+      "z_mm": 13.0,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.392050000000111
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04292500189849865
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "162": {
+      "z_mm": 13.08,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.555520000000117
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04341255926943245
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "163": {
+      "z_mm": 13.16,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.809330000000083
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.044169560164499966
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "164": {
+      "z_mm": 13.24,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 15.195949999999664
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04532267346204822
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "165": {
+      "z_mm": 13.32,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.655620000000134
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04371111247693524
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "166": {
+      "z_mm": 13.4,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.358339999999806
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04282446015399308
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "167": {
+      "z_mm": 13.48,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.150369999999983
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042204179329174994
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "168": {
+      "z_mm": 13.56,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.957180000000095
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041627980586343635
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "169": {
+      "z_mm": 13.64,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.851759999999906
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04131356021536467
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "170": {
+      "z_mm": 13.72,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.765440000000158
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0410561065403241
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "171": {
+      "z_mm": 13.8,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.664089999999922
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04075382514591379
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "172": {
+      "z_mm": 13.88,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.617019999999748
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0406134365397479
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "173": {
+      "z_mm": 13.96,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.585059999999784
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04051811425691297
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "174": {
+      "z_mm": 14.04,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.539900000000015
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040383422320342
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "175": {
+      "z_mm": 14.12,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.543120000000034
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040393026129814165
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "176": {
+      "z_mm": 14.2,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.567769999999967
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04046654597561759
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "177": {
+      "z_mm": 14.28,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.6126900000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04060052210030353
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "178": {
+      "z_mm": 14.36,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.692770000000042
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04083936466630554
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "179": {
+      "z_mm": 14.44,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.808160000000136
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041183521056053475
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "180": {
+      "z_mm": 14.52,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.96577000000008
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041653600686767656
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "181": {
+      "z_mm": 14.6,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.333889999999808
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042751536818094564
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "182": {
+      "z_mm": 14.68,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.212250000000138
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042388739493813506
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "183": {
+      "z_mm": 14.76,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.85003000000003
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04130840040468592
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "184": {
+      "z_mm": 14.84,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.526170000000032
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04034247191535691
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "185": {
+      "z_mm": 14.92,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.319429999999889
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03972585962645424
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "186": {
+      "z_mm": 15.0,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.220050000000084
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03942945385461045
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "187": {
+      "z_mm": 15.08,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.096419999999895
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.039060721256772096
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "188": {
+      "z_mm": 15.16,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.175199999999895
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03929568650839113
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "189": {
+      "z_mm": 15.24,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.19709999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03936100434299976
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "190": {
+      "z_mm": 15.32,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.132739999999883
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.039169047455538286
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "191": {
+      "z_mm": 15.4,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.145819999999961
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.039208059203332084
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "192": {
+      "z_mm": 15.48,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.138150000000094
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03918518304847188
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "193": {
+      "z_mm": 15.56,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.12182000000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.039136478014720186
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "194": {
+      "z_mm": 15.64,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.223170000000145
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0394387594091302
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "195": {
+      "z_mm": 15.72,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.292939999999877
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03964685188952366
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "196": {
+      "z_mm": 15.8,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.484760000000094
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04021896453950607
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "197": {
+      "z_mm": 15.88,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.620480000000088
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040623756161107145
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "198": {
+      "z_mm": 15.96,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.902379999999985
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.0414645368723458
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "199": {
+      "z_mm": 16.04,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.243410000000138
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04248167573702814
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "200": {
+      "z_mm": 16.12,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.334100000000008
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04275216315349551
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "201": {
+      "z_mm": 16.2,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.11686999999993
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04210426392007052
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "202": {
+      "z_mm": 16.28,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.966230000000069
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041654972659549344
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "203": {
+      "z_mm": 16.36,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.840469999999936
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041279887231221835
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "204": {
+      "z_mm": 16.44,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.71952999999983
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040919177691607335
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "205": {
+      "z_mm": 16.52,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.586709999999982
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04052303546363063
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "206": {
+      "z_mm": 16.6,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.546620000000036
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04040346505315343
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "207": {
+      "z_mm": 16.68,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.478039999999977
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040198921806694335
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "208": {
+      "z_mm": 16.76,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.457119999999975
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04013652687062083
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "209": {
+      "z_mm": 16.84,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.450310000000067
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04011621570835244
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "210": {
+      "z_mm": 16.92,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.455149999999959
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04013065124805556
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "211": {
+      "z_mm": 17.0,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.459699999999787
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04014422184839607
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "212": {
+      "z_mm": 17.08,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.510709999999888
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04029636169969222
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "213": {
+      "z_mm": 17.16,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.67610999999997
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040789675391210464
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "214": {
+      "z_mm": 17.24,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.705329999999913
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04087682548834546
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "215": {
+      "z_mm": 17.32,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.895850000000044
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.041445060823944446
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "216": {
+      "z_mm": 17.4,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 14.158530000000079
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.042228516933303366
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "217": {
+      "z_mm": 17.48,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.874389999999943
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04138105531112689
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "218": {
+      "z_mm": 17.56,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.573010000000092
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.040482174535131595
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "219": {
+      "z_mm": 17.64,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.422210000000046
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.04003240606668578
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "220": {
+      "z_mm": 17.72,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.273079999999897
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03958761845594726
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "221": {
+      "z_mm": 17.8,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.159000000000082
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03924736920607856
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "222": {
+      "z_mm": 17.88,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.984699999999938
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.038727510823783166
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "223": {
+      "z_mm": 17.96,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.957949999999947
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.038647727623976016
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "224": {
+      "z_mm": 18.04,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.937739999999957
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03858745029806566
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "225": {
+      "z_mm": 18.12,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.946620000000046
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03861393533785237
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "226": {
+      "z_mm": 18.2,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.982940000000056
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03872226153661863
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "227": {
+      "z_mm": 18.28,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.949079999999887
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03862127240968464
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "228": {
+      "z_mm": 18.36,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.931469999999976
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03856874971254082
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "229": {
+      "z_mm": 18.44,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.935169999999976
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.038579785145785174
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "230": {
+      "z_mm": 18.52,
+      "colors_by_category": {
+        "model": [
+          0
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.991649999999918
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03874823954298534
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "231": {
+      "z_mm": 18.6,
+      "colors_by_category": {
+        "model": [
+          0,
+          1
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.960109999999974,
+          "1": 0.00409
+        },
+        "tower": {
+          "0": 46.30070000000001,
+          "1": 82.71639999999978
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03865416993095118,
+          "1": 1.2395379616710504e-05
+        },
+        "tower": {
+          "0": 0.13809413081540167,
+          "1": 0.2506848847255917
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.38877901554099337
+    },
+    "232": {
+      "z_mm": 18.68,
+      "colors_by_category": {
+        "model": [
+          0,
+          1
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.05306,
+          "0": 13.04035000000003
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 40.94230000000006
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.00016080656294930552,
+          "0": 0.03889348970487762
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.12211243743795291
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.1424963209988412
+    },
+    "233": {
+      "z_mm": 18.76,
+      "colors_by_category": {
+        "model": [
+          0,
+          1
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 13.14774999999999,
+          "1": 0.07433
+        },
+        "tower": {
+          "0": 22.421899999999994,
+          "1": 18.808400000000002
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03921381552391639,
+          "1": 0.0002252685982665261
+        },
+        "tower": {
+          "0": 0.066874427205849,
+          "1": 0.05700177456795547
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.12387620177380448
+    },
+    "234": {
+      "z_mm": 18.84,
+      "colors_by_category": {
+        "model": [
+          0,
+          1
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.10436999999999999,
+          "0": 13.162279999999985
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 33.689899999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0003163094793633436,
+          "0": 0.03925715196852192
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.1004817952592034
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.12086567882009171
+    },
+    "235": {
+      "z_mm": 18.92,
+      "colors_by_category": {
+        "model": [
+          0,
+          1
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.906270000000106,
+          "1": 0.12459999999999997
+        },
+        "tower": {
+          "0": 15.266600000000002,
+          "1": 18.8084
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.03849358946449855,
+          "1": 0.00037761963331103387
+        },
+        "tower": {
+          "0": 0.045533390586025936,
+          "1": 0.057001774567955465
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.1025351651539814
+    },
+    "236": {
+      "z_mm": 19.0,
+      "colors_by_category": {
+        "model": [
+          0,
+          1
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.14432999999999996,
+          "0": 12.69007999999997
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 30.136199999999974
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0004374144596772192,
+          "0": 0.037848792082579914
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.08988270901042757
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.11026659257131588
+    },
+    "237": {
+      "z_mm": 19.08,
+      "colors_by_category": {
+        "model": [
+          0,
+          1
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "0": 12.825829999999996,
+          "1": 0.15431999999999998
+        },
+        "tower": {
+          "0": 15.266600000000002,
+          "1": 18.808400000000002
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "0": 0.038253673180666865,
+          "1": 0.00046769070475568826
+        },
+        "tower": {
+          "0": 0.045533390586025936,
+          "1": 0.05700177456795547
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.10253516515398141
+    },
+    "238": {
+      "z_mm": 19.16,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.16919000000000003,
+          "0": 12.756229999999936,
+          "3": 0.0211
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 23.64489999999998,
+          "3": 49.07979999999998
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0005127565470296457,
+          "0": 0.03804608773369176,
+          "3": 6.191676603666742e-05
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.07052208527553767,
+          "3": 0.1440219191339539
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.2349278879703799
+    },
+    "239": {
+      "z_mm": 19.24,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "3": 0.0731,
+          "0": 13.080270000000013,
+          "1": 0.18806999999999996
+        },
+        "tower": {
+          "0": 34.326599999999985,
+          "1": 16.592399999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "3": 0.00021450784821234065,
+          "0": 0.039012553081935596,
+          "1": 0.0005699753165072724
+        },
+        "tower": {
+          "0": 0.10238078454209036,
+          "1": 0.0502858427267255
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.15266662726881586
+    },
+    "240": {
+      "z_mm": 19.32,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.26951,
+          "0": 12.897470000000116,
+          "3": 0.23804999999999996
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.525599999999976,
+          "3": 24.455199999999984
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0008167918729827992,
+          "0": 0.03846734302867417,
+          "3": 0.0006985443675369039
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06718371759164349,
+          "3": 0.07176241216966388
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.15933001332219568
+    },
+    "241": {
+      "z_mm": 19.4,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "3": 0.4227700000000001,
+          "0": 12.730050000000045,
+          "1": 0.38754
+        },
+        "tower": {
+          "0": 34.326599999999985,
+          "1": 16.592399999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "3": 0.0012405948425271035,
+          "0": 0.03796800458711444,
+          "1": 0.001174500101872858
+        },
+        "tower": {
+          "0": 0.10238078454209036,
+          "1": 0.0502858427267255
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.15266662726881586
+    },
+    "242": {
+      "z_mm": 19.48,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.4433599999999999,
+          "0": 12.946479999999925,
+          "3": 0.7152600000000001
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.52559999999998,
+          "3": 24.455199999999987
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0013436712730720707,
+          "0": 0.03861351778091844,
+          "3": 0.002098890335326385
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.0671837175916435,
+          "3": 0.07176241216966389
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.1593300133221957
+    },
+    "243": {
+      "z_mm": 19.56,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "3": 1.1133499999999996,
+          "0": 12.73988000000002,
+          "1": 0.4831800000000001
+        },
+        "tower": {
+          "0": 34.326599999999985,
+          "1": 16.592399999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "3": 0.0032670631026978023,
+          "0": 0.03799732304895006,
+          "1": 0.0014643519616631255
+        },
+        "tower": {
+          "0": 0.10238078454209036,
+          "1": 0.0502858427267255
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.15266662726881586
+    },
+    "244": {
+      "z_mm": 19.64,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.5296,
+          "0": 12.38022000000001,
+          "3": 1.3995200000000003
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.525599999999976,
+          "3": 24.455199999999984
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0016050349743300448,
+          "0": 0.03692461928660804,
+          "3": 0.004106812910124966
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06718371759164349,
+          "3": 0.07176241216966388
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.15933001332219568
+    },
+    "245": {
+      "z_mm": 19.72,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "3": 1.4428100000000004,
+          "0": 12.039159999999956,
+          "1": 0.61065
+        },
+        "tower": {
+          "0": 34.326599999999985,
+          "1": 16.592399999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "3": 0.004233844986036214,
+          "0": 0.03590739094544024,
+          "1": 0.0018506695752919975
+        },
+        "tower": {
+          "0": 0.10238078454209036,
+          "1": 0.0502858427267255
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.15266662726881586
+    },
+    "246": {
+      "z_mm": 19.8,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.65135,
+          "0": 11.905399999999991,
+          "3": 1.47254
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.52559999999998,
+          "3": 24.455199999999987
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0019740172404265005,
+          "0": 0.03550844512090922,
+          "3": 0.004321086002826265
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.0671837175916435,
+          "3": 0.07176241216966389
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.1593300133221957
+    },
+    "247": {
+      "z_mm": 19.88,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "3": 1.4974700000000003,
+          "2": 0.00096,
+          "0": 11.74868000000004,
+          "1": 0.71567
+        },
+        "tower": {
+          "2": 13.283999999999995,
+          "0": 34.28629999999998,
+          "1": 30.624399999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "3": 0.00439424168895395,
+          "2": 2.909428956489507e-06,
+          "0": 0.035041019959272716,
+          "1": 0.002168948980511298
+        },
+        "tower": {
+          "2": 0.04025922318542354,
+          "0": 0.10226058779621265,
+          "1": 0.09281199597408048
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.23533180695571668
+    },
+    "248": {
+      "z_mm": 19.96,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.7842500000000002,
+          "0": 11.641229999999975,
+          "2": 0.016900000000000002,
+          "3": 1.501279999999999
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.485499999999984,
+          "2": 13.283999999999995,
+          "3": 20.22029999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0023767913115905173,
+          "0": 0.034720545012757356,
+          "2": 5.121807225486737e-05,
+          "3": 0.004405421920167203
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06706411735567089,
+          "2": 0.04025922318542354,
+          "3": 0.059335335748399304
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.18704255985038204
+    },
+    "249": {
+      "z_mm": 20.04,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "3": 1.4858900000000006,
+          "2": 0.028229999999999998,
+          "0": 11.556330000000004,
+          "1": 0.8626199999999996
+        },
+        "tower": {
+          "2": 13.283999999999995,
+          "0": 34.28629999999998,
+          "1": 14.954199999999997
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "3": 0.004360260828730984,
+          "2": 8.555539525176955e-05,
+          "0": 0.03446732655804235,
+          "1": 0.0026143037567156018
+        },
+        "tower": {
+          "2": 0.04025922318542354,
+          "0": 0.10226058779621265,
+          "1": 0.04532102343868268
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.18784083442031888
+    },
+    "250": {
+      "z_mm": 20.12,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 0.94828,
+          "0": 11.773550000000009,
+          "2": 0.039889999999999995,
+          "3": 1.3842699999999997
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.485499999999984,
+          "2": 13.283999999999995,
+          "3": 20.22029999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.0028739096779790314,
+          "0": 0.03511519596597186,
+          "2": 0.00012089283445246503,
+          "3": 0.00406206264083306
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06706411735567089,
+          "2": 0.04025922318542354,
+          "3": 0.059335335748399304
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.18704255985038204
+    },
+    "251": {
+      "z_mm": 20.2,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "3": 1.2205699999999988,
+          "2": 0.05165,
+          "0": 11.73479999999998,
+          "1": 1.0440900000000002
+        },
+        "tower": {
+          "2": 13.283999999999995,
+          "0": 34.28629999999998,
+          "1": 14.954199999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "3": 0.003581694176368486,
+          "2": 0.0001565333391694615,
+          "0": 0.03499962217185858,
+          "1": 0.0031642767491470106
+        },
+        "tower": {
+          "2": 0.04025922318542354,
+          "0": 0.10226058779621265,
+          "1": 0.04532102343868268
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.18784083442031888
+    },
+    "252": {
+      "z_mm": 20.28,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 1.1838699999999998,
+          "0": 11.926869999999953,
+          "2": 0.0649,
+          "3": 1.0187799999999998
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.485499999999984,
+          "2": 13.283999999999995,
+          "3": 20.22029999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.003587901727832534,
+          "0": 0.03557248045922163,
+          "2": 0.00019668952007934274,
+          "3": 0.002989552744210237
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06706411735567089,
+          "2": 0.04025922318542354,
+          "3": 0.059335335748399304
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.18704255985038204
+    },
+    "253": {
+      "z_mm": 20.36,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "3": 0.61181,
+          "2": 0.10558999999999999,
+          "0": 12.15523,
+          "1": 1.3452199999999996
+        },
+        "tower": {
+          "2": 13.283999999999995,
+          "0": 34.28629999999998,
+          "1": 14.954199999999997
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "3": 0.001795322115113435,
+          "2": 0.0003200068786622156,
+          "0": 0.03625357546886536,
+          "1": 0.004076897938384181
+        },
+        "tower": {
+          "2": 0.04025922318542354,
+          "0": 0.10226058779621265,
+          "1": 0.04532102343868268
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.18784083442031888
+    },
+    "254": {
+      "z_mm": 20.44,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tower": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 1.6988100000000008,
+          "0": 11.681970000000005,
+          "3": 0.22161000000000003,
+          "2": 0.15452000000000005
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.485499999999984,
+          "3": 19.100999999999992,
+          "2": 14.403299999999994
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.005148507297472856,
+          "0": 0.03484205408042639,
+          "3": 0.0006503021100182874,
+          "2": 0.0004682968357882904
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06706411735567089,
+          "3": 0.05605081270456794,
+          "2": 0.04365143550938052
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.18715024913050765
+    },
+    "255": {
+      "z_mm": 20.52,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "2": 0.23102,
+          "0": 10.948370000000043,
+          "1": 2.0691400000000018
+        },
+        "tower": {
+          "0": 34.390199999999986,
+          "1": 15.91799999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "2": 0.0007001419557585479,
+          "0": 0.032654055748518374,
+          "1": 0.006270849823990316
+        },
+        "tower": {
+          "0": 0.1025704746919123,
+          "1": 0.04824196888479162
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.15081244357670393
+    },
+    "256": {
+      "z_mm": 20.6,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 2.4989499999999985,
+          "0": 10.50869999999999,
+          "2": 0.33129999999999993
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.58869999999998,
+          "2": 16.39959999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.007573455719603593,
+          "0": 0.03134271819864084,
+          "2": 0.0010040560555051807
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06737191646670267,
+          "2": 0.04970153241129717
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.13745733243888814
+    },
+    "257": {
+      "z_mm": 20.68,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "2": 0.47062000000000004,
+          "0": 9.814809999999992,
+          "1": 3.10694
+        },
+        "tower": {
+          "0": 34.39029999999998,
+          "1": 21.514500000000005
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "2": 0.0014262869328157209,
+          "0": 0.029273156908390396,
+          "1": 0.00941606375216199
+        },
+        "tower": {
+          "0": 0.10257077294686483,
+          "1": 0.06520303050457657
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.16777380345144138
+    },
+    "258": {
+      "z_mm": 20.76,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 3.6738800000000005,
+          "0": 9.36202,
+          "2": 0.6579499999999998
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.588599999999982,
+          "2": 16.39959999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.011134263390278827,
+          "0": 0.02792268830873845,
+          "2": 0.001994019564502365
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06737161821175011,
+          "2": 0.04970153241129717
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.1374570341839356
+    },
+    "259": {
+      "z_mm": 20.84,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "2": 0.8770899999999998,
+          "0": 8.843949999999975,
+          "1": 4.035599999999999
+        },
+        "tower": {
+          "0": 34.390199999999986,
+          "1": 21.51450000000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "2": 0.002658157336924356,
+          "0": 0.02637751887606165,
+          "1": 0.012230511975842764
+        },
+        "tower": {
+          "0": 0.1025704746919123,
+          "1": 0.06520303050457658
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.16777350519648887
+    },
+    "260": {
+      "z_mm": 20.92,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 3.8068199999999965,
+          "0": 7.917819999999986,
+          "2": 1.2639099999999979
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.58869999999998,
+          "2": 16.39959999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.011537158687649351,
+          "0": 0.023615290284008692,
+          "2": 0.0038304753670798408
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06737191646670267,
+          "2": 0.04970153241129717
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.13745733243888814
+    },
+    "261": {
+      "z_mm": 21.0,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "2": 1.8252300000000001,
+          "0": 6.906449999999999,
+          "1": 3.5822299999999956
+        },
+        "tower": {
+          "0": 34.39029999999998,
+          "1": 21.514500000000005
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "2": 0.0055316427231805665,
+          "0": 0.020598829170401966,
+          "1": 0.010856503844588954
+        },
+        "tower": {
+          "0": 0.10257077294686483,
+          "1": 0.06520303050457657
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.16777380345144138
+    },
+    "262": {
+      "z_mm": 21.08,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 3.8145499999999943,
+          "0": 5.87230999999999,
+          "2": 2.08911
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.588599999999982,
+          "2": 16.39959999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.01156058565205941,
+          "0": 0.017514455404099502,
+          "2": 0.006331372007595619
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06737161821175011,
+          "2": 0.04970153241129717
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.1374570341839356
+    },
+    "263": {
+      "z_mm": 21.16,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "2": 2.09371,
+          "0": 4.489379999999999,
+          "1": 4.498309999999993
+        },
+        "tower": {
+          "0": 34.390199999999986,
+          "1": 21.51450000000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "2": 0.006345313021345466,
+          "0": 0.013389798188797309,
+          "1": 0.013632826426319055
+        },
+        "tower": {
+          "0": 0.1025704746919123,
+          "1": 0.06520303050457658
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.16777350519648887
+    },
+    "264": {
+      "z_mm": 21.24,
+      "colors_by_category": {
+        "model": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 6.086659999999998,
+          "0": 1.8617699999999993,
+          "2": 2.0534099999999986
+        },
+        "tower": {
+          "1": 6.7259,
+          "0": 22.58869999999998,
+          "2": 16.39959999999999
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.018446567554485854,
+          "0": 0.005552821230093501,
+          "2": 0.006223177618276162
+        },
+        "tower": {
+          "1": 0.02038388356088831,
+          "0": 0.06737191646670267,
+          "2": 0.04970153241129717
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.13745733243888814
+    },
+    "265": {
+      "z_mm": 21.32,
+      "colors_by_category": {
+        "tower": [
+          0,
+          1,
+          2
+        ],
+        "model": [
+          0,
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "tower": {
+          "0": 22.549499999999988,
+          "2": 20.0099,
+          "1": 30.07349999999999
+        },
+        "model": {
+          "0": 0.03666,
+          "2": 1.9952900000000007,
+          "1": 6.890029999999996
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "tower": {
+          "0": 0.06725500052530302,
+          "2": 0.060643106746311855,
+          "1": 0.09114240804477829
+        },
+        "model": {
+          "0": 0.00010934026560489633,
+          "2": 0.006047035940202032,
+          "1": 0.02088130499279311
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.21904051531639315
+    },
+    "266": {
+      "z_mm": 21.4,
+      "colors_by_category": {
+        "model": [
+          1,
+          2
+        ],
+        "tower": [
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 6.60019000000001,
+          "2": 1.883360000000001
+        },
+        "tower": {
+          "1": 11.575500000000002,
+          "2": 13.283999999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.020002899900346368,
+          "2": 0.005707814707806335
+        },
+        "tower": {
+          "1": 0.03508134883942114,
+          "2": 0.04025922318542354
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.07534057202484468
+    },
+    "267": {
+      "z_mm": 21.48,
+      "colors_by_category": {
+        "model": [
+          1,
+          2
+        ],
+        "tower": [
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "2": 1.7150100000000026,
+          "1": 6.327450000000002
+        },
+        "tower": {
+          "2": 11.575900000000003,
+          "1": 13.283999999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "2": 0.0051976039111136215,
+          "1": 0.019176319011187017
+        },
+        "tower": {
+          "2": 0.035082561101486345,
+          "1": 0.04025922318542354
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.07534178428690988
+    },
+    "268": {
+      "z_mm": 21.56,
+      "colors_by_category": {
+        "model": [
+          1,
+          2
+        ],
+        "tower": [
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 6.0552899999999985,
+          "2": 1.4828200000000007
+        },
+        "tower": {
+          "1": 11.575400000000004,
+          "2": 13.283999999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.018351495902022234,
+          "2": 0.004493916088814346
+        },
+        "tower": {
+          "1": 0.03508104577390485,
+          "2": 0.04025922318542354
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.07534026895932838
+    },
+    "269": {
+      "z_mm": 21.64,
+      "colors_by_category": {
+        "model": [
+          1,
+          2
+        ],
+        "tower": [
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "2": 1.2348800000000004,
+          "1": 5.777029999999992
+        },
+        "tower": {
+          "2": 11.575600000000001,
+          "1": 13.283999999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "2": 0.003742495447697671,
+          "1": 0.01750818579636308
+        },
+        "tower": {
+          "2": 0.035081651904937436,
+          "1": 0.04025922318542354
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.07534087509036097
+    },
+    "270": {
+      "z_mm": 21.72,
+      "colors_by_category": {
+        "model": [
+          1,
+          2
+        ],
+        "tower": [
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 5.529230000000004,
+          "2": 0.7973900000000003
+        },
+        "tower": {
+          "1": 11.575500000000002,
+          "2": 13.283999999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.016757189446969255,
+          "2": 0.0024166141204324675
+        },
+        "tower": {
+          "1": 0.03508134883942114,
+          "2": 0.04025922318542354
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.07534057202484468
+    },
+    "271": {
+      "z_mm": 21.8,
+      "colors_by_category": {
+        "model": [
+          1,
+          2
+        ],
+        "tower": [
+          1,
+          2
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "2": 0.2315,
+          "1": 5.106749999999998
+        },
+        "tower": {
+          "2": 11.575900000000003,
+          "1": 13.283999999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "2": 0.0007015966702367926,
+          "1": 0.015476798253700819
+        },
+        "tower": {
+          "2": 0.035082561101486345,
+          "1": 0.04025922318542354
+        }
+      },
+      "had_color_change": true,
+      "tower_grams_this_layer": 0.07534178428690988
+    },
+    "272": {
+      "z_mm": 21.88,
+      "colors_by_category": {
+        "model": [
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 4.848870000000001
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.014695252900263831
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "273": {
+      "z_mm": 21.96,
+      "colors_by_category": {
+        "model": [
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 4.350949999999998
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.013186229081497932
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "274": {
+      "z_mm": 22.04,
+      "colors_by_category": {
+        "model": [
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 3.790609999999995
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.011488031767456957
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "275": {
+      "z_mm": 22.12,
+      "colors_by_category": {
+        "model": [
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 3.17674
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.009627603482540081
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    },
+    "276": {
+      "z_mm": 22.2,
+      "colors_by_category": {
+        "model": [
+          1
+        ]
+      },
+      "extrusion_mm_by_category_color": {
+        "model": {
+          "1": 2.0791700000000004
+        }
+      },
+      "extrusion_grams_by_category_color": {
+        "model": {
+          "1": 0.006301247295275302
+        }
+      },
+      "had_color_change": false,
+      "tower_grams_this_layer": 0
+    }
+  },
+  "first_non_base_color_model_layer": 231,
+  "first_non_base_color_any_category_layer": 231,
+  "multi_color_model_layers": [
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271
+  ],
+  "multi_color_model_layer_count": 41,
+  "multi_color_any_category_layers": [
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271
+  ],
+  "multi_color_any_category_layer_count": 41,
+  "tower_grams_before_first_non_base_color_model_layer": 0,
+  "tower_layer_count_before_first_non_base_color_model_layer": 0,
+  "tower_grams_on_layers_without_color_change": 0.0,
+  "tower_layer_count_without_color_change": 0,
+  "total_declared_grams": 34.55,
+  "total_computed_grams_conservative": 17.285276711787382,
+  "residual_declared_minus_computed_grams": 17.264723288212615,
+  "scope": "Offline, read-only analysis of a single sliced G-code file (or the plate G-code embedded in a .gcode.3mf/.3mf archive). No mesh inspection, no GUI, no printer/network communication.",
+  "limitations": [
+    "Extrusion masses are computed from positive-E, real-XY (or arc with I/J) motion using nominal filament_diameter/filament_density; they exclude retraction/recovery moves (no XY motion) and are therefore a path-based estimate, not the exact grams consumed at the nozzle. Recovery combined with XY motion can also overcount; this is not a guaranteed lower bound.",
+    "Machine purge/wipe routines invoked via custom macros (e.g. AMS filament-change gcode) are only visible to this tool to the extent they emit G0/G1/G2/G3 moves inside the parsed G-code; firmware-side purge volumes are not otherwise modeled.",
+    "Filament identity is tracked from T<n> tool-select commands. IDs at or above 1000, or outside the declared filament count when known, are treated as park/purge sentinels and are not counted as color changes.",
+    "G-code emitted while the active FEATURE is \"Custom\" (macros, purge lines, priming before the first layer) is tallied into its own \"custom\" category rather than folded into model/support/tower/brim, and is excluded from the print-color-change stream.",
+    "When filament_density is unavailable (raw .gcode input with no embedded project_settings, or a filament id missing density data) the mass for that filament id is reported as null/\"unresolved\" rather than guessed."
+  ],
+  "waste_check": {
+    "passed": true,
+    "reasons": [],
+    "max_no_change_tower_g": 0.1,
+    "scope": "Waste budget only. Critical geometry, collision and physical quality are separate."
+  }
+}

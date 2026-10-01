@@ -1,0 +1,49 @@
+{
+  "file": "A2-A3-v2-white-black-MAIN-GUI-final.gcode.3mf",
+  "all_objects_on_layer_1": true,
+  "all_object_layer_ranges_continuous": true,
+  "path_bounds_xy_mm": [
+    [
+      87.036,
+      78.152
+    ],
+    [
+      187.98384383939896,
+      226.345
+    ]
+  ],
+  "objects": {
+    "A2-cloud.stl": {
+      "first_layer": 1,
+      "last_layer": 186,
+      "model_extrusion_moves": 83003
+    },
+    "A3-cloud.stl": {
+      "first_layer": 1,
+      "last_layer": 223,
+      "model_extrusion_moves": 60246
+    },
+    "A2-eye-left.stl": {
+      "first_layer": 1,
+      "last_layer": 10,
+      "model_extrusion_moves": 260
+    },
+    "A2-eye-right.stl": {
+      "first_layer": 1,
+      "last_layer": 10,
+      "model_extrusion_moves": 259
+    },
+    "A3-eye-left.stl": {
+      "first_layer": 1,
+      "last_layer": 9,
+      "model_extrusion_moves": 172
+    },
+    "A3-eye-right.stl": {
+      "first_layer": 1,
+      "last_layer": 9,
+      "model_extrusion_moves": 179
+    }
+  },
+  "preview": "A2-A3-v2-white-black-MAIN-GUI-final.gcode-layers.png",
+  "scope": "Model layer ranges exclude Support, Brim, Skirt and Prime tower. Bounds and preview include all non-custom extrusion. Physical support removal is untested."
+}

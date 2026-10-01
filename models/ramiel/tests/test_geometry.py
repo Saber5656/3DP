@@ -137,22 +137,50 @@ class GeometryTests(unittest.TestCase):
                     with self.subTest(assembly=name, pair=(a_name, b_name)):
                         self.assertLess((a ^ b).volume(), 0.001)
 
-    def test_city_has_broad_support_candidates_and_leaves_tips_free(self):
+    def test_city_uses_small_separated_bearings_and_leaves_tips_free(self):
         self.assertGreaterEqual(len(self.model["city_buildings"]), 20)
         support = self.model["city_support"]
-        self.assertGreater(support["projected_candidate_area_mm2"], 500)
-        self.assertGreater(support["shell_com_support_hull_margin_mm"], 5)
-        self.assertLess(support["tip_near_contact_count"], 1)
-        self.assertGreater(support["contact_x_span_mm"], 35)
-        self.assertGreater(support["contact_y_span_mm"], 35)
-        broad_patches = [p for p in support["candidate_patches"]
-                         if p["projected_candidate_area_mm2"] >= 100]
-        self.assertGreaterEqual(len(broad_patches), 3)
-        self.assertGreaterEqual(support["nearest_tip_to_contact_mm"], 7.5)
+        self.assertGreater(support["projected_candidate_area_mm2"], 50)
+        self.assertLessEqual(support["projected_candidate_area_mm2"], 180)
+        self.assertGreater(support["shell_com_support_hull_margin_mm"], 4)
+        self.assertEqual(support["tip_near_contact_count"], 0)
+        self.assertGreater(support["contact_x_span_mm"], 15)
+        self.assertGreater(support["contact_y_span_mm"], 30)
+        self.assertGreaterEqual(support["nearest_tip_to_contact_mm"], 12)
         base = dict(self.model["assemblies"]["star"])["star_base"]
         body = dict(self.model["assemblies"]["star"])["star_body"]
         for rise in [0, .5, 5, 30]:
             self.assertLess((base ^ body.translate([0, 0, rise])).volume(), .001)
+
+    def test_city_towers_hide_the_lower_bearing_stems(self):
+        # A small rectangular post alone must not be the visible lower structure.
+        base = self.model["parts"]["star_base"]
+        from build import box
+        for x, y, width, depth in self.cfg["city_bearings"]:
+            local = base ^ box([width + 10, depth + 10, 1],
+                               (x - width / 2 - 5, y - depth / 2 - 5, 18))
+            self.assertGreater(local.volume(), width * depth * 2)
+        # Buildings must not introduce extra contact with the sculpture.
+        points = np.asarray(self.model["city_support"]["points_xy_z_gap_normal"])
+        covered = np.zeros(len(points), dtype=bool)
+        for x, y, width, depth in self.cfg["city_bearings"]:
+            covered |= ((abs(points[:, 0] - x) <= width / 2 + .01) &
+                        (abs(points[:, 1] - y) <= depth / 2 + .01))
+        self.assertTrue(covered.all())
+
+    def test_foreground_buildings_stay_below_the_lowest_tip(self):
+        from build import box
+        front = self.model["parts"]["star_base"] ^ box([140, 45, 80], (-70, -80, 9.01))
+        self.assertLess(front.volume(), .001)
+
+    def test_small_bearings_also_avoid_the_rear_apices(self):
+        transform = trimesh.transformations.rotation_matrix(
+            np.deg2rad(90 - self.model["star_display_tilt"]), [1, 0, 0])
+        tips = trimesh.transform_points(self.model["star_landmarks"]["rear_tips"], transform)
+        tips += [0, 0, self.model["star_center_height"]]
+        points = np.asarray(self.model["city_support"]["points_xy_z_gap_normal"])[:, :3]
+        distances = np.linalg.norm(points[:, None, :] - tips[None, :, :], axis=2)
+        self.assertGreaterEqual(distances.min(), 7.5)
 
     def test_model_sources_do_not_depend_on_absolute_personal_paths(self):
         text = (ROOT / "build.py").read_text()

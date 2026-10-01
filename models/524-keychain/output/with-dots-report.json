@@ -1,0 +1,14 @@
+{
+  "body_height_mm": 40,
+  "overall_dimensions_xyz_mm": [
+    41.3013698,
+    18.049964,
+    43.9726027
+  ],
+  "components": 1,
+  "watertight": true,
+  "stem_width_mm": 1.6,
+  "stem_depth_mm": 1.8,
+  "physical_print": "NOT_RUN",
+  "note": "two original dots with added yellow stems"
+}

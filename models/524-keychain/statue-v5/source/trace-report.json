@@ -1,0 +1,175 @@
+{
+ "image": {
+  "file": "source/original-524.jpg",
+  "width": 662,
+  "height": 702,
+  "sha256": "eddaf4f655c77cbfd687beb7244ad1662fa679cdb501947bf56d1ac69973bb95",
+  "coords": "pixel, origin top-left, y down"
+ },
+ "simplify_tol_px": 0.6,
+ "counts": {
+  "body": 1,
+  "white": 1,
+  "digit": 3,
+  "mouth": 1,
+  "dot": 2
+ },
+ "parts": [
+  {
+   "name": "body",
+   "kind": "body",
+   "hex": "#f9df54",
+   "median_rgb": [
+    249,
+    223,
+    84
+   ],
+   "bounds": [
+    45.5,
+    21.5,
+    648.5,
+    605.5
+   ],
+   "area_px": 253399.8
+  },
+  {
+   "name": "white",
+   "kind": "white",
+   "hex": "#f7f5f2",
+   "median_rgb": [
+    247,
+    245,
+    242
+   ],
+   "bounds": [
+    106.5,
+    194.5,
+    591.5,
+    392.5
+   ],
+   "area_px": 75976.5
+  },
+  {
+   "name": "digit0",
+   "kind": "digit",
+   "hex": "#e88349",
+   "median_rgb": [
+    232,
+    131,
+    73
+   ],
+   "bounds": [
+    151.5,
+    228.5,
+    234.5,
+    346.5
+   ],
+   "area_px": 6024.2
+  },
+  {
+   "name": "digit1",
+   "kind": "digit",
+   "hex": "#ea8249",
+   "median_rgb": [
+    234,
+    130,
+    73
+   ],
+   "bounds": [
+    310.5,
+    258.5,
+    393.5,
+    345.5
+   ],
+   "area_px": 4934.2
+  },
+  {
+   "name": "digit2",
+   "kind": "digit",
+   "hex": "#e98249",
+   "median_rgb": [
+    233,
+    130,
+    73
+   ],
+   "bounds": [
+    451.5,
+    241.5,
+    557.5,
+    345.5
+   ],
+   "area_px": 5666.8
+  },
+  {
+   "name": "mouth",
+   "kind": "mouth",
+   "hex": "#376978",
+   "median_rgb": [
+    55,
+    105,
+    120
+   ],
+   "bounds": [
+    212.5,
+    419.5,
+    484.5,
+    474.5
+   ],
+   "area_px": 11391.5
+  },
+  {
+   "name": "dot0",
+   "kind": "dot",
+   "hex": "#efe05f",
+   "median_rgb": [
+    239,
+    224,
+    95
+   ],
+   "bounds": [
+    462.5,
+    592.5,
+    488.5,
+    622.5
+   ],
+   "area_px": 589.2
+  },
+  {
+   "name": "dot1",
+   "kind": "dot",
+   "hex": "#eedf60",
+   "median_rgb": [
+    238,
+    223,
+    96
+   ],
+   "bounds": [
+    527.5,
+    636.5,
+    557.5,
+    663.5
+   ],
+   "area_px": 565.0
+  }
+ ],
+ "iou": {
+  "body": 0.9992,
+  "white": 0.9988,
+  "digit0": 0.994,
+  "digit1": 0.995,
+  "digit2": 0.9945,
+  "mouth": 0.9976,
+  "dot0": 0.9915,
+  "dot1": 0.9825
+ },
+ "iou_threshold": 0.98,
+ "tdd": {
+  "red": "tests/test_trace.py failed before trace.py existed (no trace(); stdlib 'trace' shadowing handled via importlib path load)",
+  "green": "python -m unittest tests.test_trace: Ran 7 tests OK"
+ },
+ "notes": [
+  "Digits 5/2/4 are traced from the original hand-drawn orange shapes; no font substituted.",
+  "White is the continuous 3-circle outline with digit areas filled (digits are separate parts); body is silhouette with holes filled.",
+  "Physical mm scale unspecified; pixel coords only."
+ ]
+}

@@ -1,0 +1,32 @@
+{
+  "state": "PRINTING_FIRST_LAYER_CONFIRMED",
+  "send_attempts": 1,
+  "material": "Bambu PLA Basic Orange",
+  "intended_main_ams_slot": "A4",
+  "objects": [
+    "A2_clawd.stl",
+    "A3_clawd.stl"
+  ],
+  "estimated_seconds": 2739,
+  "estimated_grams": 13.02,
+  "physical_fit_verified": false,
+  "send_observed_at": "2026-09-25T07:26:15.397516+09:00",
+  "retry_prohibited_until_device_reconciliation": true,
+  "next_action": "Let the existing print finish; verify completed parts and fit after cooling. Do not send this job again.",
+  "device_job": "A2-A3-v2-orange-body-MAIN-GUI-verified",
+  "receipt_observed_at": "2026-09-25T07:27:34.721979+09:00",
+  "progress_percent": 11,
+  "layer": 1,
+  "total_layers": 180,
+  "device_stage": "造形中",
+  "device_eta_jst": "2026-09-25 08:12",
+  "bed_temperature_c": 55,
+  "first_layer_started": true,
+  "first_layer_observed_at": "2026-09-25T07:33:27.787311+09:00",
+  "remaining_minutes": 40,
+  "main_temperature_c": 219,
+  "main_target_c": 220,
+  "bed_target_c": 55,
+  "finished": false,
+  "first_layer_adhesion_quality_verified": false
+}

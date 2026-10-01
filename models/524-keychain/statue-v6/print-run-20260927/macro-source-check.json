@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "source": "Installed official X2D and filament profiles",
+  "checks": {
+    "change_filament_gcode": true,
+    "layer_change_gcode": true,
+    "machine_end_gcode": true,
+    "machine_pause_gcode": true,
+    "machine_start_gcode": true,
+    "time_lapse_gcode": true,
+    "wrapping_detection_gcode": true,
+    "filament_start_gcode": true,
+    "filament_end_gcode": true
+  },
+  "GUI_final_matches_verified_official_macros": {
+    "change_filament_gcode": true,
+    "layer_change_gcode": true,
+    "machine_end_gcode": true,
+    "machine_pause_gcode": true,
+    "machine_start_gcode": true,
+    "time_lapse_gcode": true,
+    "wrapping_detection_gcode": true,
+    "filament_start_gcode": true,
+    "filament_end_gcode": true
+  }
+}

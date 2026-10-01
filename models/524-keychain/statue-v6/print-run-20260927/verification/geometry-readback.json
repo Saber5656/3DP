@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "all four colored meshes and support blocker, world coordinates after 3MF component transforms; unchanged triangle topology",
+  "parts": [
+    {
+      "part": "yellow",
+      "max_coordinate_difference_mm": 1.6100000010510485e-05,
+      "vertex_count": 64658,
+      "triangle_count": 129316
+    },
+    {
+      "part": "white",
+      "max_coordinate_difference_mm": 1.1959999994815007e-05,
+      "vertex_count": 39257,
+      "triangle_count": 78510
+    },
+    {
+      "part": "orange",
+      "max_coordinate_difference_mm": 1.556999998797437e-05,
+      "vertex_count": 10246,
+      "triangle_count": 20480
+    },
+    {
+      "part": "blue-mouth",
+      "max_coordinate_difference_mm": 1.2010000006057453e-05,
+      "vertex_count": 5833,
+      "triangle_count": 11662
+    },
+    {
+      "part": "support-blocker",
+      "max_coordinate_difference_mm": 6.049999996093902e-06,
+      "vertex_count": 8,
+      "triangle_count": 12
+    }
+  ]
+}

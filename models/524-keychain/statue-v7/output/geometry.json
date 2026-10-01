@@ -1,0 +1,49 @@
+{
+  "body_preserved_from": "statue-v6 / original Wood statue",
+  "body_mm": [
+    39.2156862,
+    22.2222222,
+    40.0
+  ],
+  "overall_mm": [
+    39.2156862,
+    22.2222222,
+    44.5999982
+  ],
+  "eyelet_center": [
+    0,
+    0,
+    40.8
+  ],
+  "hole_axis": "X",
+  "eyelet_width_mm": 2.4,
+  "outer_diameter_mm": 7.6,
+  "circular_gauge_mm": 2.4,
+  "bore_radius_mm": 1.6,
+  "flat_underside_mm": 4.098780306383838,
+  "roof_angle_degrees": 45,
+  "color_depth_mm": {
+    "white": 1.0,
+    "orange": 0.8,
+    "teal": 0.85
+  },
+  "physical_validation": "NOT_RUN",
+  "parts": {
+    "yellow": {
+      "volume_mm3": 19691.037061434417,
+      "watertight": true
+    },
+    "white": {
+      "volume_mm3": 275.96936137760815,
+      "watertight": true
+    },
+    "orange": {
+      "volume_mm3": 57.37541956962326,
+      "watertight": true
+    },
+    "teal": {
+      "volume_mm3": 41.744285795383426,
+      "watertight": true
+    }
+  }
+}

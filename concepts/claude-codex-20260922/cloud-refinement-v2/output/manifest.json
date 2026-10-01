@@ -1,0 +1,605 @@
+{
+  "unit": "mm",
+  "target_height_mm": 48,
+  "selected_ids": [
+    "A2",
+    "A3"
+  ],
+  "models": [
+    {
+      "id": "A2",
+      "height_mm": 48,
+      "extents_mm": [
+        73.2336196899414,
+        33.35258197784424,
+        48.0
+      ],
+      "parts": 7,
+      "quantity": 1,
+      "legacy_body_compatibility": "CAD checked; physical fit not tested",
+      "joint": {
+        "key_width_mm": 13.051524447490731,
+        "key_depth_mm": 7.2508469152726285,
+        "key_exposed_height_mm": 2.1752540745817903,
+        "clearance_per_side_mm": 0.25,
+        "roof_clearance_mm": 0.25,
+        "boss_shell_mm": 1.7,
+        "body_clearance_mm": 0.22,
+        "socket_opening": "bottom only; closed back and roof",
+        "pin_diameter_mm": 1.7,
+        "pin_hole_diameter_mm": 1.95,
+        "pin_length_mm": 3.8,
+        "pin_hole_depth_per_half_mm": 2.2,
+        "filled_numerical_internal_void_mm3": 0,
+        "physical_fit_status": "NOT_TESTED"
+      },
+      "optional_onepiece": "output/optional-onepiece/A2-v2-cloud-onepiece.stl",
+      "optional_onepiece_assembly": "output/optional-onepiece/A2-v2-onepiece-assembled.3mf"
+    },
+    {
+      "id": "A3",
+      "height_mm": 48,
+      "extents_mm": [
+        50.92426681518555,
+        24.700944900512695,
+        48.0
+      ],
+      "parts": 7,
+      "quantity": 1,
+      "legacy_body_compatibility": "CAD checked; physical fit not tested",
+      "joint": {
+        "key_width_mm": 10.978541225839036,
+        "key_depth_mm": 6.099189569910576,
+        "key_exposed_height_mm": 1.8297568709731742,
+        "clearance_per_side_mm": 0.25,
+        "roof_clearance_mm": 0.25,
+        "boss_shell_mm": 1.7,
+        "body_clearance_mm": 0.22,
+        "socket_opening": "bottom only; closed back and roof",
+        "pin_diameter_mm": 1.7,
+        "pin_hole_diameter_mm": 1.95,
+        "pin_length_mm": 3.8,
+        "pin_hole_depth_per_half_mm": 2.2,
+        "filled_numerical_internal_void_mm3": 5.265550318765688e-05,
+        "physical_fit_status": "NOT_TESTED"
+      },
+      "optional_onepiece": "output/optional-onepiece/A3-v2-cloud-onepiece.stl",
+      "optional_onepiece_assembly": "output/optional-onepiece/A3-v2-onepiece-assembled.3mf"
+    }
+  ],
+  "parts": [
+    {
+      "id": "A2_clawd",
+      "design": "A2",
+      "part": "clawd",
+      "color": "orange",
+      "count": 1,
+      "stl": "output/stl/A2_clawd.stl",
+      "assembly_stl": "output/assembly/A2_clawd.stl",
+      "orientation": "upright",
+      "support_recommended": true,
+      "print_extents_mm": [
+        41.32982635498047,
+        18.127117156982422,
+        25.08793067932129
+      ],
+      "assembly_bounds_mm": [
+        [
+          -20.664913177490234,
+          -9.063558578491211,
+          -1.9984014443252818e-15
+        ],
+        [
+          20.664913177490234,
+          9.063558578491211,
+          25.08793067932129
+        ]
+      ],
+      "volume_mm3": 11433.484373266065,
+      "watertight": true,
+      "components": 1,
+      "faces": 5452,
+      "sha256": "7cf2e017f46441c1a28140f85ab4791b7e913ff55366768bc646757e6e2f349a"
+    },
+    {
+      "id": "A2_clawd_eye_1",
+      "design": "A2",
+      "part": "clawd_eye_1",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/A2_clawd_eye_1.stl",
+      "assembly_stl": "output/assembly/A2_clawd_eye_1.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        3.9879658222198486,
+        3.9879658222198486,
+        1.703948974609375
+      ],
+      "assembly_bounds_mm": [
+        [
+          -9.969914436340332,
+          -10.006168365478516,
+          14.653961181640625
+        ],
+        [
+          -5.9819488525390625,
+          -8.30221939086914,
+          18.64192771911621
+        ]
+      ],
+      "volume_mm3": 25.771318310376035,
+      "watertight": true,
+      "components": 1,
+      "faces": 708,
+      "sha256": "60326ed2e3c0853485b6e0c8fa4baa8737d4b4e1ae934c0ae4b03cc26b262fbc"
+    },
+    {
+      "id": "A2_clawd_eye_2",
+      "design": "A2",
+      "part": "clawd_eye_2",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/A2_clawd_eye_2.stl",
+      "assembly_stl": "output/assembly/A2_clawd_eye_2.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        3.9879658222198486,
+        3.9879658222198486,
+        1.703948974609375
+      ],
+      "assembly_bounds_mm": [
+        [
+          5.9819488525390625,
+          -10.006168365478516,
+          14.653961181640625
+        ],
+        [
+          9.969914436340332,
+          -8.30221939086914,
+          18.64192771911621
+        ]
+      ],
+      "volume_mm3": 25.771318310376035,
+      "watertight": true,
+      "components": 1,
+      "faces": 708,
+      "sha256": "60326ed2e3c0853485b6e0c8fa4baa8737d4b4e1ae934c0ae4b03cc26b262fbc"
+    },
+    {
+      "id": "A2_cloud_front",
+      "design": "A2",
+      "part": "cloud_front",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/A2_cloud_front.stl",
+      "assembly_stl": "output/assembly/A2_cloud_front.stl",
+      "orientation": "front_seam",
+      "support_recommended": false,
+      "print_extents_mm": [
+        73.23283386230469,
+        29.10502815246582,
+        15.950852394104004
+      ],
+      "assembly_bounds_mm": [
+        [
+          -35.16657638549805,
+          -15.950852394104004,
+          18.27299690246582
+        ],
+        [
+          38.066253662109375,
+          0.0,
+          47.37802505493164
+        ]
+      ],
+      "volume_mm3": 14205.874186086157,
+      "watertight": true,
+      "components": 1,
+      "faces": 34444,
+      "sha256": "84dd974736eb94450fbe275a7f88e77377c50fe6ad27be4ed22693653bdd3bfa"
+    },
+    {
+      "id": "A2_cloud_back",
+      "design": "A2",
+      "part": "cloud_back",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/A2_cloud_back.stl",
+      "assembly_stl": "output/assembly/A2_cloud_back.stl",
+      "orientation": "back_seam",
+      "support_recommended": false,
+      "print_extents_mm": [
+        73.21289825439453,
+        29.71063804626465,
+        17.401729583740234
+      ],
+      "assembly_bounds_mm": [
+        [
+          -35.145851135253906,
+          0.0,
+          18.28936195373535
+        ],
+        [
+          38.06704330444336,
+          17.401729583740234,
+          48.0
+        ]
+      ],
+      "volume_mm3": 14687.772451873107,
+      "watertight": true,
+      "components": 1,
+      "faces": 36056,
+      "sha256": "7f9edfa2b108318874b090bea9e40cd315af21f39080b3dbd8722e0e562fdcbc"
+    },
+    {
+      "id": "A2_cloud_pin_1",
+      "design": "A2",
+      "part": "cloud_pin_1",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/A2_cloud_pin_1.stl",
+      "assembly_stl": "output/assembly/A2_cloud_pin_1.stl",
+      "orientation": "pin_axis",
+      "support_recommended": false,
+      "print_extents_mm": [
+        1.7000000476837158,
+        1.7000000476837158,
+        3.799999952316284
+      ],
+      "assembly_bounds_mm": [
+        [
+          -5.548548698425293,
+          -1.899999976158142,
+          29.187931060791016
+        ],
+        [
+          -3.8485488891601562,
+          1.899999976158142,
+          30.887929916381836
+        ]
+      ],
+      "volume_mm3": 8.600631841128065,
+      "watertight": true,
+      "components": 1,
+      "faces": 188,
+      "sha256": "2ae382e148917c2af684daaa3eb0d8948282e9adf1a6b26fb4e3e968b4384c8a"
+    },
+    {
+      "id": "A2_cloud_pin_2",
+      "design": "A2",
+      "part": "cloud_pin_2",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/A2_cloud_pin_2.stl",
+      "assembly_stl": "output/assembly/A2_cloud_pin_2.stl",
+      "orientation": "pin_axis",
+      "support_recommended": false,
+      "print_extents_mm": [
+        1.7000000476837158,
+        1.7000000476837158,
+        3.799999952316284
+      ],
+      "assembly_bounds_mm": [
+        [
+          3.8485488891601562,
+          -1.899999976158142,
+          29.187931060791016
+        ],
+        [
+          5.548548698425293,
+          1.899999976158142,
+          30.887929916381836
+        ]
+      ],
+      "volume_mm3": 8.600631841128065,
+      "watertight": true,
+      "components": 1,
+      "faces": 188,
+      "sha256": "2ae382e148917c2af684daaa3eb0d8948282e9adf1a6b26fb4e3e968b4384c8a"
+    },
+    {
+      "id": "A3_clawd",
+      "design": "A3",
+      "part": "clawd",
+      "color": "orange",
+      "count": 1,
+      "stl": "output/stl/A3_clawd.stl",
+      "assembly_stl": "output/assembly/A3_clawd.stl",
+      "orientation": "upright",
+      "support_recommended": true,
+      "print_extents_mm": [
+        34.765380859375,
+        15.247974395751953,
+        28.788175582885742
+      ],
+      "assembly_bounds_mm": [
+        [
+          -17.3826904296875,
+          -7.623987197875977,
+          -1.7763568394002505e-15
+        ],
+        [
+          17.3826904296875,
+          7.623987197875977,
+          28.788175582885742
+        ]
+      ],
+      "volume_mm3": 9434.88305543641,
+      "watertight": true,
+      "components": 1,
+      "faces": 5516,
+      "sha256": "b01ddd71d3f84afc969d7a6e136e64d03d783437bb83fb8765597f35b59e9468"
+    },
+    {
+      "id": "A3_clawd_eye_1",
+      "design": "A3",
+      "part": "clawd_eye_1",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/A3_clawd_eye_1.stl",
+      "assembly_stl": "output/assembly/A3_clawd_eye_1.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        3.3545541763305664,
+        3.3545541763305664,
+        1.433309555053711
+      ],
+      "assembly_bounds_mm": [
+        [
+          -8.386385917663574,
+          -8.416881561279297,
+          17.962112426757812
+        ],
+        [
+          -5.03183126449585,
+          -6.983572006225586,
+          21.316667556762695
+        ]
+      ],
+      "volume_mm3": 15.338638902861483,
+      "watertight": true,
+      "components": 1,
+      "faces": 708,
+      "sha256": "b4923cdaf65805ea9b0bbf3cd8c21a90ba928c9ec75e82cc9944d9efa463e085"
+    },
+    {
+      "id": "A3_clawd_eye_2",
+      "design": "A3",
+      "part": "clawd_eye_2",
+      "color": "black",
+      "count": 1,
+      "stl": "output/stl/A3_clawd_eye_2.stl",
+      "assembly_stl": "output/assembly/A3_clawd_eye_2.stl",
+      "orientation": "back",
+      "support_recommended": false,
+      "print_extents_mm": [
+        3.3545541763305664,
+        3.3545541763305664,
+        1.433309555053711
+      ],
+      "assembly_bounds_mm": [
+        [
+          5.03183126449585,
+          -8.416881561279297,
+          17.962112426757812
+        ],
+        [
+          8.386385917663574,
+          -6.983572006225586,
+          21.316667556762695
+        ]
+      ],
+      "volume_mm3": 15.338638902861483,
+      "watertight": true,
+      "components": 1,
+      "faces": 708,
+      "sha256": "b4923cdaf65805ea9b0bbf3cd8c21a90ba928c9ec75e82cc9944d9efa463e085"
+    },
+    {
+      "id": "A3_cloud_front",
+      "design": "A3",
+      "part": "cloud_front",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/A3_cloud_front.stl",
+      "assembly_stl": "output/assembly/A3_cloud_front.stl",
+      "orientation": "front_seam",
+      "support_recommended": false,
+      "print_extents_mm": [
+        50.83110427856445,
+        35.65451431274414,
+        10.673308372497559
+      ],
+      "assembly_bounds_mm": [
+        [
+          -25.289329528808594,
+          -10.673308372497559,
+          12.345405578613281
+        ],
+        [
+          25.54177474975586,
+          0.0,
+          47.99991989135742
+        ]
+      ],
+      "volume_mm3": 7454.124212468277,
+      "watertight": true,
+      "components": 1,
+      "faces": 41312,
+      "sha256": "1d3a9bf6a4107a79af82f1646a2513991235d010b3d98364d72b5b758caa7f67"
+    },
+    {
+      "id": "A3_cloud_back",
+      "design": "A3",
+      "part": "cloud_back",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/A3_cloud_back.stl",
+      "assembly_stl": "output/assembly/A3_cloud_back.stl",
+      "orientation": "back_seam",
+      "support_recommended": false,
+      "print_extents_mm": [
+        50.92426681518555,
+        35.679561614990234,
+        14.027636528015137
+      ],
+      "assembly_bounds_mm": [
+        [
+          -25.310026168823242,
+          0.0,
+          12.320436477661133
+        ],
+        [
+          25.614240646362305,
+          14.027636528015137,
+          48.0
+        ]
+      ],
+      "volume_mm3": 8575.344603629515,
+      "watertight": true,
+      "components": 1,
+      "faces": 43546,
+      "sha256": "6794d7bba5b9c0e49642e8a1ab3c7cd80dc4d00ff35e1e8b14b955e87b993b68"
+    },
+    {
+      "id": "A3_cloud_pin_1",
+      "design": "A3",
+      "part": "cloud_pin_1",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/A3_cloud_pin_1.stl",
+      "assembly_stl": "output/assembly/A3_cloud_pin_1.stl",
+      "orientation": "pin_axis",
+      "support_recommended": false,
+      "print_extents_mm": [
+        1.7000000476837158,
+        1.7000000476837158,
+        3.799999952316284
+      ],
+      "assembly_bounds_mm": [
+        [
+          -4.849999904632568,
+          -1.899999976158142,
+          32.88817596435547
+        ],
+        [
+          -3.1500000953674316,
+          1.899999976158142,
+          34.588172912597656
+        ]
+      ],
+      "volume_mm3": 8.600631841128065,
+      "watertight": true,
+      "components": 1,
+      "faces": 188,
+      "sha256": "2ae382e148917c2af684daaa3eb0d8948282e9adf1a6b26fb4e3e968b4384c8a"
+    },
+    {
+      "id": "A3_cloud_pin_2",
+      "design": "A3",
+      "part": "cloud_pin_2",
+      "color": "white",
+      "count": 1,
+      "stl": "output/stl/A3_cloud_pin_2.stl",
+      "assembly_stl": "output/assembly/A3_cloud_pin_2.stl",
+      "orientation": "pin_axis",
+      "support_recommended": false,
+      "print_extents_mm": [
+        1.7000000476837158,
+        1.7000000476837158,
+        3.799999952316284
+      ],
+      "assembly_bounds_mm": [
+        [
+          3.1500000953674316,
+          -1.899999976158142,
+          32.88817596435547
+        ],
+        [
+          4.849999904632568,
+          1.899999976158142,
+          34.588172912597656
+        ]
+      ],
+      "volume_mm3": 8.600631841128065,
+      "watertight": true,
+      "components": 1,
+      "faces": 188,
+      "sha256": "2ae382e148917c2af684daaa3eb0d8948282e9adf1a6b26fb4e3e968b4384c8a"
+    }
+  ],
+  "fit_coupons": [
+    {
+      "name": "A2_socket_0.20",
+      "design": "A2",
+      "clearance_per_side_mm": 0.2,
+      "stl": "output/fit-tests/A2_socket_0.20.stl",
+      "color": "white",
+      "sha256": "fab5587c8211f6ade105e1f4f07248eeac1a65374db738ca16e3bfe5ef6fbb30"
+    },
+    {
+      "name": "A2_key_test",
+      "design": "A2",
+      "clearance_per_side_mm": null,
+      "stl": "output/fit-tests/A2_key_test.stl",
+      "color": "orange",
+      "sha256": "1c3d0cb744e9e31aa743cfc34216a8852b2f58aecb7b9f7facd069528a10db94"
+    },
+    {
+      "name": "A2_socket_0.25",
+      "design": "A2",
+      "clearance_per_side_mm": 0.25,
+      "stl": "output/fit-tests/A2_socket_0.25.stl",
+      "color": "white",
+      "sha256": "e9af050053d5c9150f69b346a5e2daf728d952ae03a1e67deb42766c613602dd"
+    },
+    {
+      "name": "A2_socket_0.30",
+      "design": "A2",
+      "clearance_per_side_mm": 0.3,
+      "stl": "output/fit-tests/A2_socket_0.30.stl",
+      "color": "white",
+      "sha256": "06c5b1a86fc68a45e3278169ca06bcb761f469c53327cabbfddc00f5b08af270"
+    },
+    {
+      "name": "A3_socket_0.20",
+      "design": "A3",
+      "clearance_per_side_mm": 0.2,
+      "stl": "output/fit-tests/A3_socket_0.20.stl",
+      "color": "white",
+      "sha256": "a7596b3875fc76a99e80ebacba67ba107ebc634efc49b04eb38d600506d51e84"
+    },
+    {
+      "name": "A3_key_test",
+      "design": "A3",
+      "clearance_per_side_mm": null,
+      "stl": "output/fit-tests/A3_key_test.stl",
+      "color": "orange",
+      "sha256": "d8a87b9ded6a9893232d0431099c511a10e2aeeefb0489b0e84011d55ed06ed2"
+    },
+    {
+      "name": "A3_socket_0.25",
+      "design": "A3",
+      "clearance_per_side_mm": 0.25,
+      "stl": "output/fit-tests/A3_socket_0.25.stl",
+      "color": "white",
+      "sha256": "24c99a8de85418121e0e36b8eef1e8d86f5e944d58bfe9e12908b59bf38b46ac"
+    },
+    {
+      "name": "A3_socket_0.30",
+      "design": "A3",
+      "clearance_per_side_mm": 0.3,
+      "stl": "output/fit-tests/A3_socket_0.30.stl",
+      "color": "white",
+      "sha256": "723b48a68ee95b78471858c9cf52218da12b7b43fe41b3322471183aa85cee1e"
+    }
+  ],
+  "tripo_used": false,
+  "modeling_method": "Parametric CAD and analytic cloud fields; existing locator dimensions retained; closed rear and bottom-only blind socket",
+  "physical_print_status": "NOT_RUN",
+  "device_sent": false,
+  "assembly_method": "Glue front/back white shells using two alignment pins, then lower onto keyed head; eyes glue into retained pockets. Pins can be replaced by 1.75mm filament cut to 3.8mm."
+}

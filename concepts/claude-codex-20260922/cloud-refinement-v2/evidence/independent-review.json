@@ -1,0 +1,47 @@
+{
+  "actual_model": "claude-sonnet-5",
+  "harness_status": "review_incomplete",
+  "reported_review": {
+    "verdict": "approve",
+    "findings": [
+      {
+        "severity": "low",
+        "file": "cloud-refinement-v2/README.md:81",
+        "issue": "README says 詳細は[検証記録](VALIDATION.md)を参照 だが、cloud-refinement-v2/VALIDATION.md はリポジトリに存在しない(グロブ0件)。配布ZIPを受け取った利用者がリンクをたどると404になる。実害は小さい(確認範囲の要約はREADME本文にも既にある)が、依頼の『共有ZIP用の依存ファイル漏れがないか』の観点では参照切れに該当する。",
+        "evidence": [
+          "README.md:81 '詳細は [検証記録](VALIDATION.md) を参照。'",
+          "Glob cloud-refinement-v2/VALIDATION.md → No files found"
+        ]
+      },
+      {
+        "severity": "low",
+        "file": "cloud-refinement-v2/evidence/regression-red.log; evidence/coupon-export-failure.log; evidence/regression-green.log",
+        "issue": "不具合ではなく確認事項。red log(8 tests,5 FAIL)→coupon-export-failure log(11 tests,1 FAIL: fit coupon export)→green log(12 tests,12 OK)という3段階の推移が残っており、TDDで凹部閉鎖・丸背面・接合試験片エクスポートの各失敗を実際に再現してから実装したことが確認できる。テストは旧本体との非交差(97点のz掃引)、新旧一体雲・分割雲双方の閉鎖性、4本足接地、ピンの隠蔽・部品間非交差まで対象をカバーしており、依頼のチェック項目に対応するテストが揃って green である。",
+        "evidence": [
+          "regression-red.log: test_key_has_closed_sides_and_roof ... FAIL / test_round_cloud_rear_has_no_large_cut_face ... FAIL",
+          "coupon-export-failure.log: test_fit_coupons_export_as_closed_single_parts ... FAIL (AssertionError in old.portable_mesh)",
+          "regression-green.log: Ran 12 tests ... OK",
+          "tests/test_refinement.py:38-48 test_printed_body_is_still_compatible / test_new_body_seats_without_intersection が旧body・新bodyそれぞれをwhole_cloudに対し97点で非交差検証",
+          "tests/test_refinement.py:87-97 test_four_feet_still_support_rounded_cloud で丸背面後も4本足接地と重心が支持多角形内にあることを確認"
+        ]
+      },
+      {
+        "severity": "low",
+        "file": "cloud-refinement-v2/refined_models.py:156; output/manifest.json; README.md:78-80",
+        "issue": "physical_fit_status/physical_print_status/device_sentが一貫してNOT_TESTED・NOT_RUN・falseであり、README本文も実物のはまり具合・継ぎ目・印刷/公開未実施を明記している。誇張された断定表現は見当たらない。",
+        "evidence": [
+          "refined_models.py:156 'physical_fit_status':'NOT_TESTED'",
+          "output/manifest.json 'physical_print_status': 'NOT_RUN', 'device_sent': false",
+          "README.md:78-80 '実物のはまり具合、継ぎ目、支持材を外した表面の品質は未確認。新版の印刷とMakerWorldへの公開はまだ行っていない。'"
+        ]
+      }
+    ],
+    "limitations": [
+      "旧コード cloud-addition-v1/cloud_models.py の該当行(trim_by_plane(0,-1,0),-8.0 等)を1点grep確認しただけで、旧版全体の差分diffは取っていない(比較参照のみという依頼範囲に沿う)。",
+      "STL/3MFファイル自体のバイナリ内容・3D形状は目視レンダリングやコード上の検証ロジックの記述から確認しており、独立した3Dビューアでの再検証やメッシュの手動計測は行っていない。",
+      "スライス評価(evidence/*-slice.json)はBambu Studio CLIのオフライン結果を読んだのみで、実プリンタでの追試・GUI往復確認はしていない(README・manifestの記載通りNOT_RUN)。",
+      "Vaultへの記録保存はこの読み取りレビュー自体では行っていない(呼び出し元が保存する前提)。"
+    ]
+  },
+  "disposition": "Review text adopted; harness structured status incomplete. One low missing-document finding fixed by creating VALIDATION.md, then relative links checked by primary. No second review on unchanged evidence."
+}

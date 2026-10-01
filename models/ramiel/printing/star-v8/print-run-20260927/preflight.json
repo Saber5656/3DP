@@ -1,0 +1,76 @@
+{
+  "blue-body": {
+    "source": "printing/star-v8/sliced-preview/blue-body.3mf",
+    "sha256": "5dab0a3ffcf2c56477b99527f9116be5479e9f9295f5b703c6d33805f942099d",
+    "gui_copy": "Ramiel-Star-v8-Blue-Body.3mf",
+    "key_settings": {
+      "printer_model": "Bambu Lab X2D",
+      "printer_settings_id": "Ramiel default X2D 0.4",
+      "nozzle_diameter": [
+        "0.4",
+        "0.4"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "layer_height": "0.16",
+      "wall_loops": "3",
+      "sparse_infill_density": "0%",
+      "enable_support": "1",
+      "support_top_z_distance": "0.16",
+      "support_on_build_plate_only": "1",
+      "filament_type": [
+        "PLA"
+      ],
+      "filament_settings_id": [
+        "Ramiel blue PLA"
+      ],
+      "filament_colour": [
+        "#0050B3"
+      ],
+      "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow",
+        "Bowden Standard",
+        "Bowden High Flow",
+        "Bowden E3D High Flow"
+      ]
+    }
+  },
+  "black-stand": {
+    "source": "printing/star-v8/sliced-preview/black-stand.3mf",
+    "sha256": "6ce171300e62f6454100bfe4cafeb9c00ac7430156481dfcd3aeb3d1f2098585",
+    "gui_copy": "Ramiel-Star-v8-Black-City.3mf",
+    "key_settings": {
+      "printer_model": "Bambu Lab X2D",
+      "printer_settings_id": "Ramiel default X2D 0.4",
+      "nozzle_diameter": [
+        "0.4",
+        "0.4"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "layer_height": "0.16",
+      "wall_loops": "3",
+      "sparse_infill_density": "15%",
+      "enable_support": "0",
+      "support_top_z_distance": "0.16",
+      "support_on_build_plate_only": "0",
+      "filament_type": [
+        "PLA"
+      ],
+      "filament_settings_id": [
+        "Ramiel black PLA"
+      ],
+      "filament_colour": [
+        "#000000"
+      ],
+      "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow",
+        "Bowden Standard",
+        "Bowden High Flow",
+        "Bowden E3D High Flow"
+      ]
+    }
+  }
+}

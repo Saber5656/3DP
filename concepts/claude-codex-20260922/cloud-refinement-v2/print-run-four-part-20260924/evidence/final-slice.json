@@ -1,0 +1,166 @@
+{
+  "status": "GUI_FINAL_VALIDATED",
+  "printer": "Bambu Lab X2D",
+  "main_nozzle_mm": 0.4,
+  "aux_used": false,
+  "bed": "Textured PEI Plate",
+  "estimated_seconds": 5611,
+  "estimated_grams": 32.07,
+  "filaments": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#FFFFFF",
+      "used_m": "10.02",
+      "used_g": "30.35",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "174.00",
+      "total_unload_time": "145.00"
+    },
+    {
+      "id": "2",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#000000",
+      "used_m": "0.57",
+      "used_g": "1.72",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "174.00",
+      "total_unload_time": "174.00"
+    }
+  ],
+  "objects": [
+    {
+      "name": "A2-eye-left.stl",
+      "extruder": "2"
+    },
+    {
+      "name": "A3-eye-right.stl",
+      "extruder": "2"
+    },
+    {
+      "name": "A3-eye-left.stl",
+      "extruder": "2"
+    },
+    {
+      "name": "A2-cloud.stl",
+      "extruder": "1"
+    },
+    {
+      "name": "A2-eye-right.stl",
+      "extruder": "2"
+    },
+    {
+      "name": "A3-cloud.stl",
+      "extruder": "1"
+    }
+  ],
+  "plate_settings": {
+    "plater_id": "1",
+    "plater_name": "",
+    "locked": "false",
+    "filament_map_mode": "Manual",
+    "filament_maps": "1 1",
+    "filament_volume_maps": "0 0",
+    "thumbnail_file": "Metadata/plate_1.png",
+    "thumbnail_no_light_file": "Metadata/plate_no_light_1.png",
+    "top_file": "Metadata/top_1.png",
+    "pick_file": "Metadata/pick_1.png"
+  },
+  "settings": {
+    "layer_height": "0.16",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "3",
+    "sparse_infill_density": "15%",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_on_build_plate_only": "1",
+    "support_filament": "0",
+    "support_interface_filament": "0",
+    "enable_prime_tower": "1",
+    "flush_into_support": "0",
+    "flush_volumes_matrix": [
+      "0",
+      "90",
+      "900",
+      "0",
+      "0",
+      "90",
+      "900",
+      "0"
+    ],
+    "brim_width": "3",
+    "brim_object_gap": "0.1"
+  },
+  "gcode_sha256": "a3e7407c732b8cbcb1db1a87fbaee84c67431cb9797f6327cd6086b0cdb18f4e",
+  "package_sha256": "41b1f557c43895e936d3ab988682e994cc8574dd25d264dbc67f1ddbbd5b4020",
+  "gcode": {
+    "layer_count": 223,
+    "extrusion_moves": 164732,
+    "arc_extrusion_moves": 85506,
+    "support_extrusion_moves": 18786,
+    "features": {
+      "Support": 17020,
+      "Support interface": 1766,
+      "Brim": 1001,
+      "Outer wall": 31075,
+      "Inner wall": 25989,
+      "Bottom surface": 2,
+      "Prime tower": 826,
+      "Overhang wall": 753,
+      "Bridge": 795,
+      "Gap infill": 1277,
+      "Internal solid infill": 14004,
+      "Sparse infill": 45286,
+      "Top surface": 528,
+      "Floating vertical shell": 24410
+    },
+    "objects": {
+      "670": {
+        "first_layer": 1,
+        "last_layer": 9,
+        "extrusion_moves": 179
+      },
+      "648": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 259
+      },
+      "637": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 260
+      },
+      "659": {
+        "first_layer": 1,
+        "last_layer": 9,
+        "extrusion_moves": 172
+      },
+      "615": {
+        "first_layer": 1,
+        "last_layer": 186,
+        "extrusion_moves": 83003
+      },
+      "626": {
+        "first_layer": 1,
+        "last_layer": 223,
+        "extrusion_moves": 60246
+      }
+    },
+    "empty_layers": []
+  },
+  "limitations": [
+    "Physical fit and support removal untested",
+    "Estimates are slicer estimates, not measured consumption"
+  ],
+  "execution_state_reference": "../run-state.json"
+}

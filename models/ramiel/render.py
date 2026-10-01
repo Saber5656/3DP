@@ -86,7 +86,7 @@ def main():
              azim=-72 if key=="star" else -58)
         ax.set_title(title, color="#eff4ff", fontsize=15, pad=-12, loc="left")
         fig.text(.08+.48*i, .14, sub, color="#b9c6dc", fontsize=11)
-    fig.text(.06, .94, "RAMIEL / DEFAULT V4 + STAR V6", color="#eff4ff", fontsize=22, weight="bold")
+    fig.text(.06, .94, "RAMIEL / DEFAULT V4 + STAR V8", color="#eff4ff", fontsize=22, weight="bold")
     fig.text(.06, .89, "Geometry preview • no LED • opaque shading", color="#8ca6cb", fontsize=12)
     fig.text(.06, .06, "Star reconstructed from reference photos; rear dimensions estimated. Translucency is not simulated.",
              color="#8ca6cb", fontsize=10)
@@ -119,7 +119,7 @@ def main():
 
 
 def render_star(model):
-    out = ROOT / "printing/star-v6"
+    out = ROOT / "printing/star-v8"
     out.mkdir(parents=True, exist_ok=True)
     pieces = model["assemblies"]["star"]
     tilt = model["star_display_tilt"]
@@ -131,8 +131,8 @@ def render_star(model):
         ax = fig.add_subplot(2, 2, i+1)
         draw(ax, pieces, elev, azim)
         ax.set_title(title, color="#eff4ff", fontsize=13)
-    fig.suptitle("RAMIEL / FORWARD ARMS + CITY / STAR V6", color="#eff4ff", fontsize=20)
-    fig.text(.04, .02, "Blue shell + 3 mm red bead + conforming black city base. Opaque CAD shading; rear dimensions estimated from photos.",
+    fig.suptitle("RAMIEL / FORWARD ARMS + CITY / STAR V8", color="#eff4ff", fontsize=20)
+    fig.text(.04, .02, "Blue shell + 3 mm red bead + stepped city towers + three small underside bearings. Opaque CAD shading; rear dimensions estimated from photos.",
              color="#8ca6cb", fontsize=10)
     fig.subplots_adjust(top=.92, bottom=.06, wspace=-.06, hspace=.04)
     fig.savefig(out / "star-design.png", dpi=135)
@@ -152,7 +152,7 @@ def render_star(model):
         ax = fig.add_subplot(1, 2, i+1)
         draw(ax, parts, elev, azim)
         ax.set_title(title, color="#eff4ff", fontsize=13)
-    fig.suptitle("STAR V6 / CENTRAL STRUCTURE", color="#eff4ff", fontsize=20)
+    fig.suptitle("STAR V8 / CENTRAL STRUCTURE", color="#eff4ff", fontsize=20)
     fig.text(.04, .04, "Actual CAD sections; exposed cut edges are for explanation only. Red inner faces in the figure photos would need an optional painted finish.",
              color="#8ca6cb", fontsize=10)
     fig.subplots_adjust(top=.88, bottom=.12, wspace=.04)

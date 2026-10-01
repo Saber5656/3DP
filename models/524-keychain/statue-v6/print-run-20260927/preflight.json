@@ -1,0 +1,28 @@
+{
+  "status": "AWAITING_MOUTH_COLOR_CHOICE",
+  "observed_at": "2026-09-27T18:58:46.325868+09:00",
+  "request": "ぷりんとして",
+  "authorized_target": "524 statue-v6, standard version, one keychain, source colors",
+  "source_file": "models/524-keychain/statue-v6/output/524-keychain-40mm-bambu-face-up-v6.3mf",
+  "source_sha256": "a5c878c5986b91cdc6fb71f66afe90064f794cde8f1afeb75edc2f9ea49dc1f0",
+  "send_count": 0,
+  "printer": "Bambu Lab X2D",
+  "live_previous_job": "Ramiel_display_assembly_-_not_a_print_plate",
+  "live_previous_job_state": "100%, 888/888 layers, completed",
+  "live_plate": "Textured PEI visible; no large object, faint outlines visible; recheck before send",
+  "live_slots": {
+    "Main A1": "black PLA displayed",
+    "Main A2": "Yellow Generic PLA confirmed in material details; manufacturer not stated",
+    "Main A3": "translucent blue PLA displayed",
+    "Main A4": "orange PLA displayed",
+    "Aux Ext": "Bambu PLA Basic Jade White confirmed in material details"
+  },
+  "unconfirmed": [
+    "Mouth color: original dark teal PLA not detected; awaiting choice of loaded black, loaded translucent blue, or loading dark teal PLA"
+  ],
+  "source_preparation": "Existing geometry and provisional slicing validation retained; actual material/nozzle assignment and final GUI slicing remain pending",
+  "readiness": "NOT_READY",
+  "physical_print": "NOT_RUN",
+  "inventory_deducted": false,
+  "next_step": "After mouth choice, prepare final profiles and actual nozzle mapping (white currently Aux Ext), GUI slice and verify loop/support/settings, recheck plate and idle, send once and confirm start."
+}

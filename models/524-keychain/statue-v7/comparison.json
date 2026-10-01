@@ -1,0 +1,371 @@
+{
+  "printed_v6": {
+    "path": "models/524-keychain/statue-v6/print-run-20260927/524-Keychain-v6-Blue-Mouth-GUI-Verified.gcode.3mf",
+    "sha256": "69d0ad1bd47072d25f0a62eed131a707f981077abcd7cd3f4ab003a41746e655",
+    "slice_total_g": 42.95,
+    "seconds": 14352,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFL99",
+        "type": "PLA",
+        "color": "#F9DF54",
+        "used_m": "10.15",
+        "used_g": "30.26",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "435.00",
+        "total_unload_time": "435.00"
+      },
+      {
+        "id": "2",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FFFFFF",
+        "used_m": "0.70",
+        "used_g": "2.13",
+        "group_id": "1",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      },
+      {
+        "id": "3",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FF6A13",
+        "used_m": "2.18",
+        "used_g": "6.60",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "406.00",
+        "total_unload_time": "377.00"
+      },
+      {
+        "id": "4",
+        "tray_info_idx": "GFA17",
+        "type": "PLA",
+        "color": "#0050B3",
+        "used_m": "1.35",
+        "used_g": "3.97",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "261.00",
+        "total_unload_time": "261.00"
+      }
+    ],
+    "settings": {
+      "printer_model": "Bambu Lab X2D",
+      "layer_height": "0.08",
+      "support_top_z_distance": "0.16",
+      "support_interface_top_layers": "2",
+      "support_interface_spacing": "0.5",
+      "enable_prime_tower": "1",
+      "wipe_tower_no_sparse_layers": "0",
+      "wipe_tower_x": [
+        "35.5"
+      ],
+      "wipe_tower_y": [
+        "80"
+      ],
+      "outer_wall_speed": [
+        "60",
+        "60",
+        "60",
+        "50",
+        "50",
+        "50"
+      ],
+      "inner_wall_speed": [
+        "120",
+        "120",
+        "120",
+        "100",
+        "100",
+        "100"
+      ]
+    },
+    "normal_parts": 0,
+    "support_blockers": 0,
+    "gcode_sha256": "4342cf3ba6ef2b12d3dabda3591d09a9dac0b47f015e524bd60ca87d0c6999a1"
+  },
+  "v6_short_tower": {
+    "path": "models/524-keychain/statue-v7/slicing/no-sparse-baseline/candidate-NOT-SENT.3mf",
+    "sha256": "ffbc0a6083273a11002e9da8303c7aac6ffb17963f0ea9611f6611b61eaf1888",
+    "slice_total_g": 35.35,
+    "seconds": 12396,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFL99",
+        "type": "PLA",
+        "color": "#F9DF54",
+        "used_m": "7.26",
+        "used_g": "21.65",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "435.00",
+        "total_unload_time": "435.00"
+      },
+      {
+        "id": "2",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FFFFFF",
+        "used_m": "0.94",
+        "used_g": "2.86",
+        "group_id": "1",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      },
+      {
+        "id": "3",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FF6A13",
+        "used_m": "2.28",
+        "used_g": "6.90",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "406.00",
+        "total_unload_time": "377.00"
+      },
+      {
+        "id": "4",
+        "tray_info_idx": "GFA17",
+        "type": "PLA",
+        "color": "#0050B3",
+        "used_m": "1.35",
+        "used_g": "3.95",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "261.00",
+        "total_unload_time": "261.00"
+      }
+    ],
+    "settings": {
+      "printer_model": "Bambu Lab X2D",
+      "layer_height": "0.08",
+      "support_top_z_distance": "0.16",
+      "support_interface_top_layers": "2",
+      "support_interface_spacing": "0.5",
+      "enable_prime_tower": "1",
+      "wipe_tower_no_sparse_layers": "1",
+      "wipe_tower_x": [
+        "30"
+      ],
+      "wipe_tower_y": [
+        "10"
+      ],
+      "outer_wall_speed": [
+        "60",
+        "60",
+        "60",
+        "50",
+        "50",
+        "50"
+      ],
+      "inner_wall_speed": [
+        "120",
+        "120",
+        "120",
+        "100",
+        "100",
+        "100"
+      ]
+    },
+    "normal_parts": 4,
+    "support_blockers": 1,
+    "gcode_sha256": "cd3bfd4af56ae1baa0231a9885d64f88ac4078b94309daea025a55e7747fd9c6"
+  },
+  "v7_corrected": {
+    "path": "models/524-keychain/statue-v7/slicing/full/524-v7-CANDIDATE-NOT-SENT.3mf",
+    "sha256": "7270b7677b1d77994ece3825081c227fc59c5315182691e410b8b1190c326306",
+    "slice_total_g": 34.55,
+    "seconds": 13980,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFL99",
+        "type": "PLA",
+        "color": "#F9DF54",
+        "used_m": "7.32",
+        "used_g": "21.82",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "435.00",
+        "total_unload_time": "435.00"
+      },
+      {
+        "id": "2",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FFFFFF",
+        "used_m": "0.71",
+        "used_g": "2.16",
+        "group_id": "1",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      },
+      {
+        "id": "3",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FF6A13",
+        "used_m": "2.18",
+        "used_g": "6.60",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "406.00",
+        "total_unload_time": "377.00"
+      },
+      {
+        "id": "4",
+        "tray_info_idx": "GFA17",
+        "type": "PLA",
+        "color": "#0050B3",
+        "used_m": "1.35",
+        "used_g": "3.97",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "261.00",
+        "total_unload_time": "261.00"
+      }
+    ],
+    "settings": {
+      "printer_model": "Bambu Lab X2D",
+      "layer_height": "0.08",
+      "support_top_z_distance": "0.08",
+      "support_interface_top_layers": "3",
+      "support_interface_spacing": "0.2",
+      "enable_prime_tower": "1",
+      "wipe_tower_no_sparse_layers": "1",
+      "wipe_tower_x": [
+        "30"
+      ],
+      "wipe_tower_y": [
+        "10"
+      ],
+      "outer_wall_speed": [
+        "40",
+        "40",
+        "40",
+        "40",
+        "40",
+        "40"
+      ],
+      "inner_wall_speed": [
+        "40",
+        "40",
+        "40",
+        "40",
+        "40",
+        "40"
+      ]
+    },
+    "normal_parts": 4,
+    "support_blockers": 1,
+    "gcode_sha256": "91b91692e95f242d71df4fbf41e1897cbf642f188c580b9c537f3027719c3676",
+    "color_depth_mm": {
+      "white": 1.0,
+      "orange": 0.8,
+      "teal": 0.85
+    },
+    "appearance_reference": "Successful printed v6 color volumes and yellow backing preserved; physical corrected print NOT_RUN"
+  },
+  "hook_coupon": {
+    "path": "models/524-keychain/statue-v7/slicing/coupon/524-v7-CANDIDATE-NOT-SENT.3mf",
+    "sha256": "ac223cf4a38cc2818f4c7902958142188d5a2c868d1e612654de978d9120207d",
+    "slice_total_g": 2.42,
+    "seconds": 2835,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFL99",
+        "type": "PLA",
+        "color": "#F9DF54",
+        "used_m": "0.81",
+        "used_g": "2.42",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "settings": {
+      "printer_model": "Bambu Lab X2D",
+      "layer_height": "0.08",
+      "support_top_z_distance": "0.08",
+      "support_interface_top_layers": "3",
+      "support_interface_spacing": "0.2",
+      "enable_prime_tower": "0",
+      "wipe_tower_no_sparse_layers": "0",
+      "wipe_tower_x": [
+        "30"
+      ],
+      "wipe_tower_y": [
+        "10"
+      ],
+      "outer_wall_speed": [
+        "40",
+        "40",
+        "40",
+        "40",
+        "40",
+        "40"
+      ],
+      "inner_wall_speed": [
+        "40",
+        "40",
+        "40",
+        "40",
+        "40",
+        "40"
+      ]
+    },
+    "normal_parts": 1,
+    "support_blockers": 1,
+    "gcode_sha256": "e0724af8b0cd263dd052f03208372097d907fb9ca7e48fa5bd582edc2e2682e5"
+  }
+}

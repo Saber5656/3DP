@@ -1,0 +1,25 @@
+{
+  "centroid_print_xyz_mm": [
+    127.97380291333248,
+    128.59854818760505,
+    14.16880029375132
+  ],
+  "filament_length_mm": 3562.344070000448,
+  "centroid_upright_xyz_mm": [
+    -0.02619708666752274,
+    0.03119951551381739,
+    18.598548187605047
+  ],
+  "gcode_sha256": "8d16582c8f2647dbc836df13b310cb93ef788662e3ed024edc70b18775fbb685",
+  "eyelet_center": [
+    1.1,
+    10.8,
+    32.1
+  ],
+  "pitch_center_proxy_deg": 38.57597283389292,
+  "contact_sensitivity_plus_minus_1mm_yz_deg": [
+    33.96589986568181,
+    43.27092506575999
+  ],
+  "lateral_center_offset_mm": 1.1261970866675228
+}

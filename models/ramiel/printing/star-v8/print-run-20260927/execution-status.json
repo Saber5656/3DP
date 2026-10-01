@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-09-27T10:57:34.811936+09:00",
+  "authorization": [
+    "これでプリントして",
+    "つづけて"
+  ],
+  "printer": "3DP-20P-483",
+  "model": "X2D",
+  "nozzle": "Main 0.4 mm",
+  "plate": "Textured PEI",
+  "blue_body": {
+    "file": "Ramiel-Star-v8-Blue-Body-Verified.gcode.3mf",
+    "status": "printing",
+    "send_count": 1,
+    "sent_at": "2026-09-27T10:49:29+09:00",
+    "filament": "Bambu PLA Translucent / Blue",
+    "ams_slot": "A3",
+    "estimated_g": 65.87,
+    "estimated_seconds": 20305,
+    "layers": 888,
+    "observed_layer": 1,
+    "observed_stage": "造形中",
+    "device_title": "Ramiel_display_assembly_-_not_a_print_plate",
+    "title_note": "Inherited 3MF Title; validated body mesh and job thumbnail, layers, time and weight match.",
+    "remaining_display": "5h32min",
+    "estimated_finish_display": "16:29 JST",
+    "first_layer_observed_at": "2026-09-27T10:57:34.811936+09:00"
+  },
+  "black_city": {
+    "file": "Ramiel-Star-v8-Black-City-Verified.gcode.3mf",
+    "status": "not_sent_waiting_for_blue_and_plate_clear",
+    "send_count": 0,
+    "ams_slot": "A1",
+    "estimated_g": 69.84,
+    "estimated_seconds": 14959,
+    "layers": 247
+  },
+  "send_settings": {
+    "bed_leveling": true,
+    "dynamic_flow_calibration": "Auto",
+    "nozzle_offset_calibration": false,
+    "timelapse": false
+  },
+  "preflight_observed": [
+    "Previous job finished: 62/62 layers, 100 percent",
+    "Live camera: installed plate clear of solid prints and brims; faint previous print marks",
+    "A3 material dialog: Bambu PLA Translucent / Blue",
+    "Send succeeded once; device received matching body thumbnail, 888 layers, 65.87 g and 5h38m25s",
+    "Device reports 1/888 layers, 1 percent, 造形中; live camera shows blue extruded lines. No error displayed. Full initial-layer adhesion not yet assessable."
+  ],
+  "physical_finish_verified": false,
+  "inventory_decremented": false,
+  "evidence_limit": "UI transcript export unavailable; observations retained. Saved G-code hashes establish the validated source; printer-side hash is not exposed."
+}

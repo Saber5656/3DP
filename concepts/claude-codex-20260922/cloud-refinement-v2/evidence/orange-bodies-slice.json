@@ -1,0 +1,122 @@
+{
+  "status": "OFFLINE_SLICE_VALIDATED",
+  "printer_model": "Bambu Lab X2D",
+  "nozzle_mm": [
+    "0.4",
+    "0.4"
+  ],
+  "bed": "Textured PEI Plate",
+  "filament_density_g_cm3": 1.26,
+  "estimated_seconds": 2736,
+  "estimated_filament_g": 12.98,
+  "filaments": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#FF6A13",
+      "used_m": "4.28",
+      "used_g": "12.98",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "29.00",
+      "total_unload_time": "0.00"
+    }
+  ],
+  "support_used": true,
+  "warnings": [
+    "[2026-09-24 14:27:24.613713] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+    "[2026-09-24 14:27:24.776494] [0x00000001eed32180] [warning] tree support default to organic support",
+    "[2026-09-24 14:27:24.776532] [0x000000016daff000] [warning] tree support default to organic support",
+    "[2026-09-24 14:27:24.826747] [0x000000016daff000] [warning] tree support default to organic support",
+    "[2026-09-24 14:27:24.826778] [0x00000001eed32180] [warning] tree support default to organic support",
+    "[2026-09-24 14:27:25.284502] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+    "[2026-09-24 14:27:25.284511] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+  ],
+  "gcode_sha256": "cfea2595141fedbbbab91d132610d00588b71c1f55b3aa7f8db86f128043f3cd",
+  "package_sha256": "61dd812454d12dfc4084642e529ef106635f9f94046d34fda5977864e7b45961",
+  "gui_roundtrip": "NOT_RUN",
+  "physical_print": "NOT_RUN",
+  "physical_slot_binding": "NOT_SET",
+  "first_layer_time_metadata": "0.000000",
+  "limitations": [
+    "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+    "No live printer, current AMS allocation or clear-bed state was inspected.",
+    "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+  ],
+  "layer_count": 180,
+  "extrusion_moves": 86848,
+  "arc_extrusion_moves": 29140,
+  "support_extrusion_moves": 9651,
+  "features": {
+    "Support": 8933,
+    "Brim": 672,
+    "Outer wall": 16988,
+    "Inner wall": 27456,
+    "Bottom surface": 144,
+    "Internal solid infill": 4194,
+    "Sparse infill": 20965,
+    "Support interface": 718,
+    "Overhang wall": 178,
+    "Bridge": 624,
+    "Floating vertical shell": 5485,
+    "Gap infill": 21,
+    "Top surface": 470
+  },
+  "objects": {
+    "47": {
+      "first_layer": 1,
+      "last_layer": 157,
+      "extrusion_moves": 39008
+    },
+    "58": {
+      "first_layer": 1,
+      "last_layer": 180,
+      "extrusion_moves": 37517
+    }
+  },
+  "empty_layers": [],
+  "color_key": "orange",
+  "gui_delta_metadata": [
+    "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;enable_support;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+    "filament_colour",
+    ""
+  ],
+  "name": "orange-bodies",
+  "input_files": [
+    "output/stl/A2_clawd.stl",
+    "output/stl/A3_clawd.stl"
+  ],
+  "layer_validation": {
+    "file": "orange-bodies.3mf",
+    "all_objects_on_layer_1": true,
+    "all_object_layer_ranges_continuous": true,
+    "path_bounds_xy_mm": [
+      [
+        116.80737661792337,
+        97.33686124733009
+      ],
+      [
+        159.80906829087,
+        160.01376270158457
+      ]
+    ],
+    "objects": {
+      "A2_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 157,
+        "moves": 39008
+      },
+      "A3_clawd.stl": {
+        "first_layer": 1,
+        "last_layer": 180,
+        "moves": 37517
+      }
+    },
+    "preview": "orange-bodies-layers.png",
+    "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+  }
+}

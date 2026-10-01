@@ -1,0 +1,27 @@
+{
+  "mouth_color_approved": "loaded bright blue",
+  "colors": [
+    "#F9DF54",
+    "#FFFFFF",
+    "#FF6A13",
+    "#0050B3"
+  ],
+  "filament_profiles": [
+    "Generic PLA @BBL X2D 0.4 nozzle",
+    "Bambu PLA Basic @BBL X2D 0.4 nozzle",
+    "Bambu PLA Basic @BBL X2D 0.4 nozzle",
+    "Bambu PLA Translucent @BBL X2D 0.4 nozzle"
+  ],
+  "nozzle_map": [
+    "Main",
+    "Aux",
+    "Main",
+    "Main"
+  ],
+  "support_z_gap_mm": 0.16,
+  "source_model": "../slicing/524-face-up-color-source.3mf",
+  "candidate": "preparation/524-v6-CANDIDATE-NOT-SENT.3mf",
+  "configured_project": "524-Keychain-v6-Blue-Mouth-Configured.3mf",
+  "scope": "Historical initial CLI preparation; superseded by GUI final and execution.json",
+  "send_count_at_preparation": 0
+}

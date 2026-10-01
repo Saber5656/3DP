@@ -1,11 +1,11 @@
 {
-  "revision": "default-v4-star-v6-star-recess",
+  "revision": "default-v4-star-v8-city-towers",
   "units": "mm",
   "default_height": 100.0,
   "default_wall": 1.2,
   "star_width": 150.0,
   "star_core_diameter": 3.0,
-  "notes": "Star v6: ten sloping central faces form five deep radial V valleys around the bead; forward quadrangular arms and conforming city retained. Photo-based model dimensions.",
+  "notes": "Star v8: varied taller city buildings disguise the three unchanged small bearing stems; blue body and pose unchanged.",
   "star_wall": 1.2,
   "star_bead_center_z": 1.7,
   "star_print_up": [
@@ -19,5 +19,27 @@
   "star_display_tilt": 18.0,
   "city_base_diameter": 124.0,
   "city_clearance": 0.25,
-  "star_inner_radius": 11.0
+  "star_inner_radius": 11.0,
+  "city_foundation_height": 3.0,
+  "city_decorative_max_height": 34.0,
+  "city_bearings": [
+    [
+      -8.0,
+      -24.0,
+      6.0,
+      8.0
+    ],
+    [
+      8.0,
+      -24.0,
+      6.0,
+      8.0
+    ],
+    [
+      0.0,
+      8.0,
+      6.0,
+      4.0
+    ]
+  ]
 }

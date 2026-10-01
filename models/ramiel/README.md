@@ -1,27 +1,25 @@
-# ラミエル：通常形態 v4・星型 v6
+# ラミエル：通常形態 v4・星型 v8
 
-**星型v6は中央を5方向へ開く星形の凹みに修正し、CAD検証と試算用スライスまで完了。星型は未送信です。** 通常形態の造形成功は利用者から別途報告されています。
+**星型v8はビルを高くし、3本の支えの周囲を段差のある建物へ更新。形状検査と試算用スライス完了、星型は未送信です。**
 
 | 形態 | 大きさ | 本体・組立 |
 |---|---|---|
 | 通常v4 | 上下100 mm、台座込み112 mm | 青い一体中空本体＋黒い受け台 |
-| 星型v6 | 幅150 mm、前後奥行67.88 mm、街込み高さ145.68 mm | 青い一体中空本体＋黒い街の台座＋3 mm赤ビーズ |
+| 星型v8 | 幅150 mm、台座込み奥行124 mm・高さ145.68 mm | 青い一体中空本体＋街の台座＋3 mm赤ビーズ |
 
-両方とも内部格子・中央の管・本体の接合ピンはありません。公称壁厚1.2 mm。星型の寸法は写真を基にした設計値で、公式実測ではありません。
+両方とも内部格子・中央管・本体の接合ピンなし、公称壁厚1.2 mmです。星型は写真からの模型用寸法で、公式実測ではありません。
 
-## 星型 v6
+## 星型 v8
 
-[設計・写真との対応・量と時間・検証の詳細](printing/star-v6/README.md)
+[設計・検証・材料と時間](printing/star-v8/README.md)
 
-![再設計した星型](printing/star-v6/star-design.png)
+![星型全体](printing/star-v8/star-design.png)
 
-中央の小さな五角形の穴をなくし、10枚の斜面と5本の深いV字の谷を実際の形状へ作り込みました。[修正前後の比較](printing/star-v6/core-comparison.png)。
+手前を9 mm以下に抑え、奥のビルに高さを出しました。支えの周囲を段差のある建物へ統合し、柱の下側が目立ちにくい形です。[v7との比較](printing/star-v8/base-comparison.png)。接触は左右6×8 mm、背面寄り6×4 mmの3か所を維持しています。
 
-5本の先端をコアの前面より約35 mm前へ出し、四角い根元を持つ立体へ作り直しました。後方の尖りは主5本の裏側へ短く集約。台座は街の建物の屋根を下面に沿わせ、先端を避けて複数の広い斜面で支える形です。
+青い本体と姿勢、コアの凹みは同一。青65.87 g＋黒69.84 g＝**135.71 g・9時間47分47秒**の試算です。17件の形状検査と再スライスを完了し、実物の安定性・適合は未確認です。
 
-[横からの前後関係・根元4点・台座の支持範囲](printing/star-v6/design-checks.png) / [中央断面](printing/star-v6/centre-detail.png)
-
-市販赤ビーズの後付けを想定し、赤フィラメントとLEDは使いません。球の周りの凹面まで写真の赤色へ寄せる場合は後塗りが必要です。青65.87 g＋黒120.27 g＝**186.14 g・約11時間35分**の2プレート試算。街の台座にした分、黒の使用量は旧3点受けから増えています。GUI最終割当・星型の実機造形・台座の実適合は未確認です。
+[台座と支持範囲](printing/star-v8/design-checks.png) / [中央断面](printing/star-v8/centre-detail.png)。赤ビーズは市販品の後付け、LEDなし。凹面まで写真と同じ赤色にする場合は後塗りが必要です。
 
 ## 通常形態 v4
 
@@ -48,7 +46,7 @@ python -m unittest discover -s tests -v
 python build.py
 python render.py
 python scripts/render_star_checks.py
-python scripts/render_core_comparison.py
+python scripts/render_base_comparison.py
 ```
 
-[設計寸法](design.json) / [CAD生成](build.py) / [工程記録](JOB-RECORD.md) / [基準の5写真](references/figure-photos/README.md) / [背面調整の追加写真](references/compact-rear/README.md)。画像は実CADの不透明表示で、透過・発光のシミュレーションではありません。旧星型[v4](printing/star-v4/README.md)・[v2](printing/star-v2/README.md)・[v3](printing/star-v3/README.md)の説明・試算は履歴として保持しています。
+[設計寸法](design.json) / [CAD生成](build.py) / [工程記録](JOB-RECORD.md) / [基準の5写真](references/figure-photos/README.md) / [背面調整の追加写真](references/compact-rear/README.md)。画像は実CADの不透明表示で、透過・発光のシミュレーションではありません。旧星型[v7](printing/star-v7/README.md)・[v6](printing/star-v6/README.md)・[v4](printing/star-v4/README.md)・[v2](printing/star-v2/README.md)・[v3](printing/star-v3/README.md)の説明・試算は履歴として保持しています。

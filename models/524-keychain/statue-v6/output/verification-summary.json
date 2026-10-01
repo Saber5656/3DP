@@ -1,0 +1,21 @@
+{
+  "geometry": "PASS",
+  "unit_tests": {
+    "passed": 22,
+    "duration_seconds": 6.787
+  },
+  "source_body": "Exact uniformly scaled Wood statue mesh",
+  "export_readback_files": 12,
+  "support_modifier_readback_files": 3,
+  "provisional_slices": {
+    "normal": "PASS",
+    "with_dots": "PASS",
+    "coupon": "NOT_RUN"
+  },
+  "hole_extrusion_crossings": 0,
+  "production_readiness": "NOT_READY",
+  "runtime_compatibility": "NOT_RUN",
+  "hardware_fit": "NOT_RUN",
+  "physical_print": "NOT_RUN",
+  "review": "Separate Claude Sonnet reading review; parent fixed test weakness and checked actual support geometry and toolpaths. Review limits and dispositions are recorded in Agents Vault."
+}

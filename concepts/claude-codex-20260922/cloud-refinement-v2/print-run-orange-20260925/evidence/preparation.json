@@ -1,0 +1,22 @@
+{
+  "status": "PREPARED_NOT_SENT",
+  "source": "slice-work/orange-bodies.3mf",
+  "source_sha256": "61dd812454d12dfc4084642e529ef106635f9f94046d34fda5977864e7b45961",
+  "prepared_sha256": "19b4d42f2fbff4235a3ce2504f014e153eb74575cf2f85c32301e77919704278",
+  "mesh_archive_paths_unchanged": [
+    "3D/3dmodel.model",
+    "3D/_rels/3dmodel.model.rels",
+    "3D/Objects/object_1.model",
+    "3D/Objects/object_2.model"
+  ],
+  "stl_release_sha256": {
+    "A2": "7cf2e017f46441c1a28140f85ab4791b7e913ff55366768bc646757e6e2f349a",
+    "A3": "b01ddd71d3f84afc969d7a6e136e64d03d783437bb83fb8765597f35b59e9468"
+  },
+  "changes": [
+    "Force main nozzle Manual / 1 in project and plate metadata",
+    "Remove stale slice G-code for GUI reslice"
+  ],
+  "live_preflight": "X2D idle after calibrate_motion_precision.gcode; clear Textured PEI observed; Main AMS A4 Bambu PLA Basic Orange observed",
+  "white_black_completion": "Previous white/black job no longer active; physical outcome not inspected"
+}

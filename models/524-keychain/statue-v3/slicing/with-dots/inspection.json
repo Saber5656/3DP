@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "scope": "offline provisional slice; no printer send",
+  "production_readiness": "NOT_READY",
+  "slicer_log_error_count": 2,
+  "unresolved_slicer_log_errors": [
+    "[2026-09-26 19:15:39.334110] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+    "[2026-09-26 19:15:39.334120] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+  ],
+  "runtime_compatibility": "NOT_RUN",
+  "normal_material_part_count": 4,
+  "support_blocker_count": 1,
+  "printer": "Bambu Lab X2D",
+  "slicer": "BambuStudio 02.08.02.61",
+  "layer_height_mm": 0.08,
+  "layer_count": 315,
+  "filament_map": [
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "physical_AMS_slots": "NOT_CONFIRMED",
+  "estimated_time_seconds": 18045,
+  "estimated_total_grams": 55.08,
+  "material_estimates": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFL99",
+      "type": "PLA",
+      "color": "#F9DF54",
+      "used_m": "10.88",
+      "used_g": "32.45",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "783.00",
+      "total_unload_time": "783.00"
+    },
+    {
+      "id": "2",
+      "tray_info_idx": "GFL99",
+      "type": "PLA",
+      "color": "#F7F5F2",
+      "used_m": "4.41",
+      "used_g": "13.16",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "false",
+      "total_load_time": "696.00",
+      "total_unload_time": "667.00"
+    },
+    {
+      "id": "3",
+      "tray_info_idx": "GFL99",
+      "type": "PLA",
+      "color": "#E98249",
+      "used_m": "2.06",
+      "used_g": "6.15",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "false",
+      "total_load_time": "464.00",
+      "total_unload_time": "464.00"
+    },
+    {
+      "id": "4",
+      "tray_info_idx": "GFL99",
+      "type": "PLA",
+      "color": "#376978",
+      "used_m": "1.11",
+      "used_g": "3.32",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "false",
+      "total_load_time": "261.00",
+      "total_unload_time": "261.00"
+    }
+  ],
+  "model_extrusion_moves": {
+    "0": 255638,
+    "1": 16751,
+    "3": 2344,
+    "2": 4182
+  },
+  "nominal_extrusion_grams_by_feature": {
+    "tower": 15.37121261386202,
+    "support": 1.1102260845535068,
+    "brim": 0.001122721117884646,
+    "model": 10.66070509563823
+  },
+  "remaining_purge_and_custom_grams": 27.936733484828356,
+  "feature_mass_note": "Derived from E movement and nominal diameter/density; remaining mass is slicer total minus these features, not a separately reported purge mass.",
+  "tool_selection_commands": 77,
+  "empty_layers": [],
+  "outside": false,
+  "physical_print": "NOT_RUN",
+  "hardware_fit": "NOT_RUN",
+  "face_min_extrusion_z_mm": 21.72,
+  "support_max_extrusion_z_mm": 12.6,
+  "eyelet_inner_2mm_passage_moves": {},
+  "prime_tower_clearance_warning": false,
+  "extrusion_xy_bounds_mm": {
+    "tower": [
+      [
+        8.166302035845924,
+        78.1690626145741
+      ],
+      [
+        68.39369796415409,
+        138.15478442909202
+      ]
+    ],
+    "object_and_support": [
+      [
+        108.603,
+        104.37307593218239
+      ],
+      [
+        147.40127801435216,
+        150.06939478195926
+      ]
+    ]
+  },
+  "tower_to_object_support_bbox_gap_mm": 40.20930203584591,
+  "clearance_note": "Extrusion centreline bounding boxes only; excludes bead width, brim and toolhead sweep. The slicer proximity warning must also be absent.",
+  "warnings": [
+    "[2026-09-26 19:15:33.702382] [0x00000001eed32180] [trace]   Initializing StaticPrintConfigs",
+    "[2026-09-26 19:15:33.858262] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+    "[2026-09-26 19:15:34.135621] [0x00000001eed32180] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types",
+    "[2026-09-26 19:15:36.768848] [0x00000001eed32180] [warning] tree support default to organic support",
+    "[2026-09-26 19:15:37.196268] [0x00000001eed32180] [warning] tree support default to organic support",
+    "[2026-09-26 19:15:39.334110] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+    "[2026-09-26 19:15:39.334120] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+  ],
+  "face_colors_together_layers": [
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293
+  ]
+}

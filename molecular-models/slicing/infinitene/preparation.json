@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-25",
+  "source": "output/infinitene.stl",
+  "source_sha256": "37e950931ecf5fceb7d2d4acad428411df355dc6adbf28d8f18edfff063e4526",
+  "geometry_change": false,
+  "source_orientation_preserved": true,
+  "filament": "Bambu PLA Basic Black; AMS A1 confirmed in live GUI",
+  "plate": "Textured PEI; prior operator confirmation and current camera observation",
+  "current_bed": "Pre-send camera: build area clear of printed objects, removable plate seating not confirmed. After printer warning cleared: gold textured PEI visible during nozzle cleaning.",
+  "process_overrides": {
+    "wall_loops": "3",
+    "sparse_infill_density": "20%",
+    "brim_type": "outer_only",
+    "brim_width": "6",
+    "brim_object_gap": "0.1",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_style": "default",
+    "support_threshold_angle": "35",
+    "support_on_build_plate_only": "1",
+    "support_top_z_distance": "0.2",
+    "support_bottom_z_distance": "0.2",
+    "support_interface_top_layers": "2",
+    "support_object_xy_distance": "0.35",
+    "initial_layer_speed": [
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30"
+    ],
+    "outer_wall_speed": [
+      "60",
+      "60",
+      "60",
+      "60",
+      "60",
+      "60"
+    ],
+    "inner_wall_speed": [
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100"
+    ],
+    "support_speed": [
+      "80",
+      "80",
+      "80",
+      "80",
+      "80",
+      "80"
+    ],
+    "support_interface_speed": [
+      "50",
+      "50",
+      "50",
+      "50",
+      "50",
+      "50"
+    ],
+    "enable_prime_tower": "0"
+  },
+  "base_profiles": {
+    "machine": "Bambu Lab X2D 0.4 nozzle",
+    "process": "0.16mm Standard @BBL X2D",
+    "filament": "Bambu PLA Basic @BBL X2D 0.4 nozzle"
+  },
+  "machine_start_template_length": 14848,
+  "status": "GUI verified and printed job started; first layer 1/326 observed, see print-run.json"
+}

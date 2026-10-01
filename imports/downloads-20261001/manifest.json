@@ -1,0 +1,304 @@
+{
+  "date": "2026-10-01",
+  "source_directory": "${HOME}/Downloads",
+  "canonical_root": "3DP repository",
+  "download_copies_retained": true,
+  "files": [
+    {
+      "download_relative": "524-Keychain-v6-Blue-Mouth-AUX.3mf",
+      "project_path": "imports/downloads-20261001/files/524-Keychain-v6-Blue-Mouth-AUX.3mf",
+      "sha256": "f7d45e31590369e258c7df38db950d1ceeca2371de44c2a812813448f5e3faf7",
+      "bytes": 3634060,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "524-Keychain-v6-Blue-Mouth-Configured.3mf",
+      "project_path": "imports/downloads-20261001/files/524-Keychain-v6-Blue-Mouth-Configured.3mf",
+      "sha256": "db51e9acf8124e4845c9171516d47eab67cc51fd9ad887ff447e6845a11939ea",
+      "bytes": 3525465,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "524-Keychain-v6-Blue-Mouth-GUI-Verified.3mf",
+      "project_path": "models/524-keychain/statue-v6/print-run-20260927/524-Keychain-v6-Blue-Mouth-GUI-Verified.3mf",
+      "sha256": "6738d9484a5bbff3054851d26134968abdd4fad8ddee3bd78f9432baf2b3cd17",
+      "bytes": 3525469,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "524-Keychain-v6-Blue-Mouth-GUI-Verified.gcode.3mf",
+      "project_path": "models/524-keychain/statue-v6/print-run-20260927/524-Keychain-v6-Blue-Mouth-GUI-Verified.gcode.3mf",
+      "sha256": "69d0ad1bd47072d25f0a62eed131a707f981077abcd7cd3f4ab003a41746e655",
+      "bytes": 4309126,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-black-eyes-48mm.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/A2-A3-black-eyes.3mf",
+      "sha256": "792083f7a29efc4546344a1e5b176e44944f33e718d147843fcbbf9f51d3b558",
+      "bytes": 94496,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-black-eyes-MAIN-A1-GUI-final.gcode.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/black-main-a1/A2-A3-black-eyes-MAIN-A1-GUI-final.gcode.3mf",
+      "sha256": "7fb3655e350a99f301e454456d65f0004b71a1d9f958e3ca736ebfcd74f21242",
+      "bytes": 65345,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-black-eyes-MAIN-A1-GUI-verified.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/black-main-a1/A2-A3-black-eyes-MAIN-A1-GUI-verified.3mf",
+      "sha256": "11258804f015214510091a4a70d44870bf2887b6bc74c6a0a1afed03f88a3f2f",
+      "bytes": 64158,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-orange-body-48mm.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/A2-A3-orange-body.3mf",
+      "sha256": "c19defcf59177cfc557a3ede555366953a5519e0d02bc8b72402b536f0422212",
+      "bytes": 992880,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-orange-body-48mm.gcode.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/A2-A3-orange-body-GUI-final.gcode.3mf",
+      "sha256": "acfe72295286c2b0843a1390611d4400d33badaa6d13297b2ceb5ab21588b36e",
+      "bytes": 1307429,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-orange-body-GUI-verified.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/A2-A3-orange-body-GUI-verified.3mf",
+      "sha256": "79596451824df978f6117369ab598a24794c00da43124b7cae209f37323dec9b",
+      "bytes": 158496,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-v2-orange-body-MAIN-48mm.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-refinement-v2/print-run-orange-20260925/A2-A3-v2-orange-body-MAIN-48mm.3mf",
+      "sha256": "19b4d42f2fbff4235a3ce2504f014e153eb74575cf2f85c32301e77919704278",
+      "bytes": 155683,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-v2-orange-body-MAIN-GUI-final.gcode.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-refinement-v2/print-run-orange-20260925/A2-A3-v2-orange-body-MAIN-GUI-final.gcode.3mf",
+      "sha256": "7ab838e5286f82b7f4dd432385ed101b401cf743bf38507b3f51277ec46826a1",
+      "bytes": 861346,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-v2-orange-body-MAIN-GUI-verified.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-refinement-v2/print-run-orange-20260925/A2-A3-v2-orange-body-MAIN-GUI-verified.3mf",
+      "sha256": "620b1bf28a250fedf043eef8676cfddf0694aa396c1c3596f5152ba220ad9606",
+      "bytes": 157635,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-v2-preparation-candidates/NOT-FOR-PRINT-A2-A3-v2-MAIN-prepare.3mf",
+      "project_path": "imports/downloads-20261001/files/A2-A3-v2-preparation-candidates/NOT-FOR-PRINT-A2-A3-v2-MAIN-prepare.3mf",
+      "sha256": "b1b486de276c3a4f4b90c44f79a720ba477be547e47288b3c580a20722555134",
+      "bytes": 1801011,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-v2-preparation-candidates/NOT-FOR-PRINT-A2-A3-v2-cloud-eyes-48mm.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-refinement-v2/print-run-four-part-20260924/candidates-not-for-print/NOT-FOR-PRINT-A2-A3-v2-white-black-MAIN-48mm.3mf",
+      "sha256": "34b01fc8d22f7a891ec37e912ed1718a032ddca0475a8961a2b62cb9538f995e",
+      "bytes": 4188066,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-v2-white-black-MAIN-GUI-final.gcode",
+      "project_path": "imports/downloads-20261001/files/A2-A3-v2-white-black-MAIN-GUI-final.gcode",
+      "sha256": "a3e7407c732b8cbcb1db1a87fbaee84c67431cb9797f6327cd6086b0cdb18f4e",
+      "bytes": 7669497,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-v2-white-black-MAIN-GUI-final.gcode.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-refinement-v2/print-run-four-part-20260924/A2-A3-v2-white-black-MAIN-GUI-final.gcode.3mf",
+      "sha256": "41b1f557c43895e936d3ab988682e994cc8574dd25d264dbc67f1ddbbd5b4020",
+      "bytes": 2452085,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-v2-white-black-MAIN-GUI-verified.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-refinement-v2/print-run-four-part-20260924/A2-A3-v2-white-black-MAIN-GUI-verified.3mf",
+      "sha256": "c794d1aab00b764a4e0f9f41dc11f1b6330758fd21e15c4ef3dad75b1b945574",
+      "bytes": 1731581,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-white-cloud-48mm.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/A2-A3-white-cloud-ESTIMATE-main-only.3mf",
+      "sha256": "7f8bdd0fd8b8654be6016bc64ca48fa6007f7390a635b6c4394b4584b04ec7a2",
+      "bytes": 2399828,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-white-cloud-AUX-GUI-final.gcode.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/A2-A3-white-cloud-AUX-GUI-final.gcode.3mf",
+      "sha256": "d51b0bff1427513c75e4a56f10e765afee7fb48452fc10dfe1bdd308778a1ae6",
+      "bytes": 2002427,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-white-cloud-AUX-GUI-verified.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/A2-A3-white-cloud-AUX-GUI-verified.3mf",
+      "sha256": "8b609175df1f47a004e6347d2f37e996c6dda1903ac91c865a13a799e19ebb70",
+      "bytes": 462206,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-white-cloud-MAIN-A4-GUI-final.gcode.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/white-main-a4/A2-A3-white-cloud-MAIN-A4-GUI-final.gcode.3mf",
+      "sha256": "68886954d14c58300199a7a49783e68fa96efaf0e55b1fa2ae0b207362a2aeac",
+      "bytes": 1994428,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "A2-A3-white-cloud-MAIN-A4-GUI-verified.3mf",
+      "project_path": "concepts/claude-codex-20260922/cloud-addition-v1/print-run-a2-a3/white-main-a4/A2-A3-white-cloud-MAIN-A4-GUI-verified.3mf",
+      "sha256": "de70e0d9ab45bd75db83cdcaafed290c6cfa8ba6ebaee46a0575d04c337ce519",
+      "bytes": 462210,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Monitor_Ghost_White.3mf",
+      "project_path": "imports/downloads-20261001/files/Monitor_Ghost_White.3mf",
+      "sha256": "701357aa11fd457d68cdd05121dfb396ca585d74c0ff5256e05a125b82c2086d",
+      "bytes": 2152362,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Perfect+clip+v4+final+update_4.3mf",
+      "project_path": "imports/downloads-20261001/files/Perfect+clip+v4+final+update_4.3mf",
+      "sha256": "5d23a712a6aa2dc0e9b7541ff1b6cdb116d74340ec57c99aacf97b6b9aecde42",
+      "bytes": 1650555,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Poop-Bucket-Logo-X2D(2).3mf",
+      "project_path": "imports/downloads-20261001/files/Poop-Bucket-Logo-X2D(2).3mf",
+      "sha256": "735231322440b4f69113f8a1f3163e49b9f467f18edde6517ef8b54fcc8b5081",
+      "bytes": 1637948,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Poop-Bucket-Logo-X2D.3mf",
+      "project_path": "imports/downloads-20261001/files/Poop-Bucket-Logo-X2D.3mf",
+      "sha256": "8dd341c87f1431b07688805c34066a9071b7638d32d12e75c6892ea51decbb28",
+      "bytes": 1694363,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Black-City-Configured.3mf",
+      "project_path": "models/ramiel/printing/star-v8/print-run-20260927/Ramiel-Star-v8-Black-City-Configured.3mf",
+      "sha256": "044201d2e7e0b71c354961d8eb980c41cbb611dfc2cc4252562758201dc5a0bb",
+      "bytes": 49120,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Black-City-Verified.3mf",
+      "project_path": "models/ramiel/printing/star-v8/print-run-20260927/Ramiel-Star-v8-Black-City-Verified.3mf",
+      "sha256": "11c577075b6049d07a464a9ab171474cb83bfe7a1df01b40b0a71058b07be65b",
+      "bytes": 50316,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Black-City-Verified.gcode.3mf",
+      "project_path": "models/ramiel/printing/star-v8/print-run-20260927/Ramiel-Star-v8-Black-City-Verified.gcode.3mf",
+      "sha256": "02d9ca95ae5d76934a03b0b32a668167bfc0bd03e3e3741a7a1ff421cca8345f",
+      "bytes": 966249,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Black-City.3mf",
+      "project_path": "models/ramiel/printing/star-v8/sliced-preview/black-stand.3mf",
+      "sha256": "6ce171300e62f6454100bfe4cafeb9c00ac7430156481dfcd3aeb3d1f2098585",
+      "bytes": 979248,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Blue-Body-Configured.3mf",
+      "project_path": "models/ramiel/printing/star-v8/print-run-20260927/Ramiel-Star-v8-Blue-Body-Configured.3mf",
+      "sha256": "d5e09701e4f5207b5c896a6ed1b01063602daf05bb477365e62d43cc0fe7f363",
+      "bytes": 72584,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Blue-Body-GUI.3mf",
+      "project_path": "imports/downloads-20261001/files/Ramiel-Star-v8-Blue-Body-GUI.3mf",
+      "sha256": "eada1f16d275ab32d109ce114a23fb9af75f3d33a715ac9e1832177e239b8a97",
+      "bytes": 73873,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Blue-Body-Verified.3mf",
+      "project_path": "models/ramiel/printing/star-v8/print-run-20260927/Ramiel-Star-v8-Blue-Body-Verified.3mf",
+      "sha256": "6c05833f646a6faaa9ed1a1af4677f86892e734067912118ccf65f5e7874ad63",
+      "bytes": 73990,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Blue-Body-Verified.gcode.3mf",
+      "project_path": "models/ramiel/printing/star-v8/print-run-20260927/Ramiel-Star-v8-Blue-Body-Verified.gcode.3mf",
+      "sha256": "ca3df1549b92378e45629635faabecd53595e8b227ecebb53fe2eb7a3938f4ce",
+      "bytes": 4045819,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Ramiel-Star-v8-Blue-Body.3mf",
+      "project_path": "models/ramiel/printing/star-v8/sliced-preview/blue-body.3mf",
+      "sha256": "5dab0a3ffcf2c56477b99527f9116be5479e9f9295f5b703c6d33805f942099d",
+      "bytes": 4084473,
+      "action": "already_tracked_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    },
+    {
+      "download_relative": "Recovered-Perfect-clip-20260927.3mf",
+      "project_path": "imports/downloads-20261001/files/Recovered-Perfect-clip-20260927.3mf",
+      "sha256": "72999b7f20da6f235d4fe5a61c450e98cfe42b0dbb06e8cc0a31b11e5825feb7",
+      "bytes": 1954358,
+      "action": "imported_byte_identical",
+      "print_status": "refer_to_project_record_or_unverified_import"
+    }
+  ]
+}
