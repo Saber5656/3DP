@@ -1,0 +1,8 @@
+{
+  "file": "ClaudeCloud-A2-A3-v2-48mm.zip",
+  "size_bytes": 19412189,
+  "sha256": "dd6a23a8cb862d6bae888935bb91302d636479b9181eba039453af09d0404a9d",
+  "files": 97,
+  "includes": "A2/A3 v2 STL/3MF/GLB, coupons, actual mesh previews, parametric source plus dependencies",
+  "excludes": "Printer G-code, profiles, AMS settings, private logs, API credentials"
+}

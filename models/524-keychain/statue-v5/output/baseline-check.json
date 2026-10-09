@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "same_slicing_script": true,
+  "same_machine_process_four_filament_presets_sha256": {
+    "orange.json": "6f77cfcbcbfc9004fcb77a81a9a74877e1f40fd23f06b6b8110dca1747cc5942",
+    "yellow.json": "b16f4a1f117f200325a91165897c66bc1dc4b64204e487164e9bfe97bd2b31d0",
+    "white.json": "97de9ec4dc2079fde3dcc3575919d19d85e6d9f21b835f02feeae6941c0a6382",
+    "process.json": "2b15d8a7be4db896c9b4ec06690de28cd26b039dbed20e06964fdbec8c8145a2",
+    "machine.json": "350a5a45793051eff75757e6b1249a9c17d6d64863412e301f226793a151e739",
+    "teal.json": "a26117c9c974cb729f80d731614fce2dda250b72c015b56d573f59ec19c7c9fb"
+  },
+  "previous_gcode_sha256": "80dea4bcb8feb45b86d45900dc7a11ebcf9e336caf60e394d85fa67f1ca18a1c",
+  "baseline_centroid_recomputed_max_difference_mm": 0.0
+}

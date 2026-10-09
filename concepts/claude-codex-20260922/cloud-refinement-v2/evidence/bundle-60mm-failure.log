@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/private${TEMP_EXTRACT}/ClaudeCloud-A2-A3-v2-48mm/cloud-refinement-v2/refined_models.py", line 37, in portable_mesh
+    return old.portable_mesh(solid)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private${TEMP_EXTRACT}/ClaudeCloud-A2-A3-v2-48mm/cloud-addition-v1/cloud_models.py", line 33, in portable_mesh
+    assert result.is_watertight and result.is_volume and result.body_count==1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/private${TEMP_EXTRACT}/ClaudeCloud-A2-A3-v2-48mm/cloud-refinement-v2/export_refined.py", line 61, in <module>
+    parser=argparse.ArgumentParser();parser.add_argument('--height-mm',type=float,default=48);export_all(parser.parse_args().height_mm)
+                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private${TEMP_EXTRACT}/ClaudeCloud-A2-A3-v2-48mm/cloud-refinement-v2/export_refined.py", line 29, in export_all
+    record,display,bed=save_part(part,key,out);records.append(record);assembled.append((record['id'],part.color,display));printable.append((record['id'],part.color,bed))
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private${TEMP_EXTRACT}/ClaudeCloud-A2-A3-v2-48mm/cloud-refinement-v2/export_refined.py", line 12, in save_part
+    display=portable_mesh(part.solid);bed=portable_mesh(print_solid(part))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private${TEMP_EXTRACT}/ClaudeCloud-A2-A3-v2-48mm/cloud-refinement-v2/refined_models.py", line 40, in portable_mesh
+    assert original.is_volume and original.body_count==1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

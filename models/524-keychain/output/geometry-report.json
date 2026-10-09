@@ -1,0 +1,60 @@
+{
+  "revision": "rear-loop-v2",
+  "body_height_mm": 40,
+  "body_dimensions_xyz_mm": [
+    41.3013698,
+    14.529923100000001,
+    40.0
+  ],
+  "overall_dimensions_xyz_mm": [
+    41.3013698,
+    18.049964,
+    40.0
+  ],
+  "eyelet_outer_diameter_mm": 6.8,
+  "eyelet_nominal_inner_diameter_mm": 3.2,
+  "eyelet_verified_clearance_diameter_mm": 2.4,
+  "eyelet_tube_diameter_mm": 1.8,
+  "eyelet_exposed_volume_mm3": 28.106661170721868,
+  "eyelet_root_overlap_mm3": 11.580542193069078,
+  "parts": {
+    "yellow": {
+      "volume_mm3": 13657.066231449755,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 125540
+    },
+    "white": {
+      "volume_mm3": 294.0706131149438,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 46758
+    },
+    "orange": {
+      "volume_mm3": 62.39390316066457,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 3,
+      "triangles": 14168
+    },
+    "teal": {
+      "volume_mm3": 45.42016553374709,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 7224
+    }
+  },
+  "exported_orientation": "rear down / face up / bed Z=0",
+  "print_dimensions_xyz_mm": [
+    41.3013698,
+    40.0,
+    18.049964
+  ],
+  "color_match": "image approximation; physical swatch test required",
+  "hardware_fit": "NOT_RUN",
+  "physical_print": "NOT_RUN",
+  "dots": "body only; detached source dots omitted"
+}

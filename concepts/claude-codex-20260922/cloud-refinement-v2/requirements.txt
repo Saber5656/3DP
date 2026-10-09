@@ -1,0 +1,2 @@
+-r ../production-v1/requirements.txt
+rtree==1.4.1

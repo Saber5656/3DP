@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "524-keychain-40mm-bambu-face-up-v6.3mf",
+      "blocker_bounds_mm": [
+        [
+          -3.0,
+          38.5,
+          9.7111111
+        ],
+        [
+          3.0,
+          43.1,
+          14.7111111
+        ]
+      ],
+      "status": "PASS"
+    },
+    {
+      "file": "524-keychain-with-dots-bambu-face-up-v6.3mf",
+      "blocker_bounds_mm": [
+        [
+          -3.0,
+          38.5,
+          9.7111111
+        ],
+        [
+          3.0,
+          43.1,
+          14.7111111
+        ]
+      ],
+      "status": "PASS"
+    },
+    {
+      "file": "hook-fit-coupon.3mf",
+      "blocker_bounds_mm": [
+        [
+          -3.0,
+          38.5,
+          2.6
+        ],
+        [
+          3.0,
+          43.1,
+          7.6
+        ]
+      ],
+      "status": "PASS"
+    }
+  ]
+}

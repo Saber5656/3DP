@@ -1,0 +1,1889 @@
+{
+  "status": "GUI_FINAL_VALIDATED_AND_SENT_ONCE",
+  "geometry_objects_byte_identical": {
+    "3D/Objects/object_1.model": true,
+    "3D/Objects/object_2.model": true
+  },
+  "build_transforms_identical_within_1e_6_mm": true,
+  "max_transform_delta_mm": 4.199999921183917e-07,
+  "build_transforms": [
+    {
+      "objectid": "2",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          138.249993,
+          147.623979,
+          12.5439653,
+          1.0
+        ]
+      ],
+      "printable": "1"
+    },
+    {
+      "objectid": "4",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          138.24998,
+          106.936447,
+          14.3940878,
+          1.0
+        ]
+      ],
+      "printable": "1"
+    }
+  ],
+  "settings": {
+    "layer_height": "0.16",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "3",
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "gyroid",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_on_build_plate_only": "1",
+    "enable_prime_tower": "0",
+    "brim_width": "3",
+    "brim_type": "outer_only",
+    "brim_object_gap": "0.1",
+    "nozzle_temperature": [
+      "220",
+      "220",
+      "220",
+      "220",
+      "220",
+      "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "220",
+      "220",
+      "220",
+      "220",
+      "220",
+      "220"
+    ],
+    "textured_plate_temp": [
+      "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "55"
+    ],
+    "initial_layer_speed": [
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30"
+    ],
+    "outer_wall_speed": [
+      "60",
+      "60",
+      "60",
+      "60",
+      "60",
+      "60"
+    ]
+  },
+  "source_to_gui_settings_diff": {
+    "compatible_printers_condition": {
+      "old": "",
+      "new": null
+    },
+    "different_settings_to_system": {
+      "old": [
+        "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;enable_support;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+        "filament_colour",
+        ""
+      ],
+      "new": [
+        "brim_type;brim_width;enable_prime_tower;enable_support;initial_layer_speed;outer_wall_speed;sparse_infill_pattern;support_on_build_plate_only;wall_loops",
+        "",
+        ""
+      ]
+    },
+    "extruder_ams_count": {
+      "old": [],
+      "new": [
+        "1#0|4#1",
+        "1#0|4#0"
+      ]
+    },
+    "filament_colour_type": {
+      "old": null,
+      "new": [
+        "1"
+      ]
+    },
+    "filament_dev_ams_drying_ams_limitations": {
+      "old": [
+        "1"
+      ],
+      "new": [
+        "1",
+        "0"
+      ]
+    },
+    "filament_dev_ams_drying_temperature": {
+      "old": [
+        "45"
+      ],
+      "new": [
+        "45",
+        "45",
+        "45",
+        "45"
+      ]
+    },
+    "filament_dev_ams_drying_time": {
+      "old": [
+        "12"
+      ],
+      "new": [
+        "12",
+        "12",
+        "12",
+        "12"
+      ]
+    },
+    "filament_flush_temp_fast": {
+      "old": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "new": [
+        "0"
+      ]
+    },
+    "filament_map_2": {
+      "old": [
+        "1"
+      ],
+      "new": null
+    },
+    "filament_multi_colour": {
+      "old": null,
+      "new": [
+        "#FF6A13"
+      ]
+    },
+    "filament_settings_id": {
+      "old": [
+        "Collectibles PLA Basic Orange"
+      ],
+      "new": [
+        "Bambu PLA Basic @BBL X2D 0.4 nozzle"
+      ]
+    },
+    "host_type": {
+      "old": null,
+      "new": "octoprint"
+    },
+    "inherits_group": {
+      "old": [
+        "0.16mm Standard @BBL X2D",
+        "Bambu PLA Basic @BBL X2D 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle"
+      ],
+      "new": [
+        "0.16mm Standard @BBL X2D",
+        "",
+        ""
+      ]
+    },
+    "print_settings_id": {
+      "old": "Collectibles 0.16mm orange support 1",
+      "new": "0.16mm Standard @BBL X2D"
+    },
+    "printer_settings_id": {
+      "old": "Collectibles X2D 0.4",
+      "new": "Bambu Lab X2D 0.4 nozzle"
+    },
+    "printhost_authorization_type": {
+      "old": null,
+      "new": "key"
+    },
+    "printhost_ssl_ignore_revoke": {
+      "old": null,
+      "new": "0"
+    },
+    "wipe_tower_y": {
+      "old": [
+        "238.697"
+      ],
+      "new": [
+        "207.272"
+      ]
+    }
+  },
+  "estimated_seconds": 2739,
+  "estimated_grams": 13.02,
+  "filaments": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#FF6A13",
+      "used_m": "4.30",
+      "used_g": "13.02",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "29.00",
+      "total_unload_time": "0.00"
+    }
+  ],
+  "objects": [
+    {
+      "name": "A3_clawd.stl",
+      "extruder": "1"
+    },
+    {
+      "name": "A2_clawd.stl",
+      "extruder": "1"
+    }
+  ],
+  "slicer_objects": [
+    {
+      "identify_id": "745",
+      "name": "A2_clawd.stl",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "756",
+      "name": "A3_clawd.stl",
+      "skipped": "false"
+    }
+  ],
+  "plate_metadata": {
+    "index": "1",
+    "extruder_type": "0 1",
+    "nozzle_volume_type": "0 0",
+    "printer_model_id": "N6",
+    "nozzle_diameters": "0.4,0.4",
+    "timelapse_type": "0",
+    "prediction": "2739",
+    "weight": "13.02",
+    "pause_count": "0",
+    "first_layer_time": "147.738403",
+    "outside": "false",
+    "support_used": "true",
+    "label_object_enabled": "true",
+    "support_material_on_wipe_tower": "false",
+    "enable_filament_dynamic_map": "false",
+    "has_filament_switcher": "false",
+    "filament_maps": "1",
+    "limit_filament_maps": "0"
+  },
+  "gcode_sha256": "fa49e9ee7469edfcc17368134f8f16f65a3ce5025eb9e017c3704001a8916855",
+  "package_sha256": "7ab838e5286f82b7f4dd432385ed101b401cf743bf38507b3f51277ec46826a1",
+  "project_sha256": "620b1bf28a250fedf043eef8676cfddf0694aa396c1c3596f5152ba220ad9606",
+  "gcode": {
+    "layer_count": 180,
+    "extrusion_moves": 86946,
+    "arc_extrusion_moves": 29159,
+    "support_extrusion_moves": 9633,
+    "features": {
+      "Support": 8932,
+      "Brim": 673,
+      "Outer wall": 17071,
+      "Inner wall": 27503,
+      "Bottom surface": 144,
+      "Internal solid infill": 4170,
+      "Sparse infill": 20957,
+      "Support interface": 701,
+      "Overhang wall": 178,
+      "Bridge": 641,
+      "Floating vertical shell": 5485,
+      "Gap infill": 21,
+      "Top surface": 470
+    },
+    "objects": {
+      "745": {
+        "first_layer": 1,
+        "last_layer": 157,
+        "extrusion_moves": 39129
+      },
+      "756": {
+        "first_layer": 1,
+        "last_layer": 180,
+        "extrusion_moves": 37511
+      }
+    },
+    "empty_layers": []
+  },
+  "physical_status": "Matching job received; printer shows 11%, layer 1/180 printing. Main 219/220 C, bed 55 C. Completion and physical fit not observed.",
+  "limitations": [
+    "CAD physical fit and support removal unverified",
+    "Slicer estimated grams not actual inventory consumption",
+    "Review evidence is parent-extracted; reviewer has no live GUI access"
+  ],
+  "condition_comparison": {
+    "additional_cooling_fan_speed": {
+      "source": [
+        "70"
+      ],
+      "gui": [
+        "70"
+      ],
+      "equal": true
+    },
+    "additional_fan_full_speed_layer": {
+      "source": [
+        "0"
+      ],
+      "gui": [
+        "0"
+      ],
+      "equal": true
+    },
+    "auxiliary_fan": {
+      "source": "1",
+      "gui": "1",
+      "equal": true
+    },
+    "bed_temperature_formula": {
+      "source": "by_highest_temp",
+      "gui": "by_highest_temp",
+      "equal": true
+    },
+    "bridge_speed": {
+      "source": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+      ],
+      "gui": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+      ],
+      "equal": true
+    },
+    "chamber_temperatures": {
+      "source": [
+        "0"
+      ],
+      "gui": [
+        "0"
+      ],
+      "equal": true
+    },
+    "circle_compensation_speed": {
+      "source": [
+        "200"
+      ],
+      "gui": [
+        "200"
+      ],
+      "equal": true
+    },
+    "close_additional_fan_first_x_layers": {
+      "source": [
+        "1"
+      ],
+      "gui": [
+        "1"
+      ],
+      "equal": true
+    },
+    "close_fan_the_first_x_layers": {
+      "source": [
+        "1"
+      ],
+      "gui": [
+        "1"
+      ],
+      "equal": true
+    },
+    "complete_print_exhaust_fan_speed": {
+      "source": [
+        "70"
+      ],
+      "gui": [
+        "70"
+      ],
+      "equal": true
+    },
+    "cool_plate_temp": {
+      "source": [
+        "35"
+      ],
+      "gui": [
+        "35"
+      ],
+      "equal": true
+    },
+    "cool_plate_temp_initial_layer": {
+      "source": [
+        "35"
+      ],
+      "gui": [
+        "35"
+      ],
+      "equal": true
+    },
+    "curr_bed_type": {
+      "source": "Textured PEI Plate",
+      "gui": "Textured PEI Plate",
+      "equal": true
+    },
+    "deretraction_speed": {
+      "source": [
+        "30",
+        "30",
+        "30",
+        "20",
+        "20",
+        "20"
+      ],
+      "gui": [
+        "30",
+        "30",
+        "30",
+        "20",
+        "20",
+        "20"
+      ],
+      "equal": true
+    },
+    "during_print_exhaust_fan_speed": {
+      "source": [
+        "70"
+      ],
+      "gui": [
+        "70"
+      ],
+      "equal": true
+    },
+    "enable_overhang_bridge_fan": {
+      "source": [
+        "1"
+      ],
+      "gui": [
+        "1"
+      ],
+      "equal": true
+    },
+    "enable_overhang_speed": {
+      "source": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "gui": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "equal": true
+    },
+    "eng_plate_temp": {
+      "source": [
+        "55"
+      ],
+      "gui": [
+        "55"
+      ],
+      "equal": true
+    },
+    "eng_plate_temp_initial_layer": {
+      "source": [
+        "55"
+      ],
+      "gui": [
+        "55"
+      ],
+      "equal": true
+    },
+    "fan_cooling_layer_time": {
+      "source": [
+        "100"
+      ],
+      "gui": [
+        "100"
+      ],
+      "equal": true
+    },
+    "fan_direction": {
+      "source": "both",
+      "gui": "both",
+      "equal": true
+    },
+    "fan_max_speed": {
+      "source": [
+        "100"
+      ],
+      "gui": [
+        "100"
+      ],
+      "equal": true
+    },
+    "fan_min_speed": {
+      "source": [
+        "100"
+      ],
+      "gui": [
+        "100"
+      ],
+      "equal": true
+    },
+    "filament_adaptive_volumetric_speed": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "filament_bridge_speed": {
+      "source": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+      ],
+      "gui": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+      ],
+      "equal": true
+    },
+    "filament_deretraction_speed": {
+      "source": [
+        "nil",
+        "nil",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+      ],
+      "gui": [
+        "nil",
+        "nil",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+      ],
+      "equal": true
+    },
+    "filament_dev_chamber_drying_bed_temperature": {
+      "source": [
+        "70"
+      ],
+      "gui": [
+        "70"
+      ],
+      "equal": true
+    },
+    "filament_dev_drying_cooling_temperature": {
+      "source": [
+        "45"
+      ],
+      "gui": [
+        "45"
+      ],
+      "equal": true
+    },
+    "filament_dev_drying_softening_temperature": {
+      "source": [
+        "50"
+      ],
+      "gui": [
+        "50"
+      ],
+      "equal": true
+    },
+    "filament_enable_overhang_speed": {
+      "source": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "gui": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "equal": true
+    },
+    "filament_flow_ratio": {
+      "source": [
+        "0.98",
+        "0.98",
+        "0.98",
+        "0.98",
+        "0.98",
+        "0.98"
+      ],
+      "gui": [
+        "0.98",
+        "0.98",
+        "0.98",
+        "0.98",
+        "0.98",
+        "0.98"
+      ],
+      "equal": true
+    },
+    "filament_flush_temp": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "filament_flush_volumetric_speed": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "filament_max_volumetric_speed": {
+      "source": [
+        "21",
+        "40",
+        "21",
+        "21",
+        "30",
+        "21"
+      ],
+      "gui": [
+        "21",
+        "40",
+        "21",
+        "21",
+        "30",
+        "21"
+      ],
+      "equal": true
+    },
+    "filament_overhang_1_4_speed": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "filament_overhang_2_4_speed": {
+      "source": [
+        "50",
+        "50",
+        "50",
+        "50",
+        "50",
+        "50"
+      ],
+      "gui": [
+        "50",
+        "50",
+        "50",
+        "50",
+        "50",
+        "50"
+      ],
+      "equal": true
+    },
+    "filament_overhang_3_4_speed": {
+      "source": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+      ],
+      "gui": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+      ],
+      "equal": true
+    },
+    "filament_overhang_4_4_speed": {
+      "source": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "gui": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "equal": true
+    },
+    "filament_overhang_totally_speed": {
+      "source": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "gui": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "equal": true
+    },
+    "filament_pre_cooling_temperature": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "filament_pre_cooling_temperature_nc": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "filament_preheat_temperature_delta": {
+      "source": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "gui": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "equal": true
+    },
+    "filament_ramming_volumetric_speed": {
+      "source": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "gui": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "equal": true
+    },
+    "filament_ramming_volumetric_speed_nc": {
+      "source": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "gui": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "equal": true
+    },
+    "filament_retraction_speed": {
+      "source": [
+        "nil",
+        "nil",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+      ],
+      "gui": [
+        "nil",
+        "nil",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+      ],
+      "equal": true
+    },
+    "filament_tower_interface_print_temp": {
+      "source": [
+        "220"
+      ],
+      "gui": [
+        "220"
+      ],
+      "equal": true
+    },
+    "first_x_layer_fan_speed": {
+      "source": [
+        "40"
+      ],
+      "gui": [
+        "40"
+      ],
+      "equal": true
+    },
+    "first_x_layer_part_fan_speed": {
+      "source": [
+        "0"
+      ],
+      "gui": [
+        "0"
+      ],
+      "equal": true
+    },
+    "full_fan_speed_layer": {
+      "source": [
+        "0"
+      ],
+      "gui": [
+        "0"
+      ],
+      "equal": true
+    },
+    "gap_infill_speed": {
+      "source": [
+        "50",
+        "250",
+        "250",
+        "250",
+        "250",
+        "250"
+      ],
+      "gui": [
+        "50",
+        "250",
+        "250",
+        "250",
+        "250",
+        "250"
+      ],
+      "equal": true
+    },
+    "hot_plate_temp": {
+      "source": [
+        "55"
+      ],
+      "gui": [
+        "55"
+      ],
+      "equal": true
+    },
+    "hot_plate_temp_initial_layer": {
+      "source": [
+        "55"
+      ],
+      "gui": [
+        "55"
+      ],
+      "equal": true
+    },
+    "initial_layer_flow_ratio": {
+      "source": "1",
+      "gui": "1",
+      "equal": true
+    },
+    "initial_layer_infill_speed": {
+      "source": [
+        "105",
+        "105",
+        "105",
+        "105",
+        "105",
+        "105"
+      ],
+      "gui": [
+        "105",
+        "105",
+        "105",
+        "105",
+        "105",
+        "105"
+      ],
+      "equal": true
+    },
+    "initial_layer_speed": {
+      "source": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+      ],
+      "gui": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+      ],
+      "equal": true
+    },
+    "inner_wall_speed": {
+      "source": [
+        "300",
+        "300",
+        "300",
+        "300",
+        "300",
+        "300"
+      ],
+      "gui": [
+        "300",
+        "300",
+        "300",
+        "300",
+        "300",
+        "300"
+      ],
+      "equal": true
+    },
+    "internal_solid_infill_speed": {
+      "source": [
+        "250",
+        "300",
+        "300",
+        "100",
+        "100",
+        "100"
+      ],
+      "gui": [
+        "250",
+        "300",
+        "300",
+        "100",
+        "100",
+        "100"
+      ],
+      "equal": true
+    },
+    "ironing_fan_speed": {
+      "source": [
+        "-1"
+      ],
+      "gui": [
+        "-1"
+      ],
+      "equal": true
+    },
+    "ironing_speed": {
+      "source": "30",
+      "gui": "30",
+      "equal": true
+    },
+    "machine_max_speed_e": {
+      "source": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "120",
+        "120",
+        "120",
+        "120",
+        "120",
+        "120"
+      ],
+      "gui": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "120",
+        "120",
+        "120",
+        "120",
+        "120",
+        "120"
+      ],
+      "equal": true
+    },
+    "machine_max_speed_x": {
+      "source": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "gui": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "equal": true
+    },
+    "machine_max_speed_y": {
+      "source": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "gui": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "equal": true
+    },
+    "machine_max_speed_z": {
+      "source": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      "gui": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      "equal": true
+    },
+    "nozzle_diameter": {
+      "source": [
+        "0.4",
+        "0.4"
+      ],
+      "gui": [
+        "0.4",
+        "0.4"
+      ],
+      "equal": true
+    },
+    "nozzle_temperature": {
+      "source": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+      ],
+      "gui": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+      ],
+      "equal": true
+    },
+    "nozzle_temperature_initial_layer": {
+      "source": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+      ],
+      "gui": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+      ],
+      "equal": true
+    },
+    "nozzle_temperature_range_high": {
+      "source": [
+        "240"
+      ],
+      "gui": [
+        "240"
+      ],
+      "equal": true
+    },
+    "nozzle_temperature_range_low": {
+      "source": [
+        "190"
+      ],
+      "gui": [
+        "190"
+      ],
+      "equal": true
+    },
+    "outer_wall_speed": {
+      "source": [
+        "60",
+        "60",
+        "60",
+        "60",
+        "60",
+        "60"
+      ],
+      "gui": [
+        "60",
+        "60",
+        "60",
+        "60",
+        "60",
+        "60"
+      ],
+      "equal": true
+    },
+    "overhang_1_4_speed": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "overhang_2_4_speed": {
+      "source": [
+        "40",
+        "40",
+        "40",
+        "40",
+        "40",
+        "40"
+      ],
+      "gui": [
+        "40",
+        "40",
+        "40",
+        "40",
+        "40",
+        "40"
+      ],
+      "equal": true
+    },
+    "overhang_3_4_speed": {
+      "source": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+      ],
+      "gui": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+      ],
+      "equal": true
+    },
+    "overhang_4_4_speed": {
+      "source": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      "gui": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      "equal": true
+    },
+    "overhang_fan_speed": {
+      "source": [
+        "100"
+      ],
+      "gui": [
+        "100"
+      ],
+      "equal": true
+    },
+    "overhang_fan_threshold": {
+      "source": [
+        "50%"
+      ],
+      "gui": [
+        "50%"
+      ],
+      "equal": true
+    },
+    "overhang_totally_speed": {
+      "source": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "gui": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "equal": true
+    },
+    "override_process_overhang_speed": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "pre_start_fan_time": {
+      "source": [
+        "0"
+      ],
+      "gui": [
+        "0"
+      ],
+      "equal": true
+    },
+    "prime_tower_lift_speed": {
+      "source": "90",
+      "gui": "90",
+      "equal": true
+    },
+    "prime_tower_max_speed": {
+      "source": "90",
+      "gui": "90",
+      "equal": true
+    },
+    "print_flow_ratio": {
+      "source": "1",
+      "gui": "1",
+      "equal": true
+    },
+    "printer_model": {
+      "source": "Bambu Lab X2D",
+      "gui": "Bambu Lab X2D",
+      "equal": true
+    },
+    "reduce_fan_stop_start_freq": {
+      "source": [
+        "1"
+      ],
+      "gui": [
+        "1"
+      ],
+      "equal": true
+    },
+    "retraction_speed": {
+      "source": [
+        "30",
+        "30",
+        "30",
+        "20",
+        "20",
+        "20"
+      ],
+      "gui": [
+        "30",
+        "30",
+        "30",
+        "20",
+        "20",
+        "20"
+      ],
+      "equal": true
+    },
+    "role_base_wipe_speed": {
+      "source": "1",
+      "gui": "1",
+      "equal": true
+    },
+    "slow_down_min_speed": {
+      "source": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      "gui": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      "equal": true
+    },
+    "slowdown_end_speed": {
+      "source": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "gui": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "equal": true
+    },
+    "slowdown_start_speed": {
+      "source": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "gui": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "equal": true
+    },
+    "small_perimeter_speed": {
+      "source": [
+        "50%",
+        "50%",
+        "50%",
+        "50%",
+        "50%",
+        "50%"
+      ],
+      "gui": [
+        "50%",
+        "50%",
+        "50%",
+        "50%",
+        "50%",
+        "50%"
+      ],
+      "equal": true
+    },
+    "smooth_speed_discontinuity_area": {
+      "source": "1",
+      "gui": "1",
+      "equal": true
+    },
+    "sparse_infill_speed": {
+      "source": [
+        "270",
+        "600",
+        "600",
+        "100",
+        "100",
+        "100"
+      ],
+      "gui": [
+        "270",
+        "600",
+        "600",
+        "100",
+        "100",
+        "100"
+      ],
+      "equal": true
+    },
+    "standby_temperature_delta": {
+      "source": "-5",
+      "gui": "-5",
+      "equal": true
+    },
+    "supertack_plate_temp": {
+      "source": [
+        "40"
+      ],
+      "gui": [
+        "40"
+      ],
+      "equal": true
+    },
+    "supertack_plate_temp_initial_layer": {
+      "source": [
+        "40"
+      ],
+      "gui": [
+        "40"
+      ],
+      "equal": true
+    },
+    "support_interface_speed": {
+      "source": [
+        "80",
+        "80",
+        "80",
+        "80",
+        "80",
+        "80"
+      ],
+      "gui": [
+        "80",
+        "80",
+        "80",
+        "80",
+        "80",
+        "80"
+      ],
+      "equal": true
+    },
+    "support_ironing_speed": {
+      "source": "30",
+      "gui": "30",
+      "equal": true
+    },
+    "support_speed": {
+      "source": [
+        "150",
+        "150",
+        "150",
+        "150",
+        "150",
+        "150"
+      ],
+      "gui": [
+        "150",
+        "150",
+        "150",
+        "150",
+        "150",
+        "150"
+      ],
+      "equal": true
+    },
+    "temperature_vitrification": {
+      "source": [
+        "45"
+      ],
+      "gui": [
+        "45"
+      ],
+      "equal": true
+    },
+    "textured_plate_temp": {
+      "source": [
+        "55"
+      ],
+      "gui": [
+        "55"
+      ],
+      "equal": true
+    },
+    "textured_plate_temp_initial_layer": {
+      "source": [
+        "55"
+      ],
+      "gui": [
+        "55"
+      ],
+      "equal": true
+    },
+    "top_solid_infill_flow_ratio": {
+      "source": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "gui": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "equal": true
+    },
+    "top_surface_speed": {
+      "source": [
+        "150",
+        "200",
+        "200",
+        "200",
+        "200",
+        "200"
+      ],
+      "gui": [
+        "150",
+        "200",
+        "200",
+        "200",
+        "200",
+        "200"
+      ],
+      "equal": true
+    },
+    "travel_speed": {
+      "source": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "gui": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+      ],
+      "equal": true
+    },
+    "travel_speed_z": {
+      "source": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "gui": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "equal": true
+    },
+    "vertical_shell_speed": {
+      "source": [
+        "80%",
+        "80%",
+        "80%",
+        "80%",
+        "80%",
+        "80%"
+      ],
+      "gui": [
+        "80%",
+        "80%",
+        "80%",
+        "80%",
+        "80%",
+        "80%"
+      ],
+      "equal": true
+    },
+    "volumetric_speed_coefficients": {
+      "source": [
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0"
+      ],
+      "gui": [
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0"
+      ],
+      "equal": true
+    },
+    "wipe_speed": {
+      "source": "80%",
+      "gui": "80%",
+      "equal": true
+    },
+    "z_direction_outwall_speed_continuous": {
+      "source": "1",
+      "gui": "1",
+      "equal": true
+    }
+  },
+  "printer": "Bambu Lab X2D",
+  "bed": "Textured PEI Plate",
+  "nozzles_mm": [
+    "0.4",
+    "0.4"
+  ],
+  "gui_send_dialog": {
+    "printer": "3DP-20P-483",
+    "model": "Bambu Lab X2D",
+    "nozzles": "0.4/0.4",
+    "bed_icon": "PEI",
+    "main_material": "PLA orange",
+    "main_ams_slot": "A4",
+    "aux_material": null,
+    "bed_leveling": "On",
+    "dynamic_flow_calibration": "Auto",
+    "nozzle_offset_calibration": "Off",
+    "timelapse": "Off",
+    "estimated_seconds": 2739,
+    "estimated_grams": 13.02,
+    "sent": true
+  },
+  "integrity": {
+    "zip_crc_ok": true,
+    "embedded_gcode_md5_matches": true,
+    "project_and_gcode_sha256_rechecked_after_send": true
+  }
+}

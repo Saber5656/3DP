@@ -1,0 +1,29 @@
+{
+  "file": "A2-A3-v2-orange-body-MAIN-GUI-final.gcode.3mf",
+  "all_objects_on_layer_1": true,
+  "all_object_layer_ranges_continuous": true,
+  "path_bounds_xy_mm": [
+    [
+      116.80702823861033,
+      97.351
+    ],
+    [
+      160.0311687447397,
+      159.38069102811872
+    ]
+  ],
+  "objects": {
+    "A2_clawd.stl": {
+      "first_layer": 1,
+      "last_layer": 157,
+      "moves": 39129
+    },
+    "A3_clawd.stl": {
+      "first_layer": 1,
+      "last_layer": 180,
+      "moves": 37511
+    }
+  },
+  "preview": "A2-A3-v2-orange-body-MAIN-GUI-final.gcode-layers.png",
+  "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+}

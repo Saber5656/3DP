@@ -1,4 +1,4 @@
-"""Render dimensioned v6 design checks directly from the generated geometry."""
+"""Render dimensioned v8 design checks directly from the generated geometry."""
 import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -44,7 +44,7 @@ ax.set_title('02 / ONE ARM — four coplanar root corners + apex', color='white'
 
 ax=fig.add_subplot(2,2,3)
 draw(ax, [('star_base', model['parts']['star_base'])], 46, -65)
-ax.set_title('03 / CITY ONLY — roofs follow the lower body',color='white',fontsize=12)
+ax.set_title('03 / CITY ONLY — small bearings integrated into city towers',color='white',fontsize=12)
 
 ax=fig.add_subplot(2,2,4); ax.set_facecolor('#0b1220')
 from matplotlib.patches import Circle
@@ -61,7 +61,7 @@ for x,y,z in model['star_tip_positions_world']:
 ax.set_xlim(-66,66);ax.set_ylim(-80,51);ax.set_aspect('equal');ax.tick_params(colors='#94afd0');ax.set_xlabel('mm',color='#94afd0');ax.set_ylabel('mm',color='#94afd0')
 ax.legend(loc='upper right',fontsize=8,facecolor='#1a293e',labelcolor='white',edgecolor='none')
 ax.set_title('04 / SUPPORT MAP — tips kept clear',color='white',fontsize=12)
-fig.suptitle('RAMIEL STAR V6 / FOUR DESIGN CHECKS',color='white',fontsize=21)
+fig.suptitle('RAMIEL STAR V8 / FOUR DESIGN CHECKS',color='white',fontsize=21)
 fig.text(.05,.025,'Actual CAD geometry. Roof samples indicate potential contact with clearance, not measured load capacity. Core: aftermarket 3 mm bead.',color='#9cb5d7',fontsize=10)
 fig.subplots_adjust(top=.91,bottom=.09,hspace=.3,wspace=.15)
-fig.savefig(ROOT/'printing/star-v6/design-checks.png',dpi=140,facecolor=fig.get_facecolor());plt.close(fig)
+fig.savefig(ROOT/'printing/star-v8/design-checks.png',dpi=140,facecolor=fig.get_facecolor());plt.close(fig)

@@ -1,0 +1,54 @@
+{
+  "output/default-display-assembly.3mf": {
+    "unchanged": true,
+    "sha256": "68454a0a2a8db4eaaccbcd8aad19d72d79ae0fee73073e39aba19303712ef124"
+  },
+  "output/default-preview.glb": {
+    "unchanged": true,
+    "sha256": "640ec6ae8b8d8fbca346dc0e8333c609556ccf4f077bd29a8d5c94275895930c"
+  },
+  "output/stl/bead_seat_coupon.stl": {
+    "unchanged": true,
+    "sha256": "9bb42ea65d469449fe8a3bc57b05264a1e193102fbb09da32c2d0e30e8d6b265"
+  },
+  "output/stl/blue_tile_1.6mm.stl": {
+    "unchanged": true,
+    "sha256": "342a935fac7e6aba59f5455aaeb81668d38c3a60555b76b61e436e415bfcfe65"
+  },
+  "output/stl/blue_tile_1.2mm.stl": {
+    "unchanged": true,
+    "sha256": "d4ad4d79f659f36a6c82be019dfddf8faf993520d0b72579b224f8ed567e82ff"
+  },
+  "output/stl/star_body.stl": {
+    "unchanged": true,
+    "sha256": "6192d9f4fca83048d9bf1b5554b6fb20d2922b081e0775475149c37b2de2d463"
+  },
+  "output/stl/default_body.stl": {
+    "unchanged": true,
+    "sha256": "9fc6258dc7455f0988ea79b59f315361149dc6a22707af503190e074a27fe16f"
+  },
+  "output/stl/star_ray_test.stl": {
+    "unchanged": true,
+    "sha256": "19138b252954a9d2b8281a795925e8be5c162054291fcf1bacce4f664122eaa3"
+  },
+  "output/stl/blue_tile_0.8mm.stl": {
+    "unchanged": true,
+    "sha256": "17d28790781c700b31bcde9928117075b832565cf7bd026f075e3f5abf8066f9"
+  },
+  "output/stl/default_cradle.stl": {
+    "unchanged": true,
+    "sha256": "215f998684f3f09431ae51fcf06b050fe7fdad3166e52d7e79adcc5b18d2f585"
+  },
+  "output/stl/default_tip_test.stl": {
+    "unchanged": true,
+    "sha256": "236b6acd498a1ef51b26fefb0859abe5b4999c1b0a6d95db9ed53e94720da231"
+  },
+  "source/blue-body.3mf": {
+    "unchanged_from_v6": true,
+    "sha256": "6ac5451a8dbd3ff9f58ab798fcd1238d57b0f35800ae49573ccd143f155f23d1"
+  },
+  "sliced-preview/blue-body.3mf": {
+    "unchanged_from_v6": true,
+    "sha256": "5dab0a3ffcf2c56477b99527f9116be5479e9f9295f5b703c6d33805f942099d"
+  }
+}

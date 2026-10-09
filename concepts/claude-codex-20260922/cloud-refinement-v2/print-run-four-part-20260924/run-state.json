@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-09-24T21:42:14.295518+09:00",
+  "status": "PRINTING_FIRST_LAYER",
+  "send_attempts": 1,
+  "sent_at": "2026-09-24T21:32:51.824+09:00",
+  "received_confirmed_at": "2026-09-24T21:35:19.662+09:00",
+  "job_name": "A2-A3-v2-white-black-MAIN-GUI-verified",
+  "printer": "3DP-20P-483 / Bambu Lab X2D 0.4/0.4mm",
+  "target": {
+    "white_clouds": 2,
+    "black_eyes": 4,
+    "orange_bodies_deferred": 2
+  },
+  "completed_model_height_mm": 48,
+  "mapping": {
+    "white": "Main AMS A4",
+    "black": "Main AMS A1",
+    "aux_used": false
+  },
+  "bed": "Textured PEI Plate",
+  "clear_bed_camera_timestamp": "2026-09-24T21:32:04+09:00",
+  "send_options": {
+    "bed_leveling": true,
+    "flow_calibration": "Auto",
+    "nozzle_offset_calibration": false,
+    "timelapse": false
+  },
+  "slicer_estimate": {
+    "seconds": 5611,
+    "grams": 32.07,
+    "white_g": 30.35,
+    "black_g": 1.72
+  },
+  "latest_observation": {
+    "observed_at": "2026-09-24T12:41:04.696Z",
+    "state": "printing",
+    "progress_percent": 5,
+    "layer": 1,
+    "layers_total": 223,
+    "remaining_minutes": 88,
+    "estimated_finish_local": "2026-09-24 23:09 JST",
+    "main_nozzle_c": 220,
+    "aux_nozzle_c": 34,
+    "bed_c": 55
+  },
+  "first_layer_confirmed": true,
+  "physical_completion_confirmed": false,
+  "fit_and_support_removal_confirmed": false,
+  "do_not_resend": true,
+  "next_action": "Allow the current white/black job to finish; check completion and part quality before removal. Orange bodies remain deferred. Do not resend.",
+  "publication": "No MakerWorld publication, no push, no inventory decrement",
+  "evidence": "CUA Send clicked once; upload at 57%; subsequent Device UI shows matching new job, 32.07g, 0/223, preparation and filament loading. Full visible session is archived in Vault.",
+  "first_layer_confirmation_basis": "Printer Device UI shows matching job, 5%, layer 1/223 and printing; camera shows nozzle operating over bed. Full first-layer adhesion quality not yet confirmed.",
+  "first_layer_observed_at": "2026-09-24T12:41:04.696Z"
+}

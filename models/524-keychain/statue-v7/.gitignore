@@ -1,0 +1,6 @@
+slicing/*/runtime/
+slicing/*/presets/
+research/
+tdd-*.log
+*.log
+slicing/*/source.3mf

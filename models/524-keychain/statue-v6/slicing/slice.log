@@ -1,0 +1,7 @@
+[2026-09-27 09:04:44.572020] [0x00000001eed32180] [trace]   Initializing StaticPrintConfigs
+[2026-09-27 09:04:44.674443] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-09-27 09:04:44.949768] [0x00000001eed32180] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-09-27 09:04:47.680752] [0x00000001eed32180] [warning] tree support default to organic support
+[2026-09-27 09:04:48.156551] [0x00000001eed32180] [warning] tree support default to organic support
+[2026-09-27 09:04:49.628632] [0x00000001eed32180] [error]   Invalid T command (T65279).
+[2026-09-27 09:04:49.628644] [0x00000001eed32180] [error]   Invalid T command (T65535).

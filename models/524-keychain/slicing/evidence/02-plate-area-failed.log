@@ -1,0 +1,10 @@
+[2026-09-26 13:18:51.616864] [0x00000001eed32180] [trace]   Initializing StaticPrintConfigs
+[2026-09-26 13:18:51.622791] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-09-26 13:18:51.871200] [0x00000001eed32180] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-09-26 13:18:52.554428] [0x00000001eed32180] [warning] tree support default to organic support
+[2026-09-26 13:18:52.686680] [0x00000001eed32180] [warning] tree support default to organic support
+[2026-09-26 13:18:53.392386] [0x00000001eed32180] [error]   Invalid T command (T65279).
+[2026-09-26 13:18:53.392396] [0x00000001eed32180] [error]   Invalid T command (T65535).
+[2026-09-26 13:18:53.460820] [0x00000001eed32180] [error]   plate 1: found gcode unprintable! gcode_result->gcode_check_result.error_code = 4
+
+run found error, exit

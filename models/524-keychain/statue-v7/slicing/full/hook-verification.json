@@ -1,0 +1,36 @@
+{
+  "source": "524-v7-CANDIDATE-NOT-SENT.3mf",
+  "sha256": "7270b7677b1d77994ece3825081c227fc59c5315182691e410b8b1190c326306",
+  "hook_first_extrusion_z_mm": 7.96,
+  "nearest_support_z_mm": 7.88,
+  "support_gap_toolpath_z_mm": 0.08000000000000007,
+  "direct_underside_support_fraction": 0.9207207246804007,
+  "underside_coverage_with_half_bead_reach": 1.0,
+  "conservative_free_bore_radius_mm": 1.2845391254761807,
+  "hook_perimeter_max_speed_mm_s": 40.0,
+  "no_sparse_layers": "1",
+  "warnings": [
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "2",
+      "error_code": "10018003"
+    },
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "3",
+      "error_code": "1000C003"
+    }
+  ],
+  "checks": {
+    "support_close": true,
+    "underside_covered": true,
+    "bore_clear": true,
+    "no_unresolved_slice_warning": true
+  },
+  "physical_validation": "NOT_RUN",
+  "limitations": [
+    "Coverage checks the first hook underside, not every later overhang.",
+    "The 45-degree bore roof is independently checked in CAD tests.",
+    "Bead envelope uses nominal width; cooling, sag, stringing, strength and removal need a physical coupon."
+  ]
+}

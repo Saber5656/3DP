@@ -1,0 +1,359 @@
+{
+  "artifact_count": 44,
+  "files": [
+    {
+      "file": "output/assembly/A2-v2-assembled.3mf",
+      "meshes": 7,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "c09b462d66ae567f1aa1eeb43e014ea842fdefa42a4774a4108f2452765dfd59"
+    },
+    {
+      "file": "output/assembly/A2_clawd.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "033b3db3696805fc675c1687bf2445fa77cc0ebdb43324de7c4013fa8ef2b738"
+    },
+    {
+      "file": "output/assembly/A2_clawd_eye_1.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "32d75f1d1e3e7d7bce94045e975b6438b6183cc13956f81cc3b1c1d75228685a"
+    },
+    {
+      "file": "output/assembly/A2_clawd_eye_2.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "5a0502c0f0a986c2ee799dddf32f1daedc5962cb09d98f754753b4ac80d6ed3a"
+    },
+    {
+      "file": "output/assembly/A2_cloud_back.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "f2c510ce080f7ffd231f0dfdaf021e41340f37ad53e1bb61fadf2744405c7563"
+    },
+    {
+      "file": "output/assembly/A2_cloud_front.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "35663c08a4604ad07b92d247781dd9900f3c1efc5db13738812e3cec9ce5aeef"
+    },
+    {
+      "file": "output/assembly/A2_cloud_pin_1.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "ee23bb4a9823459f0927834d80d1a0346b851fdd649bd4f851a4dda85d918018"
+    },
+    {
+      "file": "output/assembly/A2_cloud_pin_2.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "a5dfca32fff25bd138e55740d49a72cb0e332e323841304c5ca303527b454733"
+    },
+    {
+      "file": "output/assembly/A3-v2-assembled.3mf",
+      "meshes": 7,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "48e59ab6c3416b2335a0cf77b993d79ed2bcf0e7c8493021ceb6df1bc53d7b1a"
+    },
+    {
+      "file": "output/assembly/A3_clawd.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "ed9e600e2290aacedf02496cb02cc1805e6bf179464afd0c13b632d7474bdc94"
+    },
+    {
+      "file": "output/assembly/A3_clawd_eye_1.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "1ea290c6ece4bf10646946a85ad003570558d224d1c63a99acd7750d101f2f0a"
+    },
+    {
+      "file": "output/assembly/A3_clawd_eye_2.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "baebd745b6bb83e561a135d9568e6ea92b2dae8501942f5d201110f51ba4f8fb"
+    },
+    {
+      "file": "output/assembly/A3_cloud_back.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "4d76ff8c7cb43123bb9569892702a8ea4c1b8d27a0ff5054611c79658350506b"
+    },
+    {
+      "file": "output/assembly/A3_cloud_front.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "42bc4130a24ff0a7b70edcfdee6c2d9ae6f996f47248b36e360ed21c16eb1907"
+    },
+    {
+      "file": "output/assembly/A3_cloud_pin_1.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "4aea57a9f77d4529b06f78b273f2aa79a06558b09b0e87942f6b2a1fea7c36f8"
+    },
+    {
+      "file": "output/assembly/A3_cloud_pin_2.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "acbddabb5cd3287337dd781557d3eea4d85d2f9efcb2ab87447b8f6c2ca3afe5"
+    },
+    {
+      "file": "output/fit-tests/A2_key_test.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "1c3d0cb744e9e31aa743cfc34216a8852b2f58aecb7b9f7facd069528a10db94"
+    },
+    {
+      "file": "output/fit-tests/A2_socket_0.20.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "fab5587c8211f6ade105e1f4f07248eeac1a65374db738ca16e3bfe5ef6fbb30"
+    },
+    {
+      "file": "output/fit-tests/A2_socket_0.25.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "e9af050053d5c9150f69b346a5e2daf728d952ae03a1e67deb42766c613602dd"
+    },
+    {
+      "file": "output/fit-tests/A2_socket_0.30.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "06c5b1a86fc68a45e3278169ca06bcb761f469c53327cabbfddc00f5b08af270"
+    },
+    {
+      "file": "output/fit-tests/A3_key_test.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "d8a87b9ded6a9893232d0431099c511a10e2aeeefb0489b0e84011d55ed06ed2"
+    },
+    {
+      "file": "output/fit-tests/A3_socket_0.20.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "a7596b3875fc76a99e80ebacba67ba107ebc634efc49b04eb38d600506d51e84"
+    },
+    {
+      "file": "output/fit-tests/A3_socket_0.25.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "24c99a8de85418121e0e36b8eef1e8d86f5e944d58bfe9e12908b59bf38b46ac"
+    },
+    {
+      "file": "output/fit-tests/A3_socket_0.30.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "723b48a68ee95b78471858c9cf52218da12b7b43fe41b3322471183aa85cee1e"
+    },
+    {
+      "file": "output/optional-onepiece/A2-v2-cloud-onepiece.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "353760593b58770526cb52bac6cf7f448d780cfc5ff10b1f0621caca730bdeed"
+    },
+    {
+      "file": "output/optional-onepiece/A2-v2-onepiece-assembled.3mf",
+      "meshes": 4,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "1bcf88ea5ead2d96619f0ed21da74039885bd24332b7ddfc7003a991d6198147"
+    },
+    {
+      "file": "output/optional-onepiece/A3-v2-cloud-onepiece.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "abd7b50a0c17e5eca156be63e10fb8978d9346eba3bdd568d09c0c0b5f12e648"
+    },
+    {
+      "file": "output/optional-onepiece/A3-v2-onepiece-assembled.3mf",
+      "meshes": 4,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "f21e6adab8940f7707c324733c7fff6bc59d5f9a20597d0f554a7b37cdd58c82"
+    },
+    {
+      "file": "output/print-plates/A2-v2-white-hidden-seams-down.3mf",
+      "meshes": 4,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "39f2c503e87bb048151c6a35f9dbbd76bc1cd6d9f02468ae2da883aa41097e39"
+    },
+    {
+      "file": "output/print-plates/A3-v2-white-hidden-seams-down.3mf",
+      "meshes": 4,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "62baedd0319c9a52e4807fe69b0ade6d4abdcd314cd6d33ca0571f5b0dbe701e"
+    },
+    {
+      "file": "output/stl/A2_clawd.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "7cf2e017f46441c1a28140f85ab4791b7e913ff55366768bc646757e6e2f349a"
+    },
+    {
+      "file": "output/stl/A2_clawd_eye_1.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "60326ed2e3c0853485b6e0c8fa4baa8737d4b4e1ae934c0ae4b03cc26b262fbc"
+    },
+    {
+      "file": "output/stl/A2_clawd_eye_2.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "60326ed2e3c0853485b6e0c8fa4baa8737d4b4e1ae934c0ae4b03cc26b262fbc"
+    },
+    {
+      "file": "output/stl/A2_cloud_back.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "7f9edfa2b108318874b090bea9e40cd315af21f39080b3dbd8722e0e562fdcbc"
+    },
+    {
+      "file": "output/stl/A2_cloud_front.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "84dd974736eb94450fbe275a7f88e77377c50fe6ad27be4ed22693653bdd3bfa"
+    },
+    {
+      "file": "output/stl/A2_cloud_pin_1.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "2ae382e148917c2af684daaa3eb0d8948282e9adf1a6b26fb4e3e968b4384c8a"
+    },
+    {
+      "file": "output/stl/A2_cloud_pin_2.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "2ae382e148917c2af684daaa3eb0d8948282e9adf1a6b26fb4e3e968b4384c8a"
+    },
+    {
+      "file": "output/stl/A3_clawd.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "b01ddd71d3f84afc969d7a6e136e64d03d783437bb83fb8765597f35b59e9468"
+    },
+    {
+      "file": "output/stl/A3_clawd_eye_1.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "b4923cdaf65805ea9b0bbf3cd8c21a90ba928c9ec75e82cc9944d9efa463e085"
+    },
+    {
+      "file": "output/stl/A3_clawd_eye_2.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "b4923cdaf65805ea9b0bbf3cd8c21a90ba928c9ec75e82cc9944d9efa463e085"
+    },
+    {
+      "file": "output/stl/A3_cloud_back.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "6794d7bba5b9c0e49642e8a1ab3c7cd80dc4d00ff35e1e8b14b955e87b993b68"
+    },
+    {
+      "file": "output/stl/A3_cloud_front.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "1d3a9bf6a4107a79af82f1646a2513991235d010b3d98364d72b5b758caa7f67"
+    },
+    {
+      "file": "output/stl/A3_cloud_pin_1.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "2ae382e148917c2af684daaa3eb0d8948282e9adf1a6b26fb4e3e968b4384c8a"
+    },
+    {
+      "file": "output/stl/A3_cloud_pin_2.stl",
+      "meshes": 1,
+      "watertight": true,
+      "positive_single_volumes": true,
+      "zero_area_faces": 0,
+      "sha256": "2ae382e148917c2af684daaa3eb0d8948282e9adf1a6b26fb4e3e968b4384c8a"
+    }
+  ],
+  "preserved_legacy_files": 236,
+  "changed_legacy_files": []
+}

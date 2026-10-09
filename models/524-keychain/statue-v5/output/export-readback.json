@@ -1,0 +1,221 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "524-keychain-solid.stl",
+      "status": "PASS",
+      "normal_parts": 1,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -19.60784339904785,
+          0.0,
+          0.0
+        ],
+        [
+          19.60784339904785,
+          42.650001525878906,
+          22.22222137451172
+        ]
+      ]
+    },
+    {
+      "file": "524-keychain-with-dots-solid.stl",
+      "status": "PASS",
+      "normal_parts": 1,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -19.60784339904785,
+          -3.972602605819702,
+          0.0
+        ],
+        [
+          19.60784339904785,
+          42.650001525878906,
+          22.22222137451172
+        ]
+      ]
+    },
+    {
+      "file": "hook-fit-coupon.stl",
+      "status": "PASS",
+      "normal_parts": 1,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -3.4000000953674316,
+          34.150001525878906,
+          0.0
+        ],
+        [
+          5.0,
+          42.650001525878906,
+          11.0
+        ]
+      ]
+    },
+    {
+      "file": "524-keychain-40mm-color.3mf",
+      "status": "PASS",
+      "normal_parts": 4,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -19.6078431,
+          0.0,
+          0.0
+        ],
+        [
+          19.6078431,
+          42.65,
+          22.2222222
+        ]
+      ]
+    },
+    {
+      "file": "524-keychain-40mm-with-dots.3mf",
+      "status": "PASS",
+      "normal_parts": 4,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -19.6078431,
+          -3.9726027,
+          0.0
+        ],
+        [
+          19.6078431,
+          42.65,
+          22.2222222
+        ]
+      ]
+    },
+    {
+      "file": "524-keychain-40mm-bambu-face-up-v5.3mf",
+      "status": "PASS",
+      "normal_parts": 4,
+      "support_blockers": 1,
+      "bounds_mm": [
+        [
+          -19.6078431,
+          0.0,
+          0.0
+        ],
+        [
+          19.6078431,
+          42.65,
+          22.2222222
+        ]
+      ]
+    },
+    {
+      "file": "524-keychain-with-dots-bambu-face-up-v5.3mf",
+      "status": "PASS",
+      "normal_parts": 4,
+      "support_blockers": 1,
+      "bounds_mm": [
+        [
+          -19.6078431,
+          -3.9726027,
+          0.0
+        ],
+        [
+          19.6078431,
+          42.65,
+          22.2222222
+        ]
+      ]
+    },
+    {
+      "file": "hook-fit-coupon.3mf",
+      "status": "PASS",
+      "normal_parts": 1,
+      "support_blockers": 1,
+      "bounds_mm": [
+        [
+          -3.4,
+          34.15,
+          0.0
+        ],
+        [
+          5.0,
+          42.65,
+          11.0
+        ]
+      ]
+    },
+    {
+      "file": "stl/yellow.stl",
+      "status": "PASS",
+      "normal_parts": 1,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -19.60784339904785,
+          0.0,
+          0.0
+        ],
+        [
+          19.60784339904785,
+          42.650001525878906,
+          21.320175170898438
+        ]
+      ]
+    },
+    {
+      "file": "stl/white.stl",
+      "status": "PASS",
+      "normal_parts": 1,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -15.59659194946289,
+          14.568854331970215,
+          17.964006423950195
+        ],
+        [
+          15.87379264831543,
+          28.05662727355957,
+          22.22222137451172
+        ]
+      ]
+    },
+    {
+      "file": "stl/orange.stl",
+      "status": "PASS",
+      "normal_parts": 1,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -12.6126127243042,
+          17.743457794189453,
+          19.725399017333984
+        ],
+        [
+          13.623578071594238,
+          25.791505813598633,
+          22.180500030517578
+        ]
+      ]
+    },
+    {
+      "file": "stl/teal.stl",
+      "status": "PASS",
+      "normal_parts": 1,
+      "support_blockers": 0,
+      "bounds_mm": [
+        [
+          -8.699196815490723,
+          8.991848945617676,
+          18.99791145324707
+        ],
+        [
+          8.943785667419434,
+          12.629773139953613,
+          21.113920211791992
+        ]
+      ]
+    }
+  ]
+}

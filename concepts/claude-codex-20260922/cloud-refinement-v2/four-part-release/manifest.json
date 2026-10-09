@@ -1,0 +1,288 @@
+{
+  "unit": "mm",
+  "target_height_mm": 48.0,
+  "quantity_per_part": 1,
+  "parts": [
+    {
+      "design": "A2",
+      "part": "body",
+      "color": "orange",
+      "quantity": 1,
+      "source_path": "output/stl/A2_clawd.stl",
+      "copy_path": "four-part-release/stl/A2-body.stl",
+      "source_sha256": "7cf2e017f46441c1a28140f85ab4791b7e913ff55366768bc646757e6e2f349a",
+      "copy_sha256": "7cf2e017f46441c1a28140f85ab4791b7e913ff55366768bc646757e6e2f349a",
+      "files_identical": true,
+      "watertight": true,
+      "single_body": true,
+      "volume_mm3": 11433.484373266065,
+      "volume_positive": true,
+      "extents_mm": [
+        41.32982635498047,
+        18.127117156982422,
+        25.08793067932129
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          41.32982635498047,
+          18.127117156982422,
+          25.08793067932129
+        ]
+      ]
+    },
+    {
+      "design": "A2",
+      "part": "cloud",
+      "color": "white",
+      "quantity": 1,
+      "source_path": "output/optional-onepiece/A2-v2-cloud-onepiece.stl",
+      "copy_path": "four-part-release/stl/A2-cloud.stl",
+      "source_sha256": "353760593b58770526cb52bac6cf7f448d780cfc5ff10b1f0621caca730bdeed",
+      "copy_sha256": "353760593b58770526cb52bac6cf7f448d780cfc5ff10b1f0621caca730bdeed",
+      "files_identical": true,
+      "watertight": true,
+      "single_body": true,
+      "volume_mm3": 28919.839342907148,
+      "volume_positive": true,
+      "extents_mm": [
+        73.2336196899414,
+        33.35258102416992,
+        29.72700309753418
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          73.2336196899414,
+          33.35258102416992,
+          29.72700309753418
+        ]
+      ]
+    },
+    {
+      "design": "A2",
+      "part": "eye-left",
+      "color": "black",
+      "quantity": 1,
+      "source_path": "output/stl/A2_clawd_eye_1.stl",
+      "copy_path": "four-part-release/stl/A2-eye-left.stl",
+      "source_sha256": "60326ed2e3c0853485b6e0c8fa4baa8737d4b4e1ae934c0ae4b03cc26b262fbc",
+      "copy_sha256": "60326ed2e3c0853485b6e0c8fa4baa8737d4b4e1ae934c0ae4b03cc26b262fbc",
+      "files_identical": true,
+      "watertight": true,
+      "single_body": true,
+      "volume_mm3": 25.771318310376035,
+      "volume_positive": true,
+      "extents_mm": [
+        3.9879658222198486,
+        3.9879658222198486,
+        1.703948974609375
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.9879658222198486,
+          3.9879658222198486,
+          1.703948974609375
+        ]
+      ]
+    },
+    {
+      "design": "A2",
+      "part": "eye-right",
+      "color": "black",
+      "quantity": 1,
+      "source_path": "output/stl/A2_clawd_eye_2.stl",
+      "copy_path": "four-part-release/stl/A2-eye-right.stl",
+      "source_sha256": "60326ed2e3c0853485b6e0c8fa4baa8737d4b4e1ae934c0ae4b03cc26b262fbc",
+      "copy_sha256": "60326ed2e3c0853485b6e0c8fa4baa8737d4b4e1ae934c0ae4b03cc26b262fbc",
+      "files_identical": true,
+      "watertight": true,
+      "single_body": true,
+      "volume_mm3": 25.771318310376035,
+      "volume_positive": true,
+      "extents_mm": [
+        3.9879658222198486,
+        3.9879658222198486,
+        1.703948974609375
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.9879658222198486,
+          3.9879658222198486,
+          1.703948974609375
+        ]
+      ]
+    },
+    {
+      "design": "A3",
+      "part": "body",
+      "color": "orange",
+      "quantity": 1,
+      "source_path": "output/stl/A3_clawd.stl",
+      "copy_path": "four-part-release/stl/A3-body.stl",
+      "source_sha256": "b01ddd71d3f84afc969d7a6e136e64d03d783437bb83fb8765597f35b59e9468",
+      "copy_sha256": "b01ddd71d3f84afc969d7a6e136e64d03d783437bb83fb8765597f35b59e9468",
+      "files_identical": true,
+      "watertight": true,
+      "single_body": true,
+      "volume_mm3": 9434.88305543641,
+      "volume_positive": true,
+      "extents_mm": [
+        34.765380859375,
+        15.247974395751953,
+        28.788175582885742
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          34.765380859375,
+          15.247974395751953,
+          28.788175582885742
+        ]
+      ]
+    },
+    {
+      "design": "A3",
+      "part": "cloud",
+      "color": "white",
+      "quantity": 1,
+      "source_path": "output/optional-onepiece/A3-v2-cloud-onepiece.stl",
+      "copy_path": "four-part-release/stl/A3-cloud.stl",
+      "source_sha256": "abd7b50a0c17e5eca156be63e10fb8978d9346eba3bdd568d09c0c0b5f12e648",
+      "copy_sha256": "abd7b50a0c17e5eca156be63e10fb8978d9346eba3bdd568d09c0c0b5f12e648",
+      "files_identical": true,
+      "watertight": true,
+      "single_body": true,
+      "volume_mm3": 16055.672737315623,
+      "volume_positive": true,
+      "extents_mm": [
+        50.92426681518555,
+        24.700944900512695,
+        35.679561614990234
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.92426681518555,
+          24.700944900512695,
+          35.679561614990234
+        ]
+      ]
+    },
+    {
+      "design": "A3",
+      "part": "eye-left",
+      "color": "black",
+      "quantity": 1,
+      "source_path": "output/stl/A3_clawd_eye_1.stl",
+      "copy_path": "four-part-release/stl/A3-eye-left.stl",
+      "source_sha256": "b4923cdaf65805ea9b0bbf3cd8c21a90ba928c9ec75e82cc9944d9efa463e085",
+      "copy_sha256": "b4923cdaf65805ea9b0bbf3cd8c21a90ba928c9ec75e82cc9944d9efa463e085",
+      "files_identical": true,
+      "watertight": true,
+      "single_body": true,
+      "volume_mm3": 15.338638902861483,
+      "volume_positive": true,
+      "extents_mm": [
+        3.3545541763305664,
+        3.3545541763305664,
+        1.433309555053711
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.3545541763305664,
+          3.3545541763305664,
+          1.433309555053711
+        ]
+      ]
+    },
+    {
+      "design": "A3",
+      "part": "eye-right",
+      "color": "black",
+      "quantity": 1,
+      "source_path": "output/stl/A3_clawd_eye_2.stl",
+      "copy_path": "four-part-release/stl/A3-eye-right.stl",
+      "source_sha256": "b4923cdaf65805ea9b0bbf3cd8c21a90ba928c9ec75e82cc9944d9efa463e085",
+      "copy_sha256": "b4923cdaf65805ea9b0bbf3cd8c21a90ba928c9ec75e82cc9944d9efa463e085",
+      "files_identical": true,
+      "watertight": true,
+      "single_body": true,
+      "volume_mm3": 15.338638902861483,
+      "volume_positive": true,
+      "extents_mm": [
+        3.3545541763305664,
+        3.3545541763305664,
+        1.433309555053711
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.3545541763305664,
+          3.3545541763305664,
+          1.433309555053711
+        ]
+      ]
+    }
+  ],
+  "assemblies": [
+    {
+      "design": "A2",
+      "source_path": "output/optional-onepiece/A2-v2-onepiece-assembled.3mf",
+      "copy_path": "four-part-release/assembly/A2-four-part-assembled.3mf",
+      "source_sha256": "1bcf88ea5ead2d96619f0ed21da74039885bd24332b7ddfc7003a991d6198147",
+      "copy_sha256": "1bcf88ea5ead2d96619f0ed21da74039885bd24332b7ddfc7003a991d6198147",
+      "files_identical": true,
+      "part_count": 4,
+      "height_mm": 48.0,
+      "height_ok": true
+    },
+    {
+      "design": "A3",
+      "source_path": "output/optional-onepiece/A3-v2-onepiece-assembled.3mf",
+      "copy_path": "four-part-release/assembly/A3-four-part-assembled.3mf",
+      "source_sha256": "f21e6adab8940f7707c324733c7fff6bc59d5f9a20597d0f554a7b37cdd58c82",
+      "copy_sha256": "f21e6adab8940f7707c324733c7fff6bc59d5f9a20597d0f554a7b37cdd58c82",
+      "files_identical": true,
+      "part_count": 4,
+      "height_mm": 48.0,
+      "height_ok": true
+    }
+  ],
+  "all_checks_passed": true
+}

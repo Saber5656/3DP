@@ -1,0 +1,10 @@
+{
+    "error_string": "Found G-code outside of the printable area. The issue may be caused by support, wipe tower, brim, or skirt. If the file slices normally in Bambu Studio, try moving the wipe tower further inside the build plate, as we use more conservative parameters for it during upload.",
+    "export_time": 0,
+    "layer_height": 0.11999999731779099,
+    "plate_index": 1,
+    "prepare_time": 265,
+    "return_code": -104,
+    "sparse_infill_density": 20.0,
+    "wall_loops": 4
+}

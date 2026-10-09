@@ -1,0 +1,4 @@
+slicing/**/runtime/
+slicing/**/presets/
+__pycache__/
+output/*.zip

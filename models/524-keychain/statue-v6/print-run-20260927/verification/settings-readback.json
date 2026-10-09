@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "filament_group_ids": [
+    "0",
+    "1",
+    "0",
+    "0"
+  ],
+  "plate_map": "1 2 1 1",
+  "nozzle_mapping": [
+    "Main yellow",
+    "Aux white",
+    "Main orange",
+    "Main blue"
+  ],
+  "settings": {
+    "layer_height": "0.08",
+    "wall_loops": "4",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_on_build_plate_only": "1",
+    "support_top_z_distance": "0.16",
+    "support_filament": "1",
+    "support_interface_filament": "1",
+    "bridge_no_support": "1",
+    "flush_into_infill": "1",
+    "flush_into_support": "1",
+    "filament_colour": [
+      "#F9DF54",
+      "#FFFFFF",
+      "#FF6A13",
+      "#0050B3"
+    ],
+    "filament_settings_id": [
+      "Generic PLA @BBL X2D 0.4 nozzle",
+      "Bambu PLA Basic @BBL X2D 0.4 nozzle",
+      "Bambu PLA Basic @BBL X2D 0.4 nozzle",
+      "Bambu PLA Translucent @BBL X2D 0.4 nozzle"
+    ],
+    "filament_map": [
+      "1",
+      "2",
+      "1",
+      "1"
+    ],
+    "wipe_tower_x": [
+      "35.5"
+    ],
+    "wipe_tower_y": [
+      "80"
+    ],
+    "sparse_infill_density": "20%",
+    "nozzle_diameter": [
+      "0.4",
+      "0.4"
+    ]
+  },
+  "sha256": {
+    "524-Keychain-v6-Blue-Mouth-GUI-Verified.3mf": "6738d9484a5bbff3054851d26134968abdd4fad8ddee3bd78f9432baf2b3cd17",
+    "524-Keychain-v6-Blue-Mouth-GUI-Verified.gcode.3mf": "69d0ad1bd47072d25f0a62eed131a707f981077abcd7cd3f4ab003a41746e655"
+  },
+  "gcode_md5_valid": true,
+  "toolpath_sha256": "4342cf3ba6ef2b12d3dabda3591d09a9dac0b47f015e524bd60ca87d0c6999a1",
+  "inspection_gcode_byte_identical_to_final": true
+}

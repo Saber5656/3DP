@@ -1,0 +1,279 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "2b4e20f538c86b66022ea2016baadb7a3e722d000769a2c4f089e64ab7996704",
+      "bytes": 7440
+    },
+    {
+      "path": "balance.py",
+      "sha256": "d4d4b6a7ca20fe32908f5a46a3dfef8866f47c76871f0b794131017da08cf5ed",
+      "bytes": 5440
+    },
+    {
+      "path": "build.py",
+      "sha256": "e606efd7da1b89c18d6edac90235012ca0ef9255538779419ac643ed7e9676a6",
+      "bytes": 14870
+    },
+    {
+      "path": "inspect_slice.py",
+      "sha256": "66f29f0bbc0eb5ec68fa94db74d1f5e16795a1febcc9e8ead36d9653176e6f93",
+      "bytes": 11730
+    },
+    {
+      "path": "output/524-keychain-40mm-bambu-face-up-v4.3mf",
+      "sha256": "11dff2cbc0c79f34a618b448f08d29b9cb6570aa8442a10abcab6d64332a6fd3",
+      "bytes": 3326455
+    },
+    {
+      "path": "output/524-keychain-40mm-color.3mf",
+      "sha256": "c97ec94d5ab0e27e9e8b333165692660f3f73093288fdf6e6b8488a30963987c",
+      "bytes": 3326230
+    },
+    {
+      "path": "output/524-keychain-40mm-with-dots.3mf",
+      "sha256": "b7e224200262c0cb2d7d409e3c81c181d5f22347c387208579ecb5c02b89d448",
+      "bytes": 3332006
+    },
+    {
+      "path": "output/524-keychain-40mm.glb",
+      "sha256": "21358d4164d9e3c78fff22918bb2a249ce8540309668835d620005df702800dd",
+      "bytes": 4773492
+    },
+    {
+      "path": "output/524-keychain-solid.stl",
+      "sha256": "c78880caba2ee9edd9b4d8f069a8416d67ad92b2921b6a36a1109e0d12d5c2b4",
+      "bytes": 3977484
+    },
+    {
+      "path": "output/524-keychain-with-dots-bambu-face-up-v4.3mf",
+      "sha256": "de3525acdf2b36e3f6e6048513a8e0706d7432055edb20ac25129fa78f9f5a6f",
+      "bytes": 3332232
+    },
+    {
+      "path": "output/524-keychain-with-dots-solid.stl",
+      "sha256": "0048596ccce9ba15cc799549ad89b80ca195462f4c7c6c007f05c2223fedd33a",
+      "bytes": 3997884
+    },
+    {
+      "path": "output/balance-report.json",
+      "sha256": "b029a1954aa03e37d97c12a8e1003f92fd2e8fa948a9a64680b9d22aec3f6091",
+      "bytes": 1988
+    },
+    {
+      "path": "output/baseline-check.json",
+      "sha256": "54be0719316e912a5c108b15e9386938f8450a4a4d59880a249cbd8b11b2ed75",
+      "bytes": 807
+    },
+    {
+      "path": "output/export-readback.json",
+      "sha256": "0cf9a09656075a79a71bfbaad795a50d82876586230bf4101a83bd70f98322bf",
+      "bytes": 4129
+    },
+    {
+      "path": "output/geometry-report.json",
+      "sha256": "98f99e661f7d19c23e00b30cb78163c4d2cc7cc43e88800e2c801393c914fec7",
+      "bytes": 1785
+    },
+    {
+      "path": "output/hook-fit-coupon.3mf",
+      "sha256": "ff60589eb35bd786e2589472c4be593516d4c4daafa0f959de622ccf216f769e",
+      "bytes": 112577
+    },
+    {
+      "path": "output/hook-fit-coupon.stl",
+      "sha256": "2d3bcbaeb148c028d9d7b1e351a242fc6e01304ffa3177fcd2295a25015007e8",
+      "bytes": 444084
+    },
+    {
+      "path": "output/loop-position-comparison.png",
+      "sha256": "068965694079bcb8108b417b1e1f0ebd11c94da3b6c01d99b7fb95b0dff041a6",
+      "bytes": 396851
+    },
+    {
+      "path": "output/options.png",
+      "sha256": "633a779efea46e63a9fc16eecb442430919b1845aa2aa3a9b9ee7d9fb4811753",
+      "bytes": 396752
+    },
+    {
+      "path": "output/preview.png",
+      "sha256": "f65b3645c14aabf343dfbb4f7864e847e00201e4a4fa838abba6e4b56eb580bb",
+      "bytes": 594572
+    },
+    {
+      "path": "output/rear-loop-detail.png",
+      "sha256": "ef3640dac0b020ca7e78c9114d21ac34d184dd827a1b29ef8d6b9a053d4ab478",
+      "bytes": 514382
+    },
+    {
+      "path": "output/solid-review.png",
+      "sha256": "128cfa737f144dcabd9e8eb701906200085d3ee0749a90673973ac3fe4e3baee",
+      "bytes": 554040
+    },
+    {
+      "path": "output/stl/orange.stl",
+      "sha256": "ff1060410d0c24d3eced7266f1f0a9883de597acde04287c9c0e8da3fd2ef682",
+      "bytes": 1024084
+    },
+    {
+      "path": "output/stl/teal.stl",
+      "sha256": "4b5d026585d03bd94a6a0d3d5515d7fdf8e17822951f92da08add29cff686a1d",
+      "bytes": 583184
+    },
+    {
+      "path": "output/stl/white.stl",
+      "sha256": "680b75b14012b3788b603838a5b8b8b0cbf8fdc5eeaa142913ff79a94211efc7",
+      "bytes": 3925584
+    },
+    {
+      "path": "output/stl/yellow.stl",
+      "sha256": "c7d7ab2f9f9a18629758294a7d6fe910711501d9b58f8731d242d780a391bed8",
+      "bytes": 6392884
+    },
+    {
+      "path": "output/verification-summary.json",
+      "sha256": "addfd57c481edc1bdc374dfd2bc6ef651bf00953100ac48108704a815ceaa99c",
+      "bytes": 1166
+    },
+    {
+      "path": "output/with-dots-report.json",
+      "sha256": "b5054faee860861f9466535a175e0e2dd48d06f31cbdf61f489c325cd6fc8e0c",
+      "bytes": 287
+    },
+    {
+      "path": "package.py",
+      "sha256": "6df22e76e56938053408098cf54301e3670845c5f0ec8eddf21cafa27821c8de",
+      "bytes": 2787
+    },
+    {
+      "path": "render.py",
+      "sha256": "640da7b00a954e62cf531d12678b7be94bb972b562203a91ab7abd80217eb521",
+      "bytes": 7699
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "54874321ac2fb95ed72949e628ba145a754ed652c715bd240ee017530173d246",
+      "bytes": 171
+    },
+    {
+      "path": "slice.py",
+      "sha256": "bfbc184d99cf869a42227e8c7e4ed47996d9d9bf294130b14a9b89583f8c281e",
+      "bytes": 4016
+    },
+    {
+      "path": "slicing/524-PROVISIONAL-DO-NOT-SEND.3mf",
+      "sha256": "cdd664dde81c318b3c2cc505cc434220712825cd952937c61d5b9a90f0ecbf19",
+      "bytes": 7592249
+    },
+    {
+      "path": "slicing/524-face-up-color-source.3mf",
+      "sha256": "78f92452665da3e15ced74aee0412cc968dd53d180a06d4aeb9334ebf5980fb1",
+      "bytes": 3334389
+    },
+    {
+      "path": "slicing/inspection.json",
+      "sha256": "a5d6e844597f8103af98d92fd67dc00b904138320a33d38edab44660c4e63733",
+      "bytes": 4634
+    },
+    {
+      "path": "slicing/layers.png",
+      "sha256": "629144caf1921e4d87468e83128c3cafa4beee6e9f4d13734ade2df5673253d0",
+      "bytes": 268411
+    },
+    {
+      "path": "slicing/slice.log",
+      "sha256": "fd2e87e0c320fedb7891947947de2573c2d4b8a919e6ca37429b015ee744dec3",
+      "bytes": 732
+    },
+    {
+      "path": "slicing/with-dots/524-PROVISIONAL-DO-NOT-SEND.3mf",
+      "sha256": "0e5dc1cbb4b6e5c114ffbd54be655baba6a40f91ffe634799647ee8ecc3f2511",
+      "bytes": 7655219
+    },
+    {
+      "path": "slicing/with-dots/524-face-up-color-source.3mf",
+      "sha256": "b4d11fe58e73449aff3bbf34275d214653d0e52af0e886b6804dcf2917c26abd",
+      "bytes": 3339997
+    },
+    {
+      "path": "slicing/with-dots/inspection.json",
+      "sha256": "b095a78443a6afaa459b370cf19f345ff8234b8d4804271fbb18029d92de180e",
+      "bytes": 4622
+    },
+    {
+      "path": "slicing/with-dots/layers.png",
+      "sha256": "50dd794aa6bd3b767ef8c22480b60c53422f5ec4d8780f78cd63f62e27f2922b",
+      "bytes": 273910
+    },
+    {
+      "path": "slicing/with-dots/slice.log",
+      "sha256": "35629b3b6b85d72394149cb922fd421578214b45140bbb070289ce8e8e790e71",
+      "bytes": 732
+    },
+    {
+      "path": "source/original-524.jpg",
+      "sha256": "eddaf4f655c77cbfd687beb7244ad1662fa679cdb501947bf56d1ac69973bb95",
+      "bytes": 41092
+    },
+    {
+      "path": "source/previous-keychain-v3.glb",
+      "sha256": "19c25de1e5f47fb76d2234ea63d78c55df6888cf2506e0a0f7e23760a632783c",
+      "bytes": 4773852
+    },
+    {
+      "path": "source/previous-v3-balance.json",
+      "sha256": "f69602a83e1a63141f9a441f591e08e50766311d93460ffe39a60d3133a0719b",
+      "bytes": 596
+    },
+    {
+      "path": "source/trace-report.json",
+      "sha256": "2b837e4bfa0c4ce8f292cc71f617d7cace4e682479bbf0f76e3c39b89ce5ee17",
+      "bytes": 2673
+    },
+    {
+      "path": "source/traced-contours.json",
+      "sha256": "a9be61c512b0e924261df24e8ca321426028628bd6e788ecc629af1f9322c8e6",
+      "bytes": 14344
+    },
+    {
+      "path": "source/wood-reference/README.md",
+      "sha256": "4550d346faf21ba12fb25b6baf681f52fd4944166f397a7216a4916fa3bb394d",
+      "bytes": 810
+    },
+    {
+      "path": "source/wood-reference/body-review-only.stl",
+      "sha256": "4274a3d2ce274bab92e59317f1ec3dbf8306b1d3abb7679c896d120f1b531ad7",
+      "bytes": 3729084
+    },
+    {
+      "path": "source/wood-reference/build_statue.py",
+      "sha256": "4f779d8d448dca2c01e87136304931c0f832a943d8ff3a5b49e7ae62825d5590",
+      "bytes": 4695
+    },
+    {
+      "path": "source/wood-reference/editable-outlines.json",
+      "sha256": "d050bb66ccf1b8c760f86a981063b03204950cb39549dce5ddbea47cc4180f06",
+      "bytes": 33674
+    },
+    {
+      "path": "tests/test_balance.py",
+      "sha256": "a8a3bebdcbdbc1115bdaf2de8e4ab4d349174ac9be29215fbc6c9665047d0942",
+      "bytes": 1198
+    },
+    {
+      "path": "tests/test_geometry.py",
+      "sha256": "bc872d66be9ec59514feea956d97497312b9470421109bd16027d9d793b42360",
+      "bytes": 8814
+    },
+    {
+      "path": "tests/test_slice_warnings.py",
+      "sha256": "d65c4ca848cacb313602ab9e7ded941c801ef0bc5369259635bbe46483eed837",
+      "bytes": 682
+    },
+    {
+      "path": "wood_body.py",
+      "sha256": "4dbd5375caeed8478e213739736820639d3b675a1f344536555d00435b8322ed",
+      "bytes": 3158
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "blue-body": {
+    "estimated_g": 65.87,
+    "estimated_seconds": 20305,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA17",
+        "type": "PLA",
+        "color": "#0050B3",
+        "used_m": "22.45",
+        "used_g": "65.87",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "gcode_sha256": "14bb8f598ca880d887404b3f85cd2556d379ee1d170c38ceeb10465ea6ed2761",
+    "file_sha256": "5dab0a3ffcf2c56477b99527f9116be5479e9f9295f5b703c6d33805f942099d",
+    "source_matches_current_CAD": true
+  },
+  "black-stand": {
+    "estimated_g": 69.84,
+    "estimated_seconds": 14962,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#000000",
+        "used_m": "23.04",
+        "used_g": "69.84",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "gcode_sha256": "c5324489abcbfac1dcac94eff98e46f7c1d26a6e2a008d7d0f422a9ad677ea88",
+    "file_sha256": "6ce171300e62f6454100bfe4cafeb9c00ac7430156481dfcd3aeb3d1f2098585",
+    "source_matches_current_CAD": true
+  },
+  "total_g": 135.71,
+  "total_seconds": 35267,
+  "body_local_dimensions_mm": [
+    150.0,
+    142.65847744427305,
+    67.8792068812046
+  ],
+  "assembly_bounds_mm": [
+    [
+      -75.00000000000001,
+      -76.0,
+      0.0
+    ],
+    [
+      75.0,
+      48.0,
+      145.67627457812108
+    ]
+  ],
+  "city_max_height_mm": 39.873418861859385,
+  "physical_print": "NOT_RUN",
+  "GUI_roundtrip": "NOT_RUN",
+  "blue_validation_reused": "../star-v6/path-validation.json"
+}

@@ -1,0 +1,181 @@
+{
+  "plate_metadata": {
+    "index": "1",
+    "extruder_type": "0 1",
+    "nozzle_volume_type": "0 0",
+    "printer_model_id": "",
+    "nozzle_diameters": "0.4,0.4",
+    "timelapse_type": "0",
+    "prediction": "4807",
+    "weight": "24.84",
+    "pause_count": "0",
+    "first_layer_time": "0.000000",
+    "outside": "false",
+    "support_used": "true",
+    "label_object_enabled": "true",
+    "support_material_on_wipe_tower": "false",
+    "enable_filament_dynamic_map": "false",
+    "has_filament_switcher": "false",
+    "filament_maps": "1 2",
+    "limit_filament_maps": "0 0"
+  },
+  "filaments": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#FFFFFF",
+      "used_m": "7.84",
+      "used_g": "23.77",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "29.00",
+      "total_unload_time": "0.00"
+    },
+    {
+      "id": "2",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#000000",
+      "used_m": "0.35",
+      "used_g": "1.07",
+      "group_id": "1",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "total_load_time": "29.00",
+      "total_unload_time": "0.00"
+    }
+  ],
+  "objects": [
+    {
+      "identify_id": "121",
+      "name": "A2-cloud.stl",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "132",
+      "name": "A3-cloud.stl",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "143",
+      "name": "A2-eye-left.stl",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "154",
+      "name": "A2-eye-right.stl",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "165",
+      "name": "A3-eye-left.stl",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "176",
+      "name": "A3-eye-right.stl",
+      "skipped": "false"
+    }
+  ],
+  "gcode": {
+    "layer_count": 223,
+    "extrusion_moves": 164787,
+    "arc_extrusion_moves": 85536,
+    "support_extrusion_moves": 18825,
+    "features": {
+      "Support": 17072,
+      "Support interface": 1753,
+      "Brim": 1002,
+      "Outer wall": 31109,
+      "Inner wall": 25958,
+      "Bottom surface": 2,
+      "Prime tower": 816,
+      "Overhang wall": 756,
+      "Bridge": 798,
+      "Gap infill": 1291,
+      "Internal solid infill": 13996,
+      "Sparse infill": 45288,
+      "Top surface": 528,
+      "Floating vertical shell": 24418
+    },
+    "objects": {
+      "176": {
+        "first_layer": 1,
+        "last_layer": 9,
+        "extrusion_moves": 179
+      },
+      "154": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 259
+      },
+      "143": {
+        "first_layer": 1,
+        "last_layer": 10,
+        "extrusion_moves": 259
+      },
+      "165": {
+        "first_layer": 1,
+        "last_layer": 9,
+        "extrusion_moves": 172
+      },
+      "121": {
+        "first_layer": 1,
+        "last_layer": 186,
+        "extrusion_moves": 83093
+      },
+      "132": {
+        "first_layer": 1,
+        "last_layer": 223,
+        "extrusion_moves": 60182
+      }
+    },
+    "empty_layers": []
+  },
+  "warnings": [
+    "[2026-09-24 20:53:52.268977] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+    "[2026-09-24 20:53:53.500820] [0x00000001eed32180] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.500856] [0x000000016e853000] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.500876] [0x000000016e447000] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.500899] [0x000000016f06b000] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.500936] [0x000000016dc2f000] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.500962] [0x000000016e03b000] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.502953] [0x000000016e447000] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.503219] [0x000000016e853000] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.659606] [0x000000016f06b000] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:53.659729] [0x00000001eed32180] [warning] tree support default to organic support",
+    "[2026-09-24 20:53:55.136540] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+    "[2026-09-24 20:53:55.136572] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+  ],
+  "settings": {
+    "filament_map": [
+      "1",
+      "1"
+    ],
+    "filament_map_mode": "Manual",
+    "filament_colour": [
+      "#FFFFFF",
+      "#000000"
+    ],
+    "flush_volumes_matrix": [
+      "0",
+      "90",
+      "900",
+      "0",
+      "0",
+      "90",
+      "900",
+      "0"
+    ],
+    "print_sequence": "by layer",
+    "enable_prime_tower": "1",
+    "flush_into_support": "0"
+  },
+  "status": "OFFLINE_CANDIDATE_NOT_SENT"
+}

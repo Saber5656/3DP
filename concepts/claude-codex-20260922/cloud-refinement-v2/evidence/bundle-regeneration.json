@@ -1,0 +1,9 @@
+{
+  "archive": "ClaudeCloud-A2-A3-v2-48mm.zip",
+  "standalone_regeneration_height_mm": 48,
+  "models": 2,
+  "parts": 14,
+  "part_stl_sha256_identical": true,
+  "unsupported_60mm_rejected_before_export": true,
+  "runtime": "Python 3.12 existing pinned local dependencies, no fresh install test"
+}

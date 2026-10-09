@@ -9,3 +9,5 @@ design/*.log
 *.zip
 .slicer-work/
 slicing/logs/
+slicing/infinitene/provisional/
+slicing/infinitene/ready/infinitene-black-X2D-04-PEI.3mf

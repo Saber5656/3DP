@@ -1,0 +1,29 @@
+{
+  "file": "A2-A3-v2-white-onepiece-48mm.3mf",
+  "all_objects_on_layer_1": true,
+  "all_object_layer_ranges_continuous": true,
+  "path_bounds_xy_mm": [
+    [
+      101.84244196686633,
+      86.35127307949627
+    ],
+    [
+      174.65177223039976,
+      168.73857663627606
+    ]
+  ],
+  "objects": {
+    "A2-v2-cloud-onepiece.stl": {
+      "first_layer": 1,
+      "last_layer": 186,
+      "moves": 83090
+    },
+    "A3-v2-cloud-onepiece.stl": {
+      "first_layer": 1,
+      "last_layer": 223,
+      "moves": 60183
+    }
+  },
+  "preview": "A2-A3-v2-white-onepiece-48mm-layers.png",
+  "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+}

@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "output/524-keychain-solid.stl",
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -19.60784339904785,
+          0.0,
+          0.0
+        ],
+        [
+          19.60784339904785,
+          40.0,
+          25.311111450195312
+        ]
+      ],
+      "volume_mm3": 20009.65709531712
+    },
+    {
+      "path": "output/524-keychain-with-dots-solid.stl",
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -19.60784339904785,
+          -3.972602605819702,
+          0.0
+        ],
+        [
+          19.60784339904785,
+          40.0,
+          25.311111450195312
+        ]
+      ],
+      "volume_mm3": 20044.90220073851
+    },
+    {
+      "path": "output/hook-fit-coupon.stl",
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -3.9000000953674316,
+          27.0,
+          0.0
+        ],
+        [
+          6.099999904632568,
+          38.0,
+          10.399999618530273
+        ]
+      ],
+      "volume_mm3": 491.8195634042754
+    },
+    {
+      "path": "output/stl/orange.stl",
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -12.6126127243042,
+          17.743457794189453,
+          22.814289093017578
+        ],
+        [
+          13.623578071594238,
+          25.791505813598633,
+          25.26938819885254
+        ]
+      ],
+      "volume_mm3": 57.375418375442855
+    },
+    {
+      "path": "output/stl/teal.stl",
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -8.699196815490723,
+          8.991848945617676,
+          22.08679962158203
+        ],
+        [
+          8.943785667419434,
+          12.629773139953613,
+          24.202808380126953
+        ]
+      ],
+      "volume_mm3": 41.74429039999471
+    },
+    {
+      "path": "output/stl/white.stl",
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -15.59659194946289,
+          14.568854331970215,
+          21.052894592285156
+        ],
+        [
+          15.87379264831543,
+          28.05662727355957,
+          25.311111450195312
+        ]
+      ],
+      "volume_mm3": 275.9693712477368
+    },
+    {
+      "path": "output/stl/yellow.stl",
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -19.60784339904785,
+          0.0,
+          0.0
+        ],
+        [
+          19.60784339904785,
+          40.0,
+          24.4090633392334
+        ]
+      ],
+      "volume_mm3": 19634.568014797558
+    },
+    {
+      "path": "output/524-keychain-40mm-bambu-face-up-v3.3mf",
+      "normal_parts": 4,
+      "support_blockers": 1,
+      "dimensions_xyz_mm": [
+        39.2156862,
+        40.0,
+        25.3111111
+      ],
+      "z_min": 0.0,
+      "gcode": false
+    },
+    {
+      "path": "output/524-keychain-40mm-color.3mf",
+      "normal_parts": 4,
+      "support_blockers": 0,
+      "dimensions_xyz_mm": [
+        39.2156862,
+        40.0,
+        25.3111111
+      ],
+      "z_min": 0.0,
+      "gcode": false
+    },
+    {
+      "path": "output/524-keychain-40mm-with-dots.3mf",
+      "normal_parts": 4,
+      "support_blockers": 0,
+      "dimensions_xyz_mm": [
+        39.2156862,
+        43.9726027,
+        25.3111111
+      ],
+      "z_min": 0.0,
+      "gcode": false
+    },
+    {
+      "path": "output/524-keychain-with-dots-bambu-face-up-v3.3mf",
+      "normal_parts": 4,
+      "support_blockers": 1,
+      "dimensions_xyz_mm": [
+        39.2156862,
+        43.9726027,
+        25.3111111
+      ],
+      "z_min": 0.0,
+      "gcode": false
+    },
+    {
+      "path": "output/hook-fit-coupon.3mf",
+      "normal_parts": 1,
+      "support_blockers": 1,
+      "dimensions_xyz_mm": [
+        10.0,
+        11.0,
+        10.4
+      ],
+      "z_min": 0.0,
+      "gcode": false
+    }
+  ]
+}

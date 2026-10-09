@@ -1,0 +1,71 @@
+{
+  "status": "ESTIMATE_NOT_PHYSICAL_TEST",
+  "assumptions": [
+    "All four PLA colors have equal density and filament diameter.",
+    "Only object deposition is retained; supports, tower and purge are excluded.",
+    "The ring centre is a representative suspension point; the clasp contact is unknown.",
+    "+/-1 mm contact cases are illustrative sensitivity cases, not measured bounds.",
+    "Pitch is a Y-Z plane comparison; friction, constrained clasp motion and roll are not simulated."
+  ],
+  "previous_v4": {
+    "centroid_print_xyz_mm": [
+      127.96348174366801,
+      128.62771354866322,
+      13.266256200961069
+    ],
+    "filament_length_mm": 3559.2430700004593,
+    "centroid_upright_xyz_mm": [
+      -0.036518256331987686,
+      0.03374379903893221,
+      18.627713548663223
+    ],
+    "gcode_sha256": "80dea4bcb8feb45b86d45900dc7a11ebcf9e336caf60e394d85fa67f1ca18a1c",
+    "eyelet_center": [
+      2.3,
+      9.9,
+      36.0
+    ],
+    "uniform_solid_centroid": [
+      -0.022198004176878058,
+      0.32486648225741066,
+      18.58184003114298
+    ],
+    "pitch_center_proxy_deg": 29.59357636891918,
+    "contact_sensitivity_plus_minus_1mm_yz_deg": [
+      25.76142734875602,
+      33.572155976273756
+    ],
+    "lateral_center_offset_mm": 2.3365182563319875
+  },
+  "current_v5": {
+    "centroid_print_xyz_mm": [
+      127.95924217483655,
+      128.62045949568125,
+      11.104551249429376
+    ],
+    "filament_length_mm": 3563.195280000221,
+    "centroid_upright_xyz_mm": [
+      -0.040757825163453276,
+      0.006559861681736834,
+      18.620459495681246
+    ],
+    "gcode_sha256": "cf63928aa2f71bf88744ac008d44afc7f0026514448fc60dd733731d8eae6217",
+    "eyelet_center": [
+      0.0,
+      0.0,
+      39.25
+    ],
+    "uniform_solid_centroid": [
+      -0.02639810501160737,
+      0.3095779244396136,
+      18.587244777560514
+    ],
+    "pitch_center_proxy_deg": -0.018219134633972026,
+    "contact_sensitivity_plus_minus_1mm_yz_deg": [
+      -2.9354311149638623,
+      2.8972356750321695
+    ],
+    "lateral_center_offset_mm": 0.040757825163453276
+  },
+  "pitch_reduction_deg": 29.611795503553154
+}

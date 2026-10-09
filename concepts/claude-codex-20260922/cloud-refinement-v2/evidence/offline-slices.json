@@ -1,0 +1,476 @@
+[
+  {
+    "status": "OFFLINE_SLICE_VALIDATED",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_mm": [
+      "0.4",
+      "0.4"
+    ],
+    "bed": "Textured PEI Plate",
+    "filament_density_g_cm3": 1.26,
+    "estimated_seconds": 4341,
+    "estimated_filament_g": 26.78,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FFFFFF",
+        "used_m": "8.84",
+        "used_g": "26.78",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "support_used": false,
+    "warnings": [
+      "[2026-09-24 14:27:17.242469] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+      "[2026-09-24 14:27:18.811998] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:18.812046] [0x000000016cbdf000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:18.812066] [0x000000016c3c7000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:18.812088] [0x000000016d3f7000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:18.812135] [0x000000016b7a3000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:18.812164] [0x000000016bbaf000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:18.812269] [0x000000016d803000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:18.812373] [0x000000016c7d3000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:20.310550] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+      "[2026-09-24 14:27:20.310572] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+    ],
+    "gcode_sha256": "ae6d3466de5c702c3fd7b39b2c0c1b2d43c8f5624bf5603ea85887f794a9af00",
+    "package_sha256": "cdae15aeffa926dc207e808d67b07dd693b818f1da0fc3b6a76cfb68f1cb1e72",
+    "gui_roundtrip": "NOT_RUN",
+    "physical_print": "NOT_RUN",
+    "physical_slot_binding": "NOT_SET",
+    "first_layer_time_metadata": "0.000000",
+    "limitations": [
+      "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+      "No live printer, current AMS allocation or clear-bed state was inspected.",
+      "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+    ],
+    "layer_count": 108,
+    "extrusion_moves": 173991,
+    "arc_extrusion_moves": 80585,
+    "support_extrusion_moves": 0,
+    "features": {
+      "Brim": 6065,
+      "Outer wall": 19028,
+      "Inner wall": 32627,
+      "Gap infill": 882,
+      "Bottom surface": 1089,
+      "Internal solid infill": 14664,
+      "Sparse infill": 40558,
+      "Floating vertical shell": 56978,
+      "Bridge": 1220,
+      "Overhang wall": 12,
+      "Top surface": 868
+    },
+    "objects": {
+      "210": {
+        "first_layer": 1,
+        "last_layer": 87,
+        "extrusion_moves": 38656
+      },
+      "155": {
+        "first_layer": 1,
+        "last_layer": 99,
+        "extrusion_moves": 46841
+      },
+      "232": {
+        "first_layer": 1,
+        "last_layer": 23,
+        "extrusion_moves": 182
+      },
+      "188": {
+        "first_layer": 1,
+        "last_layer": 23,
+        "extrusion_moves": 182
+      },
+      "177": {
+        "first_layer": 1,
+        "last_layer": 23,
+        "extrusion_moves": 182
+      },
+      "221": {
+        "first_layer": 1,
+        "last_layer": 23,
+        "extrusion_moves": 182
+      },
+      "166": {
+        "first_layer": 1,
+        "last_layer": 108,
+        "extrusion_moves": 46963
+      },
+      "199": {
+        "first_layer": 1,
+        "last_layer": 66,
+        "extrusion_moves": 34738
+      }
+    },
+    "empty_layers": [],
+    "color_key": "white",
+    "gui_delta_metadata": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ],
+    "name": "white-halves",
+    "input_files": [
+      "output/stl/A2_cloud_front.stl",
+      "output/stl/A2_cloud_back.stl",
+      "output/stl/A2_cloud_pin_1.stl",
+      "output/stl/A2_cloud_pin_2.stl",
+      "output/stl/A3_cloud_front.stl",
+      "output/stl/A3_cloud_back.stl",
+      "output/stl/A3_cloud_pin_1.stl",
+      "output/stl/A3_cloud_pin_2.stl"
+    ],
+    "layer_validation": {
+      "file": "white-halves.3mf",
+      "all_objects_on_layer_1": true,
+      "all_object_layer_ranges_continuous": true,
+      "path_bounds_xy_mm": [
+        [
+          86.481,
+          60.558
+        ],
+        [
+          190.036,
+          195.445
+        ]
+      ],
+      "objects": {
+        "A2_cloud_back.stl": {
+          "first_layer": 1,
+          "last_layer": 108,
+          "moves": 46963
+        },
+        "A2_cloud_front.stl": {
+          "first_layer": 1,
+          "last_layer": 99,
+          "moves": 46841
+        },
+        "A3_cloud_back.stl": {
+          "first_layer": 1,
+          "last_layer": 87,
+          "moves": 38656
+        },
+        "A3_cloud_front.stl": {
+          "first_layer": 1,
+          "last_layer": 66,
+          "moves": 34738
+        },
+        "A2_cloud_pin_1.stl": {
+          "first_layer": 1,
+          "last_layer": 23,
+          "moves": 182
+        },
+        "A2_cloud_pin_2.stl": {
+          "first_layer": 1,
+          "last_layer": 23,
+          "moves": 182
+        },
+        "A3_cloud_pin_1.stl": {
+          "first_layer": 1,
+          "last_layer": 23,
+          "moves": 182
+        },
+        "A3_cloud_pin_2.stl": {
+          "first_layer": 1,
+          "last_layer": 23,
+          "moves": 182
+        }
+      },
+      "preview": "white-halves-layers.png",
+      "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+    }
+  },
+  {
+    "status": "OFFLINE_SLICE_VALIDATED",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_mm": [
+      "0.4",
+      "0.4"
+    ],
+    "bed": "Textured PEI Plate",
+    "filament_density_g_cm3": 1.26,
+    "estimated_seconds": 2736,
+    "estimated_filament_g": 12.98,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FF6A13",
+        "used_m": "4.28",
+        "used_g": "12.98",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "true",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "support_used": true,
+    "warnings": [
+      "[2026-09-24 14:27:24.613713] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+      "[2026-09-24 14:27:24.776494] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:24.776532] [0x000000016daff000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:24.826747] [0x000000016daff000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:24.826778] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:25.284502] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+      "[2026-09-24 14:27:25.284511] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+    ],
+    "gcode_sha256": "cfea2595141fedbbbab91d132610d00588b71c1f55b3aa7f8db86f128043f3cd",
+    "package_sha256": "61dd812454d12dfc4084642e529ef106635f9f94046d34fda5977864e7b45961",
+    "gui_roundtrip": "NOT_RUN",
+    "physical_print": "NOT_RUN",
+    "physical_slot_binding": "NOT_SET",
+    "first_layer_time_metadata": "0.000000",
+    "limitations": [
+      "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+      "No live printer, current AMS allocation or clear-bed state was inspected.",
+      "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+    ],
+    "layer_count": 180,
+    "extrusion_moves": 86848,
+    "arc_extrusion_moves": 29140,
+    "support_extrusion_moves": 9651,
+    "features": {
+      "Support": 8933,
+      "Brim": 672,
+      "Outer wall": 16988,
+      "Inner wall": 27456,
+      "Bottom surface": 144,
+      "Internal solid infill": 4194,
+      "Sparse infill": 20965,
+      "Support interface": 718,
+      "Overhang wall": 178,
+      "Bridge": 624,
+      "Floating vertical shell": 5485,
+      "Gap infill": 21,
+      "Top surface": 470
+    },
+    "objects": {
+      "47": {
+        "first_layer": 1,
+        "last_layer": 157,
+        "extrusion_moves": 39008
+      },
+      "58": {
+        "first_layer": 1,
+        "last_layer": 180,
+        "extrusion_moves": 37517
+      }
+    },
+    "empty_layers": [],
+    "color_key": "orange",
+    "gui_delta_metadata": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;enable_support;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ],
+    "name": "orange-bodies",
+    "input_files": [
+      "output/stl/A2_clawd.stl",
+      "output/stl/A3_clawd.stl"
+    ],
+    "layer_validation": {
+      "file": "orange-bodies.3mf",
+      "all_objects_on_layer_1": true,
+      "all_object_layer_ranges_continuous": true,
+      "path_bounds_xy_mm": [
+        [
+          116.80737661792337,
+          97.33686124733009
+        ],
+        [
+          159.80906829087,
+          160.01376270158457
+        ]
+      ],
+      "objects": {
+        "A2_clawd.stl": {
+          "first_layer": 1,
+          "last_layer": 157,
+          "moves": 39008
+        },
+        "A3_clawd.stl": {
+          "first_layer": 1,
+          "last_layer": 180,
+          "moves": 37517
+        }
+      },
+      "preview": "orange-bodies-layers.png",
+      "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+    }
+  },
+  {
+    "status": "OFFLINE_SLICE_VALIDATED",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_mm": [
+      "0.4",
+      "0.4"
+    ],
+    "bed": "Textured PEI Plate",
+    "filament_density_g_cm3": 1.26,
+    "estimated_seconds": 1054,
+    "estimated_filament_g": 3.49,
+    "filaments": [
+      {
+        "id": "1",
+        "tray_info_idx": "GFA00",
+        "type": "PLA",
+        "color": "#FFFFFF",
+        "used_m": "1.15",
+        "used_g": "3.49",
+        "group_id": "0",
+        "nozzle_diameter": "0.40",
+        "volume_type": "Standard",
+        "used_for_object": "true",
+        "used_for_support": "false",
+        "total_load_time": "29.00",
+        "total_unload_time": "0.00"
+      }
+    ],
+    "support_used": false,
+    "warnings": [
+      "[2026-09-24 14:27:26.782254] [0x00000001eed32180] [warning] cli mode, Current BambuStudio Version 02.08.02.61",
+      "[2026-09-24 14:27:26.823143] [0x00000001eed32180] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:26.823174] [0x000000016ccc7000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:26.823195] [0x000000016c8bb000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:26.823239] [0x000000016b88b000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:26.823259] [0x000000016c0a3000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:26.823282] [0x000000016c4af000] [warning] tree support default to organic support",
+      "[2026-09-24 14:27:27.009727] [0x00000001eed32180] [error]   Invalid T command (T65279).",
+      "[2026-09-24 14:27:27.009736] [0x00000001eed32180] [error]   Invalid T command (T65535)."
+    ],
+    "gcode_sha256": "d9e2e2bcb2ac372939b9b4caeb5ea04660899f2a9d6e279e2b965f8aff83d0b8",
+    "package_sha256": "1facdb487ca4512e61da07a975672ed3a29ff8f1b1ca346c2f285a20ebbd7276",
+    "gui_roundtrip": "NOT_RUN",
+    "physical_print": "NOT_RUN",
+    "physical_slot_binding": "NOT_SET",
+    "first_layer_time_metadata": "0.000000",
+    "limitations": [
+      "Counts do not prove support removability, layer continuity, fit, strength or print success.",
+      "No live printer, current AMS allocation or clear-bed state was inspected.",
+      "Estimates are slicer values; start-macro purge and actual consumption are not guaranteed."
+    ],
+    "layer_count": 24,
+    "extrusion_moves": 12161,
+    "arc_extrusion_moves": 1447,
+    "support_extrusion_moves": 0,
+    "features": {
+      "Brim": 857,
+      "Outer wall": 1434,
+      "Inner wall": 2611,
+      "Bottom surface": 351,
+      "Internal solid infill": 3600,
+      "Top surface": 712,
+      "Gap infill": 2596
+    },
+    "objects": {
+      "165": {
+        "first_layer": 1,
+        "last_layer": 22,
+        "extrusion_moves": 1800
+      },
+      "132": {
+        "first_layer": 1,
+        "last_layer": 24,
+        "extrusion_moves": 1919
+      },
+      "143": {
+        "first_layer": 1,
+        "last_layer": 24,
+        "extrusion_moves": 2056
+      },
+      "121": {
+        "first_layer": 1,
+        "last_layer": 24,
+        "extrusion_moves": 2028
+      },
+      "176": {
+        "first_layer": 1,
+        "last_layer": 22,
+        "extrusion_moves": 1839
+      },
+      "154": {
+        "first_layer": 1,
+        "last_layer": 22,
+        "extrusion_moves": 1662
+      }
+    },
+    "empty_layers": [],
+    "color_key": "white",
+    "gui_delta_metadata": [
+      "curr_bed_type;wall_loops;sparse_infill_pattern;enable_prime_tower;support_on_build_plate_only;brim_type;brim_width;initial_layer_speed;outer_wall_speed",
+      "filament_colour",
+      ""
+    ],
+    "name": "white-fit-coupons",
+    "input_files": [
+      "output/fit-tests/A2_socket_0.20.stl",
+      "output/fit-tests/A2_socket_0.25.stl",
+      "output/fit-tests/A2_socket_0.30.stl",
+      "output/fit-tests/A3_socket_0.20.stl",
+      "output/fit-tests/A3_socket_0.25.stl",
+      "output/fit-tests/A3_socket_0.30.stl"
+    ],
+    "layer_validation": {
+      "file": "white-fit-coupons.3mf",
+      "all_objects_on_layer_1": true,
+      "all_object_layer_ranges_continuous": true,
+      "path_bounds_xy_mm": [
+        [
+          117.685,
+          106.071
+        ],
+        [
+          158.815,
+          149.929
+        ]
+      ],
+      "objects": {
+        "A2_socket_0.30.stl": {
+          "first_layer": 1,
+          "last_layer": 24,
+          "moves": 2056
+        },
+        "A2_socket_0.25.stl": {
+          "first_layer": 1,
+          "last_layer": 24,
+          "moves": 1919
+        },
+        "A2_socket_0.20.stl": {
+          "first_layer": 1,
+          "last_layer": 24,
+          "moves": 2028
+        },
+        "A3_socket_0.30.stl": {
+          "first_layer": 1,
+          "last_layer": 22,
+          "moves": 1839
+        },
+        "A3_socket_0.25.stl": {
+          "first_layer": 1,
+          "last_layer": 22,
+          "moves": 1800
+        },
+        "A3_socket_0.20.stl": {
+          "first_layer": 1,
+          "last_layer": 22,
+          "moves": 1662
+        }
+      },
+      "preview": "white-fit-coupons-layers.png",
+      "scope": "Extrusion only, including tessellated arcs. No claim of physical support removability."
+    }
+  }
+]

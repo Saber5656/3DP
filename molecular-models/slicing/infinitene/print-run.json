@@ -1,0 +1,63 @@
+{
+  "requested_by_user": "プリントして",
+  "requested_model": "infinitene",
+  "sent_at_utc": "2026-09-25T10:45:10.035871+00:00",
+  "status": "printing; first layer 1/326 confirmed",
+  "printer": "3DP-20P-483",
+  "printer_model": "Bambu Lab X2D",
+  "nozzles_mm": [
+    0.4,
+    0.4
+  ],
+  "active_extruder": "Main",
+  "ams_slot": "A1",
+  "filament": "Bambu PLA Basic black",
+  "bed": "Textured PEI",
+  "bed_leveling": "On",
+  "flow_calibration": "Auto",
+  "nozzle_offset_calibration": "Off",
+  "timelapse": "Off",
+  "estimate_seconds": 11048,
+  "estimate_grams": 33.19,
+  "expected_layers": 326,
+  "job_name": "infinitene-black-X2D-GUI-verified",
+  "current_clear_bed_evidence": "Before send: no previous objects in build area. After detection warning cleared: live camera clearly shows gold textured PEI surface, no previous objects.",
+  "do_not_resend_without_checking_current_job": true,
+  "accepted_at_local": "2026-09-25 19:45 JST",
+  "observed_layer": 1,
+  "observed_total_layers": 326,
+  "estimated_finish_local": "2026-09-25 22:52 JST",
+  "warning_code": "0500-8061",
+  "warning_time_local": "2026-09-25 19:46:25 JST",
+  "operator_action_required": null,
+  "operator_question_sent": true,
+  "warning_bypass_used": false,
+  "observations": [
+    {
+      "time_utc": "2026-09-25T10:50:56.597219+00:00",
+      "state": "warning no longer shown; filament change/loading, layer 0/326, estimated finish 22:54 JST",
+      "agent_action": "No ignore/resume button pressed",
+      "cause_of_resume": "not observed"
+    },
+    {
+      "time_utc": "2026-09-25T10:52:37.536513+00:00",
+      "state": "nozzle tip cleaning; bed55/55C; black AMS A1 active; live camera now clearly shows gold textured PEI surface",
+      "observed_layer": 0,
+      "estimated_finish_local": "22:55 JST",
+      "note": "Physical intervention/plate replacement was not directly observed; do not infer cause of earlier detection failure"
+    },
+    {
+      "time_utc": "2026-09-25T10:55:37.455475+00:00",
+      "state": "printing, layer1/326, 3%, nozzle220/220C, bed55/55C, ETA22:52 JST",
+      "image_observation": "gold textured PEI and moving toolhead; fine adhesion quality not established"
+    }
+  ],
+  "operator_question_superseded_by_printer_progress": true,
+  "first_layer_started_observed_at_utc": "2026-09-25T10:55:37.455033+00:00",
+  "observed_progress_percent": 3,
+  "observed_nozzle_c": 220,
+  "observed_bed_c": 55,
+  "estimated_remaining_minutes": 178,
+  "first_layer_adhesion_quality": "not assessed from camera detail",
+  "completed_print": false
+}

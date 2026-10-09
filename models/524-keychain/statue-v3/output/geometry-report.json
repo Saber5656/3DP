@@ -1,0 +1,68 @@
+{
+  "revision": "statue-body-v3",
+  "body_height_mm": 40,
+  "body_source": "source/wood-reference/body-review-only.stl",
+  "body_source_scale_xyz": [
+    0.26143790849673204,
+    0.26143790849673204,
+    0.26143790849673204
+  ],
+  "body_source_z_translation_mm": -15,
+  "body_shape": "Original Wood statue body; uniform scaling; no depth-only stretch",
+  "body_dimensions_xyz_mm": [
+    39.2156862,
+    22.2222222,
+    40.0
+  ],
+  "overall_dimensions_xyz_mm": [
+    39.2156862,
+    25.311111099999998,
+    40.0
+  ],
+  "eyelet_outer_diameter_mm": 6.8,
+  "eyelet_nominal_inner_diameter_mm": 3.2,
+  "eyelet_verified_clearance_diameter_mm": 2.4,
+  "eyelet_tube_diameter_mm": 1.8,
+  "eyelet_exposed_volume_mm3": 29.301475728627924,
+  "eyelet_root_overlap_mm3": 10.385727635163022,
+  "parts": {
+    "yellow": {
+      "volume_mm3": 19634.568028162674,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 127874
+    },
+    "white": {
+      "volume_mm3": 275.9693610474956,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 78510
+    },
+    "orange": {
+      "volume_mm3": 57.37542004066929,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 3,
+      "triangles": 20480
+    },
+    "teal": {
+      "volume_mm3": 41.74428597190291,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 11662
+    }
+  },
+  "exported_orientation": "rear down / face up / bed Z=0",
+  "print_dimensions_xyz_mm": [
+    39.2156862,
+    40.0,
+    25.3111111
+  ],
+  "color_match": "image approximation; physical swatch test required",
+  "hardware_fit": "NOT_RUN",
+  "physical_print": "NOT_RUN",
+  "dots": "body only; detached source dots omitted"
+}

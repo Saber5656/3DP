@@ -1,0 +1,249 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "4006fdca25d7b53608ef4bb751efe7ef44876e45ef5b2597272bc5ffbca8bfd4",
+      "bytes": 6885
+    },
+    {
+      "path": "build.py",
+      "sha256": "d0025716b788577e896770adbf0446d132b9483553b753c3400ead4a1bad616b",
+      "bytes": 14871
+    },
+    {
+      "path": "inspect_slice.py",
+      "sha256": "66f29f0bbc0eb5ec68fa94db74d1f5e16795a1febcc9e8ead36d9653176e6f93",
+      "bytes": 11730
+    },
+    {
+      "path": "output/524-keychain-40mm-bambu-face-up-v3.3mf",
+      "sha256": "3357a2eb5ccd1124cc33daa2cbf2398ff74f3b5c3c9259980cfb901aacb24380",
+      "bytes": 3325425
+    },
+    {
+      "path": "output/524-keychain-40mm-color.3mf",
+      "sha256": "23a788248761ca08c77622a0305da0acbc630ef510c7e774fe50d6375dacbafc",
+      "bytes": 3325196
+    },
+    {
+      "path": "output/524-keychain-40mm-with-dots.3mf",
+      "sha256": "7d9f777d1167567f2534a0f76a34f45f2e90ec2fbe6849a65f6871a2a228e41d",
+      "bytes": 3330547
+    },
+    {
+      "path": "output/524-keychain-40mm.glb",
+      "sha256": "19c25de1e5f47fb76d2234ea63d78c55df6888cf2506e0a0f7e23760a632783c",
+      "bytes": 4773852
+    },
+    {
+      "path": "output/524-keychain-solid.stl",
+      "sha256": "adcea6bebbefc6636a49942483b7bcaf4a86e298a02b643c48e5f054b82ecabc",
+      "bytes": 3978384
+    },
+    {
+      "path": "output/524-keychain-with-dots-bambu-face-up-v3.3mf",
+      "sha256": "8c8952124c5ee862ab7b5575af73fa7e8ea52ffcea531e7e62d61899f392e830",
+      "bytes": 3330777
+    },
+    {
+      "path": "output/524-keychain-with-dots-solid.stl",
+      "sha256": "d795a1f9e1bda163359294cd581d55f6c6dead63da1597f49d21c8672fb6460f",
+      "bytes": 3998784
+    },
+    {
+      "path": "output/depth-comparison.png",
+      "sha256": "9c8e999b197b01c7982234dfe12ed3e4c73bdc446520a7cba0a4b64ddc54ea59",
+      "bytes": 438246
+    },
+    {
+      "path": "output/geometry-report.json",
+      "sha256": "32778a446f66756c888b98d274e385e41071b447496f88d11df269e79c774b00",
+      "bytes": 1793
+    },
+    {
+      "path": "output/hook-fit-coupon.3mf",
+      "sha256": "073e50489a171f15bf6f4a994e615bd302c7f86da47a90df869dbe96ef316aef",
+      "bytes": 108236
+    },
+    {
+      "path": "output/hook-fit-coupon.stl",
+      "sha256": "83840b0dd0de001dc7dd0312d998ed3545de52ea4fc7c84422125fe6c11e873e",
+      "bytes": 427284
+    },
+    {
+      "path": "output/options.png",
+      "sha256": "ba7540f662332035892c1be622c4d83af09f9094fd74599b68bd9b25476a4547",
+      "bytes": 409013
+    },
+    {
+      "path": "output/preview.png",
+      "sha256": "9d5a315fe739f21f0b470734e75937e08e7aa529b969656c5ce350319682a468",
+      "bytes": 601124
+    },
+    {
+      "path": "output/readback-report.json",
+      "sha256": "a3841bf0752ffb32a725bd4ddb1c66f66716bca3c8701851ab19a1cee35b634a",
+      "bytes": 3731
+    },
+    {
+      "path": "output/rear-loop-detail.png",
+      "sha256": "6c7440964abb1f30af283188e2f28174d809bfd62e1f337a0a4e9702ed8ecfd7",
+      "bytes": 489388
+    },
+    {
+      "path": "output/solid-review.png",
+      "sha256": "61d1786cd6f54e3717facdc136d9ebcc13b016c9d2c3497e83e2a04400becc80",
+      "bytes": 560260
+    },
+    {
+      "path": "output/stl/orange.stl",
+      "sha256": "a3f727f0923de54b722b6789df8a9604571cdf592b60cee06d15b65ad3be8788",
+      "bytes": 1024084
+    },
+    {
+      "path": "output/stl/teal.stl",
+      "sha256": "49a04c2c3c8f2b3c70f9d4272d1dce710747b017fad6116786fe213aa2bac637",
+      "bytes": 583184
+    },
+    {
+      "path": "output/stl/white.stl",
+      "sha256": "461769507f9ecad03decba1291ac4476ffa9dfe5bd3a0b74c47dcee4fe37f23c",
+      "bytes": 3925584
+    },
+    {
+      "path": "output/stl/yellow.stl",
+      "sha256": "f02bc63cc2b90e0a38f91683c4c1ad71d3815e8ab6e47a74e99beb0ff0a05efb",
+      "bytes": 6393784
+    },
+    {
+      "path": "output/with-dots-report.json",
+      "sha256": "f0815baa928af01e947c5b2b7d6d9504b52b33e042006f6ab26efd13bcd7ff34",
+      "bytes": 295
+    },
+    {
+      "path": "package.py",
+      "sha256": "11edb4efcb75476412e8ae6275c1739918cc9ccdb0886ea5ae9be7fc19912104",
+      "bytes": 2773
+    },
+    {
+      "path": "render.py",
+      "sha256": "8d51ab5b901df45e4ad861c349c9ba2f4427afded7be6f34ab1eb83a4a09a044",
+      "bytes": 7214
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "54874321ac2fb95ed72949e628ba145a754ed652c715bd240ee017530173d246",
+      "bytes": 171
+    },
+    {
+      "path": "slice.py",
+      "sha256": "bfbc184d99cf869a42227e8c7e4ed47996d9d9bf294130b14a9b89583f8c281e",
+      "bytes": 4016
+    },
+    {
+      "path": "slicing/524-PROVISIONAL-DO-NOT-SEND.3mf",
+      "sha256": "036086d57326ddfb00621b45f8841281bb61fd7f8b7d059bdad2b9f00df15817",
+      "bytes": 7623054
+    },
+    {
+      "path": "slicing/524-face-up-color-source.3mf",
+      "sha256": "69bab40e045f5f478009c5c01b6065666a79c00d950ba1bdb5a13cf67fb0bb31",
+      "bytes": 3333068
+    },
+    {
+      "path": "slicing/inspection.json",
+      "sha256": "2183878c66a05d2d2810f9a63d7417606cdfce111f0e68ab179fa0af124f6f12",
+      "bytes": 4634
+    },
+    {
+      "path": "slicing/layers.png",
+      "sha256": "4a645a75c7e7a8309d130c085ca27682b9fffb8f8a6ee0aad7dd60043444cb44",
+      "bytes": 271078
+    },
+    {
+      "path": "slicing/slice.log",
+      "sha256": "e64b5d846863357f2db1713dd73a1ada728619012c4b53b2bc2bb8df20f910b7",
+      "bytes": 732
+    },
+    {
+      "path": "slicing/with-dots/524-PROVISIONAL-DO-NOT-SEND.3mf",
+      "sha256": "0c402b860fd0466d701a1c002f3db172e831d4a10f438c228a2732b7b1478b4f",
+      "bytes": 7673371
+    },
+    {
+      "path": "slicing/with-dots/524-face-up-color-source.3mf",
+      "sha256": "3f41dc930e4bd00da562d18249d68d063113fc8cbcbace42bfde4192681b6fe7",
+      "bytes": 3338333
+    },
+    {
+      "path": "slicing/with-dots/inspection.json",
+      "sha256": "41c0b5909e36f4a75eae73953e00fa50fec763b0b2343706bac3bcdb716fdb68",
+      "bytes": 4633
+    },
+    {
+      "path": "slicing/with-dots/layers.png",
+      "sha256": "4ede1412e62f22e14851294b61e097d0450c1700df572a90f6b0ec9918e03111",
+      "bytes": 273274
+    },
+    {
+      "path": "slicing/with-dots/slice.log",
+      "sha256": "1a181b237c5cb204d729bc016602a9f3b26800e0624b25c1d024fde02c0b931a",
+      "bytes": 732
+    },
+    {
+      "path": "source/original-524.jpg",
+      "sha256": "eddaf4f655c77cbfd687beb7244ad1662fa679cdb501947bf56d1ac69973bb95",
+      "bytes": 41092
+    },
+    {
+      "path": "source/previous-keychain-v2.glb",
+      "sha256": "9f33f9309e4d5937db00b118be84fe4d15c7c3cb7043d695f613bc67b4b69dc9",
+      "bytes": 3877112
+    },
+    {
+      "path": "source/trace-report.json",
+      "sha256": "2b837e4bfa0c4ce8f292cc71f617d7cace4e682479bbf0f76e3c39b89ce5ee17",
+      "bytes": 2673
+    },
+    {
+      "path": "source/traced-contours.json",
+      "sha256": "a9be61c512b0e924261df24e8ca321426028628bd6e788ecc629af1f9322c8e6",
+      "bytes": 14344
+    },
+    {
+      "path": "source/wood-reference/README.md",
+      "sha256": "4550d346faf21ba12fb25b6baf681f52fd4944166f397a7216a4916fa3bb394d",
+      "bytes": 810
+    },
+    {
+      "path": "source/wood-reference/body-review-only.stl",
+      "sha256": "4274a3d2ce274bab92e59317f1ec3dbf8306b1d3abb7679c896d120f1b531ad7",
+      "bytes": 3729084
+    },
+    {
+      "path": "source/wood-reference/build_statue.py",
+      "sha256": "4f779d8d448dca2c01e87136304931c0f832a943d8ff3a5b49e7ae62825d5590",
+      "bytes": 4695
+    },
+    {
+      "path": "source/wood-reference/editable-outlines.json",
+      "sha256": "d050bb66ccf1b8c760f86a981063b03204950cb39549dce5ddbea47cc4180f06",
+      "bytes": 33674
+    },
+    {
+      "path": "tests/test_geometry.py",
+      "sha256": "8c51e63b6fbe14b39f9f61b4de32d4ccb413b4cf75e6e19e028970d72371ccb5",
+      "bytes": 8345
+    },
+    {
+      "path": "tests/test_slice_warnings.py",
+      "sha256": "d65c4ca848cacb313602ab9e7ded941c801ef0bc5369259635bbe46483eed837",
+      "bytes": 682
+    },
+    {
+      "path": "wood_body.py",
+      "sha256": "4dbd5375caeed8478e213739736820639d3b675a1f344536555d00435b8322ed",
+      "bytes": 3158
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "revision": "default-v4-star-v6-star-recess",
+  "revision": "default-v4-star-v8-city-towers",
   "units": "mm",
   "versions": {
     "numpy": "2.5.3",
@@ -81,15 +81,15 @@
       "dimensions_mm": [
         124.0,
         124.0,
-        52.0
+        39.87342071533203
       ],
-      "volume_mm3": 227954.1982555984,
+      "volume_mm3": 89317.24740658714,
       "watertight": true,
       "winding_consistent": true,
       "components": 1,
-      "triangles": 1678,
-      "min_triangle_area_mm2": 4.760508090839721e-06,
-      "sha256": "d67e2eae43d44246a494f715563f56634e5da279471a42bd4507ee919a0b8f77"
+      "triangles": 1324,
+      "min_triangle_area_mm2": 0.00270571054608987,
+      "sha256": "667f592555dc3f03886df9d63953fee9b16800bc3ad9bffd9e173fa08721c46c"
     },
     {
       "part": "star_ray_test",

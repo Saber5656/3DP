@@ -1,0 +1,34 @@
+.venv/lib/python3.12/site-packages/skimage/measure/_marching_cubes_lewiner.py:237: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  ar.shape = shape
+.venv/lib/python3.12/site-packages/skimage/measure/_marching_cubes_lewiner.py:213: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  faces.shape = -1, 3
+test_actual_48mm_mesh_parts_are_closed (test_refinement.RefinementAcceptance.test_actual_48mm_mesh_parts_are_closed) ... ok
+test_alignment_pins_are_hidden_and_clear_of_shells (test_refinement.RefinementAcceptance.test_alignment_pins_are_hidden_and_clear_of_shells) ... ok
+test_complete_key_has_clearance (test_refinement.RefinementAcceptance.test_complete_key_has_clearance) ... ok
+test_fit_coupons_export_as_closed_single_parts (test_refinement.RefinementAcceptance.test_fit_coupons_export_as_closed_single_parts) ... FAIL
+test_four_feet_still_support_rounded_cloud (test_refinement.RefinementAcceptance.test_four_feet_still_support_rounded_cloud) ... ok
+test_key_has_closed_sides_and_roof (test_refinement.RefinementAcceptance.test_key_has_closed_sides_and_roof) ... ok
+test_key_restricts_sideways_movement (test_refinement.RefinementAcceptance.test_key_restricts_sideways_movement) ... ok
+test_new_body_seats_without_intersection (test_refinement.RefinementAcceptance.test_new_body_seats_without_intersection) ... ok
+test_printed_body_is_still_compatible (test_refinement.RefinementAcceptance.test_printed_body_is_still_compatible) ... ok
+test_round_cloud_rear_has_no_large_cut_face (test_refinement.RefinementAcceptance.test_round_cloud_rear_has_no_large_cut_face) ... ok
+test_split_cloud_prints_from_hidden_seam (test_refinement.RefinementAcceptance.test_split_cloud_prints_from_hidden_seam) ... ok
+
+======================================================================
+FAIL: test_fit_coupons_export_as_closed_single_parts (test_refinement.RefinementAcceptance.test_fit_coupons_export_as_closed_single_parts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "concepts/claude-codex-20260922/cloud-refinement-v2/tests/test_refinement.py", line 70, in test_fit_coupons_export_as_closed_single_parts
+    q=m.portable_mesh(m.print_solid(part))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "concepts/claude-codex-20260922/cloud-addition-v1/cloud_models.py", line 33, in portable_mesh
+    assert result.is_watertight and result.is_volume and result.body_count==1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+----------------------------------------------------------------------
+Ran 11 tests in 5.511s
+
+FAILED (failures=1)

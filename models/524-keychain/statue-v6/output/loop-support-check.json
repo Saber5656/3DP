@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "scope": "Read-only endpoint witnesses inside X128 +/-0.9, Y150.8 +/-0.4, Z<9.7111111; not a physical support-contact or strength test. Y>150.4 is beyond the body top (Y150).",
+  "results": [
+    {
+      "variant": "slicing",
+      "gcode_sha256": "1747a3fa067a23bdcc04bf244ef8c693560894409c4b1e09640073a8523a37d7",
+      "positive_support_extrusion_endpoints_beneath_lower_loop": 37,
+      "max_z_mm": 7.88,
+      "samples": [
+        {
+          "line": 125801,
+          "end_xyz_mm": [
+            128.566,
+            150.514,
+            7.72
+          ]
+        },
+        {
+          "line": 127000,
+          "end_xyz_mm": [
+            128.759,
+            150.637,
+            7.8
+          ]
+        },
+        {
+          "line": 128368,
+          "end_xyz_mm": [
+            127.14,
+            151.133,
+            7.88
+          ]
+        },
+        {
+          "line": 128396,
+          "end_xyz_mm": [
+            128.876,
+            150.565,
+            7.88
+          ]
+        },
+        {
+          "line": 128397,
+          "end_xyz_mm": [
+            128.876,
+            150.564,
+            7.88
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "slicing/with-dots",
+      "gcode_sha256": "58be0bc10af88c54d13f7d45d07a71c914de690bbb98222facbebe0320d659bd",
+      "positive_support_extrusion_endpoints_beneath_lower_loop": 32,
+      "max_z_mm": 7.88,
+      "samples": [
+        {
+          "line": 129276,
+          "end_xyz_mm": [
+            128.857,
+            151.019,
+            7.72
+          ]
+        },
+        {
+          "line": 130552,
+          "end_xyz_mm": [
+            128.759,
+            150.637,
+            7.8
+          ]
+        },
+        {
+          "line": 132017,
+          "end_xyz_mm": [
+            127.14,
+            151.133,
+            7.88
+          ]
+        },
+        {
+          "line": 132045,
+          "end_xyz_mm": [
+            128.876,
+            150.565,
+            7.88
+          ]
+        },
+        {
+          "line": 132046,
+          "end_xyz_mm": [
+            128.876,
+            150.564,
+            7.88
+          ]
+        }
+      ]
+    }
+  ]
+}

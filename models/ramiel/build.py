@@ -99,31 +99,48 @@ def figure_envelope(cfg):
 
 
 def city_base(envelope_world, tips_world, cfg):
-    """A city with roofs carved from the body's lower envelope, open from above."""
+    """Stepped city towers disguise three discrete, underside-only bearing roofs."""
     cy, radius = -14., cfg["city_base_diameter"] / 2
-    foundation = cylinder(radius, 4, (0, cy, 0))
-    blocks, records = md.Manifold(), []
+    floor = cfg["city_foundation_height"]
+    foundation = cylinder(radius, floor, (0, cy, 0))
+    decoration, bearings, records = md.Manifold(), md.Manifold(), []
     for i, x in enumerate([-46, -30, -14, 2, 18, 34, 50]):
         for j, y in enumerate([-62, -46, -30, -14, 2, 18, 34]):
-            width, depth = 10 + (i + j) % 3 * 2, 10 + (2 * i + j) % 3 * 2
+            width, depth = 8 + (i + j) % 3 * 2, 8 + (2 * i + j) % 3 * 2
             if math.hypot(abs(x) + width / 2, abs(y - cy) + depth / 2) > radius - 2:
                 continue
-            height = 8 + ((i * 11 + j * 7) % 6) * 4
-            blocks += box([width, depth, height], (x - width / 2, y - depth / 2, 4))
+            height = 5 + ((i * 11 + j * 7) % 5) * 3
+            if y >= -14:
+                height += 8
+            if y <= -30:
+                height = min(height, 6.)
+            height = min(height, cfg["city_decorative_max_height"] - floor)
+            decoration += box([width, depth, height], (x - width / 2, y - depth / 2, floor))
             records.append([x, y, width, depth, height, "building"])
-    for x in [-17, 17]:
-        for y in [-32, -10, 12]:
-            blocks += box([28, 18, 48], (x - 14, y - 9, 4))
-            records.append([x, y, 28, 18, 48, "conforming_roof"])
-    # Courtyards around all tips keep the fragile apices free of supporting posts.
-    # 7.5 mm avoids a zero-width tangency at the x=7 mm building boundary.
+    # Integrate each narrow bearing into a stepped building silhouette. The
+    # building mass is trimmed with a generous gap; only the original roof bears.
+    for x, y, width, depth in cfg["city_bearings"]:
+        rear = y > 0
+        lower_top, upper_top = (30., 34.) if rear else (20., 26.)
+        for extra, top in [(6., lower_top), (2., upper_top)]:
+            w, d = width + extra, depth + extra
+            top = min(top, cfg["city_decorative_max_height"])
+            decoration += box([w, d, top - floor], (x - w / 2, y - d / 2, floor))
+            records.append([x, y, w, d, top - floor, "stepped_tower"])
+    # The small footprints are chosen around the shell COM, away from all apices.
+    # Trim each narrow tower at the first lower surface: no surrounding socket.
+    for x, y, width, depth in cfg["city_bearings"]:
+        bearings += box([width, depth, 65], (x - width / 2, y - depth / 2, floor))
+        records.append([x, y, width, depth, 65, "bearing"])
     for x, y, _ in tips_world:
-        blocks -= cylinder(7.5, 160, (x, y, 4))
+        decoration -= cylinder(12, 160, (x, y, floor))
+    upward = box([.01, .01, 200], (-.005, -.005, 0))
+    # Decorative buildings have visible air around the sculpture and never bear it.
+    decor_removal = envelope_world.minkowski_sum(md.Manifold.sphere(4, circular_segments=12))
+    decor_removal = decor_removal.minkowski_sum(upward)
     removal = envelope_world.minkowski_sum(md.Manifold.sphere(cfg["city_clearance"], circular_segments=12))
-    removal = removal.minkowski_sum(box([.01, .01, 200], (-.005, -.005, 0)))
-    city = (foundation + (blocks - removal)).simplify(1e-4)
-    # CSG can leave micrometre-scale edges where sloping roofs meet. Collapse
-    # duplicate vertices at 1e-5 mm precision, then validate the closed surface.
+    removal = removal.minkowski_sum(upward)
+    city = (foundation + (decoration - decor_removal) + (bearings - removal)).simplify(1e-4)
     mesh = to_mesh(city)
     mesh.merge_vertices(digits_vertex=5)
     mesh.update_faces(mesh.nondegenerate_faces())
@@ -137,15 +154,15 @@ def city_base(envelope_world, tips_world, cfg):
 
 
 def analyze_city_support(body_world, base, tips_world):
-    """Finite 2 mm XY sampling of nearly touching, opposing lower/roof surfaces.
+    """Finite 1 mm XY sampling of nearly touching, opposing lower/roof surfaces.
 
     This measures potential bearing regions, not load capacity or physical fit.
     """
     from scipy.spatial import ConvexHull
     points = []
-    step = 2.
-    for x in np.arange(-60., 61., step):
-        for y in np.arange(-74., 47., step):
+    step = 1.
+    for x in np.arange(-60. + step / 2, 60., step):
+        for y in np.arange(-74. + step / 2, 46., step):
             start, end = [x, y, .1], [x, y, 190.]
             body_hits, base_hits = body_world.ray_cast(start, end), base.ray_cast(start, end)
             if not body_hits or not base_hits:
@@ -259,7 +276,7 @@ def build_models(cfg):
     star_assembly = [("star_body", display(body)),
                      ("red_core", display(parts["red_core"].translate([0,0,seat_z]))),
                      ("star_base",base)]
-    # Upright print pose; validate the exported v6 paths independently of prior versions.
+    # Preserve the v6 blue print pose; its unchanged sliced paths can be reused.
     star_rotation = trimesh.geometry.align_vectors(cfg["star_print_up"], [0,0,1])
     for name in ("star_body", "star_ray_test"):
         print_parts[name] = bed_oriented(parts[name].transform(star_rotation[:3,:]))

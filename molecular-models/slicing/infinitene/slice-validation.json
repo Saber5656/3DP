@@ -1,0 +1,237 @@
+{
+  "stage": "GUI re-slice verified; ready for authorized send",
+  "date": "2026-09-25",
+  "source_sha256": "37e950931ecf5fceb7d2d4acad428411df355dc6adbf28d8f18edfff063e4526",
+  "package_sha256": "7c26c3e9d41b29a0d5598f6219cd54feb0d3c680a6edea90382762a6464d7cf8",
+  "gcode_sha256": "bf069a78923abd17ed40057d5ecc0ad933400d896a774b7de5a5407b4e72ef40",
+  "estimated_seconds": 11048,
+  "estimated_filament_g": 33.19,
+  "layer_count": 326,
+  "model_extents_mm": [
+    140.0,
+    89.63179016113281,
+    52.257625579833984
+  ],
+  "package_extents_mm": [
+    140.0,
+    89.63179020000001,
+    52.2576256
+  ],
+  "extrusion_xy_bounds_mm": [
+    [
+      68.44103940887136,
+      77.62973780403883
+    ],
+    [
+      208.036,
+      177.94521634877432
+    ]
+  ],
+  "features": {
+    "Support": 130810,
+    "Outer wall": 81480,
+    "Inner wall": 110597,
+    "Overhang wall": 4068,
+    "Internal solid infill": 79717,
+    "Support interface": 2311,
+    "Gap infill": 14111,
+    "Sparse infill": 2635,
+    "Floating vertical shell": 4994,
+    "Bridge": 1060,
+    "Top surface": 964
+  },
+  "support_used": "true",
+  "black_pla_only": true,
+  "original_geometry_retained": true,
+  "diff_keys": [
+    "wall_loops;sparse_infill_density;brim_type;brim_width;brim_object_gap;enable_support;support_type;support_style;support_threshold_angle;support_on_build_plate_only;support_top_z_distance;support_bottom_z_distance;support_interface_top_layers;support_object_xy_distance;initial_layer_speed;outer_wall_speed;inner_wall_speed;support_speed;support_interface_speed;enable_prime_tower",
+    "filament_colour",
+    ""
+  ],
+  "slice_metadata": {
+    "index": "1",
+    "extruder_type": "0 1",
+    "nozzle_volume_type": "0 0",
+    "printer_model_id": "",
+    "nozzle_diameters": "0.4,0.4",
+    "timelapse_type": "0",
+    "prediction": "11048",
+    "weight": "33.19",
+    "pause_count": "0",
+    "first_layer_time": "0.000000",
+    "outside": "false",
+    "support_used": "true",
+    "label_object_enabled": "false",
+    "support_material_on_wipe_tower": "false",
+    "enable_filament_dynamic_map": "false",
+    "has_filament_switcher": "false",
+    "filament_maps": "1",
+    "limit_filament_maps": "0"
+  },
+  "warnings": "CLI parser warns on T65279/T65535 in unchanged official end macro. Relative nested export initially failed; recovered with explicit outputdir.",
+  "limitations": [
+    "actual support removal, adhesion and completed print untested"
+  ],
+  "gui_project_sha256": "853a2b895349197cd82cab4c0f0d3c5f7d66cee92fed43f11c0d69aa8b51cc41",
+  "gui_gcode_package_sha256": "00f44e13597884d79fa1e89c2a62bf3d23d1004dd2be2427b8fc7b63755bffe9",
+  "gui_gcode_sha256": "2a521c28143fd13b12e4bf83d5fb6bcdfe0c0eceda93963c934f592dd8159237",
+  "gui_settings_match_keys": [
+    "wall_loops",
+    "sparse_infill_density",
+    "brim_type",
+    "brim_width",
+    "brim_object_gap",
+    "enable_support",
+    "support_type",
+    "support_style",
+    "support_threshold_angle",
+    "support_on_build_plate_only",
+    "support_top_z_distance",
+    "support_bottom_z_distance",
+    "support_interface_top_layers",
+    "support_object_xy_distance",
+    "initial_layer_speed",
+    "outer_wall_speed",
+    "inner_wall_speed",
+    "support_speed",
+    "support_interface_speed",
+    "enable_prime_tower",
+    "printer_model",
+    "nozzle_diameter",
+    "filament_colour",
+    "filament_type",
+    "curr_bed_type",
+    "layer_height",
+    "initial_layer_print_height",
+    "nozzle_temperature",
+    "nozzle_temperature_initial_layer",
+    "textured_plate_temp",
+    "textured_plate_temp_initial_layer",
+    "machine_start_gcode",
+    "machine_end_gcode"
+  ],
+  "gui_extents_mm": [
+    140.0,
+    89.63179020000001,
+    52.2576256
+  ],
+  "gui_estimated_seconds": 11048,
+  "gui_estimated_filament_g": 33.19,
+  "gui_model_filament_g": 16.2,
+  "gui_support_filament_g": 16.99,
+  "gui_slice_metadata": {
+    "index": "1",
+    "extruder_type": "0 1",
+    "nozzle_volume_type": "0 0",
+    "printer_model_id": "N6",
+    "nozzle_diameters": "0.4,0.4",
+    "timelapse_type": "0",
+    "prediction": "11048",
+    "weight": "33.19",
+    "pause_count": "0",
+    "first_layer_time": "429.387726",
+    "outside": "false",
+    "support_used": "true",
+    "label_object_enabled": "false",
+    "support_material_on_wipe_tower": "false",
+    "enable_filament_dynamic_map": "false",
+    "has_filament_switcher": "false",
+    "filament_maps": "1",
+    "limit_filament_maps": "0"
+  },
+  "verified_settings": {
+    "wall_loops": "3",
+    "sparse_infill_density": "20%",
+    "brim_type": "outer_only",
+    "brim_width": "6",
+    "brim_object_gap": "0.1",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_style": "default",
+    "support_threshold_angle": "35",
+    "support_on_build_plate_only": "1",
+    "support_top_z_distance": "0.2",
+    "support_bottom_z_distance": "0.2",
+    "support_interface_top_layers": "2",
+    "support_object_xy_distance": "0.35",
+    "initial_layer_speed": [
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30"
+    ],
+    "outer_wall_speed": [
+      "60",
+      "60",
+      "60",
+      "60",
+      "60",
+      "60"
+    ],
+    "inner_wall_speed": [
+      "100",
+      "100",
+      "100",
+      "100",
+      "100",
+      "100"
+    ],
+    "support_speed": [
+      "80",
+      "80",
+      "80",
+      "80",
+      "80",
+      "80"
+    ],
+    "support_interface_speed": [
+      "50",
+      "50",
+      "50",
+      "50",
+      "50",
+      "50"
+    ],
+    "enable_prime_tower": "0",
+    "printer_model": "Bambu Lab X2D",
+    "nozzle_diameter": [
+      "0.4",
+      "0.4"
+    ],
+    "filament_colour": [
+      "#000000"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "curr_bed_type": "Textured PEI Plate",
+    "layer_height": "0.16",
+    "initial_layer_print_height": "0.2",
+    "nozzle_temperature": [
+      "220",
+      "220",
+      "220",
+      "220",
+      "220",
+      "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "220",
+      "220",
+      "220",
+      "220",
+      "220",
+      "220"
+    ],
+    "textured_plate_temp": [
+      "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "55"
+    ]
+  },
+  "machine_templates_match_cli": true,
+  "gui_support_view": "tree bases on plate; branches support both lobes; no solid wall enclosing model"
+}

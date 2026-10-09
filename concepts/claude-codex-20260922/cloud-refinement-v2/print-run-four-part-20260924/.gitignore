@@ -1,0 +1,4 @@
+# Machine-specific offline slicer profiles/logs are archived in Agents Vault.
+.*-slicing*/
+.white-black-slicing/
+.white-black-main-slicing/

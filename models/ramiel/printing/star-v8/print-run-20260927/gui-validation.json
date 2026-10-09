@@ -1,0 +1,47 @@
+{
+  "blue-body": {
+    "gui_process_values_match": true,
+    "gui_world_mesh_vertices_faces_match": true,
+    "startup_commands_match": true,
+    "printing_commands_identical": true,
+    "gcode_sha256": "df03c58e0620a95ec7914590eb01e0406f50e309c8bf25686ca0edcb5239c5c9",
+    "package_sha256": "ca3df1549b92378e45629635faabecd53595e8b227ecebb53fe2eb7a3938f4ce",
+    "estimated_seconds": 20305,
+    "estimated_g": 65.87,
+    "nozzle_assignment": "main 0.4 Standard",
+    "filament_maps": "1",
+    "layer_count": 888,
+    "live_material_assignment": "Send dialog maps blue PLA to A3; device spool details and bed remain unverified"
+  },
+  "black-stand": {
+    "gui_process_values_match": true,
+    "gui_world_mesh_vertices_faces_match": true,
+    "startup_commands_match": true,
+    "printing_commands_identical": false,
+    "gcode_sha256": "320f96d96559e17738fa983d3e267b586098f17fbe7fd078858ac7a78246f73c",
+    "package_sha256": "02d9ca95ae5d76934a03b0b32a668167bfc0bd03e3e3741a7a1ff421cca8345f",
+    "estimated_seconds": 14959,
+    "estimated_g": 69.84,
+    "nozzle_assignment": "main 0.4 Standard",
+    "filament_maps": "1",
+    "layer_count": 247,
+    "live_material_assignment": "A1 black PLA verified in send dialog",
+    "toolpaths": {
+      "layers": 247,
+      "continuous": true,
+      "xy_bounds_mm": [
+        [
+          64.301,
+          64.303
+        ],
+        [
+          191.699,
+          191.699
+        ]
+      ],
+      "support_paths": 0
+    }
+  },
+  "status": "GUI verified; send dialog assignments observed (blue A3, black A1); printer send NOT_RUN; live bed/device confirmation blocked by CUA coordinate error",
+  "scope": "Meshes and process values match previous validated CAD/CLI; blue startup and print commands identical excluding comments, M486 labels and M73 progress. Black changes island order and ETA by 3 seconds; actual deposited paths rechecked."
+}
